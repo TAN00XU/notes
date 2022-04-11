@@ -1428,7 +1428,258 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
 (3,'Linux',5,'从进门到进牢');
 ```
 
+### 10.4、pojo,dao,service
 
+```java
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Books {
+    private int bookID;
+    private String bookName;
+    private int cookCounts;
+    private String detail;
+}
+```
+
+```java
+public interface BookMapper {
+    /**
+     * 增加一本书
+     */
+    int addBook(Books book);
+
+    /**
+     *  删除一本书
+     */
+    int deleteBook(@Param("bookId") int id);
+
+    /**
+     * 更新一本书
+     */
+    int updateBook(Books book);
+
+    /**
+     * 查询一本书
+     */
+    Books selectBookById(int id);
+
+    /**
+     * 查询所有书
+     */
+    List<Books> listBooks();
+}
+```
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tan00xu.dao.BookMapper">
+
+    <insert id="addBook" parameterType="Books">
+        insert into ssmbuild.books (bookID, bookName, bookCounts, detail)
+        VALUES (#{bookID}, #{bookName}, #{bookCounts}, #{detail})
+    </insert>
+
+    <delete id="deleteBook" parameterType="int">
+        delete
+        from ssmbuild.books
+        where bookID = #{bookId}
+    </delete>
+
+    <update id="updateBook" parameterType="Books">
+        update ssmbuild.books
+        set bookName   = #{bookName},
+            bookCounts = #{bookCounts},
+            detail     = #{detail}
+        where bookID = #{bookID}
+    </update>
+
+    <select id="selectBookById" resultType="com.tan00xu.pojo.Books">
+        select *
+        from ssmbuild.books
+        where bookID = #{bookID}
+    </select>
+
+    <select id="listBooks" resultType="com.tan00xu.pojo.Books">
+        select *
+        from ssmbuild.books
+    </select>
+</mapper>
+```
+
+```java
+public interface BookService {
+    /**
+     * 增加一本书
+     */
+    int addBook(Books book);
+
+    /**
+     *  删除一本书
+     */
+    int deleteBook(@Param("bookId") int id);
+
+    /**
+     * 更新一本书
+     */
+    int updateBook(Books book);
+
+    /**
+     * 查询一本书
+     */
+    Books selectBookById(int id);
+
+    /**
+     * 查询所有书
+     */
+    List<Books> listBooks();
+}
+```
+
+```java
+public class BookServiceImpl implements BookService {
+
+    /**
+     * service调用dao层的方法
+     */
+    private BookMapper bookMapper;
+
+    public void setBookMapper(BookMapper bookMapper) {
+        this.bookMapper = bookMapper;
+    }
+
+    @Override
+    public int addBook(Books book) {
+        return bookMapper.addBook(book);
+    }
+
+    @Override
+    public int deleteBook(int id) {
+        return bookMapper.deleteBook(id);
+    }
+
+    @Override
+    public int updateBook(Books book) {
+        return bookMapper.updateBook(book);
+    }
+
+    @Override
+    public Books selectBookById(int id) {
+        return bookMapper.selectBookById(id);
+    }
+
+    @Override
+    public List<Books> listBooks() {
+        return bookMapper.listBooks();
+    }
+}
+```
+
+### 10.5、配置文件
+
+#### mybatis-config.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--配置数据源，交给Spring去做-->
+
+    <!--别名-->
+    <typeAliases>
+        <package name="com.tan00xu.pojo"/>
+    </typeAliases>
+
+    <mappers>
+        <mapper class="com.tan00xu.dao.BookMapper"/>
+    </mappers>
+
+</configuration>
+```
+
+#### database.properties
+
+```properties
+username = root
+password = 123123
+driver = com.mysql.cj.jdbc.Driver
+#url = jdbc:mysql://localhost:3306/mybatis
+#8.0以上必须加上serverTimezone时区配置
+url = jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&amp;useSSL=true&amp;useUnicode=true&amp;characterEncoding=UTF8
+```
+
+#### spring-dao.xml
+
+```xml
+<!--关联数据库配置文件-->
+<context:property-placeholder location="classpath:database.properties"/>
+
+<!--；连接池
+    dbcp：半自动化操作，不能自动连接
+    c3p0：自动化操作，自动化的加载配置文件，并且可以自动设置到对象中
+    druid
+    hikari
+ -->
+<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+    <!--配置连接池属性-->
+    <property name="driverClass" value="${driver}"/>
+    <property name="jdbcUrl" value="${url}"/>
+    <property name="user" value="${username}"/>
+    <property name="password" value="${password}"/>
+
+    <!-- c3p0连接池的私有属性 -->
+    <property name="maxPoolSize" value="30"/>
+    <property name="minPoolSize" value="10"/>
+    <!-- 关闭连接后不自动commit -->
+    <property name="autoCommitOnClose" value="false"/>
+    <!-- 获取连接超时时间 -->
+    <property name="checkoutTimeout" value="10000"/>
+    <!-- 当获取连接失败重试次数 -->
+    <property name="acquireRetryAttempts" value="2"/>
+</bean>
+
+<!--sqlSessionFactory-->
+<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+    <!--配置数据源-->
+    <property name="dataSource" ref="dataSource"/>
+    <!--配置mybatis的配置文件-->
+    <property name="configLocation" value="classpath:mybatis-config.xml"/>
+    <!--配置别名包-->
+    <!--        <property name="typeAliasesPackage" value=""/>-->
+</bean>
+
+<!--配置dao接口扫描包，动态实现了dao接口可以注入到Spring容器中-->
+<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <!--注入sqlSessionFactory-->
+    <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    <!--扫描的包名-->
+    <property name="basePackage" value="com.tan00xu.dao"/>
+</bean>
+
+</beans>
+```
+
+#### spring-service.xml
+
+```xml
+<!--扫描service下的包-->
+<context:component-scan base-package="com.tan00xu.service"/>
+
+<!--将业务类，注入到Spring，可以通过配置或注解实现-->
+<bean id="bookServiceImpl" class="com.tan00xu.service.BookServiceImpl">
+    <property name="bookMapper" ref="bookMapper"/>
+</bean>
+
+<!--声明事务配置-->
+<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+    <!--注入数据源-->
+    <property name="dataSource" ref="dataSource"/>
+</bean>
+```
 
 
 
