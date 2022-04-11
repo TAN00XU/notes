@@ -1647,3 +1647,149 @@ adj. 副的
 3. We all have our vices. 
 
    我们都有我们自己的陋习。
+
+
+
+---
+
+
+
+# stereo /ˈsterioʊ/
+
+adj. 立体声
+
+n. 立体声（装置）
+
+1. 
+   I dropped my stereo. 
+
+   我的音响掉了。
+
+2. Your stereo system is so much better than mine. 
+
+   你的立体声系统比我的还厉害。
+
+3. Music fans love listening to music in hi-fi stereo system .
+
+   音乐爱好者喜欢用立体声设备听歌。
+
+# hand /hænd/
+
+vt. 递，交
+
+n. 手
+
+comb. 用……手的；手工
+
+1. She handed the gift to her friend .
+
+   她把礼物交给了她的朋友。
+
+   + gift /ɡɪft/	n. 礼物，赠品；恩赐，授予；轻而易举的事，绝对不会错失的机会；才能，天赋	v. 赠送；（无意中）让（对手）获得
+
+2. She handed the letter to me. 
+
+   她把信交给我。
+
+3. She closed her hand over his. 
+
+   她牢牢抓住他的手不放。
+
+4. I took him by the hand. 
+
+   我拉着他的手。
+
+# consideration /kənˌsɪdəˈreɪʃn/
+
+n. 考虑，思考；体贴，体谅，顾及
+
+1. He has three choices under consideration .
+
+   他有三个选择以供参考。
+
+2. This consideration was not unimportant. 
+
+   这项考虑并非无关紧要。
+
+   + unimportant /ˌʌnɪmˈpɔːrtnt/ 	adj. 不重要的；琐碎的
+
+3. Time is another important consideration. 
+
+   时间是另一个需要考虑的重要因素。
+
+# content /ˈkɑːntent; kənˈtent/
+
+n. 目录
+
+adj. 满足的
+
+v. 使满意（读作/kənˈtent/）
+
+1. Can we hold on to this content? 
+
+   我们能保存这个内容吗？
+
+2. This is all good content. 
+
+   这些都是很好的内容。
+
+3. Teaching content should be concise. 
+
+   教学内容要少而精。
+
+   + concise /kənˈsaɪs/	adj. 简明的，简洁的
+
+4. 
+   He seemed more content, less bitter. 
+
+   他看起来比较满意，不那么失望。
+
+   + seem /siːm/	v. （涉及推断）似乎，看来；（用于表示谨慎、礼貌或委婉）好像，可能
+
+# above all /əˈbʌv ɔːl/
+
+phr. 首先；尤其是
+
+1. “Above all, be on time!  ” said our English teacher .
+
+   “首先，要准时”我们的英语老师说道。
+
+2. Above all else I hate the cold. 
+
+   我最讨厌寒冷。
+
+   + hate  /heɪt/	v. 厌恶，不喜欢；仇恨，憎恨；（表示不愿说某事，或客气地请求）不愿，不想	n. 憎恶，憎恨
+
+3. To me, skating was above all. 
+
+   对我来说，滑冰是最重要的。
+
+   + skating /ˈskeɪtɪŋ/	n. 滑冰，溜冰，滑板	v. 滑冰，溜冰；在滑板上滑行，溜出（花样）；滑行（skate 的现在分词）
+
+4. Now keep quite still, and, above all, don't try to talk. 
+
+   现在你要保持安静，最重要的是，不要说话。
+
+# both /boʊθ/
+
+det. 双方，两者
+
+pron. 两者
+
+conj. …和…都；……和……都
+
+adj. 两…，双…
+
+1. Both of them are outstanding .
+
+   他们两个人都很优秀。
+
+2. Luckily, we both love football. 
+
+   幸好我们俩都热爱足球。
+
+3. Glass and water both bend light. 
+
+   玻璃和水都折光。
+
+   + bend /bend/	v. 弯曲（身体关节）；（路）转弯；歪曲（事实）；篡改；屈从；系，缚（帆，缆绳）；使弯曲，弄弯	n. （道路或河流的）拐弯，弯道；（身体的）弯曲（动作）；（尤指潜水员的）潜涵病，减压病（the bends）；绑结；（纹章盾形）左上方至右下方的对角斜纹

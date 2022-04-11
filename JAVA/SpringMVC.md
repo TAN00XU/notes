@@ -1659,8 +1659,7 @@ url = jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&amp;useSSL=true&amp
     <!--扫描的包名-->
     <property name="basePackage" value="com.tan00xu.dao"/>
 </bean>
-
-</beans>
+</bea
 ```
 
 #### spring-service.xml
@@ -1681,5 +1680,28 @@ url = jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&amp;useSSL=true&amp
 </bean>
 ```
 
+#### spring-mvc.xml
 
+```xml
+<!--注解驱动-->
+<mvc:annotation-driven/>
+<!--静态资源过滤-->
+<mvc:default-servlet-handler/>
+<!--扫描包:controller-->
+<context:component-scan base-package="com.tan00xu.controller"/>
+<!--配置视图解析器-->
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <property name="prefix" value="/WEB-INF/jsp/"/>
+    <property name="suffix" value=".jsp"/>
+</bean>
+```
+
+#### applicationContext.xml
+
+```xml
+<!--整合xml配置-->
+<import resource="spring-dao.xml"/>
+<import resource="spring-service.xml"/>
+<import resource="spring-mvc.xml"/>
+```
 
