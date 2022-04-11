@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 接口式：namespace是接口的全类名 ，绑定一个对应的Dao/Mapper接口-->
+<mapper namespace="com.tan00xu.dao.UserMapper">
+
+    <select id="listUsers" resultType="User">
+        select *
+        from user;
+    </select>
+
+
+    <!--结果集映射-->
+   <!-- <resultMap id="UserMap" type="user">
+        &lt;!&ndash;column数据库中的字段,property实体类中的属性&ndash;&gt;
+        <result column="id" property="id"/>
+        <result column="account" property="account"/>
+        <result column="pwd" property="password"/>
+    </resultMap>
+    <select id="getuserById" resultMap="UserMap">
+        select *
+        from mybatis.user
+        where id = #{id}
+    </select>-->
+
+
+    <select id="getUserById" parameterType="int" resultType="com.tan00xu.pojo.User">
+        select *
+        from mybatis.user
+        where id = #{id};
+    </select>
+
+    <!--对象中的属性可以直接取出来！-->
+    <insert id="insertUser" parameterType="com.tan00xu.pojo.User">
+        insert into mybatis.user (id, account, password)
+        VALUES (#{id}, #{account}, #{password});
+    </insert>
+
+    <update id="updateUser" parameterType="com.tan00xu.pojo.User">
+        update mybatis.user
+        set account = #{account},
+            password = #{password}
+        where id = #{id};
+    </update>
+
+    <delete id="deleteUser" parameterType="int">
+        delete
+        from mybatis.user
+        where id = #{id};
+    </delete>
+
+</mapper>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 接口式：namespace是接口的全类名 ，绑定一个对应的Dao/Mapper接口-->
+<mapper namespace="com.UserMapper">
+
+    <select id="listUsers" resultType="com.User">
+        select *
+        from user;
+    </select>
+
+    <select id="getUserById" parameterType="int" resultType="com.User">
+        select *
+        from mybatis.user
+        where id = #{id};
+    </select>
+
+    <!--对象中的属性可以直接取出来！-->
+    <insert id="insertUser" parameterType="com.User">
+        insert into mybatis.user (id, account, password)
+        VALUES (#{id}, #{account}, #{password});
+    </insert>
+    <insert id="insertUser2" parameterType="map">
+        insert into mybatis.user (id, account, password)
+        VALUES (#{userId},#{userName},#{userPassword});
+    </insert>
+
+    <update id="updateUser" parameterType="com.User">
+        update mybatis.user
+        set account = #{account},
+            password = #{password}
+        where id = #{id};
+    </update>
+
+    <delete id="deleteUser" parameterType="int">
+        delete
+        from mybatis.user
+        where id = #{id};
+    </delete>
+
+</mapper>

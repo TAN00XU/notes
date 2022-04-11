@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+
+<mapper namespace="com.tan00xu.dao.TeacherMapper">
+
+    <select id="lisTeachers" resultType="teacher">
+        select * from teacher;
+    </select>
+
+
+    &lt;!&ndash;按查询嵌套查询&ndash;&gt;
+    <select id="getTeacher" resultMap="TeacherStudent" >
+        select * from teacher where id = #{tid}
+    </select>
+    <resultMap id="TeacherStudent" type="teacher">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        &lt;!&ndash;复杂的属性需要单独处理
+        对象：association
+        集合：collection
+        javaType=""指定属性的类型
+        集合中的泛型信息，需要使用ofType获取
+        &ndash;&gt;
+        <collection property="students" javaType="ArrayList" ofType="student" select="getStudentByTeacherId" column="id"/>
+    </resultMap>
+    <select id="getStudentByTeacherId" resultType="student">
+        select * from student where tid = #{tid}
+    </select>
+</mapper>
+-->
