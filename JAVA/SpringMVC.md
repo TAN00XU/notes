@@ -1659,7 +1659,6 @@ url = jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&amp;useSSL=true&amp
     <!--扫描的包名-->
     <property name="basePackage" value="com.tan00xu.dao"/>
 </bean>
-</bea
 ```
 
 #### spring-service.xml
@@ -1703,5 +1702,25 @@ url = jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&amp;useSSL=true&amp
 <import resource="spring-dao.xml"/>
 <import resource="spring-service.xml"/>
 <import resource="spring-mvc.xml"/>
+```
+
+### 10.6、注意事项
+
+在web.xml文件中注册Servlet时，不能仅仅只注册spring-mvc.xml，会出现空指针异常，查询不到service层的内容。在进行整合后，直接注册`applicationContext.xml`
+
+```xml
+<!--DispatchServlet-->
+<servlet>
+    <servlet-name>springmvc</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:applicationContext.xml</param-value>
+    </init-param>
+</servlet>
+<servlet-mapping>
+    <servlet-name>springmvc</servlet-name>
+    <url-pattern>/</url-pattern>
+</servlet-mapping>
 ```
 
