@@ -1704,7 +1704,32 @@ url = jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&amp;useSSL=true&amp
 <import resource="spring-mvc.xml"/>
 ```
 
-### 10.6、注意事项
+### 10.6、Controller
+
+```java
+@Controller
+@RequestMapping("/book")
+public class BookController {
+
+    @Autowired
+    @Qualifier("bookServiceImpl")
+    private BookService bookService;
+
+    /**
+     * 查询全部的书籍，并返回到书籍展示页面
+     */
+    @RequestMapping("/allBooks")
+    public String listBooks(Model model){
+        List<Books> books = bookService.listBooks();
+        model.addAttribute("books",books);
+        return "allBooks";
+    }
+}
+```
+
+
+
+### 10.7、注意事项
 
 在web.xml文件中注册Servlet时，不能仅仅只注册spring-mvc.xml，会出现空指针异常，查询不到service层的内容。在进行整合后，直接注册`applicationContext.xml`
 
@@ -1724,3 +1749,6 @@ url = jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&amp;useSSL=true&amp
 </servlet-mapping>
 ```
 
+#### ==重要==
+
+外部数据源的用户名不要使用username
