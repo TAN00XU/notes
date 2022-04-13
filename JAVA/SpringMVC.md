@@ -1751,4 +1751,14 @@ public class BookController {
 
 #### ==重要==
 
-外部数据源的用户名不要使用username，会去识别电脑的用户名，导致连接出错
+外部数据源的用户名不要使用username，会去识别电脑的用户名，导致连接出错，可以换为`jdbc.username`
+
+```properties
+jdbc.username = root
+jdbc.password = 123123
+jdbc.driver = com.mysql.cj.jdbc.Driver
+#jdbc.url = jdbc:mysql://localhost:3306/mybatis?useSSL=true
+#"&amp;表示&,识别出问题可以考虑更换"
+jdbc.url = jdbc:mysql://localhost:3306/mybatis?serverTimezone=Asia/Shanghai&useSSL=true&useUnicode=true&characterEncoding=UTF8
+```
+
