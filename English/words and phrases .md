@@ -1945,3 +1945,53 @@ n. 犯罪活动；罪行
 2. `The crime rate `is rising. 
 
    `犯罪率`正在上升。
+
+# critical /ˈkrɪtɪkl/
+
+adj. 批判的，爱挑剔的；极其重要的，关键的；严重的，危急的；病重的，重伤的；评论性的，评论家的；临界的
+
+1. She was critical to the point of rudeness. 
+
+   她挑剔得近乎无礼。
+
+   + rudeness /ˈruːdnəs/	n. 无礼；粗蛮
+
+2. The supervisor is always very critical. 
+
+   主管总是很挑剔。
+
+   + supervisor  /ˈsuːpərvaɪzər/	n. 监督者，管理者；（英国大学里负责学生研究工作的）指导教师；<美>镇长，县长
+
+# decade /ˈdekeɪdˌdɪˈkeɪd/
+
+n. 十年，十年期；十进
+
+1. People can change a lot after a decade .
+
+   十年会给人带来很大的变化。
+
+2. They typically appear about once in a decade. 
+
+   它们通常大概每十年出现一次。
+
+   + typically /ˈtɪpɪkli/	adv. 典型地，有代表性地；一般，通常；一向如此地，不出所料地
+   + appear  /əˈpɪr/	v. 出现，呈现；首次使用，起源；出庭；演出，出场；出版，发表；记载，提及；看来，似乎；<非正式>到达
+
+ 3. We hope to have test flights in this decade. 
+
+    我们希望在这十年内进行试验飞行。
+
+# 	access to  /ˈækses tu/
+
+phr. 接近；有权使用；通向……的入口
+
+1. Access to the building is by card only .
+   只有用磁卡才能进入这栋楼。
+
+2. You need a password to get access to the computer system. 
+
+   使用这个计算机系统需要口令。
+
+3. Everyone should enjoy the right of access to the countryside. 
+
+   人人都应享有进入乡村的权利。
