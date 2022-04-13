@@ -1899,3 +1899,24 @@ adj. 疯狂的，荒唐的
 5. What started her off on that crazy idea? 
 
    她怎么会有那样古怪的念头呢？
+
+
+
+---
+
+
+
+# urge /ɜːrdʒ/
+
+v. 敦促，催促，力劝；竭力主张，强烈要求；驱赶，鞭策；鼓励，激励
+
+n. 强烈的欲望，冲动；推动力
+
+1. He urged the pig to run faster .
+   他催促小猪跑快点。
+
+2. I had a sudden urge to hit him. 
+
+   我突然很想揍他一顿。
+
+   + sudden /ˈsʌdn/	adj. 突然的，意外的	n. 突然发生的事
