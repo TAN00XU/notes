@@ -1793,3 +1793,109 @@ adj. 两…，双…
    玻璃和水都折光。
 
    + bend /bend/	v. 弯曲（身体关节）；（路）转弯；歪曲（事实）；篡改；屈从；系，缚（帆，缆绳）；使弯曲，弄弯	n. （道路或河流的）拐弯，弯道；（身体的）弯曲（动作）；（尤指潜水员的）潜涵病，减压病（the bends）；绑结；（纹章盾形）左上方至右下方的对角斜纹
+
+
+
+---
+
+
+
+# convince  /kənˈvɪns/
+
+v. 使确信，使信服；说服，劝服
+
+1. It's hopeless trying to convince her. 
+
+   想说服她简直是徒劳。
+
+   + hopeless /ˈhoʊpləs/	adj. 无望的；（感到）绝望的；极差的，糟糕透顶的；彻头彻尾的；无能的
+
+2. I've been trying to convince him to see a doctor. 
+
+   我一直劝他去看病。
+
+# countryside /ˈkʌntrisaɪd/
+
+n. 乡村，农村；乡村居民
+
+1. This lovely house is in the countryside .
+
+   这栋漂亮的房子在乡下。
+
+2. I pine for the countryside. 
+
+   我渴望乡下的生活。
+
+3. Moonlight was silvering the countryside. 
+
+   月光下的乡村泛着银光。
+
+   + silvering /ˈsɪlvərɪŋ/	v. 给……镀（或包）银；给……镀（或包）似银的物质；镀银色物质于（玻璃镜子）背面；（使）具有银色光泽；（使）头发变成银灰色；头发变灰（silver 的现在分词）	n. 镀银，包银
+
+# absence from /ˈæbsəns frəm/
+
+phr. 缺席与……；缺席；不在
+
+1. He could not account for his absence from school. 
+
+   他无法说清楚旷课的原因。
+
+2. All this resulted in his absence from meeting. 
+
+   所有这一切都是他开会缺席造成的。
+
+3. He did not know the reason for his deskmate’s absence from class .
+
+   他不知道他的同桌缺课的原因。
+
+   + reason /ˈriːzn/	n. 原因，理由；充分理由，正当理由；道理，情理；判断力，理智	v. 推理，逻辑思考；推论出，推断出（reason sth. out）；对（某人）以理相劝，劝告（reason with）
+
+# spend /spend/
+
+v. 度过，花（时间）；花（钱），花费；消耗，用尽（精力等）
+
+n. 花费，开销
+
+n. 预算
+
+1. I spend too much time watching television. 
+
+   我看电视花的时间太多。
+
+2. I spend at least six hours a week marking. 
+
+   我每周至少要花六个小时批改作业。
+
+   + least /liːst/	adj. 一点儿；最少的（little 的最高级）；最微不足道的（little 的最高级形式）；用于极小动植物的名称，如least shrew（little 的最高级形式）	adv. 最低程度地；最少，至少	n. 最不重要的事物，最微小的事物；至少，起码	pron. 最少量；起码	det. 最少的，最小的
+
+3. How to spend the money is for you to decide. 
+
+   怎样花这笔钱由你决定。
+
+4. They wanted to spend the evening by themselves. 
+
+   他们想要单独度过这个夜晚。
+
+# crazy /ˈkreɪzi/
+
+adj. 疯狂的，荒唐的
+
+1. That noise is driving me crazy. 
+
+   那噪声吵得我快发疯了。
+
+2. We're crazy about each other. 
+
+   我们为彼此疯狂。
+
+3. It's crazy, isn't it? 
+
+   这真是疯了，不是吗？
+
+4. He went crazy. 
+
+   他气得疯了。
+
+5. What started her off on that crazy idea? 
+
+   她怎么会有那样古怪的念头呢？

@@ -1751,4 +1751,4 @@ public class BookController {
 
 #### ==重要==
 
-外部数据源的用户名不要使用username
+外部数据源的用户名不要使用username，会去识别电脑的用户名，导致连接出错
