@@ -2062,7 +2062,7 @@ n. 依赖他人者
 
    + tourism  /ˈtʊrɪzəm/	n. 旅游业，观光业；旅游，观光
 
-according to /əˈkɔːrdɪŋ  tuː/
+# according to /əˈkɔːrdɪŋ  tuː/
 
 phr. 根据
 
@@ -2104,13 +2104,13 @@ n. 想法，注意
 
    + against  /əˈɡenst; əˈɡeɪnst/	prep. 反对；（行为）违背……；（法律或法规）禁止；与……竞争；对……造成伤害（威胁，不利）；碰；倚着；逆向；以……为背景；与……相比；防备，抵御；讨厌某人，不赞同某人；作为（某物的）应付款项；（赌博用语）预计……的失败
 
-4. Do you approve of my idea? 
+5. Do you approve of my idea? 
 
    你同意我的想法吗？
 
-   + approve /əˈpruːv/	v. 同意，赞成；批准，通过；核准；喜欢，赞赏；<古>证明，显示；使（废品或公共土地）升值
++ approve /əˈpruːv/	v. 同意，赞成；批准，通过；核准；喜欢，赞赏；<古>证明，显示；使（废品或公共土地）升值
 
-5. That's not a bad idea. 
+6. That's not a bad idea. 
 
    那个主意不错。
 
