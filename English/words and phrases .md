@@ -1995,3 +1995,50 @@ phr. 接近；有权使用；通向……的入口
 3. Everyone should enjoy the right of access to the countryside. 
 
    人人都应享有进入乡村的权利。
+
+
+
+---
+
+
+
+# stereotype /ˈsteriətaɪp/
+
+n. 老套的模式，陈规
+
+v. 对……产生意见
+
+1. I wanted to break this stereotype. 
+
+   我就想，一定要打破这个成见。
+
+2. Also add the stereotype to it. 
+
+   同时，也要将 模板添加进去。
+
+3. But is this finding just a gender stereotype? 
+
+   但也许这项发现只是性别刻板印象造成的？
+
+# begin /bɪˈɡɪn/
+
+v. 开始
+
+1. Begin when I give the command. 
+
+   我发出命令时开始。
+
+   + command /kəˈmænd/	v. 命令，下令；统率，指挥；博得，赢得；控制，掌管；居高临下，俯瞰；值（高价）	n. 命令，指示；（计算机的）指令；控制，管辖；指挥权，控制权；兵团，军区；指挥部，司令部；掌握，精通
+
+2. We'll go slowly to begin with. 
+
+   我们开始时会慢慢来的。
+
+3. She nodded at him to begin speaking. 
+
+   她点头示意他开始讲话。
+
+4. 
+   Shall I begin? 
+
+   我可以开始了吗？
