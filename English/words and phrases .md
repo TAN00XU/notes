@@ -2042,3 +2042,96 @@ v. 开始
    Shall I begin? 
 
    我可以开始了吗？
+
+# dependent /dɪˈpendənt/
+
+adj. 依赖的；取决于……的
+
+n. 依赖他人者
+
+1. Soon he becomes dependent on the expert. 
+
+   不久他就开始依赖这位专家了。
+
+   + soon /suːn/	adv. 很快，马上，不久；早，快；宁可，宁愿
+   + expert  /ˈekspɜːrt/	n. 专家，能手，权威	adj. 专业的，熟练的
+
+2. The area is heavily dependent on tourism. 
+
+   这个地区非常依赖旅游业。
+
+   + tourism  /ˈtʊrɪzəm/	n. 旅游业，观光业；旅游，观光
+
+according to /əˈkɔːrdɪŋ  tuː/
+
+phr. 根据
+
+1. Everything went according to plan. 
+
+   一切均按照计划进行。
+
+2. You've been absent six times according to our records. 
+
+   根据我们的记录，你已经缺席六次了。
+
+   + records /ˈrekərdz/	n. 记录，录音；唱片，档案（record 的复数）	v. 记录，记载（record 的第三人称单数）
+
+3. The fonts can be sized according to what effect you want. 
+
+   可根据你想要的效果改变字号。
+
+   + effect  /ɪˈfekt/	n. 作用，影响；（刻意制造的）效果，印象；所有物，财产；生效，实行	v. 实现，引起
+
+# idea /aɪˈdiːə/
+
+n. 想法，注意
+
+1. The idea looks good on paper. 
+
+   仅就字面看，这个主意不错。
+
+2. Wherever did you get that idea? 
+
+   你究竟从哪得来的那个想法？
+
+3. How does the idea strike you? 
+
+   你觉得这个主意怎么样？
+
+4. He's dead against the idea. 
+
+   他坚决反对这个想法。
+
+   + against  /əˈɡenst; əˈɡeɪnst/	prep. 反对；（行为）违背……；（法律或法规）禁止；与……竞争；对……造成伤害（威胁，不利）；碰；倚着；逆向；以……为背景；与……相比；防备，抵御；讨厌某人，不赞同某人；作为（某物的）应付款项；（赌博用语）预计……的失败
+
+4. Do you approve of my idea? 
+
+   你同意我的想法吗？
+
+   + approve /əˈpruːv/	v. 同意，赞成；批准，通过；核准；喜欢，赞赏；<古>证明，显示；使（废品或公共土地）升值
+
+5. That's not a bad idea. 
+
+   那个主意不错。
+
+# direct /dəˈrekt; daɪˈrekt/
+
+adj. 径直的，笔直的；坦率的；直射的；直接的，亲身的；正好的；直系的
+
+v. 把……对准；管理，指导；给……指路；指引，引导；导演；指示，命令；交予，寄至
+
+adv. 径直地，直达地；亲自，直接
+
+1. We flew direct to Hong Kong. 
+
+   我们直飞香港。
+
+2. Could you direct me to the station? 
+
+   请问到车站怎么走？
+
+3. I prefer to deal with him direct. 
+
+   我更愿意直接跟他打交道。
+
+   + prefer /prɪˈfɜːr/	v. 更喜爱，宁可；<法律>举报，提出（控告）
