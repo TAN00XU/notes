@@ -2135,3 +2135,113 @@ adv. 径直地，直达地；亲自，直接
    我更愿意直接跟他打交道。
 
    + prefer /prɪˈfɜːr/	v. 更喜爱，宁可；<法律>举报，提出（控告）
+
+
+
+---
+
+
+
+# account for /əˈkaʊnt/
+
+phr. 解释，说明
+
+1. How do I account for it? 
+
+   我怎么解释呢？
+
+2. I cannot account for it. 
+
+   我无法解释。
+
+3. Of course, no index can account for everything. 
+
+   当然，没有任何索引可以解释一切。
+
+4. How do you account for the show's success? 
+
+   你认为这次演出为何成功？
+
+# directly /dəˈrektli; daɪˈrektli/
+
+adv. 直接地，径直地
+
+1. Why take the long way while you can walk directly to the company .
+
+   既然你能径直地走去公式，为什么还要绕远路？
+
+2. She left directly after the show. 
+
+   演出一结束，她马上就走了。
+
+3. The two factors are directly linked. 
+
+   这两个因素直接联系在一起。
+
+   + factors /ˈfæktərz/	n. 因素（factor 的复数）	v. 做代理商；分解……的因子；把……作为因素考虑（factor 的第三人称单数）
+
+# dorm /dɔːrm/
+
+n. （集体）宿舍（=dormitory）
+
+1. Look here. The dorm is in a mess .
+
+   看这儿。这宿舍一团糟。
+
+   + mess  /mes/	n. 肮脏，杂乱；不整洁或邋遢的人（或物）；掉落的东西，溅出的东西；（动物的）粪便；困境，混乱局面；处于困境的人；（军队的）食堂，交谊厅；<美，非正式> 大量；（尤指引不起食欲的）半干半稀的一份食物	v. 弄脏，弄乱；玩弄；随地便溺；在军人食堂就餐
+
+2. I'm afraid I left my Student ID card in the dorm. 
+
+   恐怕我把学生证落在宿舍了。
+
+   + afraid /əˈfreɪd/	adj. 害怕的；担心的；（害怕后果而）不愿意的，勉强的；遗憾的
+
+3. I'll wait for you in the dorm. 
+
+   我将在寝室等你。
+
+# accustomed to /əˈkʌstəmd tu/
+
+phr. 习惯于
+
+1. He is accustomed to sleep at 9 o’clock .
+
+   他习惯于九点睡觉。
+
+2. My eyes slowly grew accustomed to the dark. 
+
+   我的眼睛慢慢适应了黑暗。
+
+3. He is accustomed to hard work. 
+
+   他习惯于做艰苦的工作。
+
+   + hard /hɑːrd/	adj. 硬的，坚固的；困难的；猛烈的，用力的；困苦的，艰苦的；努力的；冷酷的，心肠硬的；严厉的，苛刻的；（政党内部派别）极端的，固执己见的；（季节，天气）严酷的，凛冽的；（水）硬的；坚强的，勇敢的；刺目的，令人不快的；确凿的，可靠的；（学科）实证的；硬（科幻）的；酒精含量高的，烈性的；（尤指葡萄酒因含有单宁酸而）苦涩的；（毒品）毒性强的，易上瘾的；（辐射）穿透力强的；（色情作品）淫秽的，极黄色的；仔细的，认真的；严肃的；强壮的；发硬音的；（股票价格，商品价格）稳健的	adv. 努力地，费力地；用力地，猛烈地；仔细地，认真地；沉重地，大量地；变硬；在最大程度上
+
+4. We are accustomed to such a self. 
+
+   我们习惯这样自嘲。
+
+# dull /dʌl/
+
+adj. 枯燥的，沉闷的
+
+adj. 枯燥无聊的；无精打采的；不明亮的；（声音）不清晰的；阴沉的；不明显的，隐隐的；钝的；迟钝的，愚笨的；萧条的
+
+v. 减轻，缓解；使迟钝；（使）变模糊，变暗淡；（使刀或刀片等）变钝；（兴趣、痛苦等）减少
+
+1. The TV show is so dull that makes him want to sleep.
+   这档电视节目很无趣，让他想睡觉。
+
+2. Her eyes were dull. 
+
+   她目光呆滞。
+
+3. It's always dull and raining. 
+
+   天老是阴沉沉的，下着雨。
+
+4. 
+   It was a dull, grey day. 
+
+   那是一个阴沉昏暗的日子。
