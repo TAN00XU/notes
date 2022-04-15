@@ -1758,7 +1758,15 @@ jdbc.username = root
 jdbc.password = 123123
 jdbc.driver = com.mysql.cj.jdbc.Driver
 #jdbc.url = jdbc:mysql://localhost:3306/mybatis?useSSL=true
-#"&amp;表示&,识别出问题可以考虑更换"
+#"&amp;表示&符号,识别出问题可以考虑更换"
 jdbc.url = jdbc:mysql://localhost:3306/mybatis?serverTimezone=Asia/Shanghai&useSSL=true&useUnicode=true&characterEncoding=UTF8
 ```
+
+
+
+---
+
+
+
+## 十、Ajax
 
