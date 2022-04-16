@@ -2245,3 +2245,128 @@ v. 减轻，缓解；使迟钝；（使）变模糊，变暗淡；（使刀或�
    It was a dull, grey day. 
 
    那是一个阴沉昏暗的日子。
+
+
+
+---
+
+
+
+# duty  /ˈduːti/
+
+n. 责任，义务；上班，值班；职责，任务；税，关税；兵役；（牧师的）行礼拜式；（发动机的）功率
+
+1. It was his duty to obey. 
+
+   服从是他的职责。
+
+   + obey  /əˈbeɪ/ v. 遵守，服从，听从；<非正式>顺……的意，按……的通常情况行事；遵循（原则、自然规律等）
+
+2. Who's on duty today? 
+
+   今天谁值班？
+
+3. What time do you go off duty? 
+
+   你什么时候下班？
+
+4. Your first duty is to your family. 
+
+   你首要的是对家庭尽责。
+
+# acquaint oneself with /əˈkweɪnt wʌnˈself wɪð/
+
+phr. 熟悉；开始知道
+
+1. She would acquaint herself with the local culture before visiting an unfamiliar city .
+
+   在去一个陌生的城市旅游之前，她总会预先熟悉当地文化。
+
+   + culture /ˈkʌltʃər/	n. 文化，文明；（团体或组织中共同的）态度，习俗；文化群落，（处于历史上特定时期的）社会；艺术活动；修养；（细胞、细菌等的）培养，培养物；栽培，养殖	v. 培育，养殖
+   + unfamiliar /ˌʌnfəˈmɪliər/	adj. 不熟悉的；不常见的；没有经验的
+
+# since  /sɪns/
+
+prep. 自……以后，自……以来；（表示气愤）何曾，什么时候
+
+conj. 在……以后，自……以来；因为，由于，既然
+
+adv. 自……以后，自……以来；此后，后来
+
+1. She's been off work since Tuesday. 
+
+   星期二以来她一直没上班。
+
+2. Things have changed since I was a lad. 
+
+   从我幼时至今，一切都发生了变化。
+
+   + lad /læd/	n. 男孩，小伙子
+
+3. She's lived there since before the war. 
+
+   她从战前起就一直住在那里。
+
+4. Since losing my job I've been a vegetable. 
+
+   失业以来我感到百无聊赖。
+
+   + vegetable /ˈvedʒtəbl/	n. 蔬菜；植物人；呆板懒散的人；植物	adj. 植物的
+
+5. It's years since we last met. 
+
+   我们多年没有见面了。
+
+# acquaintance /əˈkweɪntəns/
+
+n. 相识的人，泛泛之交；认识，相识；所知，了解
+
+1. He met an old acquaintance at his friend’s wedding.
+
+   他在朋友的婚礼上遇见了一位老熟人。
+
+2. Many people sought his acquaintance. 
+
+   许多人竭力想结识他。
+
+   + sought /sɔːt/ v. 寻找（seek 的过去式和过去分词）
+
+3. I regret to have made your acquaintance so late. 
+
+   识荆恨晚。
+
+   + regret /rɪˈɡret/	v. 懊悔，惋惜；（用于正式书面语）对......感到抱歉，对......感到遗憾；<古>对（损失或缺乏）感到痛惜	n. 遗憾，惋惜；（因无法出席会议、聚会等的）致歉语
+
+# finish /ˈfɪnɪʃ/
+
+v. 吃完，喝完
+
+v. 完成，做好；（使）结束；消耗尽（所剩之物）；（比赛中）获得（名次）；（英式足球用语）进球；对（物件）做最后加工；杀死，歼灭；使精疲力竭；<旧>为（少女）进入上流社会做好准备；<非正式>使精疲力竭
+
+n. 结尾，结局；（赛跑、比赛的）终点；最后精细加工；饰面，饰面材料；（葡萄酒或啤酒的）余味
+
+1. I can easily finish it tonight. 
+
+   我今晚能毫不费力地把它完成。
+
+2. We reckon to finish by ten. 
+
+   我们预计十点钟以前结束。
+
+   + reckon /ˈrekən/	v. 估算，计算；<非正式>料想，认为；把……看作；<英，非正式>期望，指望
+
+3. Can you finish the work by five o'clock? 
+
+   你五点钟前能完成工作吗？
+
+4. I want to see the job through to the finish. 
+
+   我要看这项工作做完为止。
+
+5. What time do you finish work? 
+
+   你什么时候下班？
+
+6. You needn't finish that work today. 
+
+   你不必今天做完这项工作。
