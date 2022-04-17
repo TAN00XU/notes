@@ -2446,7 +2446,7 @@ v. 尝试
 
    这篇散文实在是不够好。
 
-action on 
+# action on 
 
 phr. 对……的行动
 
@@ -2500,7 +2500,7 @@ v. 原谅，宽恕；辩解，开脱；准许……离开；同意免除
 
 phr. （使）适应；使自己适应于……
 
-1. It takes time for children to adapt to scholl life.
+1. It takes time for children to adapt to school life.
    孩子们需要一段时间来适应学校生活。
 
 2. You adapt to feedback from your listener. 
