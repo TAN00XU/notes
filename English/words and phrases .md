@@ -2370,3 +2370,145 @@ n. 结尾，结局；（赛跑、比赛的）终点；最后精细加工；饰�
 6. You needn't finish that work today. 
 
    你不必今天做完这项工作。
+   
+   
+
+---
+
+
+
+# advanced /ədˈvænst/
+
+adj. 先进的；高级的，高等的；晚期的，状况不佳的；高龄的；新提出（尚未被广泛接受）的
+
+v. 行进；发展，进步；预付（advance 的过去式和过去分词形式）
+
+1. He is now an advanced worker. 
+
+   他如今成了先进工作者。
+
+2. That sounds quite advanced. 
+
+   这听起来很先进。
+
+3. We should learn from advanced workers. 
+
+   我们要向先进工作者学习。
+
+4. He was a man of advanced years. 
+
+   他年事已高。
+
+# error  /ˈerər/
+
+n. 错误，差错，过失
+
+1. It was an error on my part. 
+
+   那是我的过失。
+
+2. This is not the only error. 
+
+   这不是仅有的错误。
+
+3. If not, do an error exit. 
+
+   如果没有，则执行错误退出。
+
+4. We must allow for human error. 
+
+   我们必须考虑到人为的失误。
+
+5. There is no `room for` error in this job. 
+
+   这项工作决不`允许`出差错。
+
+# essay /ˈeseɪ/
+
+n. 论文；随笔
+
+v. 尝试
+
+1. The girl is busy writing her essay right now.
+   这个女孩正忙着写她的论文。
+
+2. She got top marks for her essay. 
+
+   她的论文得了最高分。
+
+3. The essay was appallingly written. 
+
+   这文章写得一塌糊涂。
+
+   + appallingly /əˈpɔːlɪŋli/	adv. 令人毛骨悚然地；骇人听闻地
+
+4. This essay is just not good enough. 
+
+   这篇散文实在是不够好。
+
+action on 
+
+phr. 对……的行动
+
+1. They are taking action on the environmental problem.
+   他们正在对环境问题做出行动。
+
+2. I want some action on this. 
+
+   我需要行动。
+
+3. What would real action on health look like? 
+
+   在医疗保健方面真正的行动是什么样的？
+
+# excuse /ɪkˈskjuːs/
+
+n. 借口，托词；正当理由；宽恕，赦免；拙劣样品，蹩脚货；<美>（医生或父母为学生写的）病假条，请假条
+
+v. 原谅，宽恕；辩解，开脱；准许……离开；同意免除
+
+1. He made up a stupid  excuse for not doing homework.
+
+   他为没做作业编了一个愚蠢的借口。
+
+   + stupid /ˈstuːpɪd/	adj. 笨的，傻的，脑子不好使的；欠考虑的，糊涂的；（用以加强语气）讨厌的，恼人的，无聊的；（因醉、累等）不省人事的，神思恍惚的	n. 傻瓜，笨蛋
+
+2. Excuse me, is this your seat? 
+
+   对不起，这是您的座位吗？
+
+   + seat /siːt/	n. 座位；（椅子等的）座部；（机器的）基座；（议会、委员会、法庭等的）席位，职位；<英> 议会议员选区；（组织或重大活动的）所在地；（大户人家在乡间的）别墅，宅邸；（裙子或裤子的）臀部，后裆；屁股；（骑马的）骑姿	v. 使坐下，使就座；容纳，坐得下；使就职；固定，安装
+
+3. She came up with the perfect excuse. 
+
+   她想出了极好的借口。
+
+4. Oh, excuse me. I didn't see you there. 
+
+   啊呀，对不起，我没看到你在那里。
+
+5. 
+   I hope you'll excuse me for being so late. 
+
+   我来得这么晚，希望你能原谅。
+
+6. Can't you think up a better excuse than that? 
+
+   难道你就想不出一个比这更好的借口？
+
+# adapt to  /əˈdæpt tu/
+
+phr. （使）适应；使自己适应于……
+
+1. It takes time for children to adapt to scholl life.
+   孩子们需要一段时间来适应学校生活。
+
+2. You adapt to feedback from your listener. 
+
+   你从听众的反馈中改变自己。
+
+   + feedback  /ˈfiːdbæk/	n. 反馈意见；（信号返回电子音响系统所致的）噪声；（返回机器、系统或者程序的）返回信息，返回电流
+
+3. It's not always easy to adapt to change. 
+
+   适应变革并不是很容易。
