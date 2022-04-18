@@ -2512,3 +2512,131 @@ phr. （使）适应；使自己适应于……
 3. It's not always easy to adapt to change. 
 
    适应变革并不是很容易。
+
+
+
+---
+
+
+
+# stipulate /ˈstɪpjuleɪt/
+
+v. 规定，明确要求；要求以……为条件
+
+adj. （叶子，植物）有托叶的，具托叶的
+
+1. International rules stipulate the number of foreign entrants. 
+
+   国际规则规定了外国参赛者的人数。
+
+   + rules /ruːlz/	n. [数]规则；条例（rule 的复数形式）	v. 统治；支配；裁定（rule 的第三人称单数形式）
+   + foreign /ˈfɔːrən/	adj. 外国的，来自国外的；外交的，涉外的；陌生的，不熟悉的；外来的，异质的；外地的，不属于本地区的
+   + entrants /ˈentrənts/	n. （参加比赛的）竞赛者；新成员；新就业者（entrant 的复数）
+
+# business  /ˈbɪznəs/
+
+n. 商业，买卖，生意；商务，公事；公司，企业；行业，职业；事务，职责；私事；事情；消费；系列事件
+
+1. I always fly business class. 
+
+   我总是乘坐商务舱旅行。
+
+2. She runs the business by herself. 
+
+   她自己经营这项生意。
+
+3. We do our business by mail. 
+
+   我们通过邮递做生意。
+
+4. Business is good just now. 
+
+   目前生意很红火。
+
+5. How is the business doing? 
+
+   生意好吗？
+
+6. You `have no business` being here. 
+
+   你`无权`待在这里。
+
+# fairly /ˈferli/
+
+adv. 相当地，颇；公平地，公正地；<旧>（用以强调）完全，简直；令人愉快地，让人喜欢地
+
+1. The bag in the middle looks fairly heavy .
+
+   中间那个书包看上去相当沉。
+
+2. The exam was fairly difficult. 
+
+   这场考试相当难。
+
+3. He has always treated me very fairly. 
+
+   他待我一直很公正。
+
+   + treated /ˈtriːtɪd/	v. 治疗；对待；招待；处理（treat 的过去式和过去分词）	adj. 治疗的；已处理过的
+
+4. The time fairly raced by. 
+
+   时间过得真快。
+
+# fame  /feɪm/
+
+n. 名誉，名气
+
+v. 使闻名，使有名望
+
+1. Fame hasn't really changed him. 
+
+   名声并没有使他有丝毫改变。
+
+2. Fame comes at a price. 
+
+   成名是要付出代价的。
+
+3. He was dazzled by fame. 
+
+   他被名誉搞得眼花缭乱。
+
+   + dazzled /ˈdæzld/	adj. 目眩的；眼花缭乱的	vt. 感到眼花缭乱的
+
+add up to 
+
+phr. 总计
+
+1. The things on this bill added up to 250 yuan.
+
+   这张账单上的东西加起来正好250块。
+
+2. Many small victories add up to a big one. 
+
+   积小胜为大胜。
+
+3. 
+   What does this all add up to? 
+
+   所有这些分析的结论是什么？
+
+4. What do these bits of information add up to? 
+
+   这些信息说明什么？
+
+# fare /fer/
+
+n. 交通费用；乘客；饭菜；常见的东西；供大众使用的东西（尤指娱乐活动）
+
+v. 进展，表现；<古> 发生，结果；<古>出游，旅行
+
+1. She paid three dollars for the bus fare.
+   她付了三美元的公交车费。
+
+2. We had to select our fare. 
+
+   我们得选择我们的车费。
+
+3. When do they start paying full fare? 
+
+   他们什么时候开始买全票？
