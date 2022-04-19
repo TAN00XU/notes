@@ -1,6 +1,91 @@
 [TOC]
 
+---
 
+# favor ˈfeɪvər/
+
+v. 偏爱；较喜欢；偏袒；有利于；悉心照料
+
+n. 偏爱；帮助；提拔；徽章；赞同；偏袒
+
+
+
+1. Could you do me a favor? 
+
+   你可不可以帮我一个忙？
+
+2. Most people, in fact, favor the lessening of prejudice. 
+
+   事实上，大多数人都赞成减少偏见。
+
+   + lessening  /ˈlesnɪŋ/	n. 减轻，减少；变小	v. 减少；变小（lessen 的 ing 形式）
+   + prejudice /ˈpredʒudɪs/	n. 偏见，成见，歧视；<法律>损害，侵害	v. 使有偏见，使有成见； 损害，不利于
+
+3. I need to become more healthy, so I would favor an apple over a burger. 
+
+   我需要变得更健康，所以比起汉堡，我更偏好苹果。
+
+# add...to...
+
+phr. 往……加入……
+
+1. Add some sugar to your coffee to make it sweeter.
+   给你的咖啡加点糖让它更甜。
+   + sweeter /swiːtər/	adj. 更甜的；更香的；更悦耳的；更纯净的；更惬意的；更可爱的；更善良的；（非正式）更好的
+
+2. That will add to my pleasure. 
+
+   那样会增加我的乐趣。
+
+# probably /ˈprɑːbəbli/
+
+adv. 大概，或许
+
+1. You're probably right. 
+
+   你很可能是对的。
+
+2. It'll probably be OK. 
+
+   这大概没有问题。
+
+3. We shall most probably never meet again. 
+
+   我们极有可能再也见不到面了。
+
+# finance /ˈfaɪnæns; faɪˈnæns; fəˈnæns/
+
+n. 财政，金融；资金，财源；财务事务，经济情况
+
+v. 提供资金；贷款购买，赊购
+
+1. The old man financed a poor student to go to college.
+   老人资助那个贫困学生上大学
+   + poor  /pʊr; pɔːr/	adj. 贫穷的；可怜的，不幸的；（身体）虚弱的，衰弱的；不擅长的，不熟练的；劣质的，差的，次的；贫乏的；（数量、比率等）不理想的，不合理的
+   + college /ˈkɑːlɪdʒ/	n. 大学，专科学校；学院，分院；公学；学会，社团；学院的全体师生
+
+2. He does not understand finance at all. 
+
+   他对财务一窍不通。
+
+3. He majored in finance at university and is now working in a bank. 
+
+   他在大学时主修金融，现在在一家银行工作。
+
+   + majored /ˈmeɪdʒər/	adj. 重大的，主要的；严重的；大调的，大音阶的； <旧>（公立学校中置于学生姓氏后，表示两兄弟中）大的，年长的；主修的；大（项）的	n. 主修科目，专业；陆军少校，（美国）空军少校；（某专业的）主修学生；<美，非正式>职业棒球大联盟；大型公司，重要企业；成年人，已达到法定年龄者；（军乐队中主管某一乐器部的）乐器长；大调，大音程； 大项，大前提；主要世界性组织（或公司、比赛）
+
+# addition to sth.
+
+phr. 增加
+
+1. They had a new addition to the family just recently.
+   他们家里刚刚添了一口人。
+
+   + recently /ˈriːsntli/	adv. 最近，不久前
+
+2. Of course, in addition to my weekly pay, I got a lot of tips. 
+
+   当然，除了周薪外，我还得到很多小费。
 
 ---
 
