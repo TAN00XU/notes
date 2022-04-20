@@ -1,4 +1,121 @@
-[TOC]
+# criticize  /ˈkrɪtɪsaɪz/
+
+v. 批评，指责；评论
+
+1. The teacher is criticizing the student for being late .
+
+   老师正在批评这名迟到的学生。
+
+2. All you ever do is criticize! 
+
+   你就知道批评！
+
+3. You were quite right to criticize him. 
+
+   你批评他批评得很对。
+
+4. She was never one to criticize. 
+
+   她是个从不爱批评人的人。
+
+5. Don't criticize people behind their back! 
+
+   不要在别人背后批评他们！
+
+# flower /ˈflaʊər/
+
+n. 花，开花植物；精华，最好的部分
+
+v. 开花；繁荣，兴旺
+
+1. There are colorful flowers in that place.
+
+   那里有五颜六色的花。
+
+   + colorful /ˈkʌlərfl/	adj. 华美的；有趣的；富有色彩的
+
+2. The flowers are all open now. 
+
+   花现在都开了。
+
+3. The flowers are starting to open. 
+
+   花开始绽放了。
+
+4. These flowers are found only in Africa. 
+
+   这些花仅见于非洲。
+
+   + Africa /ˈæfrɪkə/	n. 非洲
+
+# adhere to /ədˈhɪr tu/
+
+坚持；粘附；拥护，追随
+
+1. I resolve to adhere to standards. 
+
+   我决心遵循标准。
+
+   + resolve  /rɪˈzɑːlv/	v. 解决（问题或困难）；决定，下定决心；作出决议，表决；分解，转化；（使）（症状、病情）消散，消退；解析，解离；分析；（不协和音）转向协和；（当远处物体看得更清楚时）变成；（光学仪器等）分辨；辨析（图表或光谱峰值）	n. <正式>决心，坚定的信念；<美>正式决定，决议；决定要做的事
+   + standards /ˈstændərdz/	n. 标准；规格；（金或银）本位；军旗；（流行）歌曲（standard 的复数）；行为准则，道德标准
+
+2. It is a policy that we will always adhere to. 
+
+   这是我们一贯坚持的政策。
+
+   + policy /ˈpɑːləsi/	n. 政策，方针；(处事) 原则，策略；保险单
+
+# fortune  /ˈfɔːrtʃən/
+
+n. 时运，命运；好运，机遇；财富，巨款；未来，前途
+
+v. 给予财富；偶然发生
+
+1. What a good fortune! I won the first prize.
+
+   运气真好！我中了一等奖。
+
+2. You won't have to shell out a fortune for it. 
+
+   你将不必为它花一大笔钱。
+
+3. That ring must be worth a fortune. 
+
+   那枚戒指肯定要值好多钱。
+
+   + ring  /rɪŋ/	n. 戒指，指环；环状物；环状线，圆形印迹；<英>腿环，足环（系在鸟腿上的铝环，供日后识别用）；（体操运动中的）吊环（rings）；围成一圈的人（或物）； 圆形表演场（或竞技场）；<英>圆形灶盘，炉头；铃声，钟声；按铃，敲钟；电话铃声；<英，非正式>打电话；清脆响亮声；（尤指教堂的）套钟，编钟；（非法交易或犯罪的）团伙，帮派；拳击比赛，摔跤比赛（the ring）；（言语、声音等的）特性；（天文）行星光环；（树木的）年轮（tree ring 的简称）；环路（ring road 的简称）；（考古）环形护城工事；<非正式>肛门；（化学）环；（数学）环		v. 包围，围住；<英>绕......画圆，把......圈起来；使成环形；（尤指在动物身上）套环，戴上环套；（使）发出钟声，响起铃声；<英>（给……）打电话；（电话）铃声响；（两耳）鸣响，嗡嗡作响；<文>回响，响彻；听上去（有指明的印象或品质）；充满（ring with）；<非正式>（尤指通过更改车牌号）非法将（汽车）改头换面
+   + worth  /wɜːrθ/	adj. 价值……的，值……钱的；值得的，具有……价值的；拥有……财产的；（尤指合同）毫无价值的	n. 价格，价值；重要性，作用； 能用（一个星期、一个月等）的东西
+
+# freshman  /ˈfreʃmən/
+
+n. <美>（中学或大学的）一年级学生；<美> 新手；新手
+
+1. She's a freshman. 
+
+   她是一个新生。
+
+2. Freshmen always have lots of things to do in their first few days at college.
+
+   在开学的头几天，新生们通常有很多事要做。
+
+# adjust to /əˈdʒʌst tu/
+
+调节；调整以适应
+
+1. A week later, the student adjusted to the life in the new school.
+   一星期后，这个学生适应了新学校的生活。
+
+2. How did you adjust to college life? 
+
+   你是怎么适应大学生活的？
+
+3. It took her a while to adjust to living alone. 
+
+   她过了一段时间才适应独自生活。
+
+4. Let your body adjust to the temperature. 
+
+   让你的身体渐渐适应水的温度。
 
 ---
 
