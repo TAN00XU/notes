@@ -1,3 +1,86 @@
+
+
+
+
+
+
+# during /ˈdʊrɪŋ/
+
+prep. 在……期间；在……期间的某个时候
+
+1. It’s rude to talk on the phone during dinner.
+   在吃晚餐时讲电话很没礼貌。
+
+2. During the drive, the baby slept. 
+
+   在行驶中那个婴儿睡了。
+
+3. I'm usually out during the day. 
+
+   白天我通常不在家。
+
+# gentleman /ˈdʒent(ə)lmən/
+
+n. 绅士；有教养的人
+
+1. Thank you. You really are a gentleman.
+   谢谢。您真是一位绅士。
+
+2. He's a true gentleman. 
+
+   他是个正人君子。
+
+3. Do you know what a gentleman is? 
+
+   你知道什么叫君子吗？
+
+4. 
+   A gentleman always does so. 
+
+   绅士总是这样的。
+
+# grant /ɡrænt/
+
+v. 允许，同意，准许
+
+n. 拨款
+
+1. Grant me one thing. 
+
+   允许我一件事。
+
+2. How do I apply for the grant? 
+
+   我怎样申请资助呢？
+
+   + apply  /əˈplaɪ/	v. 申请；涂，敷；施加，实施；应用，运用；踩（刹车）；适用，适合；指称
+
+3. I think you should apply for this grant. 
+
+   我认为你应该申请这项资助。
+
+4. You get a grant that you don't have to repay. 
+
+   你得到一笔不用偿还的助学金。
+
+   + repay /rɪˈpeɪ/	v. 付还，偿还；报答，回报；值得付出（时间、努力等）
+
+# admission of /ədˈmɪʃn əv/
+
+承认……
+
+1. She gave her sister an admission of breaking the vase.
+   她向姐姐承认是她打碎了花瓶。
+   + vase /veɪs; veɪz/	n. 花瓶，（装饰用的）瓶
+
+# however /haʊˈevər/
+
+adv. 然而，可是，不过；无论如何；（用于表示惊讶）究竟怎样；……左右，……上下
+
+conj. 不管怎样，无论如何；然而，可是
+
+
+
 # criticize  /ˈkrɪtɪsaɪz/
 
 v. 批评，指责；评论
