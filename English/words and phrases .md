@@ -1,8 +1,89 @@
 ---
 
----
+# admission to /ədˈmɪʃn tu/
+
+phr. ……许可；准许；允许进入
+
+1. He just got the admission to that college.
+
+   他刚刚收到了那所大学的入学许可。
+
+2. Admission to the lecture is free. 
+
+   讲座免费入场。
+
+   + lecture /ˈlektʃər/	n. 讲座，讲课，演讲；训斥，告诫	v. （尤指在大学里）开讲座，讲课；训斥，告诫
 
 
+
+# large  /lɑːrdʒ/
+
+adj. （尺寸、范围、容量）大的；广泛的，重要的；身材高大的；（公司或组织）大规模的
+
+n. 大号，同类中最大者
+
+v. <英，非正式>（尤指跳舞和饮酒）作乐，狂欢
+
+adv. 夸大地；大大地
+
+1. She has very large cup.
+   她有一个非常大的杯子。
+
+2. They have a large family to feed. 
+
+   他们要养活一大家人。
+
+3. The movie is drawing large audiences. 
+
+   这部影片吸引着大批观众。
+
+# guilty /ˈɡɪlti/
+
+adj. 内疚的，羞愧的；有罪的，有过失的
+
+1. I felt a wee bit guilty about it. 
+
+   我对此觉得有点儿愧疚。
+
+   + wee /wiː/	adj. 极小的；微量的	n. 小便，排尿；尿	v. 小便，排尿
+
+2. I was feeling guilty. 
+
+   我感到歉疚。
+
+# advance in  /ədˈvæns ɪn/
+
+1. The discovery of this medicine was a great advance in human history.
+   这种药物的发现是人类历史上的一大进步。
+
+2. Some, though, do advance in the game. 
+
+   不过，有些球员确实在比赛中取得了进步。
+
+# reason /ˈriːzn/
+
+n. 原因，理由；充分理由，正当理由；道理，情理；判断力，理智
+
+v. 推理，逻辑思考；推论出，推断出（reason sth. out）；对（某人）以理相劝，劝告（reason with）
+
+1. The reason why he’s late for school is that he `stayed up late` doing homework last night.
+   他迟到的原因是昨晚`熬夜`写作业了。
+
+2. I had no reason to doubt him. 
+
+   我没有理由不相信他。
+
+   + doubt /daʊt/	v. 怀疑，不确定；不信任	n. 怀疑，不确定
+
+3. He had every reason to be angry. 
+
+   他完全有理由感到愤怒。
+
+   + angry /ˈæŋɡri/	adj. 愤怒的，生气的；狂风暴雨的，波涛汹涌的；红肿的，感染的
+
+4. Why won't you listen to reason ? 
+
+   你怎么就不听劝呢？
 
 ---
 
