@@ -1,4 +1,89 @@
+# infect  /ɪnˈfekt/
+
+v. 传染，浸染；污染，败坏；（某种感情或兴趣）影响；感染（计算机病毒）
+
+1. You are sick! Put the mask on, or you will infect others.
+   你生病了！把口罩带上，不然你会传染给别人的。
+   + sick /sɪk/	adj. 生病的，患病的；病人的；恶心的，想吐的；不快的，恼怒的；厌倦的，厌烦的；（情感）强烈得令人不适的；（人）变态的，病态的；（故事、笑话等）令人毛骨悚然的，病态的；不祥的；（喻）（组织，体系，社团）面临严重问题的，不景气的；<非正式> 极好的；渴望的	n. 病人（the sick）；<英，非正式> 呕吐物
+
+2. His creativity would infect other students. 
+
+   他的创造力会感染其他的学生。
+
+   + creattivity /ˌkriːeɪˈtɪvəti/	n. 创造力，独创性
+
+3. The birds infect the milk. 
+
+   鸟使牛奶受污染。
+
+4. Don't worry. I never infect. 
+
+   别担心，我从不受传染。
+
+# passenger /ˈpæsɪndʒər/
+
+n. 乘客，旅客；（团体中）不干活的人，闲散人员
+
+adj. 乘客的，旅客的
+
+1. 
+   I sat in the passenger seat. 
+
+   我坐在旅客座位上。
+
+2. They had a very difficult passenger. 
+
+   他们有一个难相处的乘客。
+
+3. A passenger needed a cup of water to take his medicine. 
+
+   一位乘客需要一杯水吃药。
+
+# advantage over  /ədˈvæntɪdʒ ˈoʊvər/
+
+phr. 占优势
+
+1. Being tall gave him an advantage over the other players. 
+
+   他个子高，比其他运动员有利。
+
+2. Wheels gave the snail an advantage over everyone else in the race.
+   轮子让这只蜗牛在比赛中比其他蜗牛占优势。
+
+   + wheels /wiːlz/	n. [车辆]车轮（wheel 的复数）；旋转	v. 推动；改变……的方向；装以车轮（wheel 的三单形式）
+   + snail /sneɪl/	n. 蜗牛；迟钝的人	v. 缓慢移动
+
+# install /ɪnˈstɔːl/
+
+v. 安装，安置
+
+1. The man  install a ceiling fan.
+
+   + ceiling /ˈsiːlɪŋ/	n. 天花板，吊顶；上限，最高限度；最高飞行限度，升限
+
+2. If not, you can download and install it. 
+
+   如果没有，你可以下载并安装它。
+
+3. Install the operating system. 
+
+   安装操作系统。
+
+   + operating /ˈɑpəretɪŋ/	adj. （机器、车辆、装置等）操作的，运作的；（企业、部门等）经营的，管理的	v. 操纵，操作（机器或设备）；（机器等）运转，运行；开刀，动手术（operate 的现在分词形式）
+
+# affection for /əˈfekʃn fɔːr/
+
+phr. 对……的感情
+
+1. I still have affection for my old school. 
+
+   我对母校依然很有感情。
+
+2. He showed deep affection for his wife.
+   他对妻子表现出深深的感情。
+
 ---
+
 
 # admission to /ədˈmɪʃn tu/
 
