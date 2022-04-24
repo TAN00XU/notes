@@ -83,6 +83,55 @@ phr. 毕竟，终究
 
    你毕竟成功了！
 
+2. It doesn't look as if we'll be moving after all. 
+
+   看样子我们还是不可能搬迁了。
+
+3. It was actually quite fun after all. 
+
+   这居然还很有趣。
+
+   + actually /ˈæktʃuəli/	adv. 实际上，事实上；（用于开始新话题）其实；竟然，居然
+
+# test /test/
+
+n. （书面或口头的）测验，考试；（医疗上的）检查，化验，检验；（对机器或武器等的）试验，检验；（对水、土壤、空气等的）检测，检验；（衡量能力或技能等的）测试，考验；医疗检查设备；化验结果；（常指板球、橄榄球的）国际锦标赛（Test）；准则，标准；（冶）烤钵，灰皿；（一些无脊椎动物和原生动物的）甲壳
+
+v. 试验，测试；测验，考查（熟练程度，知识）；检测，检验（质量或含量）；检查（身体），（用试剂）化验；考验；尝，（触）试
+
+1. If you study for the test, It will be easy.
+   如果认真准备了，考试会很简单。
+
+2. She took her driving test yesterday. 
+
+   她昨天参加了驾照考试。
+
+3. I found the test relatively easy. 
+
+   我觉得这次测试比较容易。
+
+   + relatively  /ˈrelətɪvli/	adv. 相当地，相对地
+
+4. When can I get my test results ? 
+
+   我什么时候可以拿到化验结果？
+
+# lifetime /ˈlaɪftaɪm/
+
+n. 一生，终生；寿命，有效期，使用期；很长一段时间
+
+adj. 一生的，终身的
+
+1. It was a lifetime experience. 
+
+   这是一生的经历。
+
+   + experience  /ɪkˈspɪriəns/	n. 经历，往事；经验，阅历；传统	v. 经历，遭遇；体会到，感受到
+
+2. He said, "People need a lifetime to learn how to live a good life like loving everybody and being nice, right?" 
+
+   他说：“人们需要一生的时间来学习如何过美好的生活，比如爱每个人，待人友善，对吗？”
+
 
 
 # infect  /ɪnˈfekt/
