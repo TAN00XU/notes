@@ -2,7 +2,106 @@
 
 
 
+# agree to do sth. 
 
+phr. 同意做某事
+
+1. The mother agrees to let her son drink some soda.
+   妈妈同意让他儿子喝点汽水。
+
+# university /ˌjuːnɪˈvɜːrsəti/
+
+n. 大学，综合性大学；大学校舍
+
+1. My daughter is at university. 
+
+   我女儿在上大学。
+
+2. Is there a university in this town? 
+
+   这座城市有没有大学？
+
+3. He's hoping to go to university next year. 
+
+   他希望明年能上大学。
+
+# medium /ˈmiːdiəm/
+
+n. 媒介，媒体；方法，手段；（艺术创作）材料，素材；灵媒，巫师；培养基；环境；中等，中号；存储（或打印）介质；（颜料）溶剂（如油或水）；（品质、状态）中等，中庸
+
+adj. 中等的，中间的，适中的；五分熟的，半熟的；（程度、强度或数量）平均的；（颜色）不深不浅的，适中的；（投球，投球手）中速的
+
+1. I’d like a medium-sized television.
+   我想要一台中等尺寸的电视机。
+
+2. There are three sizes—small, medium and large. 
+
+   有三种尺寸—小号、中号和大号。
+
+3. This is a new medium of art. 
+
+   这是一种新的艺术媒介。
+
+   + art /ɑːrt/	n. 美术，艺术；艺术品；技术，技巧；人文学科；艺术活动（the arts）	adj. 艺术性的
+
+4. Money is a medium for buying and selling. 
+
+   钱是用来买卖的一种媒介。
+
+   + selling /ˈselɪŋ/	n. 销售；出售	v. 出售（sell 的现在分词形式）
+
+# metal /ˈmetl/
+
+n. 重金属音乐；金属色；筑路碎石；玻璃液；（铁路的）钢轨；金属，合金
+
+v. 用金属做，用金属包；<英>用碎石筑路，用碎石修路
+
+adj. 金属制的
+
+1. Wow, these roses are made of metal.
+   哇，这些玫瑰花是金属做的。
+
+2. If metal gets hot it expands. 
+
+   金属受热就膨胀。
+
+   + expand /ɪkˈspænd/	v. 扩大，增加；扩展，发展；细谈，详述；变得更自信（善谈）；（宇宙）膨胀
+
+3. The metal felt smooth and cold. 
+
+   这种金属摸上去光滑而冰冷。
+
+   + smooth /smuːð/	adj. （表面）光滑的，平坦的，平整的；顺利的，无困难的；（动作等）流畅的，（骑马、航行等）平稳的；（人）圆滑的，八面玲珑的；（液体混合物）均匀的，不结块的；（声音）圆润的，悦耳的；（味道、气味等）醇和的，不烈的；（网球拍或软式壁球拍无线结的一面）光面，滑面	v. 抚平，弄平滑；轻轻地涂擦（液体、面霜等）；解决问题，消除困难；修改（图表、曲线等）以减少不规则现象；缓和；使优雅	n. 平滑部分	adv. 光滑地，平稳地，流畅地
+
+# agree with sb.
+
+phr. 同意某人的看法，与某人看法一致
+
+1. He and I both agree with each other.
+
+   他和我都同意了对方的观点。
+
+   + each other 彼此，互相
+
+2. I agree with you up to a point. 
+
+   我在某种程度上同意你的看法。
+
+3. I agree with you, as it happens. 
+
+   我恰恰和你意见一致。
+
+   + happens /ˈhæpənz/	发生	碰巧
+
+4. No, I'm sorry, I can't agree with you. 
+
+   不，抱歉，我不同意你。
+
+5. I agree with every word you've just said. 
+
+   我同意你刚刚说的每个字
+
+---
 
 
 
