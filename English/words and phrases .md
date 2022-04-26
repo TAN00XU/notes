@@ -2,6 +2,97 @@
 
 
 
+# face  /feɪs/
+
+n. 脸，面部；面部表情，脸色；人；初看，初听；尊严，威信；面貌；（物体的）正面，表面；斜坡，山坡；钟面，表盘；采掘面，工作面；（球拍的）拍面；（尤指足球的）球门
+
+v. 面临，遭遇；正视，面对；与……交往，与……交谈；面向，面朝；迎战，对阵；抹盖，覆盖；接受，容忍
+
+1. The beautiful woman touching her face.
+   这个美丽的女人正在摸自己的脸。
+
+2. His face was bleak. 
+
+   他面容沮丧。
+
+   + bleak /bliːk/	adj. 不乐观的，无望的；无遮掩的，荒凉的；阴冷的，寒冷的；沮丧的，阴郁的；（人或其表情）冷漠的，冷峻的
+
+3. Tears ran down her face. 
+
+   泪水顺着她的脸庞流下来。
+
+   + tears  /tɪəz/	v. 流泪；撕裂，撕开；快走（tear 的第三人称单数）n. 眼泪；泪水（tear 的复数）
+
+# miserable /ˈmɪzrəbl/
+
+adj. 痛苦的，使人难受的；（人）乖戾的，总是抱怨的；少得可怜的，太少的；糟糕的，差劲的
+
+1. The man feels tired and miserable.
+   这个男人感到疲倦和痛苦。
+
+2. The play was a miserable failure. 
+
+   这部话剧是个可悲的失败。
+
+   + failure /ˈfeɪljər/	n. 失败；失败的人（或企业、事物）；未做到；缺乏，不足；故障，衰退；公司倒闭；歉收；突然失去
+
+3. I spent a miserable weekend alone at home. 
+
+   我独自一人在家度过了一个惨兮兮的周末。
+
+# ahead of time
+
+phr. 提前
+
+1. Tom reached school ahead of time. 
+
+   汤姆提前到了学校。
+
+   + reached /riːtʃt/	vt. 抵达；达到；伸出（手，臂）；够到……；将……拿下；（通过电话）联系；与……交流；打动，赢得（reach 的过去式与过去分词）	vi. 伸手去够，伸手去拿；到达（reach 的过去式与过去分词）
+
+2. Get to know your audience ahead of time. 
+
+   事先对你的听众有所了解。
+
+3. Owing to our efforts, the task was finished ahead of time. 
+
+   由于我们的努力，任务提前完成了。
+
+   + efforts /ˈefərts/	n. 努力；尝试；有组织的活动；<非正式>质量不高的成果；努力的结果，成就（effort 的复数）
+
+# neglect  /nɪˈɡlekt/
+
+v. 疏于照顾，未予看管；不予重视，忽视；漏做
+
+n. 忽略，忽视，未被重视
+
+1. Neglect of family and friends. 
+
+   忽视家人和朋友。
+
+2. Don't neglect minor issues. 
+
+   不要忽略枝节问题。
+
+   + minor /ˈmaɪnər/	adj. 较小的，次要的，轻微的；（疾病）不严重的，（手术）小的；小调的，小音阶的；未成年的；数量少的，范围小的；（逻）小（项）；<英，旧>（两兄弟或同姓男生中）年龄更小的	n. 未成年人；辅修课程；（美国大学中的）辅修生；（乐）小调，小音程；（逻）小项，小前提；禾夜蛾
+
+# aim at /eɪm æt/
+
+v. 针对；瞄准；目的在于
+
+1. He is aiming at the target.
+   他正瞄准靶心。
+
+2. They aim at the wrong target. 
+
+   他们瞄准了错误的目标。
+
+
+
+---
+
+
+
 # agree to do sth. 
 
 phr. 同意做某事

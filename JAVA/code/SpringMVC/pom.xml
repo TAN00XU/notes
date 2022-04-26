@@ -14,6 +14,9 @@
         <module>Springmvc-03-annotation</module>
         <module>Springmvc-04-controller</module>
         <module>Springmvc-05-json</module>
+        <module>Springmvc-06-ajax</module>
+        <module>Springmvc-07-intercepter</module>
+        <module>Springmvc-08-file</module>
     </modules>
 
     <properties>
