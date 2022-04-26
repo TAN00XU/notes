@@ -1866,5 +1866,305 @@ jQuery.ajax(...)
 
 ## 十一、SpringMVC拦截器
 
+### 11.1、概述
 
+SpringMVC的处理器拦截器类似于Servlet开发中的过滤器Filter,用于对处理器进行预处理和后处理。开发者可以自己定义一些拦截器来实现特定的功能。
+
+**过滤器与拦截器的区别：**拦截器是AOP思想的具体应用。
+
+**过滤器**
+
+- servlet规范中的一部分，任何java web工程都可以使用
+- 在url-pattern中配置了/*之后，可以对所有要访问的资源进行拦截
+
+**拦截器** 
+
+- 拦截器是SpringMVC框架自己的，只有使用了SpringMVC框架的工程才能使用
+- 拦截器只会拦截访问的控制器方法， 如果访问的是jsp/html/css/image/js是不会进行拦截的
+
+### 11.2、自定义拦截器
+
+==想要自定义拦截器，必须实现 `HandlerInterceptor` 接口。==
+
+#### MyInterceptor
+
+```java
+package com.tan00xu.config;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MyInterceptor implements HandlerInterceptor {
+    //return ture; 执行下一个拦截器，放行
+    //return false; 不执行下一个拦截器，拦截
+    @Override
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        System.out.println("==========处理前==========");
+        return true;
+    }
+
+    @Override
+    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
+        System.out.println("==========处理后==========");
+
+    }
+
+    @Override
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+        System.out.println("==========完成后==========");
+
+    }
+
+}
+```
+
+#### applicationContext.xml
+
+```xml
+<!--拦截器配置-->
+<mvc:interceptors>
+    <!--/** 包括路径及其子路径-->
+    <!--/admin/* 拦截的是/admin/add等等这种 , /admin/add/user不会被拦截-->
+    <!--/admin/** 拦截的是/admin/下的所有-->
+    
+    <mvc:interceptor>
+        <!--包括这个请求下面的所有请求-->
+        <mvc:mapping path="/**"/>
+        <!--bean配置的就是拦截器-->
+        <bean class="com.tan00xu.config.MyInterceptor"/>
+    </mvc:interceptor>
+
+    <!--登录拦截-->
+    <mvc:interceptor>
+        <mvc:mapping path="/user/**"/>
+        <bean class="com.tan00xu.config.LoginInterceptor"/>
+    </mvc:interceptor>
+</mvc:interceptors>
+```
+
+
+
+---
+
+
+
+## 十二、文件的上传和下载
+
+### 12.1、准备工作
+
+文件上传是项目开发中最常见的功能之一 ,springMVC 可以很好的支持文件上传，但是SpringMVC上下文中默认没有装配MultipartResolver，因此默认情况下其不能处理文件上传工作。如果想使用Spring的文件上传功能，则需要在上下文中配置MultipartResolver。
+
+#### 前端表单要求：
+
+为了能上传文件，必须将表单的method设置为POST，并将enctype设置为multipart/form-data。只有在这样的情况下，浏览器才会把用户选择的文件以二进制数据发送给服务器；
+
+**对表单中的 enctype 属性做个详细的说明：**
+
+- **application/x-www=form-urlencoded**：默认方式，只处理表单域中的 value 属性值，采用这种编码方式的表单会将表单域中的值处理成 URL 编码方式。
+- **multipart/form-data**：这种编码方式会以二进制流的方式来处理表单数据，这种编码方式会把文件域指定文件的内容也封装到请求参数中，不会对字符编码。
+- **text/plain**：除了把空格转换为 "+" 号外，其他字符都不做编码处理，这种方式适用直接通过表单发送邮件。
+
+```html
+<form action="" enctype="multipart/form-data" method="post">
+   <input type="file" name="file"/>
+   <input type="submit">
+</form>
+```
+
+一旦设置了enctype为multipart/form-data，浏览器即会采用二进制流的方式来处理表单数据，而对于文件上传的处理则涉及在服务器端解析原始的HTTP响应。在2003年，Apache Software Foundation发布了开源的Commons FileUpload组件，其很快成为Servlet/JSP程序员上传文件的最佳选择。
+
+- Servlet3.0规范已经提供方法来处理文件上传，但这种上传需要在Servlet中完成。
+- 而Spring MVC则提供了更简单的封装。
+- Spring MVC为文件上传提供了直接的支持，这种支持是用即插即用的MultipartResolver实现的。
+- Spring MVC使用Apache Commons FileUpload技术实现了一个MultipartResolver实现类：
+- CommonsMultipartResolver。因此，SpringMVC的文件上传还需要依赖Apache Commons FileUpload的组件。
+
+### 12.2、文件上传
+
+#### 12.2.1、导入jar包
+
+commons-fileupload ， Maven会自动帮我们导入他的依赖包 commons-io包
+
+```xml
+<!--文件上传-->
+<!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
+<dependency>
+    <groupId>commons-fileupload</groupId>
+    <artifactId>commons-fileupload</artifactId>
+    <version>1.4</version>
+</dependency>
+
+<!--servlet-api导入高版本的-->
+<dependency>
+   <groupId>javax.servlet</groupId>
+   <artifactId>javax.servlet-api</artifactId>
+   <version>4.0.1</version>
+</dependency>
+```
+
+#### 12.2.2、配置bean：multipartResolver
+
+==**注意！！！这个bena的id必须为：multipartResolver ， 否则上传文件会报400的错误！**==
+
+```xml
+<!--文件上传配置-->
+<bean id="multipartResolver"  class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+    <!-- 请求的编码格式，必须和jSP的pageEncoding属性一致，以便正确读取表单的内容，默认为ISO-8859-1 -->
+    <property name="defaultEncoding" value="utf-8"/>
+    <!-- 上传文件大小上限，单位为字节（10485760=10M） -->
+    <property name="maxUploadSize" value="10485760"/>
+    <property name="maxInMemorySize" value="40960"/>
+</bean>
+```
+
+CommonsMultipartFile 的 常用方法：
+
+- **String getOriginalFilename()：获取上传文件的原名**
+- **InputStream getInputStream()：获取文件流**
+- **void transferTo(File dest)：将上传文件保存到一个目录文件中**
+
+#### 12.2.3、前端页面
+
+```html
+<form action="/upload" enctype="multipart/form-data" method="post">
+ <input type="file" name="file"/>
+ <input type="submit" value="upload">
+</form>
+```
+
+#### 12.2.4、FileController
+
+```java
+//@RequestParam("file") 将name=file控件得到的文件封装成CommonsMultipartFile 对象
+//批量上传CommonsMultipartFile则为数组即可
+@RequestMapping("/upload")
+public String fileUpload(@RequestParam("file") CommonsMultipartFile file , HttpServletRequest request) throws IOException {
+
+    //获取文件名 : file.getOriginalFilename();
+    String uploadFileName = file.getOriginalFilename();
+
+    //如果文件名为空，直接回到首页！
+    if ("".equals(uploadFileName)){
+        return "redirect:/index.jsp";
+    }
+    System.out.println("上传文件名 : "+uploadFileName);
+
+    //上传路径保存设置
+    String path = request.getServletContext().getRealPath("/upload");
+    //如果路径不存在，创建一个
+    File realPath = new File(path);
+    if (!realPath.exists()){
+        realPath.mkdir();
+    }
+    System.out.println("上传文件保存地址："+realPath);
+
+    InputStream is = file.getInputStream(); //文件输入流
+    OutputStream os = new FileOutputStream(new File(realPath,uploadFileName)); //文件输出流
+
+    //读取写出
+    int len=0;
+    byte[] buffer = new byte[1024];
+    while ((len=is.read(buffer))!=-1){
+        os.write(buffer,0,len);
+        os.flush();
+    }
+    os.close();
+    is.close();
+    return "redirect:/index.jsp";
+}
+```
+
+#### 12.2.5、采用file.Transto 来保存上传的文件
+
+```java
+/*
+* 采用file.Transto 来保存上传的文件
+*/
+@RequestMapping("/upload2")
+public String  fileUpload2(@RequestParam("file") CommonsMultipartFile file, HttpServletRequest request) throws IOException {
+
+   //上传路径保存设置
+   String path = request.getServletContext().getRealPath("/upload");
+   File realPath = new File(path);
+   if (!realPath.exists()){
+       realPath.mkdir();
+  }
+   //上传文件地址
+   System.out.println("上传文件保存地址："+realPath);
+
+   //通过CommonsMultipartFile的方法直接写文件（注意这个时候）
+   file.transferTo(new File(realPath +"/"+ file.getOriginalFilename()));
+
+   return "redirect:/index.jsp";
+}
+```
+
+### 12.3、文件下载
+
+#### 12.3.1、**文件下载步骤：**
+
+1、设置 response 响应头
+
+2、读取文件 -- InputStream
+
+3、写出文件 -- OutputStream
+
+4、执行操作
+
+5、关闭流 （先开后关）
+
+#### 12.3.2、代码实现
+
+```java
+@RequestMapping(value="/download")
+public String downloads(HttpServletResponse response ,HttpServletRequest request) throws Exception{
+   //要下载的图片地址
+   String  path = request.getServletContext().getRealPath("/upload");
+   String  fileName = "基础语法.jpg";
+
+   //1、设置response 响应头
+   response.reset(); //设置页面不缓存,清空buffer
+   response.setCharacterEncoding("UTF-8"); //字符编码
+   response.setContentType("multipart/form-data"); //二进制传输数据
+   //设置响应头
+   response.setHeader("Content-Disposition",
+           "attachment;fileName="+URLEncoder.encode(fileName, "UTF-8"));
+
+   File file = new File(path,fileName);
+   //2、 读取文件--输入流
+   InputStream input=new FileInputStream(file);
+   //3、 写出文件--输出流
+   OutputStream out = response.getOutputStream();
+
+   byte[] buff =new byte[1024];
+   int index=0;
+   //4、执行 写出操作
+   while((index= input.read(buff))!= -1){
+       out.write(buff, 0, index);
+       out.flush();
+  }
+   out.close();
+   input.close();
+   return null;
+}
+```
+
+#### 12.3.3、前端方式
+
+```html
+<a href="/download">点击下载</a>
+```
+
+
+
+
+
+---
+
+
+
+###### 感谢==**狂神**==>>>[传送门](https://www.bilibili.com/video/BV1aE41167Tu?share_source=copy_web)
 
