@@ -1510,6 +1510,17 @@ public class AnnotationPointCut {
 
 
 
+### ==**注意点**==
+
+#### JoinPoint和ProceedingJoinPoint区别
+
+1. `ProceedingJoinPoint`==只适用于环绕通知==,因为只有环绕通知,才能控制目标方法的运行.
+
+2. `JoinPoint` 适用于其它的四大通知类型,可以用来记录运行的数据.
+
+3. `ProceedingJoinPoint `中有特殊的方法`proceed()`，用于执行方法;
+4. 如果使用"JoinPoint" 则必须位于参数的第一位
+
 ---
 
 
