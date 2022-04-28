@@ -1283,13 +1283,13 @@ AOP（Aspect Oriented Programming）意为：面向切面编程，通过预编�
 
 SpringAop中，通过Advice定义横切逻辑，Spring中支持的5种类型的Advice
 
-| 通知类型     | 连接点               | 实现接口                                        |
-| ------------ | -------------------- | ----------------------------------------------- |
-| 前置通知     | 方法前               | org.springframework.aop.MethodBeforeAdvice      |
-| 后置通知     | 方法后               | org.springframework.aop.AfterReturningAdvice    |
-| 环绕通知     | 方法前后             | org.aopalliance.intercept.MethodInterceptor     |
-| 异常抛出通知 | 方法抛出通知         | org.springframework.aop.ThrowsAdvice            |
-| 中介通知     | 类中增加新的方法属性 | org.springframework.aop.IntroductionInterceptor |
+| 方法          | 通知类型     | 连接点               | 实现接口                                        |
+| ------------- | ------------ | -------------------- | ----------------------------------------------- |
+| Before        | 前置通知     | 方法前               | org.springframework.aop.MethodBeforeAdvice      |
+| After         | 后置通知     | 方法后               | org.springframework.aop.AfterReturningAdvice    |
+| Around        | 环绕通知     | 方法前后             | org.aopalliance.intercept.MethodInterceptor     |
+| AfterThrowing | 异常抛出通知 | 方法抛出通知         | org.springframework.aop.ThrowsAdvice            |
+| AfterRunning  | 中介通知     | 类中增加新的方法属性 | org.springframework.aop.IntroductionInterceptor |
 
 AOP在不改变原有代码的情况下，去增加新的功能
 
@@ -1511,6 +1511,17 @@ public class AnnotationPointCut {
 
 
 ### ==**注意点**==
+
+#### 执行的顺序
+
+```mermaid
+graph LR
+	a["@Around环绕之前"] ==> b["@Before在方法之前"] ==> c["@AfterReturning"] ==> d["@AfterReturning"] ==> e["@After在方法之后"] ==> f["@Around环绕之后"]
+```
+
+
+
+
 
 #### JoinPoint和ProceedingJoinPoint区别
 
@@ -1736,7 +1747,7 @@ public class MyTest {
 }
 ```
 
-### 方式二(继承`SqlSessionDaoSupport`)
+### 13.2、方式二(继承`SqlSessionDaoSupport`)
 
 `SqlSessionDaoSupport`是MyBatis SqlSession 数据访问对象的便捷超类。它使您可以访问模板，然后可以使用该模板执行 SQL 方法。此类需要 `SqlSessionTemplate` 或 `SqlSessionFactory`。如果两者都设置了 `SqlSessionFactory `将被忽略。
 
