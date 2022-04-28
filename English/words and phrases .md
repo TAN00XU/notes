@@ -2,6 +2,107 @@
 
 
 
+# likely /ˈlaɪkli/
+
+adj. 可能发生的；似乎合适的，仿佛恰当的；似乎真实的，可信的；看上去精力充沛（或有能力）的
+
+adv. 大概，很可能
+
+1. We will likely see him later. 
+
+   我们很可能晚些时候会见到他。
+
+2. Talks are likely to start next Tuesday. 
+
+   会谈可能在下星期二开始。
+
+3. It’s likely that after thunder, there’ll be rain.
+   打雷过后可能要下雨了。
+
+# objective /əbˈdʒektɪv/
+
+n. 目的，目标；出击目标（尤指在军事攻击中)；（望远镜或显微镜中的）物镜；出击目标（尤指在军事攻击中）；宾格
+
+adj. 客观的，不带个人情感的；客观存在的；宾格的；目标的
+
+1. My objective this year is to lose weight.
+
+   我今年的目标是减肥。
+
+2. What is the main objective of this project? 
+
+   这个项目的主要目标是什么？
+
+3. We hope this objective will be attained. 
+
+   我们希望这个目标能够达到。
+
+   + attained  /əˈteɪnd/	vt. 取得，得到，获得（attain 的过去式）
+
+# nowhere  /ˈnoʊwer/
+
+adv. 无处，哪里都不；不可能看见（或找到）的；没有任何地方；无名的小地方；（在文本、演讲或争论中） 任何地方都没有
+
+n. 不存在的地方，荒芜的地区
+
+adj. <非正式>无望成功的；不知名的
+
+1. He looked everywhere in the room, but the key was nowhere to be found.
+   他在房间里到处找，但哪里都找不到钥匙。
+
+2. There was nowhere for me to sit. 
+
+   我无处可坐。
+
+3. They are nowhere near good enough. 
+
+   他们远不够好。
+
+4. The children were nowhere to be seen. 
+
+   根本看不到孩子们在哪儿。
+
+   + seen /siːn/	vi. 看见；明白（see 的过去分词）	vt. 看望；会见；观看
+
+# all at once /ɔːl æt wʌns/
+
+phr. 同时；突然
+
+1. All at once there was someone knocking on the door. 
+
+   突然有人敲门。
+
+2. She wanted to laugh and weep all at once. 
+
+   她哭笑不得。
+
+3. Can you have it all at once? Maybe. 
+
+   你能一次拥有吗，也许。
+
+# age /eɪdʒ/
+
+n. 年龄，年纪；寿命，（物的）年代；法定年龄；时代，时期；年龄段；<非正式>很长时间；成长，年老，陈年；（地质）代
+
+v. 变老，老化；（使）显老，（使）苍老；（使）变陈，（使）成熟；<英>推算年龄
+
+1. These are people of different ages.
+   这些都是不同年龄段的人。
+
+2. She lived to a great age. 
+
+   她活了很大岁数。
+
+3. Can you guess his age? 
+
+   你能猜出他的年龄吗？
+
+
+
+---
+
+
+
 # face  /feɪs/
 
 n. 脸，面部；面部表情，脸色；人；初看，初听；尊严，威信；面貌；（物体的）正面，表面；斜坡，山坡；钟面，表盘；采掘面，工作面；（球拍的）拍面；（尤指足球的）球门
