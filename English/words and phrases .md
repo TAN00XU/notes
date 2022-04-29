@@ -2,6 +2,140 @@
 
 
 
+# ingredient /ɪnˈɡriːdiənt/
+
+n. （食品的）成分，原料；要素，因素
+
+adj. 构成组成部分的
+
+1. What's that ingredient? 
+
+   这个成分到底是什么？
+
+2. But it's more than just an ingredient. 
+
+   但它的意义不仅仅是一种原料。
+
+# neighbor /ˈneɪbər/
+
+n. 邻居
+
+adj. 邻近的
+
+vi. 友好；毗邻而居
+
+vt. 邻接
+
+1. My neighbor is a doctor. 
+
+   我的邻居是个医生。
+
+2. We live in the same apartment block, so we are neighbors.
+   我们住在同一栋楼，所以我们是邻居。
+   + apartment /əˈpɑːrtmənt/	n. 公寓套房；（总统等要人的）房间，套间
+
+# officer /ˈɑːfɪsər/
+
+n. 军官；（政府或大机构的）官员，高级职员；警察，警官；船长
+
+v. 配备军官；指挥
+
+1. He’s a friendly police officer.
+   他是一个和善的警察。
+
+2. The officer scanned the room. 
+
+   警察仔细察看了那个房间。
+
+   + scanned /skænd/	v. 扫描；浏览；察看（scan 的过去式和过去分词）
+
+3. 
+   The police officer took my name and address. 
+
+   警察记下了我的姓名和地址。
+
+# all but
+
+phr. 除……以外的所有，几乎，差一点
+
+1. All but one of the fish are swimming in the same direction.
+   除了这只鱼，其它所有的都在向一个方向游。
+   + direction /dəˈrekʃn; daɪˈrekʃn/	n. 方向，方位；趋势，动向；指示，说明；目标；方面；管理，指导；导演
+
+2. All but one of the plates were damaged. 
+
+   除去一只，盘子全打碎了。
+
+   + plates /pleɪts/	n. 盘子（plate 的复数）；板材；[建]平板
+   + damaged /ˈdæmɪdʒd/	adj. 被损坏的	v. 损害；伤害；破坏（damage 的过去式和过去分词）
+
+3. The party was all but over when we arrived. 
+
+   我们到的时候，聚会都快要结束了。
+
+# close /kloʊz; kloʊs/
+
+v. （使）关闭；合上，合拢；（使）暂时性关闭，关门；（永久）停业，停止活动；（使）结束，（使）停止；结清（银行账目，房屋互助协会账目）；关闭（计算机上的文件、文档或程序）；（股票等）收盘；拉近（距离），缩小（差距）；把……牢牢抱住（或抓住、握住）；（使）（伤口）愈合；关闭，封锁（公路、公园等）；完成，做成（交易等）；接通（电路）；盖住，合上（开口）；堵住，封闭；（报价等）停止，中止
+
+adj. （空间或时间上）接近的，靠近的；酷似的，几乎相等的；接近的，快要……的；（数量、数字、水平等）接近的；（通常指危险或不愉快的情况几乎发生）差一点儿，险些；近亲的（如父母、子女、兄弟姐妹等）；亲近的，亲密的；（与某人的工作或活动）紧密相关的，密切的；仔细的，全面的；实力相差无几的，仅以些微之差获胜的；几乎要……的，差不多要……的；闷热的，不通风的；密集的，空间很小的；（头发或胡子）紧贴皮肤的，齐根的；守口如瓶的，掩饰感情的；吝啬的，小气的；严加保护的，严加守卫的；差不多正确的；闭塞音的，闭的（发音时口形相对闭合的）
+
+adv. （空间上）靠近地，（时间上）接近地
+
+n. （活动或一段时间的）结束，末尾；大教堂所属的周围场地及建筑物；一端不通的街道，死胡同，死巷道；<英>英国某些传统公学的操场；<苏格兰>（街道和公用楼梯或后院间的）通路，入口；（股市一日的）收盘（the close）；（板球一日比赛的）终赛（the close）；（乐）短句结尾，收束；关闭（尤指关门）
+
+1. The man is closing the door.
+   这个人正在关门。
+
+2. What time does the bank close? 
+
+   那家银行什么时候关门？
+
+3. I think it's going to be close. 
+
+   我认为这将是一场实力很接近的角逐。
+
+4. Our friends live close by. 
+
+   我们的朋友住得不远。
+
+5. I couldn't get close enough to see. 
+
+   我无法靠得很近去看清楚。
+
+# perfect /ˈpɜːrfɪkt/
+
+adj. 无瑕的，完好的；完全正确的，极其准确的；完美的，理想的；最佳的，绝配的；十足的，完全的；通常的，大体的；（语法）完成时的，完成式的；（数字）完全的；（花）有雌雄蕊的；（昆虫）性成熟的；（真菌）有性孢子形成阶段的，有性的；完成时的，完成式的
+
+v. 完善，使完美；双面印完（一页纸）；<法律>使（礼物、头衔等）合法转移
+
+1. It was a perfect summer's day. 
+
+   那是个完美的夏日。
+
+2. The weather was perfect. 
+
+   天气好极了。
+
+3. Nobody is perfect. 
+
+   人无完人。
+
+4. I don't know him—he's a perfect stranger. 
+
+   我不认识他，他是百分之百的陌生人。
+
+   + stranger /ˈstreɪndʒər/	n. 陌生人；新来者，异乡人；从未经历某事的人 ；稀客（用于和好久不见的人打招呼）；用于表示希望很快再见到某人；非众议院议员者，非众议院官员者
+
+
+
+
+
+
+
+---
+
+
+
 # likely /ˈlaɪkli/
 
 adj. 可能发生的；似乎合适的，仿佛恰当的；似乎真实的，可信的；看上去精力充沛（或有能力）的
