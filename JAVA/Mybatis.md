@@ -755,7 +755,7 @@ public class Author {
 
 ### 4.6、[mappers（映射器）](https://mybatis.org/mybatis-3/zh/configuration.html#mappers)
 
-MapperRegistry：注册邦迪Mapper文件
+MapperRegistry：注册绑定Mapper文件
 
 #### 方式一：【推荐使用】
 

@@ -1283,13 +1283,13 @@ AOP（Aspect Oriented Programming）意为：面向切面编程，通过预编�
 
 SpringAop中，通过Advice定义横切逻辑，Spring中支持的5种类型的Advice
 
-| 方法          | 通知类型     | 连接点               | 实现接口                                        |
-| ------------- | ------------ | -------------------- | ----------------------------------------------- |
-| Before        | 前置通知     | 方法前               | org.springframework.aop.MethodBeforeAdvice      |
-| After         | 后置通知     | 方法后               | org.springframework.aop.AfterReturningAdvice    |
-| Around        | 环绕通知     | 方法前后             | org.aopalliance.intercept.MethodInterceptor     |
-| AfterThrowing | 异常抛出通知 | 方法抛出通知         | org.springframework.aop.ThrowsAdvice            |
-| AfterRunning  | 中介通知     | 类中增加新的方法属性 | org.springframework.aop.IntroductionInterceptor |
+| 方法           | 通知类型     | 连接点               | 实现接口                                        |
+| -------------- | ------------ | -------------------- | ----------------------------------------------- |
+| Before         | 前置通知     | 方法前               | org.springframework.aop.MethodBeforeAdvice      |
+| After          | 后置通知     | 方法后               | org.springframework.aop.AfterReturningAdvice    |
+| Around         | 环绕通知     | 方法前后             | org.aopalliance.intercept.MethodInterceptor     |
+| AfterThrowing  | 异常抛出通知 | 方法抛出通知         | org.springframework.aop.ThrowsAdvice            |
+| AfterReturning | 中介通知     | 类中增加新的方法属性 | org.springframework.aop.IntroductionInterceptor |
 
 AOP在不改变原有代码的情况下，去增加新的功能
 
