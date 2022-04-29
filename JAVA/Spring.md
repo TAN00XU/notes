@@ -947,8 +947,13 @@ public class User {
 ```xml
 <!--指定要扫描的包，这个包下的注解就会生效-->
     <context:component-scan base-package="com.tan00xu.pojo"/>
+
     <context:annotation-config/>
 ```
+
+使用了`<context:component-scan base-package=""/>`后就可以不需要`<context:annotation-config/>`
+
+
 
 ---
 
