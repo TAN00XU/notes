@@ -2,6 +2,127 @@
 
 
 
+# submission /səbˈmɪʃn/
+
+n. 屈服，投降；提交，呈递；提交的文件，呈递材料；<法律>（向法官提出的）看法，意见；<正式> 意见，建议；<古> 谦恭，温顺；（摔跤）制服
+
+1. What might happen to such a submission today? 
+
+   今天这样的提交会发生什么？
+
+2. Wrestle your fear into submission. 
+
+   让你的恐惧屈服于你。
+
+   + wrestle  /ˈresl/	v. （与某人）摔跤，扭打；使劲搬动，用力操作；努力解决，艰难对付	n. 摔跤，角力；艰苦的斗争，搏斗
+
+3. Create the submission response document. 
+
+   创建提交响应文档。
+
+# all over  /ˈɔːl əʊvə(r)/
+
+到处，遍及；浑身；全部结束
+
+1. I have friends all over the world.
+   我的朋友遍天下。
+
+2. We looked all over for the ring. 
+
+   我们到处找那枚戒指。
+
+3. The coffee went all over my skirt. 
+
+   咖啡溅了我一裙子。
+
+4. I am glad it's all over. 
+
+   我真高兴，一切都结束了。
+
+# playground /ˈpleɪɡraʊnd/
+
+n. （尤指学校或公园中的儿童）操场，游乐场；（某一群体的）游憩胜地，度假场所
+
+1. The students are having fun on the playground after class.
+   下课后，学生们在操场上玩耍。
+
+2. Go to the playground and have fun. 
+
+   去操场玩吧。
+
+3. When I passed the playground I found an exercise book on the ground. 
+
+   当我穿过操场时，我在地上发现了一本练习册。
+
+   + exercise /ˈeksərsaɪz/	n. 运动，锻炼；（一套）动作，体操；练习，演练；运用；活动，任务；典礼；宗教仪式，礼拜	v. 运动，锻炼；运用，行使；使担忧，使烦恼；驯，遛
+
+4. If you are outdoors, move to an open area like a playground. 
+
+   如果你在户外，就搬到一个开阔的地方，比如操场。
+
+# pleasant /ˈpleznt/
+
+adj. 令人愉快的，惬意的；礼貌而友善的，和蔼可亲的
+
+1. The gift is a pleasant surprise for the little girl.
+   这个礼物对这个小女孩来说是一个惊喜。
+
+2. We spent a pleasant day in the country. 
+
+   我们在乡下度过了愉快的一天。
+
+3. The house has a pleasant outlook over the valley. 
+
+   房子俯瞰山谷，景色宜人。
+
+   + outlook /ˈaʊtlʊk/	n. 看法，态度；前景，展望；景色，风光；瞭望处
+
+# all over again
+
+再一次，重新
+
+1. The boss told him to do the report all over again.
+   老板让他把报告重新做一遍。
+
+2. Oh, if I could start all over again! 
+
+   噢，要是我能全部重新开始就好了！
+
+3. Back here all over again. 
+
+   全部都再回到这里。
+
+# paper /ˈpeɪpər/
+
+n. 纸；报纸；（工作、学习或个人的）资料，文件（papers）；证明，证件（如护照、身份证等）（papers）；政府报告，官方政策文件；<英>考试，答卷；（研究）论文，（学术）讲话；<美>（学校课程的）学期论文；墙纸，壁纸；有价证券；手纸，卫生纸；<俚>（剧院等娱乐场所的）免费入场券
+
+v. 用墙纸裱糊（墙壁）；用墙纸覆盖（洞，污点）（paper sth. over）；掩盖（尴尬问题）（paper sth. over）；<俚>发免费入场券使（剧院）满座
+
+adj. 纸做的，纸质的；书面的，印刷的；纸上的，有名无实的
+
+1. I like to make notes on a small piece of paper.
+   我喜欢在小纸片上做笔记。
+
+   + piece  /piːs/	n. 块，张，片，段；碎片，零件；（成套物品的）部件，部分；（艺术、音乐、戏剧、文学的）一部作品；（报道、新闻、广播的）一篇；份额，一份股权；桩，项，条，件； 一点；（土地的）一块；一段距离；硬币；枪；<非正式>女人；<苏格兰>（三明治等）小吃	v. 拼合，拼装；慢慢理解
+
+2. I read about it in the paper. 
+
+   我是在报纸上读到这事的。
+
+3. Have you seen today's paper? 
+
+   你看到今天的报纸没有？
+
+4. Any old paper will do. 
+
+   随便一张纸就行。
+
+   + any old 任何一个……都
+
+---
+
+
+
 # ingredient /ɪnˈɡriːdiənt/
 
 n. （食品的）成分，原料；要素，因素
