@@ -2,6 +2,103 @@
 
 
 
+# administration /ədˌmɪnɪˈstreɪʃn/
+
+n. 管理，行政；管理部门，行政部门；（某一任期的）政府；执行，监管；（药的）服用，配给；遗产管理，（债务人、其他个人或破产公司的）资产管理
+
+1. She works in the university’s administration office.
+   她在大学的行政办公室里工作。
+
+2. Too much time is spent on administration. 
+
+   太多的时间花在了管理工作上。
+
+3. I work in the Sales Administration department. 
+
+   我在销售管理部门工作。
+
+   + Sales /ˈseɪlz/	adj. 销售的，售货的（sales）
+
+# all right  /ɔːl raɪt/
+
+adj. 可接受（的），满意（的）；安全健康（的），平安无恙（的）；尚可；可允许（的），可以（的）
+
+adv. 满意地，很好地；（加强语气）无疑，确实
+
+1. Thankfully the operation went all right.
+   谢天谢地，手术进行得很顺利。
+
+   + operation /ˌɑːpəˈreɪʃ(ə)n/	n. 运作，实施；运转，操作；手术；（有组织的）活动，行动；军事行动；企业，公司；业务，经营 ；（数学）运算
+
+2. I hope the children are all right. 
+
+   我希望孩子们平安无事。
+
+3. Don't worry about me. I'll be all right. 
+
+   别为我担忧。我会没事的。
+
+4. Is everything all right? 
+
+   一切都好吗？
+
+# require  /rɪˈkwaɪər/
+
+v. 需要；要求做（某事），规定
+
+1. These pets require a lot of care and attention. 
+
+   这些宠物需要悉心照顾。
+
+   + attention /əˈtenʃn/	n. 注意；注意力；照料；兴趣；立正；殷勤，关心
+
+2. The worker is required by law to wear a helmet to work.
+   法律规定工人佩戴安全头盔进行工作。
+
+   + law /lɔː/	n. 法律（体系）；法令，法规；规律，法则，定律；法学，法律学；司法界，律师业；（道德或宗教上的）准则，守则；警方，警察	v. 起诉，控告
+   + helmet /ˈhelmɪt/	n. 头盔，安全帽；（尤指唇形科和兰科花朵的）花冠盔瓣，唇瓣；冠螺
+
+# previous /ˈpriːviəs/
+
+adj. 先前的；早先的；过早的
+
+1. 
+   The car has only had one previous owner. 
+
+   这辆汽车以前没换过车主。
+
+   + owner  /ˈoʊnər/	n. 所有人，物主
+
+2. This problem is the reverse of the previous one. 
+
+   这个问题和上一个问题相反。
+
+# proposal /prəˈpoʊzl/
+
+n. 提议，建议；（计划、建议等的）提出；求婚
+
+1. Are you for or against the proposal? 
+
+   你支持还是反对这个建议？
+
+2. Do you think he'll agree to their proposal? 
+
+   你认为他会同意他们的建议吗？
+
+3. We agreed (that) the proposal was a good one. 
+
+   我们一致认为这个建议不错。
+
+
+
+
+
+
+
+---
+
+
+
 # submission /səbˈmɪʃn/
 
 n. 屈服，投降；提交，呈递；提交的文件，呈递材料；<法律>（向法官提出的）看法，意见；<正式> 意见，建议；<古> 谦恭，温顺；（摔跤）制服
