@@ -2,6 +2,115 @@
 
 
 
+
+
+
+
+
+
+
+
+# all the same  /ɔːl ðə seɪm/
+
+phr. 仍然
+
+1. If it's all the same to you, I'd rather work at home. 
+
+   如果对你来说都一样，我宁愿在家工作。
+
+   + rather  /ˈræðər/	adv. 颇，相当；宁愿，最好（would rather）；而不是；更确切地说；（用以使表达的语气婉转）有几分，有点儿；恰恰相反，而是	int. <英，旧>当然，的确（表同意）
+
+2. Thank you all the same. 
+
+   尽管如此，还是要谢谢你。
+
+3. We are all the same age. 
+
+   我们都同岁。
+
+# rich  /rɪtʃ/
+
+adj. 有钱的，富有的；富含……的，丰富的；非常有趣的，丰富多彩的；（食物）油腻的；（色彩、气味）浓郁的，（声音）浑厚的；肥沃的，丰产的；华丽昂贵的；<非正式>（指某人的评论或批评）荒唐的，可笑的；值钱的，生财的；（内燃机内的混合燃料）可燃性成分高的
+
+1. They're not as rich as all that. 
+
+   他们并不是那么富有。
+
+2. You're going to be a very rich man. 
+
+   你将成为一个非常富的人。
+
+3. If only I were rich. 
+
+   但愿我很富有。
+
+# prospect /ˈprɑːspekt/
+
+n. 可能性，希望；预期，展望；（尤指事业的）成功机会，前景；有望成功的人，有前途的人；可能的顾客，潜在的主顾；<正式>（尤指从高处看到的）景象，景色；潜在矿藏或矿床
+
+v. 勘探，勘察；寻找（商业机会）
+
+1. My job prospects are great.
+   我的就业前景非常好。
+
+2. The prospect of war loomed large. 
+
+   战争的阴影在逼近，令人忧虑。
+
+   + loom  /luːm/	v. （尤指阴森森地）隐约出现，赫然耸现；逼近，临近	n. 织布机；（尤指海上物体在黑暗或浓雾中的）隐隐显现；（云或霾等将不能直接见到的光折射出来的）暗影，上现蜃景
+
+3. They felt relieved at this prospect. 
+
+   看到这样的前景，他们放心了。
+
+   + relieved  /rɪˈliːvd/	adj. 放心的，宽慰的	v. 缓和（不快或痛苦）；减轻（问题的严重性）；调剂，使有趣（relieve 的过去式和过去分词形式）
+
+# quiet  /ˈkwaɪət/
+
+adj. 轻声的，安静的；不出声的；沉默寡言的，文静的；寂静的，平静的；不受打扰的，悠然的；（感情）不外露的，不张扬的；秘密的，私下的；（颜色、服饰）素净的，朴素大方的；清淡的
+
+n. 安静，静谧
+
+v. <美>（使）平静，安静；<美>消除，减轻（恐惧），平息（抱怨）
+
+1. Please be quiet.
+   请保持安静。
+
+2. Up to now he's been very quiet. 
+
+   到目前为止，他一直很安静。
+
+3. Sit down and be quiet,' she ordered. 
+
+   “坐下，安静点！”她命令道。
+
+4. Be quiet! He hasn't finished speaking. 
+
+   安静！他还没有讲完。
+
+# all the time /ɔːl ðə taɪm/
+
+adv. 一直；始终
+
+1. We’re open all the time, so come in whenever you want.
+   我们一直开着门，所以你可以随时来。
+
+2. This happens all the time. 
+
+   这种事情一直发生。
+
+3. How do you stand him being here all the time? 
+
+   他老在这儿，你怎么受得了呢？
+
+4. We can't have people arriving late all the time. 
+
+   我们不能允许有人总是迟到。
+
+---
+
+
+
 # administration /ədˌmɪnɪˈstreɪʃn/
 
 n. 管理，行政；管理部门，行政部门；（某一任期的）政府；执行，监管；（药的）服用，配给；遗产管理，（债务人、其他个人或破产公司的）资产管理
