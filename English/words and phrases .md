@@ -2,11 +2,23 @@
 
 
 
+# plumber /ˈplʌmər/
+
+n. 水管工人，水电工
+
+1. The plumber is trying to fix the sink.
+
+   水管工正在修理水槽。
+
+2. Has the plumber been there yet? 
+
+   管道工来了吗？
 
 
 
 
 
+---
 
 
 
