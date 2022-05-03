@@ -14,9 +14,105 @@ n. 水管工人，水电工
 
    管道工来了吗？
 
-refuse
+# refuse /rɪˈfjuːz; ˈrefjuːs/
 
+v. 拒绝，回绝（做某事）；不接受，拒绝（别人给的东西）；拒绝给（所需之物）；<非正式>（物体）未应要求起作用；<旧> 不接受（某人的）求婚；（马）拒绝（跨栏或其他障碍物）
 
+n. 垃圾，废弃物
+
+adj. 废弃的
+
+1. This boy is refusing to eat vegetables.
+   这个男孩子正拒绝吃蔬菜。
+
+2. Am I to understand that you refuse? 
+
+   你是告诉我你拒绝了？
+
+3. I don't imagine (that) they'll refuse. 
+
+   我认为他们不会拒绝。
+
+# allow for
+
+phr. 考虑到，虑及；使……成为可能
+
+1. We must allow for human error. 
+
+   我们必须考虑到人为的失误。
+
+2. And it can allow for secure documents. 
+
+   可以让文件更安全。
+
+   + secure /sɪˈkjʊr/	adj. 稳固的，可靠的；严密把守的，牢固的；安全的，稳妥的；（对自己和自己的能力）有自信的；感到有保障的，没有顾虑的；固定住的，系牢的；秘密的	v. （尤指经过努力而）获得，得到；使安全，保护；缚牢，将（某物）固定；确保，保证；为（债务或贷款）作抵押，作保；（外科）压迫（血管）止血；停止工作；船抛锚
+
+# base /beɪs/
+
+n. 根基，底部；基础；基地；基础成分；（数字进位制中的）基数；（棒球）垒；碱，盐基；（晶体管的）基极；词根
+
+v. 以……为基础；把基地设在……
+
+adj. 卑鄙的，下流的；低劣的
+
+1. The lamp has a heavy base. 
+
+   这盏灯的底座很沉。
+
+2. A firm base is very important for building a house.
+   稳固的根基对于建造房屋非常重要。
+
+   + firm /fɜːrm/	n. 公司，商行；（以顾问医师为首的）医务小组；<英，非正式>（敌视敌对球队球迷的）球迷俱乐部，球迷联盟	adj. 结实的，坚硬的；牢固的，稳固的；坚定的，坚决的；强有力的；牢牢掌控的；坚挺的；确切的，可靠的；严厉的，强硬的	v. 使强壮，使坚实；坚挺，稳步上涨；敲定	adv. 坚定地，坚决地
+
+# rent  /rent/
+
+n. 租金，租用费；（布等上面的）破洞，裂口
+
+vt. 租用，租借；出租，将……租给； 可租用，租金为
+
+v. 撕裂，扯碎；（声音）响彻，刺破；<文>使心碎（rend 的过去式和过去分词形式）
+
+1. I have to pay rent on my house every month.
+   我得每月支付我的房租。
+
+2. Who do you rent the land from? 
+
+   你从谁那里租用的土地？
+
+3. She agreed to rent the room to me. 
+
+   她同意将这个房间租给我。
+
+4. How much rent do you pay for this place? 
+
+   你租这个地方的租金是多少？
+
+5. We rent out rooms in our house to students. 
+
+   我们把住宅里的房间出租给学生。
+
+# reserve /rɪˈzɜːrv/
+
+v. 预订；保留，预留；拥有，保留（某种权利）；留作，用于（特定场合）；保留（意见），推迟作出（决定或判断）；贮存，贮藏；（教会用语）弥撒仪式后保留部分圣餐
+
+n. 储备（量），储藏（量）；含蓄，寡言；保留意见，异议；（野生生物）保护区；替补队员，后备队员；后备队，替补队（the reserves）；预备役部队，后备部队；（尤指拍卖时的）底价，最低价；（美洲土著居民的）居留地；（陶瓷装饰或纺织品印染中保留原色的）防染本色区 ；（陶瓷装饰或纺织品印染中保留原色的）防染本色区
+
+1. He has an emergency reserve of food stored at home.
+   他在家里有一个存放食物的紧急储备库。
+
+   + emergency  /ɪˈmɜːrdʒənsi/	n. 突发事件，紧急情况；急症病人，急诊病人；<美>（医院的）急诊室	adj. 紧急情况下的；应急的
+
+2. I'll reserve a table for five. 
+
+   我要预订一个5人的餐位。
+
+3. I want to reserve a safe seat. 
+
+   我想预订一个安全的座位。
+
+4. Doesn't seem to be checked out and it's not on reserve. 
+
+   好像没有退房，也没有预订。
 
 ---
 
