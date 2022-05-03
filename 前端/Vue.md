@@ -203,3 +203,86 @@ var app6 = new Vue({
 ##  **注意：**
 
 **v-model会忽略所有元素的value、checked、selected特性的初始值而总是将Vue实例的数据作为数据来源，你应该通过JavaScript在组件的data选项中声明。**
+
+
+
+---
+
+
+
+# 七、组件
+
++ 组件系统是 Vue 的另一个重要概念，因为它是一种抽象，允许我们使用小型、独立和通常可复用的组件构建大型应用。仔细想想，几乎任意类型的应用界面都可以抽象为一个组件树。
+
++  组件是可复用的`Vue`实例，说白了就是一组可以重复使用的模板，跟JSTL的自定义标签、Thymeleaf的`th:fragment` 等框架有着异曲同工之妙。通常一个应用会以一棵嵌套的组件树的形式来组织。
+
+![树](../NotesImg/components.png)
+
+```html
+<div id="app-7">
+    <ol>
+        <!--
+          现在我们为每个 todo-item 提供 todo 对象
+          todo 对象是变量，即其内容可以是动态的。
+        -->
+
+        <todo-item
+                v-for="item in items"
+                v-bind:todo="item">
+        </todo-item>
+    </ol>
+</div>
+```
+
+```javascript
+//定义一个Vue组件
+Vue.component('todo-item', {
+    props: ['todo'],
+    template: '<li>{{ todo.text }}</li>'
+})
+var app7 = new Vue({
+    el: '#app-7',
+    data: {
+        items: [
+            {id: 0, text: '蔬菜'},
+            {id: 1, text: '奶酪'},
+            {id: 2, text: '随便其它什么人吃的东西'}
+        ]
+    }
+});
+```
+
+`v-for="item in items"` : 遍历Vue 实例中定义的名为items 的数组,并创建同等数量的组件
+
+`v-bind:item="item"` : 将遍历的item项定到组件中props定义的名为item属性上；=号左边的todo为props定义的属性名，右边的为item in items中遍历的item项的值
+
+
+
+---
+
+
+
+# 八、Axios通信
+
+1. 什么是Axios
+Axios是一个开源的可以用在浏览器端和NodeJS 的异步通信框架，她的主要作用就是实现AJAX异步通信，其功能特点如下:
+
+2. 从浏览器中创建XMLHttpRequests
+
+3. 从node.js创建http请求
+
+4. 支持Promise API [JS中链式编程]
+
+5. 拦截请求和响应
+
+6. 转换请求数据和响应数据
+
+7. 取消请求
+
+8. 自动转换JSON数据
+
+9. 客户端支持防御XSRF (跨站请求伪造)
+
+GitHub:https://github.com/axios/axios
+中文文档: http://www.axios-js.com/
+
