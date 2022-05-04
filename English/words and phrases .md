@@ -2,6 +2,97 @@
 
 
 
+
+
+# amount to  /əˈmaʊnt tu/
+
+相当于，总计为
+
+1. His spending on food and drink this month amounted to 1000 yuan.
+
+   他这个月在饮食上的消费总计一千元。
+
+2. You'll never amount to anything. 
+
+   你从未完成任何事。
+
+3. It may not amount to much. 
+
+   这可能不会有多大作为。
+
+4. What does this amount to? 
+
+   这意味着什么呢？
+
+# usually  /ˈjuːʒuəli; ˈjuːʒəli/
+
+adv. 通常地，经常地
+
+1. We usually have lunch at 12:00.
+
+   我们通常在十二点吃午饭。
+
+2. 
+   I'm usually out during the day. 
+
+   白天我通常不在家。
+
+3. I usually go to work by bike. 
+
+   我通常骑自行车上班。
+
+# robot /ˈroʊbɑːt/
+
+n. 机器人，自动操作装置；机器般的人；<南非>自动交通信号机；（计算机）爬虫程序
+
+1. In the future, we all will have robot assistants.
+   未来，我们都会有机器人助手。
+
+   + assistants /əˈsɪstənts/	n. [管理]助理，助教，店员；辅佐人（assistant 的复数形式）
+
+2. A robot learned to ride a bike. 
+
+   一个机器人学会了骑自行车。
+
+# rude /ruːd/
+
+adj. 粗鲁的，无礼的；粗俗的，下流的；突如其来的，猛烈的；<文> 简陋的，粗制的；<英> 有活力的，粗壮的；<古> 未开化的，原始的
+
+1. I think I was a bit rude to you. 
+
+   我想我对你有点无礼。
+
+2. I'm going in. And going out would be rude. 
+
+   我要进去了，要出来的话可能会不礼貌。
+
+3. Don't you know it's rude to whisper? 
+
+   难道你不知道窃窃私语是不礼貌的吗？
+
+   + whisper /ˈwɪspər/	v. 耳语，低语，小声说；（私下或秘密地）传说（某事），谣传；（树叶）发沙沙声，（风）发飒飒声，（水）发潺潺声	n. 耳语（声），低语（声），私语（声）；沙沙声，飒飒声，潺潺声；传闻，谣言；蛛丝马迹，暗示；少许，微量；少量信息
+
+# and so forth
+
+phr. 等等，诸如此类
+
+1. It's not creative and so forth. 
+
+   没有创造力什么的。
+
+2. But fun to think about!, and so forth. 
+
+   但是思考一下还是很有趣的！等等。
+
+3. We discussed everything ---- when to go, what to see and so forth.
+   我们讨论了全部细节——什么时候走，去看什么等等。
+
+   - discussed /dɪˈskʌst/	v. 讨论（discuss 的过去分词）；商讨
+
+---
+
+
+
 # plumber /ˈplʌmər/
 
 n. 水管工人，水电工
