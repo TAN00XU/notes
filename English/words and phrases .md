@@ -4,6 +4,123 @@
 
 
 
+
+
+# powder /ˈpaʊdər/
+
+n. 粉，粉末；扑面粉，美容粉；细雪，粉状雪；火药，炸药
+
+v. 往（脸或身体）上搽粉；撒粉（状物）于（表面），以粉（状物）覆盖；使（某物）成粉状；变成粉末
+
+1. The snow was like powder. 
+
+   雪像粉末一样。
+
+2. What is the powder made of? 
+
+   这些粉末是由什么做成的？
+
+# enough /ɪˈnʌf/
+
+adj. 充足的，足够的
+
+pron. 足够，充分
+
+adv. 充分地，足够地；相当，很；说来奇怪，说起来有趣（strangely/interestingly enough）
+
+n. 足够的（数目或数量），充分
+
+int. 够了，别再说了
+
+1. There was food enough for all. 
+
+   所有人都有足够的食物。
+
+2. We didn't leave early enough. 
+
+   我们离开得不够早。
+
+3. You've been waiting long enough. 
+
+   你等得够久的了。
+
+4. I think I have said enough. 
+
+   我想我已经说得够多了。
+
+# and so on
+
+phr. 等等；诸如此类
+
+1. The man sells tomatoes, bananas, apples, and so on.
+   这个小贩卖的有番茄、香蕉、苹果等等。
+
+2. These include online games, chat rooms and so on. 
+
+   这些包括网络游戏、聊天室等等。
+
+# matter  /ˈmætər/
+
+n. 事情，问题；事态，情况；困境，麻烦（the matter）；物质；材料，物品，东西；书面材料，印刷品；（身体感染部位排出的）脓，黄水；命题内容；（表示数量或时间之少）大约，左右；（法庭审问或证明的）事项，案件
+
+v. 要紧，有关系；（伤口）化脓，流脓
+
+1. Food, wather and housing matter for survival.
+   + survival  /sərˈvaɪvl/	n. 继续生存，存活，幸存；遗留物，幸存物，残存物	adj. 幸存的，赖以生存的，救生用的
+
+2. It's a private matter. 
+
+   这是件私事儿。
+
+3. What's the matter? 
+
+   怎么回事？
+
+4. Does it matter what colour it is? 
+
+   它是什么颜色重要吗？
+
+# spoon /spuːn/
+
+n. 匙，勺子；（作打击乐器用的）调羹对；一匙的量；调羹状物品
+
+vt. 用匙舀，使成匙状；高挑球
+
+1. You don't have to eat the spoon. 
+
+   你不需要吃勺子。
+
+2. She feeds the baby with a spoon. 
+
+   她用汤匙喂婴儿。
+
+3. Miss, I need another spoon. 
+
+   小姐，我还需要一个勺子。
+
+4. She put down her spoon. 
+
+   她放下勺子。
+
+# answer for  /ˈænsər  fɔːr/
+
+phr. 因……而受罚；对……负责
+
+1. I can answer for her honesty. 
+
+   我可以担保她为人诚实。
+
+   + honesty /ˈɑːnəsti/	n. 诚实，正直；银扇草，金钱花
+
+2. This man must answer for his careless driving.
+   这个男人必须为自己的粗心驾驶负责。
+
+---
+
+
+
+
+
 # amount to  /əˈmaʊnt tu/
 
 相当于，总计为
