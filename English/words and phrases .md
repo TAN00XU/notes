@@ -2,19 +2,97 @@
 
 
 
+# short  /ʃɔːrt/
 
+adj. 短暂的，短期的；（长度或距离）短的，矮的；简短的，短篇的；短缺的，稀少的；不够（长、高或远）的；缩写的；呼吸困难的；（记忆力）差的；唐突的，无礼的；（元音或音节）短的；（板球、网球等）短球的；（板球）靠近击球手位置的；（可能性，机会）概率大的；（糕点）松脆的；（黏土）黏性差的；（股票、其他证券或商品）靠跌价获取利润的；（经纪人或市场状况等）卖空的；（证券）即将到期的；多黄油的，多脂的；个子矮的；（衣服）短的；简直，无异于
 
+n. <英> 少量烈酒；（尤指在正片前放映的）电影短片；短裤（shorts）；短音；细麸粉（shorts）；卖空的人；短期证券（shorts）；<美> 男用短内裤
 
+adv. 达不到标准（或预期）地；使变短地；（尤指体育运动）短距离地；短暂地
 
+v. （使）短路；（股票、其他证券或商品）靠跌价获取利润的
 
+1. Short hair is in style now.
+   现在很流行短发。
 
+2. We've run short of milk. 
 
+   我们牛奶不够了
 
+# stare /ster/
 
+v. 凝视，盯着看；瞪眼看，茫然地看；（事物）惹眼，显眼
 
+n. 凝视，注视
 
+1. Don't stare at me – it's impolite! 
 
+   不要盯着我 - 这很无礼！
 
+2. I'll stare at the floor! 
+
+   我会盯着地板看！
+
+3. She gave him an angry stare. 
+
+   她生气地白了他一眼。
+
+# strengthen /ˈstreŋθn/
+
+v. 使（情感、决心等）更强烈，使（关系）更加紧密；巩固（地位），加强（实力）；（货币）升值；增强（体质）；为……提供更有力的理由（证据）；（风力或水力）变强；使（法令或处罚）更有效；加强，加固（物体或结构）
+
+1. She keeps training every day to strengthen her arms.
+   她每天坚持锻炼来使手臂变强壮。
+   + training /ˈtreɪnɪŋ/	
+     + n. 训练，培训；体育训练，锻炼	
+     + v. 锻炼，培养（某一素质或能力）；培训，训练；（为准备体育赛事而）操练（train的现在分词形式）
+   + arms /ɑːrmz/	
+     + n. 臂（arm 的复数）；[军]武器；纹章
+     + v. 武装；配备（arm 的三单形式）
+     + n. （Arms）人名；（英）阿姆斯
+
+# 	answer to
+
+phr. ……的答案；符合；适应
+
+1. He quickly worked out the answer to the math problem.
+   他很快算出了这道数学题的答案。
+
+2. I can't easily give an answer to your question. 
+
+   你的问题我难以回答。
+
+3. Do you mean that you think you can find out the answer to it? 
+
+   你是说你认为你能找到它的答案吗？
+
+# sleep  /sliːp/
+
+v. 睡，睡觉；供……住宿；（尤指入夜后某地或建筑物）沉寂，静寂；<文>安息，安眠；发生性关系
+
+n. 睡眠，睡觉；（一段）	睡眠时间；眵，眼屎；<文>死，长眠
+
+1. She is sleeping on the bed.
+   她正在床上睡觉。
+
+2. I need a decent night's sleep. 
+
+   我需要好好地睡上一夜。
+
+   + decent  /ˈdiːsnt/
+     + adj. 像样的，尚好的；得体的，合宜的；<非正式>穿好衣服的；正派的，规矩的；待人宽厚的，和善的
+
+3. She sang the baby to sleep. 
+
+   她唱着歌把孩子哄睡了。
+
+4. I needed to get some sleep. 
+
+   我需要睡一会儿。
+
+5. Did you have a good sleep? 
+
+   睡得好吗？
 
 ---
 
