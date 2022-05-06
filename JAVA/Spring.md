@@ -931,6 +931,10 @@ public class People {
 
 
 
++ dao	`@Repository`
++ service	`@Service`
++ controller	`@Controller`
+
 ### 9.1、**bean注入使用@Componet注解**
 
 ```java
