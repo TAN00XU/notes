@@ -2,7 +2,59 @@
 
 
 
+# anything but
 
+n. 根本不，决不
+
+1. He found his cousin to be anything but shy.
+   他发现他的表弟根本不是一个害羞的人。
+   + cousin /ˈkʌzn/
+     + n. 堂（表）兄弟，堂（表）姐妹；远房亲戚；兄弟民族（或国家）的人（来自不同国家但文化近似）；相似的人（物）
+
+2. The problem is anything but easy. 
+
+   这个问题一点也不简单。
+
+3. You couldn't see anything but smoke. 
+
+   除了烟什么也看不见。
+
+# America /əˈmerɪkə/
+
+n. 美洲（包括北美和南美洲）；美国
+
+1. We went by ship over to America. 
+
+   我们乘轮船去美国。
+
+2. It's the fifth time that I've been to America. 
+
+   这是我第五次去美国了。
+
+
+
+# trust /trʌst/
+
+n. 信任，信赖；（金钱或财产的）信托，托管；受托基金机构，受托团体；代管的财物，托管的财物；公立医院（由政府资助、独立经营）；<美>托拉斯托拉斯，垄断企业；受托，受委任；<文>被托付的人，被赋予的职责；<文>希望，期待
+
+v. 信任，相信；对……有把握，信得过；坚信，信仰；希望，盼望；托交，托付；<古>赊账
+
+1. My boss trusts me so much. I can’t let him down.
+   我的老板那么信任我，我不能让他失望。
+
+2. I couldn't trust him anymore. 
+
+   我再不能相信他了。
+
+apart from
+
+
+
+
+
+
+
+---
 
 
 
