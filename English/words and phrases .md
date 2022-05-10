@@ -2,6 +2,102 @@
 
 
 
+
+
+
+
+# veil /veɪl/
+
+n. 面纱，面罩；（修女的）头巾；遮盖物，掩饰，借口；避而不谈（难堪或不愉快的）某事；（古犹太教）圣布；（植）菌幕；（穆斯林国家妇女）带面纱的习俗
+
+v. 以面纱掩盖；遮盖，掩饰
+
+1. 
+   Her black veil was simple. 
+
+   她戴着简单的黑色面纱。
+
+2. Lift the veil so I can see your beautiful face.
+   把面纱掀起来，这样我才能看到你美丽的脸。
+
+# appeal to  /əˈpiːl tu/
+
+v. 呼吁；上诉；要求；对……有吸引力
+
+1. It's a movie that will appeal to the young. 
+
+   这部电影年轻人会感兴趣。
+
+2. It doesn't really appeal to me. 
+
+   它对我真的没有吸引力。
+
+# free /friː/
+
+adj. 免费的；自由的；随心所欲的；不含..…的；免于，不遭受；空闲的；未使用的，空着的；无阻碍的；不拘泥于原文的；游离的；不吝惜的；干净整洁的；不含……的；（风）顺的
+
+adv. 自由地；免费地；帆脚索被松开地
+
+v. 释放；使解脱出来；使免于；使可用于；使能腾出时间
+
+1. Admission is free. 
+
+   免费入场。
+
+2. I don't have much free time. 
+
+   我没有多少空闲时间。
+
+# weight /weɪt/
+
+n. 重量，分量，体重；重；杠铃，哑铃；砝码，秤砣，秤锤；（用于固定某物或用作机器部件的）重体，重物；重量单位，衡量制；重担，负担；影响力，重要性；（尤指举起或运载的）重物；大量的某物；（机械中用于推动或平衡的）平衡块；投掷器械（包括铁饼、铅球、链球等）；（布料）表面密度；重心；（引力场作用于物体上的）重力；权，权重，权数
+
+v. 加重量于，使变重；（经改动）使倾向于……；视……为重要（或有价值），重视；权衡……的价值，加权重于；加重压于（马）上；对（织物）作加重处理（使织物感觉更厚更重）
+
+1. What is your height and weight? 
+
+   你的身高和体重是多少？
+
+2. He's working at losing weight. 
+
+   他正在努力减肥。
+
+3. He's always worrying about his weight. 
+
+   他总是为自己的体重发愁。
+
+# wide /waɪd/
+
+adj. 广泛的；宽的，广阔的；张大的；远离目标的
+
+adv. 广泛地；广阔地；充分地
+
+n. 大千世界
+
+1. The sofa is wide enough for many people.
+   这张沙发很宽，足够坐很多人。
+
+2. It's about 2 metres wide. 
+
+   它大约2米宽。
+
+3. The road is only one lane wide. 
+
+   这条路只有一个车道那么宽。
+
+# appeal to sb. for sth.
+
+phr. 呼吁，恳求
+
+1. She  appeals to us for protecting forests.
+   她呼吁我们要保护森林。
+
+
+
+---
+
+
+
 # seriously /ˈsɪriəsli/
 
 adv. 严重地，恶劣地；严肃地，认真地；说正经的，说实在的；<非正式>真的，当真；<非正式>非常，极其
