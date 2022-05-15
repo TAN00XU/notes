@@ -2,7 +2,114 @@
 
 
 
+# superficial /ˌsuːpərˈfɪʃl/
 
+adj. 粗浅的，粗略的；（思想）浅薄的，缺乏深度的；表面的，乍看起来的（尤指实际并非如此）；（伤势或伤害）表皮的；（皮肤、土壤或岩石）表层的；不重要的，无关痛痒的；<英>（建筑）面积的，平方的
+
+n. 表面文章
+
+1. The house may look new, but it’s all superficial.
+   这栋房子看起来很新，但这只是表面现象。
+
+2. She's so superficial! 
+
+   她太肤浅了！
+
+3. Many bad smells can be very superficial. 
+
+   很多“坏味道”是很容易嗅出来的。
+
+# information /ˌɪnfərˈmeɪʃn/
+
+n. 消息，资料，情报；（计算机程序储存和使用的）数据，信息；问讯处，信息台；（向治安法院提起的）控告，起诉；知识
+
+1. The Internet is my mainn source of getting information about other countries.
+   因特网是我获取其他国家信息的主要来源。
+
+2. The book is packed with information. 
+
+   这本书资料丰富。
+
+   + packed /pækt/
+     + adj. 挤满人的，非常拥挤的；充满的，装满的；收拾妥当的，收拾好了的；（雪、糖或土壤）压成硬块的
+     + v. 把……打包；包装，包裹；挤满，塞满；（pack 的过去式和过去分词）
+
+# wild /waɪld/
+
+adj. （动植物）自然生长的，野生的；（土地）无人烟的，未开垦的；（人）未开化的，野蛮的；不受控制的，放荡的；暴风雨的，狂暴的；（做事或说话）轻率的，缺乏根据的；激动人心的；满腔热情的，十分热衷的；感情强烈的（尤指生气、高兴或激动）；（表情、外表等）走神的，不专注的；特别的，怪异的；（纸牌）百搭的；嘈杂混乱的
+
+adv. 自然地，不受控制地
+
+n. 偏远地区，人烟稀少的地区；自然环境，野生状态
+
+1. The wild kid is making a big mess in the dining room.
+   这个熊孩子吧餐厅搞得一团糟。
+
+   + mess /mes/
+     + n. 肮脏，杂乱；不整洁或邋遢的人（或物）；掉落的东西，溅出的东西；（动物的）粪便；困境，混乱局面；处于困境的人；（军队的）食堂，交谊厅；<美，非正式> 大量；（尤指引不起食欲的）半干半稀的一份食物
+     + v. 弄脏，弄乱；玩弄；随地便溺；在军人食堂就餐
+
+2. They went camping in the wild. 
+
+   他们在野外露营。
+
+3. The children are wild with joy. 
+
+   孩子们欣喜若狂。
+
+4. He had a wild look in his eyes. 
+
+   他的眼神很不安分。
+
+# appetite for /ˈæpɪtaɪt  fɔːr/
+
+phr. 对……的欲望
+
+1. The little boy has a strong appetite for acquiring knowledge.
+
+   + acquire /əˈkwaɪər/
+     + v. 获得，得到；学到，习得；患上（疾病）；逐渐具有，开始学会
+
+2. Exercise will improve your appetite for food. 
+
+   运动能增强你的食欲。
+
+# plan  /plæn/
+
+n. （详细）规划；（养老金、储蓄、保险）方案；计划，打算；平面图，详图；分布图，示意图；（卫理公会教堂）巡回传教士名单；（手机流量、话费等）套餐
+
+v. 计划，筹划；打算；设计；期望，预料
+
+1. Let's try to plan further ahead. 
+
+   咱们尽量计划得更长远些。
+
+2. 
+   Our plan succeeded. 
+
+   我们的计划成功了。
+
+# wonderful  /ˈwʌndərf(ə)l/
+
+adj. 绝妙的，令人惊叹的，极好的
+
+1. Many people have wonderful things to say about this English learning app.
+   人们对这款英语学习应用有极好的评价。
+
+2. They've got a wonderful house. 
+
+   他们有一座漂亮的房子。
+
+3. The view is simply wonderful! 
+
+   景色美极了！
+
+4. 
+   It's wonderful to see you. 
+
+   见到你好极了。
+
+---
 
 
 
