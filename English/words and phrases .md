@@ -23,7 +23,7 @@ n. 表面文章
 
 n. 消息，资料，情报；（计算机程序储存和使用的）数据，信息；问讯处，信息台；（向治安法院提起的）控告，起诉；知识
 
-1. The Internet is my mainn source of getting information about other countries.
+1. The Internet is my main source of getting information about other countries.
    因特网是我获取其他国家信息的主要来源。
 
 2. The book is packed with information. 
