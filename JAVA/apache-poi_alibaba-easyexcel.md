@@ -247,3 +247,55 @@ public void testWrite07SupperBigData() throws IOException {
 }
 ```
 
+
+
+---
+
+
+
+## 文件读取
+
+```java
+@Test
+public void testRead03And07() throws Exception {
+    //1、获取文件流
+    FileInputStream fileInputStream = new FileInputStream("E:\\TAN00XU\\Documents\\JAVA\\POI_EasyExcel\\src\\main\\java\\com\\tan00xu\\documents\\03.xls");
+    //2、获取工作簿
+    //03版本的excel xls
+    Workbook workBook = new HSSFWorkbook(fileInputStream);
+    //07版本的excel xlsx
+    //        Workbook workBook = new XSSFWorkbook(fileInputStream);
+
+    //3、获取工作表
+    Sheet sheet = workBook.getSheetAt(0);
+    //4、获取行
+    Row row = sheet.getRow(0);
+    //5、获取单元格
+    Cell cell = row.getCell(0);
+    //6、获取单元格内容 读取值需要注意类型
+    String value = cell.getStringCellValue();
+
+    System.out.println(value);
+    //7、关闭流
+    fileInputStream.close();
+}
+```
+
+==注意获取值的类型==
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -313,10 +313,10 @@ newClassPathXmlApplicationContext去浏览一下底层源码。
     id : bean的唯一标识符，相当于对象名
     class : bean对象所对应的全限定名 : 包名 + 类型
     name : 也是别名，且可以同时取多个别名
-    -->
-    <bean id="user" class="com.tan00xu.pojo.User" name="u1 u2,u3;u4">
-        <constructor-arg name="name" value="饮梦"/>
-    </bean>
+   -->
+<bean id="user" class="com.tan00xu.pojo.User" name="u1 u2,u3;u4">
+    <constructor-arg name="name" value="饮梦"/>
+</bean>
 ```
 
 
