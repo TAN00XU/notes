@@ -2,6 +2,98 @@
 
 
 
+# worthy /ˈwɜːrði/
+
+adj. 值得尊敬的，值得注意的，值得敬仰的；值得的，应得的，相配的；好（但乏味）的；有（某人或事物）的典型特征
+
+n. 知名人士，要人（常为玩笑或贬义）
+
+1. 
+   He felt he was not worthy of her. 
+
+   他觉得他配不上她。
+
+2. The hero lives a life worthy of imitation. 
+
+   主人公过着令人羡慕的生活。
+
+   + imitation /ˌɪmɪˈteɪʃn/
+
+     + n. 模仿，仿效；滑稽模仿；仿制品，赝品；乐句重复
+
+     + adj. 人造的，仿制的，伪造的
+
+# applicable to /æplɪkəbl  tuː/
+
+适用于，适用的
+
+1. The law is applicable to everyone.
+   这部法律适用于所有人。 
+
+2. I understand that not all of these Suggestions will be applicable to everyone. 
+
+   我知道，并不是所有的建议都适合于任何一个人。
+
+# translate /trænzˈleɪt; trænsˈleɪt/
+
+v. 译，翻译；（使）转变，（使）变化；意同，相当于，（把……）解释为；（以易于理解的方式）解释，说明；导致，造成；改编，改写；转换（计算机程序或语言所含的信息）；（生）转译（信使RNA中的一组核苷酸）；转移，调动，转变；<正式>调换（主教，苏格兰牧师）的教区；<正式>移葬（圣徒遗骸）；<文>送（人，尤指活人）进天堂；（物理）平移（主干部分）；（数）平移（几何图形）
+
+1. The girl used a phone app to translate this phrase into English.
+   女孩用一款手机应用程序把这个短语翻译成英文。
+   + phrase  /freɪz/
+     + n. 短语，词组；惯用语，习语；乐句；（芭蕾）舞句
+     + v. 用……方式表达，以……措辞表达；把（乐曲）分成短句
+
+2. Many parents see these lessons translate into the real world. 
+
+   许多家长看到，这些课堂上学习到的知识转化为现实世界所发生的事情。
+
+3. 
+   It's time to translate words into action. 
+
+   是把言语化为行动的时候了。
+
+# limited /ˈlɪmɪtɪd/
+
+adj. 有限的；受限的；受宪法限制的；（公司）有限责任的 (=Ltd)
+
+n. 高级快车
+
+v. 限制（limit 的过去式和过去分词形式）
+
+1. Unfortunately, my time is limited. 
+
+   遗憾的是，我的时间有限。
+
+   + unfortunately /ʌnˈfɔːrtʃənətli/
+     + adv. 不幸地，遗憾地；<正式>不恰当地，不合适地
+
+2. She was impatient in the knowledge that time was limited. 
+
+   她知道时间有限，所以很着急。
+
+   + impatient /ɪmˈpeɪʃnt/
+     + adj. 不耐烦的，没有耐心的；迫不及待的，急切的；（对不愉快的事）不能容忍，不愿接受
+
+# application to /ˌæplɪˈkeɪʃn tu/
+
+phr. 应用于；应用到；给……的申请
+
+1. The is an application to a college.
+   这是给一所大学的申请书。
+
+2. Select the application to share. 
+
+   选择你要分享的应用程序。
+
+3. Wait for the application to start. 
+
+   等待应用程序开始。
+
+
+
+---
+
 # superficial /ˌsuːpərˈfɪʃl/
 
 adj. 粗浅的，粗略的；（思想）浅薄的，缺乏深度的；表面的，乍看起来的（尤指实际并非如此）；（伤势或伤害）表皮的；（皮肤、土壤或岩石）表层的；不重要的，无关痛痒的；<英>（建筑）面积的，平方的
