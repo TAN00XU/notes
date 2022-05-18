@@ -2,6 +2,84 @@
 
 
 
+
+
+# believe /bɪˈliːv/
+
+v. 相信；认为，猜想；信教
+
+1. I find that hard to believe. 
+
+   我对此感到难以相信。
+
+2. 
+   You've got to see it to believe it. 
+
+   你要看见了才能相信。
+
+3. I don't believe you! 
+
+   我不相信你的话！
+
+# argument about
+
+phr. 关于……的争吵
+
+1. I mean that there should be no argument about this. 
+
+   我的意思是不得对此事有任何争论。
+
+# critic/ˈkrɪtɪk/
+
+n. 批评家，评论员；批评者，反对……的人
+
+1. As a strict food critic, I think the pizza is just so so.
+   作为一个严格的美食评论家，我觉得这个披萨还行吧。
+   + strict /strɪkt/
+     + adj. 要求严格的，严厉的；（命令或规则）必须严格遵守的；严谨的，精确的，严密的；恪守教规的，严格的；完全的，彻底的，绝对的
+
+2. He was also for a time an art critic. 
+
+   他曾有相当长的一段时间是一位艺术评论家。
+
+# apply to  /əˈplaɪ tu/
+
+phr. 适用于；应用于
+
+1. How does it apply to animals ? 
+
+   这是如何适用于动物身上的呢？
+
+2. They may apply to join the organization. 
+
+   他们可能申请加入该组织。
+
+   + organization /ˌɔːrɡənəˈzeɪʃn/
+     + n. 组织，机构；组织工作，筹备工作；编排，配置，结构；条理，逻辑性
+
+# devil /ˈdevl/
+
+n. 魔鬼；魔王，撒旦（the Devil）；家伙，人；恶棍；淘气鬼，冒失鬼；棘手的事，麻烦事；<非正式，旧>（出庭律师或其他专业人士的）助手；切碎机
+
+v. <美>困扰，使担忧；抹辣味料烤（肉等）；（用扯碎机）扯碎（破布）；做律师（或作家等）的助手
+
+1. I miss the old devil, now that he's gone. 
+
+   老家伙这一走，我还真想他。
+
+2. I've had a devil of a job finding you. 
+
+   我费了九牛二虎之力才找到你。
+
+3. 
+   What the devil do you think you're doing? 
+
+   你到底想干什么？
+
+---
+
+
+
 # worthy /ˈwɜːrði/
 
 adj. 值得尊敬的，值得注意的，值得敬仰的；值得的，应得的，相配的；好（但乏味）的；有（某人或事物）的典型特征
