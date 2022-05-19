@@ -4,6 +4,149 @@
 
 
 
+
+
+
+
+
+
+# surgery  /ˈsɜːrdʒəri/
+
+n. 外科手术；<英>诊所；（议员的）接待时间；应诊时间；手术室
+
+1. She's had laser surgery on her eye. 
+
+   她做了眼部激光手术。
+
+   + laser  /ˈleɪzər/
+
+     + n. 激光（器）
+
+     + v. 使用激光器
+
+# enrol /ɪnˈroʊl/
+
+v. （使）加入，注册；把（契约或其他文件）归入法院档案；<古>卷起
+
+vi. 参加，注册，登记，入学
+
+vt. 登记，使加入，把……记入名册
+
+1. You need to enrol before the end of August. 
+
+   你必须在八月底前注册
+
+2. In September we enrol in school. 
+
+   我们九月份入学。
+
+3. You want to enrol too? 
+
+   你也想报名对吧？
+
+# approach to /əˈproʊtʃ tu/
+
+phr. 接近；约等于；通往……的方法
+
+1. He adopted a new approach to transferring money to his friend.
+   他用了一种新方法把钱转给他的朋友。
+
+   + adopted  /əˈdɑːptɪd/
+
+     + adj. 领养的，收养的；所选择居住的，移居的
+
+     + v. 收养；采取，采纳，接受；正式通过（adopt 的过去式和过去分词）
+
+   + transfer /trænsˈfɜːr/
+
+     + v. （使）转移，搬迁；转移（感情），传染（疾病），转让（权力等）；（使）调动，转职；转会，使转会（尤指职业足球队）；（将所得学分）转到（另一所学校）；转接（电话）；将（钱）转到（另一个账户上）；转让（财产，权利），移交（责任）；转用；转存，转录（资料、音乐等），改编；（旅途中）转乘，换乘；转印（图画，图案）；（通过延伸、隐喻）转变（词义，短语义）
+
+     + n. 转移，转让，调动；（运动员）转会；转换，过渡；已调动的人，已转移的东西；（旅行中）转乘，转搭；<美>转车票，换乘票；纸上可转印的图画或图案；迁移（将已习得的行为在新的情况下应用）
+
+2. The government's approach to the problem was haphazard. 
+
+   政府解决这一问题的方法缺乏计划。
+
+   + haphazard /hæpˈhæzərd/
+
+     + adj. 无计划的，没有条理的
+
+     + adv. 杂乱无章地，无计划地
+
+     + n. 偶然
+
+# hold  /hoʊld/
+
+v. （用手、手臂等）抓住，托住，夹住；抱住，捂住，按住（受伤的身体部位等）；拥抱；使保持（在某位置）；支撑……的重量；容纳，包含；存放，盛放，装；监禁，拘留；防守，保卫，（用武力）占据；（好形势）保持不变，持续；吸引住（注意力），保持（兴趣）；（使）保持（价值或水平）；保存，保留（以备后用）；拥有，持有；担任，任职；拥有（头衔、称号），保持（纪录）；持有，怀有（观点、信念等）；认为，相信；召开，举行，进行；（车辆高速行驶时）保持平稳；（船或飞机）保持航线；延长，继续唱（某音符）；（打电话时）等待，不挂断；代接（电话）并向受话人转告通话内容；停下，不要做；为（人）保留；有效，适用；使具有（某种感觉）；具有（某种特性）；止住，控制（不让……离开）；（论点、理论等）站得住脚，成立；保存（如在计算机中）；持续怀有（某种感情，尤指坏的感情）；（法院或法官）裁定；珍视（或看重）某物/某人；设法与（被认为有可能获胜的对手）战成平局；能喝（适量的烈酒），有酒量；<美>不包括，排除在外；<正式>遵守，恪守（承诺或高尚的行为准则）；使遵守（承诺）；<美，非正式>携有违禁毒品
+
+n. 拿，抓，握；（摔跤等运动中的）擒拿技法；影响，左右力，控制；（供手攀、脚踏的）支撑点，支撑物；底舱，货舱；预定；坚持，继续拥有；理解
+
+1. To hold someone’s hand is a sign of love.
+   握住一个人的手是爱的表现。
+
+2. 
+   Does your offer still hold? 
+
+   你的报价仍然有效吗？
+
+3. They hold differing views. 
+
+   他们持有不同的观点。
+
+# homeless  /ˈhoʊmləs/
+
+adj. 无家可归的
+
+n. 无家可归者
+
+1. The homeless dog wishes he had a family.
+   这只流浪狗希望有个家。
+
+2. He was homeless, so we took him in. 
+
+   他无家可归，我们便收留了他。
+
+3. This project is designed to help homeless people. 
+
+   这个项目旨在帮助无家可归的人。
+
+   + designed /dɪˈzaɪnd/
+     + v. 设计；计划；（为特定目的）计划（design 的过去式和过去分词）
+     + adj. 精心设计的，有计划的；故意的
+
+# hostel /ˈhɑːstl/
+
+n. （免费或廉价的）旅社，招待所；青年旅舍；无家可归者收容所，临时收容所；<古>（提供食宿的）客栈
+
+v. 留宿于招待所，旅行时住在招待所
+
+1. It was cheaper to stay at the youth hostel.
+   住青旅会更便宜。
+   + cheaper /ˈtʃiːpər/
+     + adj. 成本更低，比较便宜的
+
+2. I've never stayed in a hostel before. 
+
+   我以前从未住过招待所。
+
+3. And this is only one hostel. 
+
+   而这只是一个旅馆。
+
+4. More than an hour goes by but, finally, I pass a sign for a hostel. 
+
+   一个多小时过去了，最后我看见了一家青年旅馆的店招。
+
+
+
+
+
+
+
+---
+
+
+
 # believe /bɪˈliːv/
 
 v. 相信；认为，猜想；信教
