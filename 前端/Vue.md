@@ -265,7 +265,7 @@ var app7 = new Vue({
 # 八、Axios通信
 
 1. 什么是Axios
-Axios是一个开源的可以用在浏览器端和NodeJS 的异步通信框架，她的主要作用就是实现AJAX异步通信，其功能特点如下:
+Axios是一个开源的可以用在浏览器端和NodeJS 的异步通信框架，它的主要作用就是实现AJAX异步通信，其功能特点如下:
 
 2. 从浏览器中创建XMLHttpRequests
 
