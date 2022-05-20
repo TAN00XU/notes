@@ -8,6 +8,66 @@
 
 
 
+# leading /ˈliːdɪŋ; ˈledɪŋ/
+
+adj. 主要的，最重要的；在（比赛或行列中）首位的，居前的
+
+n. 行距；领导；（用于屋顶的）铅皮，铅板
+
+v. 领导（lead 的现在分词形式）
+
+1. The leading cyclist was starting to pull away from the rest.
+
+   领先的骑手渐渐甩开了其他人。
+
+2. The leading car came to a halt. 
+
+   行驶在前面的车停了下来。
+
+# liver /ˈlɪvər/
+
+n. 肝脏；（供食用的）动物肝脏；生活者，居民
+
+1. The largest organ in the body is the liver. 
+
+   体内最大的器官是肝脏。
+
+2. The drug can cause inflammation of the liver. 
+
+   这种药会引发肝脏炎症。
+
+   + inflammation /ˌɪnfləˈmeɪʃn/
+     + n. 发炎，炎症
+
+# nutrient  /ˈnuːtriənt/
+
+n. 养分，营养物
+
+adj. 营养的，滋养的
+
+1. Apples contain many healthy nutrients for the body.
+   苹果含有许多有益身体健康的营养成分。
+   + contain /kənˈteɪn/
+     + v. 包含，容纳；遏制，防止……蔓延；抑制（感情）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 
 
 # apply for
