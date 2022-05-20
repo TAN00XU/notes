@@ -283,13 +283,145 @@ public void testRead03And07() throws Exception {
 
 ==注意获取值的类型==
 
+### 获取不同的数据类型并处理
 
+```java
+@Test
+public void testCellType() throws IOException, ParseException {
+    //获取文件流
+    FileInputStream fileInputStream = new FileInputStream(path+"明细表.xlsx");
+    //获取一个工作簿
+    Workbook workbook = new XSSFWorkbook(fileInputStream);
+    //获取一个工作表
+    Sheet sheet = workbook.getSheetAt(0);
+    //获取到标题行
+    Row rowTitle = sheet.getRow(0);
+    if (rowTitle != null){
+        //获取所有的列
+        int cells = rowTitle.getPhysicalNumberOfCells();
+        for (int cellNum = 0; cellNum < cells; cellNum++){
+            //获取当前列
+            Cell cell = rowTitle.getCell(cellNum);
+            if (cell != null){
+                //获取当前行的第 col 列的值
+                String cellValue = cell.getStringCellValue();
+                System.out.print(cellValue+" | ");
+            }
+        }
+    }
+    System.out.println("\n");
 
+    //获取表中的所有行
+    int rows = sheet.getPhysicalNumberOfRows();
+    for(int rowNum = 1; rowNum < rows; rowNum++ ){
+        //获取到当前行
+        Row rowData = sheet.getRow(rowNum);
+        if (rowData != null){
+            //获取当前行的列数
+            int cells = rowData.getPhysicalNumberOfCells();
+            for (int cellNum = 0; cellNum < cells; cellNum++){
+                //获取当前列
+                Cell cell = rowData.getCell(cellNum);
 
+                String cellValue = "";
 
+                //匹配列的数据类型，并获取数据
+                if(cell != null){
+                    CellType cellType = cell.getCellType();
+                    switch (cellType){
+                        case STRING:
+                            System.out.print("String类型");
+                            cellValue = cell.getStringCellValue();
+                            break;
+                        case BOOLEAN:
+                            System.out.print("Boolean类型");
+                            cellValue = String.valueOf(cell.getBooleanCellValue());
+                            break;
+                        case BLANK:
+                            System.out.print("空类型");
+                            break;
+                        case NUMERIC:
+                            System.out.print("NUMERIC类型（整数、小数、日期）");
+                            if (DateUtil.isCellDateFormatted(cell)){
+                                System.out.print("日期类型");
+                                Date dateCellValue = cell.getDateCellValue();
+                                //设置日期格式
+                                SimpleDateFormat format=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                                cellValue = format.format(dateCellValue);
+                            }else {
+                                //不是日期格式，防止数字过长，被转换为科学计数法
+                                System.out.print("数字类型");
+                                /*
+                                     * 该方法已经过时，不推荐使用
+                                     * cell.setCellType(CellType.STRING);
+                                     * DataFormatter formatter = new DataFormatter();
+                                     * cellValue = String.valueOf(cell.getStringCellValue());
+                                     */
+                                DataFormatter dataFormatter = new DataFormatter();
+                                cellValue = dataFormatter.formatCellValue(cell);
+                            }
+                            break;
+                        case ERROR:
+                            System.out.print("错误类型");
+                            break;
+                        default:
+                    }
 
+                }
+                System.out.println(" =>表格的值：=>"+cellValue+" | ");
 
+            }
+            System.out.println("\n");
+        }
+    }
+}
+```
 
+### 公式计算
+
+```java
+@Test
+public void testFormula() throws Exception {
+    //获取文件流
+    FileInputStream fileInputStream = new FileInputStream(path+"公式.xlsx");
+    XSSFWorkbook xssfWorkbook = new XSSFWorkbook(fileInputStream);
+    Sheet sheet = xssfWorkbook.getSheetAt(0);
+    Row row = sheet.getRow(5);
+    Cell cell = row.getCell(0);
+    //拿到计算公式
+    FormulaEvaluator formulaEvaluator = new XSSFFormulaEvaluator(xssfWorkbook);
+    //输出单元格的值
+    CellType cellType = cell.getCellType();
+    switch (cellType){
+        case FORMULA:
+            System.out.println("公式类型");
+            String cellFormula = cell.getCellFormula();
+            System.out.println("公式为："+cellFormula);
+            //计算公式
+            CellValue cellValue = formulaEvaluator.evaluate(cell);
+            System.out.println(cellValue);
+            System.out.println(cellValue.getNumberValue());
+            System.out.println(cellValue.formatAsString());
+            break;
+    }
+
+}
+```
+
+# EasyExcel
+
+官方文档([EasyExcel · 语雀 (yuque.com)](https://www.yuque.com/easyexcel/doc/easyexcel))
+
+依赖
+
+```xml
+<!--阿里巴巴EasyExcel-->
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>easyexcel</artifactId>
+    <version>3.1.0</version>
+</dependency>
+```
 
 
 

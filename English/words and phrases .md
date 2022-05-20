@@ -10,6 +10,91 @@
 
 
 
+# apply for
+
+phr. 申请，请求
+
+1. How do I apply for the grant? 
+
+   我怎样申请资助呢？
+
+2. What do I have to do to apply for a passport? 
+
+   我要怎么办才能申请护照？
+
+# intimate /ˈɪntɪmət; ˈɪntəmət; ˈɪntɪmeɪt/
+
+adj. 亲密的；个人的，隐私的；温馨的，幽静舒适的；详尽的，精通的；密切的，紧密的；有性关系的，暧昧的
+
+v. 透露，暗示；宣布，通告
+
+n. 密友，知己
+
+1. They are very intimate friends.
+
+   他们是非常亲密的朋友。
+
+2. He wrote about the intimate details of his family life. 
+
+   他写下了家庭生活中一些私人的细节。
+
+# introvert  /ˈɪntrəvɜːrt/
+
+n. 内向的人
+
+adj. 内向的
+
+v. 使内弯，使内倾
+
+1. I have a problem. I'm an introvert. 
+
+   我是一个内向的人，这对我来说是一个问题。
+
+2. Your cold like an introvert . 
+
+   你冷淡得像一个内向者。
+
+3. Are you an introvert or an extrovert? 
+
+   你是内向型还是外向型的人？
+
+   + extrovert  /ˈekstrəvɜːrt/
+     + n. 性格外向者，善于社交的人
+     + adj. 外向的，活泼友好的
+
+# arise from /əˈraɪz frəm/
+
+phr. 由……引起，起因于
+
+1. His toothache arose from eating too many sweets.
+   他的牙疼是由吃太多甜食引起的。
+
+# though  /ðoʊ/
+
+conj. 虽然，尽管；可是，不过
+
+adv. 不过，可是，然而
+
+1. Even though he failed the exam, he was happy.
+   虽然他考试没及格，但他还是很开心。
+   +  failed /feɪld/
+     + adj. 失败的；难以为继的；有故障的
+     + v. 失败；未能做到，未能做；辜负，使失望（fail 的过去式和过去分词形式）
+
+2. He did reply, though not immediately. 
+
+   他确实回复了，不过不是立马回复。
+
+3. You look as though you slept badly. 
+
+   你好像没睡好觉。
+
+
+
+---
+
+
+
 # surgery  /ˈsɜːrdʒəri/
 
 n. 外科手术；<英>诊所；（议员的）接待时间；应诊时间；手术室
@@ -5249,3 +5334,5 @@ v. 进展，表现；<古> 发生，结果；<古>出游，旅行
 3. When do they start paying full fare? 
 
    他们什么时候开始买全票？
+   
+   
