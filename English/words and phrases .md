@@ -2,21 +2,90 @@
 
 
 
+# below  /bɪˈloʊ/
 
+prep. （位置）在……下面； （数、量、水平等）在……以下；（职位、官衔等）低于
 
+adv. 在下面；（数字或级别）在……以下；在下文中；在下层甲板
 
+1. Most of the iceberg is hidden below the water.
 
+   + iceberg  /ˈaɪsbɜːrɡ/
+     + n. 冰山；微露端倪的事物
 
+2. Winter closes in and the temperature drops below freezing. 
 
+   冬天来临，气温降至冰点以下。
 
+   + freezing /ˈfriːzɪŋ/
 
+     + adj. 极冷的；冰点以下的，冰冻的
+     + n. 冰点
 
+     + v. 结冰；冻住；冷藏，冷冻（freeze 的现在分词形式）
 
+# peak  /piːk/
 
+n. 巅峰，顶点；山顶；有尖峰的山；尖端，尖顶；帽檐，帽舌；极值，峰值；（艏或艉的）尖舱；斜桁外端，（帆的）后上角
 
+v. 达到高峰，达到最大值；<古>消瘦，衰弱，精神萎靡
 
+adj. 巅峰状态的，最高的；高峰时期的
 
+1. The peak of the mountain is covered by snow.
 
+   山顶被积雪覆盖。
+
+2. It's always crowded at peak times. 
+
+   在高峰期总是很拥挤。
+
+# promotion /prəˈmoʊʃn/
+
+n. 提拔，晋升；促销，推销； 促进，提倡；（体育运动队的）晋级，升级；（为获利而举办的）体育赛事（尤指系列拳击赛）；（化学）助催化
+
+1. He get promotion and is now the CEO of the company.
+
+   他在工作中得到了晋升，现在是这家公司的首席执行官。
+
+2. Not getting the promotion was a real downer. 
+
+   未得到提升真让人很沮丧。
+
+   + downer /ˈdaʊnər/
+     + n. 镇定剂；令人沮丧的人
+
+3. The new job is a promotion for him. 
+
+   这一新职务对他是擢升。
+
+# arrive in /əˈraɪv ɪn/
+
+phr. 抵达，到达
+
+1. She'll arrive in New York at noon. 
+
+   她将在正午抵达纽约。
+
+2. When did Li Yang arrive in England? 
+
+   李阳什么时候到达英国的？
+
+# regularly /ˈreɡjələrli/
+
+adv. 定期地，有规律地；频繁地，经常地；均匀地，匀称地；（语法）变化规律地
+
+1. I go jogging fairly regularly. 
+
+   我差不多经常练习慢跑。
+
+   + fairly /ˈferli/
+     + adv. 相当地，颇；公平地，公正地；<旧>（用以强调）完全，简直；令人愉快地，让人喜欢地
+
+2. 
+   I go there quite regularly. 
+
+   我经常去那儿。
 
 
 
