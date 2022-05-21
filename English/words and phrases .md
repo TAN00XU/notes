@@ -50,17 +50,68 @@ adj. 营养的，滋养的
    + contain /kənˈteɪn/
      + v. 包含，容纳；遏制，防止……蔓延；抑制（感情）
 
+2. Nutrient deficiency is not easy to cure. 
 
+   营养的缺乏并不容易治愈。
 
+   + deficiency /dɪˈfɪʃnsi/
+     + n. 缺乏，不足；缺陷，瑕疵；赤字
+   + cure   /kjʊr/
+     + n. 药物，疗法；对策，措施；治愈，治疗；（对橡胶、塑料或其他材料的）熟化；（基督教牧师的）牧师责任（或责任区）；教区
+     + v. 治愈（病人），治好（疾病）；解决；控制，消除（不良的习惯、情感或态度）；加工贮藏；变干硬
 
+# arrangement for /əˈreɪndʒmənt fɔːr/
 
+phr. 对……的安排
 
+1. Here is my following arrangement for my exercise.
 
+   这是我接下来的锻炼安排。
 
+2. I have some other arrangement for that. 
 
+   我在那里还有另外的安排。
 
+3. 
+   We are busy in making arrangement for Christmas. 
 
+   我们正忙着做圣诞节的准备。
 
+4. Do you want to know my arrangement for the morning? 
+
+   你想了解我的上午安排吗？
+
+# obesity /oʊˈbiːsəti/
+
+n. 过度肥胖，肥胖症
+
+1. How should we fight against childhood obesity? 
+
+   我们应该如何与儿童肥胖症作斗争？
+
+2. The man suffers from obesity and lives an unhealthy lifestyle.
+   那个患有肥胖症的男人过着一种不健康的生活。
+   + suffer /ˈsʌfər/
+     + v. （因疾病、痛苦、悲伤等）受苦，受折磨；经受，遭受（坏事）；变差，变糟；<古>容许，允许；<古>受处决
+
+# arrive at /əˈraɪv æt/
+
+phr. 达到，达成；到达某地
+
+1. The school bus arrives at school at 8am every day.
+   校车每天早上8点到校。
+
+2. I arrive at school at 7 o'clock. 
+
+   我七点钟到学校。
+
+3. You must arrive at the time stated. 
+
+   你必须在规定时间到达。
+
+4. Which airport will you arrive at? 
+
+   您抵达哪个机场呢？
 
 
 
