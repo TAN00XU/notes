@@ -2,6 +2,111 @@
 
 
 
+
+
+# relatively /ˈrelətɪvli/
+
+adv. 相当地，相对地
+
+1. I found the test relatively easy. 
+
+   我觉得这次测试比较容易。
+
+2. The sums needed are relatively small. 
+
+   所需金额相对较小。
+
+# as a matter of fact
+
+phr. 事实上，其实
+
+1. As a matter of fact I think he is outstanding. 
+
+   事实上，我认为他很杰出。
+
+2. As a matter of fact, I was the one who did it. 
+
+   其实，那件事是我做的。
+
+3. He thinks he’s so fit. As a matter of fact, he’s pretty fat.
+   他觉得自己身材很好，事实上，他挺胖。
+
+# move /muːv/
+
+v. （使）改变位置，（使）移动；搬家，调动；（使）改变观点（或做法）；前进，进展；采取行动；使感动，打动；促使，驱使；更改（时间或日期）；改变话题；走棋，移动棋子；（在会议或法庭上）提议；<非正式>快速行进；（商品）被销售，销售（商品）；进行社交活动，交往；（使）改变状态（或观点、领域、活动）；<非正式>离去；使（肠）排空
+
+n. 措施，行动；移动，活动；转变，改变；一步棋，走棋；搬家，迁移；步骤；（运动或比赛中的）传递，转移
+
+1. He’s using a truck to help him move house.
+   他正用卡车帮他搬家。
+
+2. What's the date of your move? 
+
+   你什么时候搬家？
+
+3. The car was already on the move. 
+
+   汽车已经开动了。
+
+4. I can't move my fingers. 
+
+   我的手指动不了了。
+
+5. Cover me while I move forward. 
+
+   掩护我前进。
+
+# significant /sɪɡˈnɪfɪkənt/
+
+adj. 显著的，相当数量的；重要的，意义重大的； 别有含义的，意味深长的
+
+n. <古>象征，有意义的事物
+
+1. It was a significant day because we got married on that day.
+   那是一个具有重大意义的日子，因为我们在那天结婚了。
+
+2. Your work has shown a significant improvement. 
+
+   你的工作有了显著改进。
+
+   + improvement /ɪmˈpruːvmənt/
+     + n. 改善；改进之处
+
+# as a result  /æz ərɪˈzʌlt/
+
+phr. 所以，结果
+
+1. As a result of eating too much fast food, I got really fat.
+
+   由于吃了太多快餐食品，结果我变得非常胖。
+
+2. He made one big mistake, and, as a result, lost his job. 
+
+   他犯了个大错，结果丢了工作。
+
+3. As a result, the water became very dirty. 
+
+   结果水变得很脏。
+
+   + dirty /ˈdɜːrti/
+
+     + adj. 肮脏的；下流的；卑鄙的，不诚实的；暗淡的；<美，非正式>吸毒的
+     + v. 弄脏，使变脏；变脏
+
+     + adv. 很，非常；卑鄙地，不诚实地
+
+4. As a result, I've built a system for myself. 
+
+   因此，我为自己建立了一个系统。
+
+
+
+
+
+---
+
+
+
 # below  /bɪˈloʊ/
 
 prep. （位置）在……下面； （数、量、水平等）在……以下；（职位、官衔等）低于
