@@ -4,6 +4,119 @@
 
 
 
+
+
+# suspicious  /səˈspɪʃəs/
+
+adj. 感觉可疑的，怀疑的；不信任的，持怀疑态度的；令人怀疑的，引起怀疑的
+
+1. The policeman found the woman’s behavior suspicious.
+
+   警察发现这个女人的行为很可疑。
+
+2. I was suspicious of his motives. 
+
+   我怀疑他的动机。
+
+   + motive /ˈməʊtɪv/
+
+     + n. 动机，目的，原因；（文艺作品、音乐的）艺术思想，主题
+     + adj. 引起运动的，起推动作用的
+
+     + v. 使产生动机，激起
+
+3. Why should you be so suspicious? 
+
+   你何必多疑？
+
+# public /ˈpʌblɪk/
+
+adj. 公众的，大众的；公共的，公用的；政府的，公众事务的；<英> 大学的，为大学的；（声明、事件等）公开的，公诸于众的；公开场合的，大庭广众的；上市的；众所周知的，广为人知的
+
+n. 公众，大众（the public）；志趣相投（或从事同一类活动、具有共同特征）的群体；<非正式>（对某个艺术家、作家或表演家感兴趣的）读者，观众（one's public）；<英>（酒馆中的）低价吧台（=public bar），酒吧（=public house）；公共场所
+
+1. There are many non-smoking sings in public places.
+   公共场所有许多禁烟标志。
+
+2. New Year's Day is a public holiday. 
+
+   元旦是公休日。
+
+3. She works in public relations. 
+
+   她从事公关工作。
+
+   + relations  /rɪˈleɪʃnz/
+     + n. 关系；交往；事务
+
+4. 
+   The nearest public lavatory is at the station. 
+
+   最近的公共厕所在车站。
+
+   + lavatory  /ˈlævətɔːri/
+     + n. 盥洗室，厕所；（洗手间内的）洗脸盆，洗手池
+
+# spider /ˈspaɪdər/
+
+n. 蜘蛛；（搜索引擎的）蜘蛛程序，（计算机）爬虫程序；状似蜘蛛的物体；<英>蛛网形系索；台球棒三脚架；设圈套者
+
+v. （似蜘蛛般）急促爬动；设网，设圈套；（在因特网上）快速搜索（crawl 的别名）
+
+1. After an hour, the spider got do the web. 
+
+   一个小时后，蜘蛛织网了
+
+2. 
+   There's a spider crawling up your leg. 
+
+   有只蜘蛛正顺着你的腿往上爬。
+
+# totally /ˈtoʊtəli/
+
+adv. 完全地，整个地；对极了，太对了
+
+1. The moon is totally blocking the sun’s light.
+
+   月球完全阻挡了射到地面的阳光。
+
+2. They come from totally different cultures. 
+
+   他们来自完全不同的文化。
+
+3. Wow! That's totally awesome! 
+
+   哇！真是棒极了！
+
+   + awesome /ˈɔːsəm/
+     + adj. 让人惊叹的，令人敬畏的；非常棒的，极佳的
+
+# return /rɪˈtɜːrn/
+
+v. 回来，回去；归还，退还；回报，回应；（感觉或情况）重新出现，恢复；重新开始，继续（某项活动）；带来，产生（利润或损失）；回击，击回； 宣告（裁决）；选举，选出；（建筑）（尤指成直角）转延（墙壁）；（高尔夫）打后九穴；（美橄）截获（对方传、踢或漏球）反攻；（桥牌）（尤指同伴所攻出的同花色牌赢墩后）跟着打出，回出；把（空瓶或空罐头盒）送到回收站
+
+n. 回来，返回；归还，退回；重新开始，恢复；回报，收益；<英> 往返票，来回票；返回键，回车键；（选举）结果；（网球等）回击球；（纳税）申报表，申报单；（建筑）转延，转延侧面；回路导线；被退回（或送回）的东西，退票；（可以回收的）空罐头盒，空瓶子（returns）
+
+adj. （票）双程的，往返的；（旅途）返回的，返程的；（比赛）回访的；再度的，再次的
+
+1. Return to where you came from.
+   从哪儿来回哪儿去。
+
+2. 
+   Let's return to camp. 
+
+   咱们回营地吧。
+
+3. When did she return home from the trip? 
+
+   她是什么时候旅行回来的？
+
+
+
+---
+
+
+
 # relatively /ˈrelətɪvli/
 
 adv. 相当地，相对地
