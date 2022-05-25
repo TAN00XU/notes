@@ -201,7 +201,7 @@ ${msg}
 
 ## 三、Spring MVC执行流程
 
-![Spring MVC执行流程](../NotesImg/Spring MVC执行流程.png)
+![SpringMVC的执行流程](../NotesImg/SpringMVC执行流程.png)
 
 
 
