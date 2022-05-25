@@ -6,6 +6,101 @@
 
 
 
+
+
+
+
+# traditional  /trəˈdɪʃən(ə)l/
+
+adj. 传统的；根据传统而制造（或使用）的；因袭的，守旧的；（活动）惯例的，经常从事的；典型的；（爵士乐）具20世纪早期风格的
+
+1. The two kids are dressing in traditional clothing.
+   这两个小朋友穿着传统的服饰。
+
+2. Most bosses are traditional. 
+
+   大多数老板都很传统。
+
+# As a rule  /æz əruːl/
+
+phr. 通常
+
+1. As a rule, he tries to call mom at 8pm every day.
+   通常情况下，他每天晚上8点给妈妈打电话。
+
+2. I go to bed early as a rule. 
+
+   我一贯睡得早。
+
+3. As a rule, people are good listeners. 
+
+   原则上讲，人们都是不错的聆听者。
+
+# subject /ˈsʌbdʒɪkt; ˈsʌbdʒekt/
+
+n. 主题，话题；学科，科目，课程；主语；（绘画、摄影等的）主题，题材；实验对象；（批评、学习、调查的）对象；国民；起因；（逻）主词，主项，主概念；（乐）主旋律；（哲）主体，主观；中心实体
+
+v. 使臣服，征服，压服；使经受，使遭受
+
+adj. 隶属的，臣服的；可能受……影响的，易遭受……的；受……支配的，服从于……的；取决于，视……而定
+
+1. English was my favorite subject in school.
+   英语是我上学时最喜欢的科目。
+
+2. There's even a special subject index. 
+
+   甚至有一个特别的主题索引。
+
+   + special  /ˈspeʃl/
+     + adj. 特殊的，特别的；格外看重的，特别要好的；专门的，特设的；特有的，独具特色的；格外的，分外的；（主题）研究深入的；（数）特殊（矩阵）的
+     + n. 特色菜；特别节目；特价商品，折扣商品；特派员，临时警察，特约记者；专车
+
+3. She hastily changed the subject. 
+
+   她匆匆换了个话题。
+
+   + hastily /ˈheɪstɪli/
+     + adv. 匆忙地；急速地；慌忙地
+
+# annoying /əˈnɔɪɪŋ/
+
+adj. 令人恼火的，令人烦躁的
+
+v. 使恼怒，使烦恼；打扰，骚扰（annoy 的现在分词形式）
+
+1. He swatted a fly that was annoying him. 
+
+   他猛力拍打一只搅得他心烦的苍蝇。
+
+2. You must have found my attitude annoying. 
+
+   你一定觉得我的态度让人烦。
+
+3. I just thought people who went there were annoying. 
+
+   我只是觉得去那里的人很烦人。
+
+# devoted /dɪˈvoʊtɪd/
+
+adj. 挚爱的，忠诚的；热衷的；专用于……的
+
+v. 献身，致力；用于（devote 的过去式和过去分词形式）
+
+1. She is devoted to her family. 
+
+   她深深爱着自己的家庭。
+
+2. 
+   I have personally been devoted to this cause for many years. 
+
+   我个人多年来一直热衷于这项事业。
+
+
+
+---
+
+
+
 # suspicious  /səˈspɪʃəs/
 
 adj. 感觉可疑的，怀疑的；不信任的，持怀疑态度的；令人怀疑的，引起怀疑的
