@@ -8,6 +8,103 @@
 
 
 
+# as far as...be  concerned/kənˈsɜːrnd/
+
+phr. 就……而言
+
+1. His friends hate durian, but it’s the best fruit as far as he’s concerned.
+   他的朋友都讨厌榴莲，但就他自己来说，榴莲是最好吃的水果。
+
+   + hate /heɪt/
+     + v. 厌恶，不喜欢；仇恨，憎恨；（表示不愿说某事，或客气地请求）不愿，不想
+     + n. 憎恶，憎恨；<非正式> 所憎恶的人（或事物）；<非正式>所憎恶的人（或事物）
+
+   + durian  /ˈdʊriən/
+     + n. 榴莲；榴莲树（原产于马来西亚）（=durian tree）
+   + concerned /kənˈsɜːrnd/
+     + adj. 相关的， 关于（某个主题）的；担心的，焦急的；关注的，感兴趣的；关心的，挂念的
+     + v. 有关，关于；涉及，影响；使忧虑，使担心（concern 的过去式和过去分词形式）
+
+# wait /weɪt/
+
+v. 等候；盼望，期待；推迟，延缓；（已备好）可处理，可取用；（用于鼓励或威胁）等着；（用于打断讲话）等一下，慢着；服侍，招待
+
+n. 等待，等候的时间；<史>（城镇）官方乐队（waits）
+
+1. She is waiting for her flight.
+
+   她正在等她的航班。
+
+2. You don't need to wait for me. 
+
+   你不用等我。
+
+3. 
+   Sorry mate, you'll have to wait. 
+
+   对不起，伙计，你得等着。
+
+4. We had to wait all day long. 
+
+   我们不得不整天等候着。
+
+# earnings /ˈɜːrnɪŋz/
+
+n. 薪水，工资，收入；利润，收益
+
+1. He trebled his earnings in two years. 
+
+   他在两年间收入增加了两倍。
+
+   + trebled /ˈtrebld/
+     + 使成三倍（trebled 是 treble 的过去分词、过去式）
+
+2. A rise in his online business earnings made him excited.
+   网络业务收入的增长让他兴奋不已。
+
+# carefully /ˈkerfəli/
+
+adv. 小心地，仔细地
+
+1. I counted the money carefully. 
+
+   我仔细点了这笔钱。
+
+   + counted /ˈkaʊntɪd/
+     + 认为
+
+2.  I listened carefully to her story. 
+
+   我认真听了她说的情况。
+
+3. He folded the paper carefully. 
+
+   他小心地把那张纸折起来。
+
+   + folded  /ˈfoʊldɪd/
+     + v. 折叠；交叉合拢；失败垮台；把牲畜关在栏中（fold 的过去分词）
+     + adj. 折叠的；褶曲的
+
+# adapt /əˈdæpt/
+
+v. 适应；调整，使适合；改编；改造，改装
+
+1. It's amazing how soon you adapt. 
+
+   你这么快就适应了，真是令人惊奇
+
+2. We can adapt, but we have to start now. 
+
+   我们可以适应，但我们必须现在就开始。
+
+3. It took him a while to adapt himself to his new environment. 
+
+   他过了好一阵子才适应了新的环境。
+
+
+
+---
+
 
 
 # traditional  /trəˈdɪʃən(ə)l/
