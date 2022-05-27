@@ -4,7 +4,92 @@
 
 
 
+# as for
 
+phr. 至于，就……方面说
+
+1. As for our market share, it is going down.
+   就我们的市场份额来说，它正在下降。
+
+# consider /kənˈsɪdər/
+
+v. 考虑，斟酌；认为，视为；体贴，顾及；细看，端详；探讨，讨论
+
+1. I will consider your offer, but I think I can find a better one.
+   我会考虑你给的职位，但我觉得我能找一个更好的。
+
+2. I'd like some time to consider. 
+
+   我希望有些时间考虑一下。
+
+3. Consider what your likes and dislikes are about your job. 
+
+   考虑一下，对于你的工作哪些是你喜欢的，哪些是不喜欢的。
+
+# adventure  /ədˈventʃər/
+
+n. 冒险（经历），奇遇；冒险的刺激，冒险欲；<古>生意
+
+v. 冒险；大胆说出；去（某地）探险
+
+1. The boy went on an adventure in the jungle.
+   + jungle  /ˈdʒʌŋɡl/
+     + n. （热带）丛林；弱肉强食的地方；杂草丛生的地方；杂乱无章的一堆；丛林音乐（一种快速舞蹈音乐）
+
+2. Welcome to our adventure tour! 
+
+   欢迎加入我们的历险旅程！
+
+3. They wanted a real adventure. 
+
+   他们想要一次真正的冒险。
+
+4. What was that adventure? 
+
+   那是什么样的冒险呢？
+
+# As regards /rɪˈɡɑːrdz/
+
+v. 看待；注视；注意；涉及（regard 的第三人称单数）
+
+n. 注意；尊重；致意（regard 的复数）
+
+1. As regards this book, his father spoke highly of it.
+   关于这本书，他爸爸对其给予了很高的评价。
+
+# difficult/ˈdɪfɪkəlt/
+
+adj. 困难的，费力的；不友好的，难对付的
+
+1. The exam was quite difficult. 
+
+   这场考试相当难。
+
+2. 
+   It was rather a difficult question. 
+
+   这真是个难题。
+
+   + rather  /ˈræðər/
+     + adv. 颇，相当；宁愿，最好（would rather）；而不是；更确切地说；（用以使表达的语气婉转）有几分，有点儿；恰恰相反，而是
+     + int. <英，旧>当然，的确（表同意）
+
+3. The house is large and difficult to maintain. 
+
+   房子很大，难以养护。
+
+   + maintain /meɪnˈteɪn/
+     + v. 保持，维持；维修，保养；断言，主张；赡养，抚养；<旧>支持，维护
+
+4. It's really difficult to read your writing. 
+
+   你的笔迹真是难以辨认。
+
+
+
+
+
+---
 
 
 
