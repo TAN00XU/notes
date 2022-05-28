@@ -2,6 +2,86 @@
 
 
 
+# afford  /əˈfɔːrd/
+
+v. 买得起；有（时间）做某事；承担得起；<正式>提供，给予
+
+1. Finally, I can afford this car.
+   我终于买得起这辆车 了。
+
+2. I can afford it, but only just. 
+
+   这东西我刚好买得起。
+
+3. I can't afford it at that price. 
+
+   这样的价格我付不起。
+
+4. Can we afford a new car? 
+
+   我们买得起一辆新车吗？
+
+# as usual /æz ˈjuːʒʊəl/
+
+phr. 通常，平常地，像往常一样；照例
+
+1. As usual, he went to the coffee shop to buy his coffee.
+   和往常一样，他去咖啡店买了一杯咖啡。
+
+2. He put down his hat as usual. 
+
+   他像往常一样摘下帽子。
+
+# far /fɑːr/
+
+adv. 远，遥远地；久远地；非常，很大程度上；发展，进展（到）；过分地
+
+adj. 遥远的，久远的；另一边的，较远的；偏远的，极端的
+
+1. Though we’re far apart, you’re always in my heart.
+   虽然我们相隔遥远，但你永远在我心中。
+
+2. What have you found so far? 
+
+   迄今为止，你发现了什么？
+
+3. It's been quiet so far. 
+
+   到目前为止还是安静的。
+
+# ancient /ˈeɪnʃənt/
+
+adj. 古代的，远古的；古老的，年代久远的；老的，老掉牙的
+
+n. （尤指埃及、希腊和罗马的）古代人；<古>老头
+
+1. These ancient statues are over 2,000 years old.
+   这些古代雕像有2000多年的历史。
+   + statues /ˈstætʃuːz/
+     + n. [建]雕像（statue 的复数）
+     + v. 在……处装饰；用雕像装饰（statue 的三单形式）
+
+# announce  /əˈnaʊns/
+
+v. 宣布，公布；声称，郑重地说；（尤指通过广播）通知；播报，讲解（体育赛事）；通报……的到来；显示；告知；宣布竞选公职
+
+1. He announced the birth of his child on his WeChat.
+   他在微信上宣布了孩子出生的消息。
+
+2. Announce and promote training. 
+
+   宣布并为培训做宣传。
+
+3. We dashed off a letter to announce the news. 
+
+   我们匆忙写了一封信来宣布这消息。
+
+
+
+
+
+---
+
 
 
 # as for
