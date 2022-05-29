@@ -225,3 +225,146 @@ public class Person {
 }
 ```
 
+## JSR303数据校验
+
+![image-20220529162414274](../NotesImg/image-20220529162414274.png)
+
+```xml
+<!--validation启动器-->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-validation</artifactId>
+</dependency>
+```
+
+
+| 注解   | 解释 |
+| ---- | ---- |
+| @NotNull      |   注解元素必须是非空 | 
+|@Null    |       注解元素必须是空|
+| @Digits    |      验证数字构成是否合|
+| @Future         | 验证是否在当前系统时间之后|
+| @Past            |验证是否在当前系统时间之前|
+| @Max      |     验证值是否小于等于最大指定整数值|
+| @Min      |      验证值是否大于等于最小指定整数值|
+| @Pattern      |   验证字符串是否匹配指定的正则表达式|
+| @Size       |    验证元素大小是否在指定范围内|
+| @DecimalMax | 验证值是否小于等于最大指定小数值|
+| @DecimalMin  |验证值是否大于等于最小指定小数值|
+| @AssertTrue   |    被注释的元素必须为true|
+| @AssertFalse   |被注释的元素必须为false|
+
+
+
+Hibernate validator 在JSR303的基础上对校验注解进行了扩展，扩展注解如下：
+
+| 注解   | 解释 |
+| ---- | ---- |
+| @Email    |      被注释的元素必须是电子邮箱地址|
+| @Length      |    被注释的字符串的大小必须在指定的范围内|
+| @NotEmpty    |   被注释的字符串的必须非空|
+| @Range         | 被注释的元素必须在合适的范围内|
+
+### 空检查
+
+1. @Null       验证对象是否为null
+2. @NotNull    验证对象是否不为null, 无法查检长度为0的字符串
+3. @NotBlank   检查约束字符串是不是Null还有被Trim的长度是否大于0,只对字符串,且会去掉前后空格
+4. @NotEmpty   检查约束元素是否为NULL或者是EMPTY.
+
+### Booelan检查
+
+1. @AssertTrue     验证 Boolean 对象是否为 true 
+2. @AssertFalse    验证 Boolean 对象是否为 false 
+
+### 长度检查
+
+1. @Size(min=, max=) 验证对象（Array,Collection,Map,String）长度是否在给定的范围之内
+2. @Length(min=, max=) string is between min and max included.
+
+### 日期检查
+
+1. @Past       验证 Date 和 Calendar 对象是否在当前时间之前
+2. @Future     验证 Date 和 Calendar 对象是否在当前时间之后 
+
+### 正则表达式
+
+1. @Pattern    验证 String 对象是否符合正则表达式的规则
+
+# 多环境切换
+
+我们在主配置文件编写的时候，文件名可以是 `application-{profile}.properties/yml` , 用来指定多个环境版本；
+
+**例如：**
+
+application-test.properties 代表测试环境配置
+
+application-dev.properties 代表开发环境配置
+
+但是Springboot并不会直接启动这些配置文件，它**默认使用application.properties主配置文件**；
+
+我们需要通过一个配置来选择需要激活的环境：
+
+```properties
+#比如在配置文件中指定使用dev环境，我们可以通过设置不同的端口号进行测试；
+#我们启动SpringBoot，就可以看到已经切换到dev下的配置了；
+spring.profiles.active=dev
+```
+
+## yaml的多文档块
+
+和properties配置文件中一样，但是使用yml去实现不需要创建多个配置文件，更加方便了 !
+
+```yaml
+server:
+  port: 8081
+  #选择要激活那个环境块spring:  
+  profiles:    
+  active: prod
+---server:
+  port:
+    8083spring:
+      profiles: dev #配置环境的名称
+
+---
+server:
+  port:
+    8084spring:
+      profiles: prod  #配置环境的名称
+```
+
+### 配置文件加载路径与顺序
+
+1. `file:./config/`
+2. `file:./`
+3. `classpath:/config/`
+4. `classpath:/`
+
+优先级1：项目路径下的config文件夹配置文件
+
+优先级2：项目路径下配置文件
+
+优先级3：资源路径下的config文件夹配置文件
+
+优先级4：资源路径下配置文件
+
+# thymeleaf
+
+```xml
+<!--Thymeleaf模板引擎-->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+</dependency>
+<!--或者
+<dependency>
+    <groupId>org.thymeleaf</groupId>
+    <artifactId>thymeleaf-spring5</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.thymeleaf.extras</groupId>
+    <artifactId>thymeleaf-extras-java8time</artifactId>
+</dependency>
+
+```
+

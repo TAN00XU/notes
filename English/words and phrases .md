@@ -2,6 +2,199 @@
 
 
 
+
+
+
+
+
+
+# aspect /ˈæspekt/
+
+n. 方面，特色；朝向，方位；外表，外观；（动词的）体
+
+v. （行星与另一天体）形成角度关系
+
+1. This was a new aspect of the thing. 
+
+   这是事情的一个新的方面。
+
+2. He has made progress in every aspect. 
+
+   他在各方面都有起色。
+
+3. The house had a southwest aspect. 
+
+   这房子为西南朝向
+
+# atmosphere /ˈætməsfɪr/
+
+n. （包围地球或其他行星的）大气，大气层；（房间或其他场所内的）空气；气氛，环境；情调，感染力
+
+1. The Earth’s atmosphere absorbs part of the sun’s energy.
+   - absorbs /æbˈsɔrbs/
+     - v. 吸收；吸引……的注意（absorb 的第三人称单数形式）
+
+# aside from  /əˈsaɪd frəm/
+
+phr. 除……以外
+
+1. Aside from himself, there were only three other people in the meeting room.
+   除了他自己，会议室里只有另外三个人。
+
+2. Aside from a few scratches, I'm OK. 
+
+   除了几处擦伤外，我安然无恙。
+
+   + scraches  /ˈskrætʃɪz/
+     + n. 划痕（scratch 的复数）；刮伤；刮花
+     + v. 擦，刮；搔（痒）；抓破（scratch 的第三人称单数形式）
+
+# touch /tʌtʃ/
+
+v. 触摸，碰；接触，触及；移动，碰到，损坏，伤害；吃，喝，使用；感动，触动，使同情；影响，与……有关；与……媲美，比得上；达到（某一水平等）；涉及，关系到；处理，做（某事）；（在脸上）闪现，掠过；轻轻击（球）；（光）照到；具有……特性；向（某人）要（钱）；（从对方投手）击出安全打，跑垒得分；（几何）与（曲线，表面）切触；（主艺术）（用画笔、铅笔）轻轻勾勒
+
+n. 触觉，触感；触摸，碰；触摸时的感觉；修饰，润色，装点；作风，风格，手法；特长，才能；一点儿，少许；轻微，稍许；<非正式>（病的）轻度；（足球或橄榄球中）边线以外的区域；触球，控球；（音乐家的）触键法，弹奏法；（乐器键、弦的）弹性，弹力；（钢笔、铅笔等的）轻触；（鸣钟术）（敲奏编钟中）转调较少的钟乐
+
+1. No! Don't touch it! It's hot. 
+
+   别！别碰它！很烫。
+
+2. I forbid anyone to touch that clock. 
+
+   我不准任何人碰那台钟。
+
+   + forbid /fərˈbɪd/
+     + v. 禁止；使不可能，妨碍
+
+3. Let's keep in touch. 
+
+   咱们保持联系。
+
+# awake /əˈweɪk/
+
+adj. 醒着的
+
+v. （使）醒来，唤醒；唤起，激发起；意识到（awake to）
+
+1. The noise kept him awake. 
+
+   噪音使他一直醒着
+
+2. 
+   He is always awake at midnight. 
+
+   他常常到了午夜还醒着
+
+3. He was not quite awake yet. 
+
+   他还没有完全醒过来。
+
+
+
+
+
+---
+
+
+
+# arrange  /əˈreɪndʒ/
+
+v. 安排，筹备；整理，布置，排列；改编；商定
+
+1. 
+   Can I arrange an appointment for Monday? 
+
+   我可以安排星期一约见吗？
+
+2. 
+   I could arrange to meet with you any day next week. 
+
+   我可以安排在下周的任何一天和你见一面。
+
+# as well  /æz wel/
+
+phr. 也；同样地；还不如；此外
+
+1. I am good at football as well as basketball.
+   我擅长足球，也精通篮球。
+
+2. Are they coming as well? 
+
+   他们也来吗？
+
+3. 
+   She doesn't play as well as her sister. 
+
+   她演奏得不如她姐姐。
+
+# grow /ɡroʊ/
+
+v. 长大，成长；成活，生长；发展，增加；逐渐变得；产生，形成；栽种，种植；留长，蓄；变长
+
+1. The seed grow into a tree.
+   种子长成了一棵树。
+   + seed /siːd/
+     + n. 种子，籽；<美>（苹果或橙子等的）果核，籽；<旧> 精液，精子（常为幽默用法）；<古，文>（古时用语，原用于《圣经》中）子嗣，子孙；（感情、过程的）起源，开端；（网球、羽毛球等体育项目中的）种子选手， 种子队；晶粒，晶种；辐射管，镭管
+     + v. 给（蔬菜，水果）去籽（去核），给......脱籽；选定......为种子选手（或种子队）；在（地里）播种；（植物）结籽，脱籽；（植物）自播；（喻）使萌芽，使发展；用晶粒物质使冷凝（结晶）（尤指促云化雨）
+     + adj. 用作种子的
+
+2. 
+   I've decided to grow my hair. 
+
+   我已决定留长发。
+
+3. 
+   Why don't you grow up? 
+
+   你怎么就长不大呢？
+
+# annual  /ˈænjuəl/
+
+adj. 一年一度的；年度的；（植物）一年生的
+
+n. 一年生植物；年刊，年鉴
+
+1. How much annual leave do you get? 
+
+   你们的年假有多长？
+
+# argument /ˈɑːrɡjumənt/
+
+n. 争论，争吵；论据，理由；辩论，讨论；自变数；主词，受词；<古>书的内容提要
+
+1. The girl had an argument with her boyfriend about the video game.
+
+   女孩和她的男朋友因为电子游戏争吵。
+
+2. She loves to win an argument. 
+
+   她喜欢在辩论中获胜。
+
+3. She got into an argument with the teacher. 
+
+   她和老师争论了起来。
+
+# ashamed of /əˈʃeɪmd ʌv/
+
+phr. 难为情，害臊；对……感到羞耻；对……感到惭愧
+
+1. He was ashamed of himself for getting the lowest score in the exam.
+   他因考试得了最低分而感到羞愧。
+
+2. Aren't you ashamed of yourself? 
+
+   你不为自己感到羞耻吗？
+
+3. There's nothing to be ashamed of. 
+
+   这不是丢脸的事。
+
+
+
+
+
+---
+
 # afford  /əˈfɔːrd/
 
 v. 买得起；有（时间）做某事；承担得起；<正式>提供，给予
