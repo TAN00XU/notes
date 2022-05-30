@@ -372,5 +372,52 @@ server:
 
 ```
 
+# 国际化
 
+## 在resources下创建`i18n`包
+
+配置好相应的语言文字包
+
+![image-20220530152326904](../NotesImg/image-20220530152326904.png)
+
+安装`Resource Bundle Editor`插件以便于管理
+
+
+
+## 传参
+
+```html
+<a th:href="@{/index.html(l=zh_CN)}">中文</a>
+<a th:href="@{/index.html(l=en_US)}">English</a>
+```
+
+## 重写`LocaleResolver`类的方法
+
+```java
+/**
+ * @author TAN00XU
+ * 自定义的国际化组件
+ */
+public class MyLocaleResolver implements LocaleResolver {
+    @Override
+    public Locale resolveLocale(HttpServletRequest request) {
+        //获取语言参数
+        String language = request.getParameter("l");
+        //如果没有获取到，则使用默认的语言
+        Locale locale = Locale.getDefault();
+        //如果获取到了，则使用获取到的语言
+        if (StringUtils.hasText(language)) {
+            String[] split = language.split("_");
+            locale = new Locale(split[0], split[1]);
+        }
+
+        return locale;
+    }
+
+    @Override
+    public void setLocale(HttpServletRequest request, HttpServletResponse response, Locale locale) {
+
+    }
+}
+```
 
