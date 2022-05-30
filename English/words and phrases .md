@@ -10,23 +10,45 @@
 
 
 
+# ask after
 
+phr. 探问，问候
 
+1. He was a caring grandfather who always asked after his grandchildren.
+   他是一位慈爱的祖父，总是问候自己孙子孙女的健康。
 
+2. He'll be pleased to hear you ask after him. 
 
+   他听到你的问候一定会很高兴的。
 
+# learning /ˈlɜːrnɪŋ/
 
+n. 学习；知识，学问
 
+v. 得知，获悉；学习，学会；认识到，从……吸取教训（learn 的现在分词形式）
 
+1. Mom often helps me with my learning.
+   妈妈经常在学习上给我帮助。
 
+2. 
+   He is learning to play the piano. 
 
+   他正在学弹钢琴。
 
+# basic /ˈbeɪsɪk/
 
+adj. 最重要的，基本的；最简单的，初级的；（产品和服务）必需的；（化）碱性的；含碱的
 
+n. 基本要素，基本原则
 
+1. Water is a basic necessity of life. 
 
+   水是一种基本生活必需品。
 
+   + necessity /nəˈsesəti/
+     + n. 必需品，必需的事物；必要，需要；必然性，不可避免的情况
 
+ask for
 
 
 
