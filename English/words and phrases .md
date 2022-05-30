@@ -48,9 +48,32 @@ n. 基本要素，基本原则
    + necessity /nəˈsesəti/
      + n. 必需品，必需的事物；必要，需要；必然性，不可避免的情况
 
-ask for
+# ask for
 
+phr. 请求，要求；寻找
 
+1. Is it too much to ask for a little quiet? 
+
+   请略微安静一点儿，这个要求过分吗？
+
+2. You can't ask for anything more. 
+
+   你不能再问更多事了。
+
+3. Let's ask for the bill. 
+
+   我们结账吧。
+
+# assign to /əˈsaɪn tu/
+
+vt. 指定到；分配给
+
+1. The manager assigned him to work on reception.
+
+   经理指派他去做接待工作。
+
+   + reception /rɪˈsepʃn/
+     + n. 接待处，服务台；欢迎会，招待会；欢迎，反响；（收音机或电视信号）接收效果，接收质量；接收，接待；（美橄）接球；<英>（幼儿学校的）小班，学前班
 
 ---
 
