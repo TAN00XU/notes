@@ -4,7 +4,82 @@
 
 
 
+# translation /trænzˈleɪʃn; trænsˈleɪʃn/
 
+n. 翻译；译文，译本；译词，译语；转变，转化；（生）转译；转移；（数）平移；调任
+
+1. Thy little boy is trying to do some translation exercises.
+
+   这个小男孩正尝试做一些翻译练习。
+
+2. An English translation is now being prepared. 
+
+   英文译本正在准备之中。
+
+   + prepared /prɪˈperd/
+     + adj. 有准备的，准备好的；打算做，乐意做；提前准备好的
+     + v. 准备，预备；策划，筹备；（使）（自己或他人）作好准备（应对未来）（prepare 的过去式和过去分词形式）
+
+# bright /braɪt/
+
+adj. 明亮的；鲜艳的；聪明的；欢快的，有活力的；光明的，有希望的；清晰嘹亮的
+
+n. <美>前大灯，头灯；明亮醒目的颜色
+
+adv. <文>光亮地，明亮地
+
+1. He opened the window and the room beacame bright.
+   他打开窗户，房间就变得明亮了。
+
+2. She's a bright kid. 
+
+   她是个聪明孩子。
+
+3. You're up bright and early today! 
+
+   你今天起得很早啊！
+
+# brush /brʌʃ/
+
+n. 刷子，画笔；灌木丛；刷；轻擦，掠过；小冲突；狐狸尾巴；柴枝；<非正式>（性感的）女人（或女孩）
+
+v. 刷，拂拭；刷掉，拂去；刷上；轻擦，触碰
+
+1. How often do you brush your teeth? 
+
+   你多久刷一次牙？
+
+2. I'm ready to brush my teeth! 
+
+   我准备好去刷我的牙了
+
+3. Brushes of different sizes may be applied in different situations.
+   不同尺寸的画笔可以用于不同的情况。
+
+# approve /əˈpruːv/ of sth.
+
+1. I approve of your plan.
+   我赞成你的计划。
+
+# able /ˈeɪbl/
+
+adj. 能够，有能力的；聪明能干的，精通（某事）的
+
+1. Will you be able to come? 
+
+   你能来吗？
+
+2. They were able to come and go at will. 
+
+   他们能够来去自由。
+
+
+
+
+
+
+
+---
 
 
 
