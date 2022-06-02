@@ -4,6 +4,114 @@
 
 
 
+
+
+
+
+# sword /sɔːrd/
+
+
+
+n. 剑，刀；<文> 武力，暴力（the sword）；塔罗纸牌中一组牌中的一张（swords）
+
+1. He draws out the sword and gets ready for a fight.
+   他握住剑，准备一战。
+
+# burden  /ˈbɜːrdn/
+
+n. 负担，责任；负重，负荷；船的载重量，吨位；（演讲、书或辩论的）主题，主旨（the burden）
+
+v. 烦扰，使负重担
+
+1. I'll bear a hand, too; and take my share of the burden. 
+
+   我也要帮忙，承担我的那份责任。
+
+2. His working burden is too heavy, which makes have to surrender.
+
+   他的工作负担太沉重了，让他不得不投降。
+
+   + surrender /səˈrendər/
+
+     + v. 投降；任凭摆布，沉溺于；（被迫）交出，放弃；（向官员）交出（证件）；（体育运动中）失利（或丢分）；退保；期满前就放弃（租借物）
+
+     + n. 投降，自首；屈服，屈从；（尤指在战争等过后）放弃，交出；退保
+
+# burn  /bɜːrn/
+
+v. 燃烧，消耗；烧坏，烧毁，烧焦；晒伤，晒黑；火辣辣地发痛，发烫；发光，发亮；激怒；刻录；渴望；迅速移动
+
+n. 灼伤，烧伤，烧痕；肌肉酸痛感；小溪
+
+1. The forest is burning. What a disaster！
+
+   森林着火了。这真是场灾难！
+
+2. You should burn your own boats! 
+
+   你应该烧掉你的船！
+
+3. How did you burn your feet? 
+
+   你的脚怎么烧伤的？
+
+4. Look out, or you'll burn yourself. 
+
+   当心，否则你会烧到自己。
+
+# at a loss
+
+亏本地；困惑不解
+
+1. The tacher was at a loss when her student couldn’t answer the simple question.
+   当发现她的学生解不出这个简单的问题时，老师困惑不解。
+
+2. I'm at a loss what to do next. 
+
+   我对下一步做什么心里没谱。
+
+# although /ɔːlˈðoʊ/
+
+conj. 虽然，尽管；但是，然而
+
+1. Although it is a rainy day, the girl is still having fun.
+   尽管这是一个雨天，小姑娘还是玩得很开心。
+
+2. Although the sun was shining it wasn't very warm. 
+
+   尽管太阳高照，却不很暖和。
+
+   + shining  /ˈʃaɪnɪŋ/
+     + adj. 发光的，反光的；（成就）辉煌的，（品质）出色的
+     + v. （太阳或其他光源）发光，照耀；（用电筒等）照射；（表面）发亮（shine 的现在分词）
+
+# cancel  /ˈkænsl/
+
+v. 取消（计划好的事情）；终止，废除；盖销，注销；（因素，情况）抵消，对消
+
+n. 取消，撤销；邮票注销章，戳记；经修正的版面
+
+1. I cancelled my shopping order.
+   我取消了我的购物订单。
+
+2. The customer called to cancel. 
+
+   顾客打电话来取消了。
+
+3. Is it too late to cancel my order? 
+
+   我现在取消订单是不是太晚了？
+
+4. You will lose your deposit if you cancel the order. 
+
+   如果撤销订单，保证金将不予退还。
+
+   + deposit /dɪˈpɑːzɪt/
+     + v. 放下，放置；储蓄；存放，寄存；沉积，沉淀；支付（押金、订金或预缴费用）
+     + n. 沉积物，沉积层；订金；押金；存款；竞选保证金
+
+---
+
 # translation /trænzˈleɪʃn; trænsˈleɪʃn/
 
 n. 翻译；译文，译本；译词，译语；转变，转化；（生）转译；转移；（数）平移；调任
