@@ -2,7 +2,95 @@
 
 
 
+# capital  /ˈkæpɪt(ə)l/
 
+n. 资本，资金；资本家，资方；首都，首府，省会；活动（或生产）中心；大写字母；柱顶，柱头
+
+adj. 可处死刑的；大写的；首府的，省会的；<旧>顶好的，极好的
+
+1. The capital city is swarming with police. 
+
+   首都到处是警察。
+
+   + swarming /ˈswɔːrmɪŋ/
+     + v. （昆虫）成群地飞；成群移动，蜂拥；（蜜蜂、蚂蚁等）分群；云集，挤满；攀爬（swarm 的现在分词）
+
+# at a time
+
+
+
+n. 一次；每次；在某时
+
+1. She only takes on pill at a time.
+   她一次只服用一粒药。
+
+2. I can only carry two at a time. 
+
+   我一次只能带两个。
+
+3. We can play for an hour at a time? 
+
+   我们一次可以玩一个小时吗？
+
+# computer /kəmˈpjuːtər/
+
+n. 计算机；电脑；电子计算机
+
+1. Why is there only a white background on the computer screen. 
+
+   为什么电脑屏幕上只有一个白色的背景。
+
+2. He's addicted to computer games. 
+
+   他迷上了电脑游戏。
+
+   + addicted  /əˈdɪktɪd/
+     + adj. （吸毒）成瘾的，上瘾的；入迷的，着迷的
+     + v. 使上瘾，使沉迷（addict 的过去式和过去分词形式）
+
+3. She works in the computer business. 
+
+   她从事电脑业
+
+4. The computer won't boot. 
+
+   计算机无法启动。
+
+# careless /ˈkerləs/
+
+adj. 粗心大意的，疏忽的；自然的，随便的；淡漠的，不关心的
+
+1. If you’re careless with your trash, other people may get hurt.
+   如果你乱扔垃圾，其他人可能因此受伤。
+   + trash  /træʃ/
+     + n. 垃圾，废物；<美>垃圾桶；劣质的东西，（尤指）拙劣的作品；<美>废物，窝囊废；（西印度）（作燃料的）甘蔗叶（梢），甘蔗渣
+     + v. <非正式>损坏，毁坏；<非正式>抨击，谴责；<非正式>丢弃，去除；（计算机）把（文件，程序）送进回收站删除，清空（磁盘）；剥（甘蔗）皮以使其更快成熟
+
+2. It's your own fault for being careless. 
+
+   你粗心大意是你自己的过失。
+
+   + fault /fɔːlt/
+     + n. 错误；责任，过错；缺点，故障；断层；发球失误
+     + v. 挑剔，指责；发球失误；产生断层；<古>犯错误，做错事
+
+3. It was careless of me to leave the door open. 
+
+   怪我粗心忘了关门。
+
+# at all costs /kɔːsts/
+
+phr. 不惜任何代价，不惜一切代价，不惜代价，无论如何
+
+1. We will win at all costs! 
+
+   我们会不惜一切代价争取胜利！
+
+
+
+
+
+---
 
 
 
