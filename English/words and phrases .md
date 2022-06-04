@@ -4,13 +4,75 @@
 
 
 
+# at all times /æt ɔːl taɪmz/
 
+adv. 无论何时；一直；始终
 
+1. You must carry ID at all times. 
 
+   你必须随身携带身份证件。
 
+2. Keep this in mind at all times. 
 
+   要时刻保持这个想法。
 
+3. Changes come everywhere and at all times. 
 
+   变化每时每刻，无处不在。
+
+# at any rate  /æt ˈeni reɪt/
+
+phr. 无论如何，至少
+
+1. “Hold on to me! I won’t leave you alone at any rate.”
+
+   抓紧我！无论如何我都不会丢下你不管的。
+
+2. At any rate I'll never go there again! 
+
+   无论如何，我再也不去那儿了！
+
+# fact  /fækt/
+
+n. 事实，真相；现实
+
+1. The plain fact is that nobody really knows. 
+
+   事实很明显，没有人真正了解。
+
+2. Isn't it a fact that the firm is losing money? 
+
+   公司正在亏本，这难道不是事实吗？
+
+# conduct /kənˈdʌkt; ˈkɑːndʌkt/
+
+v. 实施，进行；指挥；带领，引导；举止，表现；传导
+
+n. 行为，举止；经营方式，管理方法
+
+1. He conducting an orchestra.
+   + orchestra  /ˈɔːrkɪstrə/
+     + n. （大型的）管弦乐队；乐池（=orchestra pit）；<美>（剧院中）靠近舞台的座位；古希腊剧场舞台前部半圆形的表演区（供合唱队表演歌舞）
+
+2. Are you ashamed of your conduct? 
+
+   你对自己的行为感到害臊吗？
+
+# congratulate /kənˈɡrætʃuleɪt/
+
+v. 祝贺，向……道贺；感到高兴（或自豪）
+
+1. I congratulate you. 
+
+   我祝贺你。
+
+2. First, congratulate yourself. 
+
+   首先，要恭喜你自己。
+
+3. I want to congratulate you. 
+
+   我向你表示祝贺。
 
 
 
