@@ -2,6 +2,115 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+# central  /ˈsentrəl/
+
+adj. 中央的，中心的；起支配作用的，有控制力的；最重要的，主要的
+
+n. <美，非正式>活动中心
+
+1. We should all meet at a central point.
+   我们都应该去中心点那儿碰头。
+
+2. One of the hotel's plus points is that it is very central. 
+
+   那个旅馆的优势之一是它处于市中心。
+
+# at all events /æt ɔːl ɪˈvents/
+
+adv. 无论如何
+
+1. I have to find him at all events. 
+
+   无论如何，我也要找到他。
+
+2. At all events, we have done our best. 
+
+   无论如何，我们已经尽力了。
+
+# hard /hɑːrd/
+
+adj. 硬的，坚固的；困难的；猛烈的，用力的；困苦的，艰苦的；努力的；冷酷的，心肠硬的；严厉的，苛刻的；（政党内部派别）极端的，固执己见的；（季节，天气）严酷的，凛冽的；（水）硬的；坚强的，勇敢的；刺目的，令人不快的；确凿的，可靠的；（学科）实证的；硬（科幻）的；酒精含量高的，烈性的；（尤指葡萄酒因含有单宁酸而）苦涩的；（毒品）毒性强的，易上瘾的；（辐射）穿透力强的；（色情作品）淫秽的，极黄色的；仔细的，认真的；严肃的；强壮的；发硬音的；（股票价格，商品价格）稳健的
+
+adv. 努力地，费力地；用力地，猛烈地；仔细地，认真地；沉重地，大量地；变硬；在最大程度上
+
+1. All five men are hard workers. 
+
+   五个人全都工作努力。
+
+2. That's a very hard question. 
+
+   那是个很难的问题。
+
+3. I find that hard to believe. 
+
+   我对此感到难以相信。
+
+4. It was raining hard outside. 
+
+   外面雨下得很大。
+
+# chief /tʃiːf/
+
+adj. 首要的，主要的；为首的，首席的
+
+n. 领袖，首领；酋长；（纹章）上段（盾徽顶部的宽横带）
+
+adv. 主要地；首要地
+
+1. 
+   He is the company's chief financial officer. 
+
+   他是这个公司的首席财务官。
+
+   + financial /faɪˈnænʃl; fəˈnænʃl/
+     + adj. 财政的，金融的；<澳新，非正式>有钱的；<澳新>（俱乐部或社团成员）已缴费的
+     + n. （组织或个人的）财务状况；金融公司股票
+
+2. You yourself are one of the chief offenders. 
+
+   你本人就是主犯之一。
+
+   + offenders  /əˈfendər/
+     + n. 罪犯（offender 的复数）；冒犯者
+
+# cinema  /ˈsɪnəmə/
+
+n. 电影院；电影（the cinema）；电影业，电影艺术
+
+1. I like music, theatre and cinema. 
+
+   我喜欢音乐、戏剧和电影。
+
+   + theatre /ˈθiːətər/
+     + n. 剧场，戏院；<美>电影院；戏剧；戏剧表演，戏剧演出；手术室；战场，战区；（事件发生的）场所；做戏，夸张做作；戏剧效果；阶梯式讲堂（或教室）；<英>手术室
+
+2. 
+   I used to go to the cinema every week. 
+
+   我过去每周都去看电影。
+
+
+
+
+
+---
+
 # capital  /ˈkæpɪt(ə)l/
 
 n. 资本，资金；资本家，资方；首都，首府，省会；活动（或生产）中心；大写字母；柱顶，柱头
