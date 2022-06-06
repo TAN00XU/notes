@@ -6,6 +6,80 @@
 
 
 
+# at best /æt best/
+
+phr. 最多，充其量
+
+1. What was youth at best? 
+
+   青春归根到底是什么?
+
+2. 
+   At best, kids might be confused. 
+
+   充其量，孩子们可能会感到困惑。
+
+# nuclear  /ˈnuːkliər/
+
+adj. 核子的，原子核的；核武器的；原子能的，核能的；核心的，中心的；细胞核的，构成细胞核的
+
+1. 
+   Nuclear power is cleaner than coal. 
+
+   核能比煤更清洁。
+
+   + coal  /koʊl/
+     + n. 煤；煤炭工业；（尤指燃烧着的）煤块
+     + v. 供煤；采煤，提炼煤
+
+2. 
+   The problem is getting rid of nuclear waste. 
+
+   问题是如何处理核废料。
+
+   + rid /rɪd/
+     + v. 使……去掉，使……去除；摆脱，消除
+     + adj. 得到解脱的
+
+   + waste  /weɪst/
+
+     + n. 浪费，滥用；废物，废弃物（同 wastes）；荒地，荒原（wastes）；<法律>（尤指因租借人的行为或疏忽而导致的）不动产的损坏，产业损伤；粪便，尿液
+     + v. 浪费，滥用；未能充分利用，没有物尽其用；<美，非正式>杀害，谋杀（某人）；（使）（人，身体部位）逐渐变虚弱，变消瘦；<文>破坏，毁坏（地方）；<文>（时间）流逝，被花掉
+
+     + adj. （通常指城市中的某地）荒芜的，荒废的；（材料、物质等）废弃的，无用的
+
+# at first
+
+起先，首先；最初
+
+1. I didn't like the job much at first. 
+
+   起初我并不很喜欢这个工作。
+
+2. If at first you don't succeed, try, try again. 
+
+   一次不成功就反复尝试。
+
+# realize /ˈriːəlaɪz/
+
+v. 了解，意识到；（所担心的事）发生，产生（be realized）；实现（目标、梦想等）；（充分）发挥出自己的潜力； 把（概念等）具体表现出来；用（语言特征）表达；对（记谱不全的乐曲）做完整兑谱改编；获得（金钱，利润）；变现，变卖（资产）
+
+1. I realize how fast time flies. 
+
+   我意识到时间过得真快。
+
+2. I can realize all my dreams. 
+
+   我可以实现我的所有梦想。
+
+# consume /kənˈsuːm/
+
+v. 消耗，消费；吃，喝；吞噬，烧毁；使……着迷，充满
+
+1. If I consume it all this year, I will be starving. 
+
+   如果我今年把它都吃光了，我就会饿死的。
+
 
 
 

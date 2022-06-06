@@ -421,3 +421,35 @@ public class MyLocaleResolver implements LocaleResolver {
 }
 ```
 
+# 集成`WebMvcConfigurer`
+
+## 注意事项
+
+在使用`addInterceptors`时，在`addInterceptor`方法中不应当使用`new LoginInterceptor()`，否则会出现空指针异常
+
+### 错误示例
+
+```java
+@Override
+public void addInterceptors(InterceptorRegistry registry) {
+    registry.addInterceptor(new LoginInterceptor())
+```
+
+应当先注入bean之后去获得
+
+## 正确做法
+
+```java
+   @Autowired
+    private LoginInterceptor loginInterceptor;
+//或
+   @Bean
+   public LoginInterceptor getLoginInterceptor() {
+       return new LoginInterceptor();
+   }
+ 
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(loginInterceptor)       
+    }
+```
