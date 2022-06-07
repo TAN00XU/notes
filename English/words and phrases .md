@@ -6,6 +6,121 @@
 
 
 
+
+
+
+
+
+
+# synthetic  /sɪnˈθetɪk/
+
+adj. 合成的，人造的；（感情，行动）不诚恳的，虚假的；（语言）综合型的；（命题）综合的
+
+n. 合成物，合成纤维（织物）
+
+1. She said, 'This isn't synthetic. 
+
+   她说这不是什么人造品。
+
+# at first sight
+
+乍一看；初看之下
+
+1. I was in love at first sight. 
+
+   我是一见钟情。
+
+2. Now is there really love at first sight? 
+
+   当今世界上真的存在一见钟情吗？
+
+# teach /tiːtʃ/
+
+v. 教授，讲授；教会，训练；教育，使懂得（情理）；<非正式>劝诫，教训
+
+n. <非正式>教师
+
+1. The father is teaching his daughter how draw.
+   这位父亲正在教他的女儿画画。
+
+2. Could you teach me to do that? 
+
+   你能教我干那活儿吗？
+
+3. I'll soon teach you again. 
+
+   我很快就会再教会你的。
+
+# contrary  /ˈkɑːntreri/
+
+adj. 相反的，相对的；乖戾的，好与人作对的；逆向的，逆行的
+
+n. 相反的事实（或事情、情况）；对立命题，反对命题
+
+adv. 相反地
+
+1. The plane is flying a contrary direction. 
+
+   飞机正向相反的方向飞去。
+
+2. The lady and the man hold contrary views.
+   这位女士和这位男士持有相反的意见。
+
+# at hand /æt hænd/
+
+adv. 在手边；即将到来
+
+1. He always keeps a dictionary at hand when he writes.
+   他写作时手边总备有一本字典。
+
+2. Help was at hand. 
+
+   援助近在咫尺。
+
+3. I haven't my book at hand. 
+
+   我的书不在手边。
+
+4. Victory is at hand! 
+
+   胜利就在手边！
+
+# travel  /ˈtrævl/
+
+v. （尤指长途）旅行；走动，移动；（以某速度、朝某方向或在某距离内）行进；（光或声音）传播；（食品等）经得起长途运输；周游，走遍；（尤指车辆）快速行进；（消息）流传；盛行各地；（篮球运动中）走步；（目光）扫视，移动；交往；想象来到
+
+n. 旅行；（出国）旅游；（机器部件的）运动范围，运动速度，运动模式
+
+1. Where should I travel next?
+
+   我接下来应该去哪儿旅行呢？
+
+2. We always travel first class. 
+
+   我们总坐头等舱旅行。
+
+3. He works in a travel agent's. 
+
+   他在一家旅行社工作。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 # at best /æt best/
 
 phr. 最多，充其量
