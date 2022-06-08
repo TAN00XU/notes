@@ -6,9 +6,96 @@
 
 
 
+# at heart
+
+本质上，内心里
+
+1. He's still a socialist at heart. 
+
+   他本质上还是个社会主义者。
+
+   +  socialist  /ˈsoʊʃəlɪst/
+     + adj. 支持社会主义的，与社会主义有关的
+     + n. 社会主义者
+
+# time /taɪm/
+
+n. （以分钟、小时、天等计量的）时间；（钟表所显示的）时间，钟点，时刻；（世界某一地区所计量的）时，时间；（某事发生或应该发生的）时间，时候；一段时间，某段日子；（可以用来做某事的）时间；时代，时期；当代，时代潮流（the times）；（以某种方式经历的）事件，时光；生命（期），期限；（某人生命中的）一段时期，一个阶段；次，回；倍；（完成赛跑或竞赛项目的）所用时间；（尤指足球的）比赛时间结束，终场；（棒球，美橄）暂停；（音乐的）拍子，节拍；（乐曲正确的）速度，节奏；（用于报刊名）时报（the Times）；<英>（酒吧）打烊时间；刑期；服役期；（规定的）工作时间；计时工资率；分娩时间；寿终之时；学徒期；时间老人（Time 或 Father Time）
+
+v. 为……安排时间；把握（击球、射门等）的时机；为……计时，测定……所需的时间
+
+conj. 乘以
+
+adj. 定时的，定期的，分期的
+
+1. Look at the time! I’m late again! My boss is going to kill me.
+   看看时间！我又迟到了！我老板会杀了我的。
+
+2. We killed time playing cards. 
+
+   我们打纸牌消磨时间。
+
+3. We didn't have much time. 
+
+   我们没多少时间。
+
+4. You're just in time. 
+
+   你来得正是时候
+
+# definition /ˌdefɪˈnɪʃn/
+
+n. 定义，释义；榜样，典范；清晰，清晰度，鲜明度
+
+1. What's your definition of happiness? 
+
+   你对幸福的定义是什么？
+
+2. It is by definition private. 
+
+   它在定义上是私有的。
+
+# at home
+
+在家；在国内；熟悉
+
+1. He usually exercises at home.
+
+   他一般在家里做锻炼。
+
+2. Afternoons he works at home. 
+
+   每天下午他在家里工作。
+
+3. No one was at home. 
+
+   没有人在家。
+
+# toward  /tɔːrd/
+
+prep. 向；趋向；对于；接近（时间）；靠近；用于，为了（同towards）
+
+adj. 即将来到的，进行中的
+
+1. The little girl is walking toward her father.
+   这个小女孩正向爸爸走去。
+
+2. 
+   I eased my way toward the door. 
+
+   我缓慢地向门口走去。
+
+   + eased /iːzd/
+     + adj. 放松的
+     + v. 放松（ease 过去分词形式）
 
 
 
+
+
+
+
+---
 
 
 
