@@ -10,9 +10,109 @@
 
 
 
+# commit */*kəˈmɪt/
+
+v. 犯（罪、错）；调拨，投入；（使）承诺，承担义务；郑重承诺，忠于；把……关进医院（监狱），监禁；传唤（某人）到法院受审；订婚，决定与（某人）保持长期感情；把……托付给
+
+1. He won't commit. 
+
+​			他不会承诺。
+
+# at large
+
+详尽的；未被捕的；整个的；一般的；普遍的
+
+1. Her killer is still at large. 
+
+   杀害她的凶手仍然逍遥法外。
+
+2. That could be good news for the world at large. 
+
+   这对全球市场来说会是个好兆头。
+
+3. 
+   The people at large want peace. 
+
+   总的来说人民是渴望和平的。
+
+   + peace */*piːs/
+     + n. 和平，太平；平静，安宁；（心情）平静，平和；和约；和平时期；治安；和睦，和谐；平安礼（the peace）；和平运动，裁军运动（尤指核裁军运动）；和平运动，裁军运动（尤指核裁军运动）
+     + v. 安静
+
+# cook /kʊk/
+
+- n. 厨师，炊事员
+- v. 煮，烧；烹饪，烹调；<非正式>发生，计划中；<美，非正式>干得起劲，干得好；<非正式>篡改，伪造
+
+1. It's your turn to cook dinner. 
+
+   该你做饭了
+
+2. 
+   I have to go and cook dinner. 
+
+   我要去做饭了。
+
+3. 
+   Where did you learn to cook? 
+
+   你在哪里学的烹调？
+
+# distance/ˈdɪstəns/
+
+n. 远处；疏远，隔阂；（人或物之间的）差别，差距；进展；距离
+
+v. 疏远，远离
+
+adj. 远距离的
+
+1. The distance between the two buildings is 2 km.
+   这两栋建筑之间的距离是2km。
+
+2. 
+   Is it within walking distance ? 
+
+   那里步行走得到吗
+
+# distribute /dɪˈstrɪbjuːt/
+
+v. 分发，分配；配送，分销；散布，使分布；（印刷）拆（版）还字；周延
+
+1. Why don't they distribute movies? 
+
+   他们为什么不搞电影发行？
+
+2. They distribute food to the people in need.
+   他们把食物分发给所有人。
+
+# at last /æt læst/
+
+最后；终于
+
+1. 
+   I have my very own room at last. 
+
+   我终于有了我自己的房间了！
+
+2. At last we're home! 
+
+   我们终于到家了！
+
+3. We were homeward bound at last. 
+
+   我们终于要回家了。
+
+   + homeward /ˈhoʊmwərd/
+     + adv. 在归途上，向家地
+     + adj. 在归途上的，向家的
 
 
 
+
+
+
+
+---
 
 
 
