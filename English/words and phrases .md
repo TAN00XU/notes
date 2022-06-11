@@ -6,7 +6,86 @@
 
 
 
+# at least /æt liːst/
 
+至少
+
+1. She bought at least three apples.
+
+   她至少买了三个苹果。
+
+2. It'll cost at least 500 dollars. 
+
+   这东西至少要花500元。
+
+# happen */*ˈhæpən/
+
+v. 发生；使遭遇；碰巧
+
+adv. <北英格兰>或许，大概
+
+1. 
+   That doesn't happen very often. 
+
+   那不常发生。
+
+2. 
+   This must never happen again. 
+
+   这种事再也不能发生了。
+
+3. We didn't want this to happen. 
+
+   我们并不希望发生这样的事情。
+
+# elementary /ˌelɪˈmentri/
+
+adj. 简单的，基本的；基础的，初级的；小学的；单一元素的，非化合物的
+
+1. The elementary students are beginning school for the first time.
+   小学生们正准备第一次上学。
+
+2. 
+   Literacy now includes elementary computer skills. 
+
+   有文化现在包括基本的计算机技能。
+
+   + literacy /ˈlɪtərəsi/
+     + n. 识字，读写能力；专业知识；精通文学
+
+# at length /æt leŋkθ/
+
+最后，终于；详细地
+
+1. At length, we reached the top of the mountain.
+   最后我们登上了山顶。
+
+# holiday */*ˈhɑːlədeɪ/
+
+n. 假日；度假期；法定节假日，节日；（分期付款、税费等的）暂缓缴付期
+
+v. 度假
+
+1. People are enjoying their holiday from work.
+   人们享受着他们的假日。
+
+2. New Year's Day is a public holiday. 
+
+​			元旦是公休日。
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 
 
 
