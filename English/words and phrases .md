@@ -6,6 +6,95 @@
 
 
 
+
+
+
+
+# emphasis /ˈemfəsɪs/
+
+n. 重要性，重点强调；重读，强调；（表达的）强有力
+
+1. 
+   Our company puts the emphasis on quality. 
+
+   我们公司重视质量。
+
+   + quality /ˈkwɑːləti/
+     + n. 质量，品质；优质，上乘；素质，品德；特征，特质；（语音）音质，音色；<英>（供有品位者阅读的）高质量报纸（=quality newspaper）；（占星）黄道宫运动三大特征之一
+     + adj. 优质的，高质量的；<英>（报纸）内容严肃的，高级的；<英，俚>棒极了
+
+2. The word has been highlighted to provide emphasis.
+
+   标亮单词，以示重点。
+
+# engine /ˈendʒɪn/
+
+n. 发动机，引擎；机车，火车头；专用装备，器械；工具，手段；驱动力，推动力
+
+1. The engine at the front of the car makes the car move.
+
+   汽车前部的引擎使汽车移动。
+
+2. 
+   Why has the engine stopped? 
+
+   发动机怎么停了？
+
+3. My car had to have a new engine. 
+
+   我的汽车得换一个新发动机。
+
+# at most
+
+至多，最多
+
+1. 
+   I'm only a `green hand` at most. 
+
+   最多我也只算是个`新手`。
+
+2. There were at most twenty people in the classroom. 
+
+   教室里最多不过20人。
+
+# loss /lɔːs/
+
+n. 失去，丧失；亏损；死亡，去世；失落，伤感；（因某人的离去或某物的挪移而造成的）损失；（比赛等的）失败，失利；战斗中死亡（受伤或被俘）的士兵；减少，降低；（进攻推进不成却被逼）后退的距离；损耗
+
+1. The football fan cried about the loss of the game.
+
+   这名球迷应为比赛的失败而哭泣。
+
+2. 
+   I'm at a loss what to do next. 
+
+   我对下一步做什么心里没谱。
+
+3. Our loss is their gain. 
+
+   我们之所失即他们之所得。
+
+# equipment /ɪˈkwɪpmənt/
+
+n. 设备，用具；（对某人或某物的）装备过程；（做某事应具备的）素质，才能
+
+1. Students now enjoy using the exercise equipment for working out.
+   现在的学生喜欢使用健身器材运动。
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
 # at least /æt liːst/
 
 至少
