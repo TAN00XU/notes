@@ -8,6 +8,177 @@
 
 
 
+# tackle /ˈtækl/
+
+v. 应付，解决（难题或局面）；与……交涉；（足球、曲棍球等比赛中）抢断；（橄榄球等比赛中）擒抱并摔倒（对方球员）；擒获；对付，打（尤指罪犯）；质问，责问；反对，反抗
+
+n. （足球等中的）抢断球；（橄榄球或美式足球）擒抱摔倒；（美式足球中的）阻截队员；体育器械，（尤指）渔具；（吊起重物用的）索具，滑轮；<英，俚>男性性器官
+
+1. 
+   That depends on how you tackle the problem. 
+
+   那取决于你如何处理这个问题。
+
+# at one time/æt wʌn taɪm/
+
+曾经，一度；同时
+
+1. At one time she made her own clothes.
+   曾经有段时间，她自己给自己做衣服穿。
+
+2. At one time 400 men, women and children lived in the village. 
+
+   曾一度有400个男人、女人和儿童住在这个村子。
+
+3. You don't need to do them all at one time. 
+
+   你不需要同时做全部的事情。
+
+# population /ˌpɑːpjuˈleɪʃn/
+
+n. （地区、国家等的）人口，人口数量；某领域的生物，族群，人口；（统计）总体，母体；（天文）星族
+
+1. The population of the world is over seven billion.
+
+   世界人口超过七十亿。
+
+# at one’s disposal /dɪˈspoʊzl/
+
+phr. 任由某人使用
+
+1. The car in the garage is at my disposal.
+   车库里的车任由我使用。
+
+# reach/riːtʃ/
+
+v. 到达，抵达；被看见，被听到；达到（特定的水平或数量）；达到（一个特定的时间或阶段）；（经讨论或思考后）达成，实现；伸，伸手；能伸到，能够到；把……递给；（大或长等）足够达到；（用电话等）与……联系；影响，打动；（航海）横风航驶；为……提供帮助（reach out to）
+
+n. （臂的）伸出；伸手可及的距离；可到达的距离；（权力或能力）能及的范围；边远地区；层级，层次；河段，直水道；（特定时期内）观众人数，听众人数；（航海）横风行程
+
+1. Using the red ladder, I can reach the top.
+   我能用这架红色的梯子登上顶部。
+
+2. Can you reach me down that box? 
+
+   你帮我把那个盒子拿下来好吗？
+
+3. Victory is now out of her reach. 
+
+   胜利现在对于她来说已遥不可及。
+
+# final /ˈfaɪnl/
+
+adj. 最终的，结束的；(出现次序)最后的，末尾的；决定性的，不可变更的；无比的，极度的
+
+n. 决赛；期末考试，课程终结考试；主调音；当日报纸的末版；（飞机进入着陆跑道的）最终边，第五边
+
+1. 
+   The final decision is yours. 
+
+   最终的决定权属于你。
+
+2. The competition is in its final stage.
+   比赛进入了最后阶段。
+   + competition /ˌkɑːmpəˈtɪʃn/
+     + n. 竞争；比赛，竞赛；竞争者，对手
+
+
+
+
+
+
+
+
+
+---
+
+# at no time
+
+adv. 决不，从不
+
+1. At no time did I give my consent to the plan. 
+
+   我从未同意过这项计划。
+
+2. At no time did he realize what was happening. 
+
+   他一直不知道发生了什么事。
+
+   + realize /ˈriːəlaɪz/
+     + v. 了解，意识到；（所担心的事）发生，产生（be realized）；实现（目标、梦想等）；（充分）发挥出自己的潜力； 把（概念等）具体表现出来；用（语言特征）表达；对（记谱不全的乐曲）做完整兑谱改编；获得（金钱，利润）；变现，变卖（资产）
+
+# manager /ˈmænɪdʒər/
+
+n. （公司、部门等的）经理；（艺人或运动员的）经纪人；（运动队的）管理人，主教练；管理某物的人；（计算机）管理程序
+
+1. The manager has three employees under her.
+
+   这名经理手下管理着三名员工。
+
+2. I asked to see the manager. 
+
+   我要求见经理。
+
+3. She wouldn't be my choice as manager. 
+
+   我不会选中她做经理。
+
+# at once
+
+phr. 立刻
+
+1. I have to go at once. 
+
+   我得马上走。
+
+2. The class began at once. 
+
+   这门课马上开始了。
+
+3. Come here at once! 
+
+   立刻到这儿来！
+
+# order /ˈɔːrdər/
+
+- n. 命令，指示；顺序，次序；井然有序，整齐；正常工作状况，良好使用状况；秩序，治安；（社会的）制度，结构；社会阶级；<正式>种类，类别；点餐，订购；点的餐，订购的货物；（饮食）分量；法院决议，法官指令；汇票，书面指令；（会议、议会、辩论或法院的）程序，规程；（宗教）仪式，祭礼；宗教团体，（尤指）修道会；兄弟会，会社；（尤指主教、牧师、执事的）品级，神品；圣职，牧师职（orders）；（神学）（九级天使的）级；<史>骑士团；勋位，勋爵士团；勋章；（动植物）目；柱型，装饰样式（多利斯、爱奥尼亚、科林斯、托斯卡那和混合型等五种古典建筑风格之一）；建筑类型，样式；（军）专用装备，专用服装；立正持枪姿势（the order）；（数）阶；方程的阶；群阶；矩阵的阶；<美>（计算机的）任务排序，等待队列
+- v. 命令，指示；就……下令；订购，订货；（为某人）叫出租车；点（菜），点（饮料）；排列，整理
+
+1. “Can I help you ?”“Yes,we’d like to order  some food.”
+
+   “请问有什么需要的吗？”“我们想点一些吃的。”
+
+2. Is everything in order, sir? 
+
+   一切都正常吗，先生？
+
+3. Are you ready to order, sir? 
+
+   先生，可以点菜了吗？
+
+# explode/ɪkˈsploʊd/
+
+v. （使）爆炸，（使）爆破；急剧扩大，激增；（情感）迸发，爆发；推翻，破除；爆响，发出巨响；迅速移动
+
+1. Or does it explode? 
+
+   它是不是还会爆炸？
+
+2. 
+   The bomb was primed, ready to explode. 
+
+   炸弹已准备好，可随时引爆。
+
+
+
+
+
+
+
+
+
+---
+
 
 
 # emphasis /ˈemfəsɪs/
