@@ -596,7 +596,7 @@ xmlns:c="http://www.springframework.org/schema/c"
 
 + 实体类
 
-  ```xml
+  ```java
   package com.tan00xu.pojo;
   
   public class User {
