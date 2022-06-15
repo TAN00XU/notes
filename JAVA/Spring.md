@@ -1417,7 +1417,7 @@ public class Log implements MethodBeforeAdvice, AfterReturningAdvice {
 
 测试
 
-```xml
+```java
 import com.tan00xu.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
