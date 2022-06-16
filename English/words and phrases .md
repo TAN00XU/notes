@@ -8,7 +8,78 @@
 
 
 
+# generous /ˈdʒenərəs/
 
+adj. 慷慨的，大方的；大量的，丰富的；宽宏大量的
+
+1. 
+   Thank you for your generous help. 
+
+   谢谢你慷慨的帮助。
+
+2. She thought him kind and generous. 
+
+   她认为他宽厚仁慈。
+
+# at this rate /æt ðɪs reɪt/
+
+这样的话，照这样下去
+
+1. 
+   At this rate we won't be able to afford a holiday. 
+
+   无论如何他会得到宝贵的经验。
+
+# at times
+
+有时；偶尔
+
+1. At times we go for a walk. 
+
+   有时我们出去散步。
+
+2. He visits me at times. 
+
+   他有时候来看我。
+
+# arrive /əˈraɪv/
+
+v. 到达，抵达；送达，寄到；发生，出现，诞生；开始，到来；成功，出名；作出（决定）
+
+1. She arrived at the airport on time.
+   她准时抵达机场。
+
+2. 
+   He was the second to arrive. 
+
+   他是第二个到的。
+
+3. You must arrive at the time stated. 
+
+   你必须在规定时间到达。
+
+# hill /hɪl/
+
+n. 山丘，小山；（道路的）斜坡；土堆，小堆；<美，非正式>国会山
+
+v. 使成堆
+
+1. There is a red house on the top of that green hill.
+
+   在那绿色小山的山顶上有一所红房子。
+
+2. The car slowly climbed the hill. 
+
+   汽车缓慢地爬上了山坡。
+
+3. 
+   A path went up the side of the hill. 
+
+   沿着山坡往上有一条小路。
+
+
+
+---
 
 
 
