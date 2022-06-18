@@ -8,6 +8,102 @@
 
 
 
+# hurry /ˈhɜːri/
+
+v. 匆忙，急忙；催促
+
+n. 急忙；紧急，赶紧的理由
+
+1. He is often in a hurry to eat his breakfast.
+   他总是匆忙地吃早饭。
+
+2. Why are you in such a hurry? 
+
+   你干吗这么急匆匆的？
+
+3. 
+   He had to leave in a hurry. 
+
+   他不得不赶快离开了。
+
+# attach to /əˈtætʃ tu/
+
+vt. 依附，附属；加入；使依恋；把……放在
+
+1. Many people are attached to their mobile phones and can’t live without them.
+   许多人被手机束缚住，不能离开手机生活。
+
+# level /ˈlevl/
+
+n. 数量，程度；标准，水平；层次，级别；看待（或应对、理解）事物的方式；水平高度，相对高度；楼层；平地；水平仪
+
+adj. 平坦的，水平的；相同价值的，相同地位的；比分相同的；平静的，冷静的
+
+v. 使平整；推倒，夷平；（使）比分相同；（尤指用枪）瞄准；针对……（进行批评等）；稳定下来，达到平衡（level off）；坦诚相见；作水准测量
+
+1. 
+   The library is all on one level. 
+
+   图书馆全部在同一层楼上。
+
+2. Are these pictures level? 
+
+   这些画挂齐了吗？
+
+3. 
+   What is the level of this course? 
+
+   这门课程是什么程度？
+
+# impress /ɪmˈpres/
+
+v. 使钦佩，使留下深刻印象；使意识到（重要性或严重性等）；使铭记；压，压印；外加（电流，电势）；传送；强征
+
+n. 压印，印记
+
+1. 
+   Are you trying to impress them? 
+
+   你想给他们留下深刻印象吗？
+
+2. She did not impress me at all. 
+
+   她没给我留下丝毫印象。
+
+# instance /ˈɪnstəns/
+
+n. 例子，实例
+
+v. 举……为例
+
+1. 
+   Create an image from this instance. 
+
+   从这个实例创建一个图像。
+
+2. 
+   In that instance, you have pizza for lunch. 
+
+   在那种情况下，你午餐吃披萨。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
 # generous /ˈdʒenərəs/
 
 adj. 慷慨的，大方的；大量的，丰富的；宽宏大量的
