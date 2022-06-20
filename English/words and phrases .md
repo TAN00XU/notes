@@ -8,6 +8,87 @@
 
 
 
+
+
+# divorce /dɪˈvɔːrs/
+
+n. 离婚；离婚判决；分开，脱离
+
+v. 与（某人）离婚；使分离，割裂
+
+1. They look as though they're heading for divorce. 
+
+   他们看样子会离婚。
+
+2. The couple have agreed to get a divorce.
+
+   这对夫妻已经同意离婚了。
+
+# attack on /əˈtæk/
+
+phr. 对…的进攻; 攻击
+
+1. The soldiers launched an attack on the enemy.
+   + enemyh /ˈenəmi/
+     + n. 敌人，反对者；敌国，敌军；大敌，危害物
+     + adj. 敌人的，敌方的
+
+# intend /ɪnˈtend/
+
+v. 打算，想要；意指，意思是；准备，预留（作某种用途或给某人用）
+
+1. I don't intend staying long. 
+
+   我不打算长期逗留。
+
+2. What do you intend to do with the child? 
+
+   你打算拿这孩子怎么办？
+
+3. The boy intends to use the money he saved to buy a new skateboard.
+   男孩打算用存下的钱买一块新的滑板。
+
+   + skateboard /ˈskeɪtbɔːrd/
+     + n. 滑板
+     + v. （在滑板上）滑行
+
+# attempt at /əˈtempt æt/
+
+企图，努力；尝试
+
+1. The cat made an attempt at catching the fish.
+
+   那只猫试图抓到鱼。
+
+2. 
+   This is his first attempt at writing back to her. 
+
+   这是他的第一封回信。
+
+# interact /ˌɪntərˈækt/
+
+v. 相互交流，互动；相互作用，相互影响
+
+1. They learn how to interact with their peers. 
+
+   他们学习如何与同龄人互动。
+
+   + peers /pɪrz/
+     + n. 同辈，同龄人；（英国或爱尔兰）贵族（peer 的复数）
+     + v. 凝视；比得上（peer 的第三人称单数）
+
+2. It changes the way we think, feel and interact with one another. 
+
+   它改变了我们思考、感受和与他人互动的方式
+
+
+
+
+
+---
+
+
+
 # hurry /ˈhɜːri/
 
 v. 匆忙，急忙；催促
