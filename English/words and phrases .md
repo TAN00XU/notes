@@ -10,6 +10,12 @@
 
 
 
+
+
+---
+
+
+
 # divorce /dɪˈvɔːrs/
 
 n. 离婚；离婚判决；分开，脱离
@@ -80,8 +86,6 @@ v. 相互交流，互动；相互作用，相互影响
 2. It changes the way we think, feel and interact with one another. 
 
    它改变了我们思考、感受和与他人互动的方式
-
-
 
 
 
