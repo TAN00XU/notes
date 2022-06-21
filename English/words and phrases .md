@@ -8,6 +8,130 @@
 
 
 
+# tailor /ˈteɪlər/
+
+n. （尤指男装）裁缝；蓝鱼（Tailorfish 的简称）
+
+v. 定做（衣服）；迎合，使适应
+
+1. Said the tailor,"that is child's play with us!" 
+
+   裁缝说：“这对我们来说简直是小菜一碟！
+
+2. "Would not you like," said he, "to be a tailor?" 
+
+   “你不愿意做裁缝吗？”他说。
+
+# investment /ɪnˈvestmənt/
+
+n. 投资；值得买的东西；（时间、精力的）投入；<旧>包围，封锁
+
+1. Buying house property is a common type of investment nowdays.
+   购买房产是当今一种常见的投资方式。
+
+2. In my opinion , it's a very sound investment. 
+
+   依我看，这是十分可靠的投资。
+
+   1. opinion /əˈpɪnjən/
+      + n. 意见，看法；（群体的）观点，信仰；专家意见，专业意见；（对某人的）评价，印象；（法官或法院说明判决理由的）判决意见书
+
+# attend to  /əˈtend tu/
+
+注意；照料；致力于；帮助（某人）；处理（某事）
+
+1. The nurse attends to her patients carefully.
+
+   护士精心地照顾着她的病人。
+
+2. Attend to the lecture, or you will learn nothing. 
+
+   注意听讲，否则你什么也学不到。
+
+   + lecture /ˈlektʃər/
+     + n. 讲座，讲课，演讲；训斥，告诫
+     + v. （尤指在大学里）开讲座，讲课；训斥，告诫
+
+3. 
+   I have something to attend to. 
+
+   我有点事得办一办。
+
+# joke  /dʒoʊk/
+
+n. 笑话，玩笑；荒唐可笑的人（或事物），笑料；恶作剧，捉弄人的玩笑
+
+v. 说笑话，开玩笑；取笑，开……的玩笑
+
+1. His joke always make people laugh.
+
+   他讲的笑话总是使人哈哈大笑。
+
+2. She didn't get the joke. 
+
+   她不明白那笑话的含义。
+
+3. 
+   You're a joke! 
+
+   你真是一笑话！
+
+4. Keep your shirt on! It was only a joke. 
+
+   别生气！开个玩笑而已。
+
+# attention to /əˈtenʃn tu/
+
+对……的注意
+
+1. The teacher told him to pay attention to his spelling.
+
+   老师提醒他注意自己的拼写。
+
+2. Everyone should pay attention to exercise. 
+
+   每个人都要注意锻炼身体。
+
+3. Pay close attention to what I am telling you. 
+
+   要认真听我给你讲的话。
+
+# kindness /ˈkaɪndnəs/
+
+n. 友好，仁慈，善良；善行，善举
+
+1. She showed kindness to her cat.
+
+   她对她的猫很亲切。
+
+2. 
+   Thank you for your kindness. 
+
+   谢谢你的好意。
+
+3. 
+   We should repay his kindness. 
+
+   我们应该报答他的好意。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
