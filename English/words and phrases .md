@@ -8,6 +8,95 @@
 
 
 
+
+
+# doubtful /ˈdaʊtfl/
+
+adj. 怀疑的，不确定的；未必的，不大可能的；不可靠的
+
+1. I'm doubtful about the true value of the painting.
+   我对这幅画的真实价值表示怀疑。
+
+2. We were doubtful about the practicability of the plan. 
+
+   我们怀疑这个计划是否切实可行。
+
+   + practicability /ˌpræktɪkəˈbɪləti/
+     + n. 实用性，可行性
+
+# attraction/əˈtrækʃn/ for 
+
+对……的吸引力
+
+n. 有吸引力的事物；吸引力；（两性间的）吸引；（物体间的）引力；（错误的）形态同化
+
+1. The store is a great attraction for all kinds of people.
+
+   这家店强烈吸引了各类顾客。
+
+2. 
+   City life holds little attraction for me. 
+
+   我对城市生活不感兴趣。
+
+# happiness /ˈhæpinəs/
+
+n. 快乐，幸福
+
+1. Money can't buy you happiness. 
+
+   金钱不能为你买到幸福。
+
+2. 
+   We all desire health and happiness. 
+
+   我们都渴望健康和幸福。
+
+   + desire /dɪˈzaɪər/
+     + n. 愿望，欲望，渴望；情欲，性欲
+     + v. 渴望，想望；<正式>要求，请求；被……吸引，对……产生性欲
+
+3. Happiness is about giving. 
+
+   幸福是给予。
+
+# lively /ˈlaɪvli/
+
+adj. 活泼的，生气勃勃的；热闹的，激烈的；生动有趣的；思维活跃的，兴趣广泛的；鲜艳的；味浓的；<英>困难重重的；（船）乘风而行的
+
+1. These lively children are jumping for joy.
+
+   这些充满活力的孩子快乐地蹦蹦跳跳。
+
+2. This is a really lively party. 
+
+   这真是个热闹的聚会。
+
+3. 
+   He is a lively and clever boy. 
+
+   他是一个活泼聪明的男孩。
+
+# attribute to /əˈtrɪbjuːt tu/
+
+把……归因于
+
+1. Add the attribute to collection. 
+
+   向集合添加属性。
+
+2. A lot of it you can attribute to the beautiful weather. 
+
+   你可以把大部分原因归功于好天气。
+
+
+
+
+
+---
+
+
+
 # tailor /ˈteɪlər/
 
 n. （尤指男装）裁缝；蓝鱼（Tailorfish 的简称）
