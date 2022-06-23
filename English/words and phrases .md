@@ -10,6 +10,117 @@
 
 
 
+
+
+# lung /lʌŋ/
+
+n. 肺；呼吸器
+
+1. He was born with only one lung. 
+
+   他生下来就只有一个肺。
+
+2. It goes without saying that if someone has lung problems they should not smoke. 
+
+   肺部有了问题就不该抽烟，这是不言而喻的。
+
+# aware /əˈwer/ of 
+
+意识到，知道
+
+1. 
+   She is aware of her own failings. 
+
+   她了解自己的弱点。
+
+   + failing /ˈfeɪlɪŋ/
+     + n. 弱点，缺点
+     + adj. 衰退的，衰弱的；衰老的
+     + prep. 如果不能，如果没有
+     + v. 失败；未能做到，未能做；辜负，使失望（fail 的现在分词）
+
+2. 
+   He was well aware of the problem. 
+
+   他很清楚这个问题。
+
+3. We are fully aware of the dangers. 
+
+   我们充分意识到危险。
+
+# majority /məˈdʒɔːrəti/
+
+n. 大多数；<英>多数票；成年的法定年龄；多数党；少校军衔，少校职位
+
+adj. 多数人的
+
+1. The majority thinks it's a good plan, but I don't think so.
+   大多数人认为这是一个好的计划，但我不这么认为。
+
+2. The vast majority live further inland. 
+
+   大多数人居住在更远的内陆。
+
+   + vast /væst/
+     + adj. 巨大的，广大的
+     + n. <古>广阔空间
+
+   + further /ˈfɜːrðər/
+     + adv. 更远地，再往前地；进一步；此外，而且
+     + adj. 更多的，进一步的；（距离上）更远的，较远的
+     + v. 促进，推进
+   + inland /ˌɪnˈlænd; ˈɪnlænd/
+     + adj. 内陆的，内地的；国内的
+     + adv. 在内地，向内陆
+     + n. 内陆，内地
+
+# meanwhile /ˈmiːnwaɪl/
+
+adv. 与此同时；在此期间；另一方面
+
+n. 其间，其时
+
+1. 
+   Meanwhile, I'll set the table. 
+
+   同时，我会摆好桌子。
+
+2. The hare decided to take a rest; meanwhile, the tortoise kept moving.
+
+   兔子决定休息一下，与此同时，乌龟还在继续前进。
+
+# back and forth
+
+反复地，来回地
+
+1. He paced back  and forth outside the ward where his wife was giving birth.
+
+   他在妻子的产房外来回踱步。
+
+   + paced /peɪst/
+     + adj. 步调的；步伐的
+     + v. 踱步（pace 的过去式）
+
+
+
+2. 
+   Don't move those flowerpots back and forth. 
+
+   你别来回摆弄那几盆花了。
+
+   + flowerpots /ˈflaʊərpɑːt/
+     + n. 花盆；花钵
+
+
+
+
+
+---
+
+
+
+
+
 # doubtful /ˈdaʊtfl/
 
 adj. 怀疑的，不确定的；未必的，不大可能的；不可靠的
