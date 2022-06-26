@@ -8,6 +8,101 @@
 
 
 
+
+
+
+
+
+
+# motivate /ˈmoʊtɪveɪt/
+
+v. 成为……的动机，是……的原因；激励，激发
+
+1. How do you motivate people to work hard and efficiently? 
+
+   你是如何激励人们努力而高效地工作的？
+
+   + efficiently /ɪˈfɪʃntli/
+     + adv. 高效地
+
+2. How do managers motivate people in such jobs? 
+
+   管理者如何激励从事这类工作的人呢？
+
+# narrow /ˈnæroʊ/
+
+- adj. 狭窄的，狭小的；（想法、态度或信仰）狭隘的；勉强的，（成败）差距很小的；（种类或数目）有限的，范围小的；严格的，精确的；（标音）严式的；（语音）窄的
+- v. （人的眼睛）眯起来；使缩小，压缩；使变窄，变窄
+- n. 海峡；狭窄部分
+
+1. 
+   She has a very narrow view of the world. 
+
+   她对世界的认识是非常狭隘的。
+
+2. The fat man is wondering how to pass through the narrow alley.
+   那个胖子正在纠结如何才能穿过那条窄巷。
+
+   + alley /ˈæli/
+     + n. 小巷，胡同；（两旁有树木、灌木或石头的）小径；（九柱戏和保龄球等游戏的）球道；<美>双打网球场两边的狭长地带
+
+# barrier /ˈbæriər/ to 
+
+phr. ……的障碍
+
+1. There's a barrier to the bridge on the road.
+
+   路上有个通往大桥的障碍。
+
+# underline /ˌʌndərˈlaɪn/
+
+v. 在……下面画线；强调，突出
+
+n. （尤指为强调）下划线；（动物）下体轮廓
+
+1. It is a good habit to underline the important parts when you read.
+   在阅读时，勾画重要的部分是一个好习惯。
+   + habit /ˈhæbɪt/
+     + n. 习惯；（吸毒、喝酒、抽烟的）瘾；道袍，道服；<古>体质，体型
+     + v. <古>给……穿衣
+
+2. Write this down and underline it. 
+
+   写下它并且强调它。
+
+3. 
+   Underline the problem. 
+
+   在读到的问题下面划线。
+
+# naturally /ˈnætʃ(ə)rəli/
+
+adv. 自然地，天然地；当然地，必然地；天生地，天性地；不做作地；合乎常理地
+
+1. Some people have naturally frizzy hair.
+   有的人天生卷发。
+   + frizzy /ˈfrɪzi/
+     + adj. 卷曲的
+
+2. Sugar  naturally in fruit. 
+
+   水果天然含糖分。
+
+   + sugar /ˈʃʊɡər/
+     + n. 食糖；一匙糖，一块方糖；（植物、水果等所含的）糖；亲爱的；<非正式>麻醉药，毒品（尤指海洛因或二乙基麦角酰胺）；甜言蜜语
+     + v. 给……加糖；美化（讨厌的事物）；（通过熬枫树汁）提取枫蜜（或枫糖）；（昆）在树干上涂撒糖、糖浆、啤酒等的混合物作蛾饵
+     + int. （代替 shit，用于表示懊恼）糟糕，哎呀
+   + occurs /əˈkɜːrz/
+     + vi. 发生；存在；出现；（想法、主意）突然出现（occur 的第三人称单数）
+
+
+
+
+
+---
+
+
+
 # tank /tæŋk/
 
 n. （储存液体或气体的）箱，罐，缸；一箱，一罐（的量）；坦克；人工蓄水池；<美，非正式> （警察局或监狱的）牢房；（养鱼、蛇等用的）玻璃容器，玻璃缸；水柜机车（tank engine 的简称）；紧身背心（多为羊毛的外罩）（tank top 的简称）
