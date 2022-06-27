@@ -14,6 +14,99 @@
 
 
 
+# nervous /ˈnɜːrvəs/
+
+adj. 神经紧张的，担忧的；神经质的，神经过敏的；神经的，神经系统的；（疾病）由精神紧张引起的，由精神压力造成的；易激动的，易兴奋的；强健有力的
+
+1. The father is nervous about his baby's birth.
+   这个父亲因为宝宝的出身很紧张。
+
+2. He's not the nervous type. 
+
+   他不是那种好紧张的人。
+
+3. 
+   I was too nervous to eat. 
+
+   我紧张得饭都吃不下。
+
+# be about to /bi əˈbaʊt tu/
+
+即将；刚要；正打算
+
+1. The meeting is about to begin.
+   会议即将召开。
+
+2. But that could be about to change. 
+
+   然而情况将会有所改变。
+
+# anything /ˈeniθɪŋ/
+
+pron. 任何事物 （用于含有否定意义的陈述句中）；某事物（用于疑问句和条件分句中）；任一事物（强调）；任何……的事物（接后置修饰语）；任何（接近、像……的）事物；（某范围的）任何事物；重要东西，重要事物；某一限定范围之内的任何一个数量
+
+1. Welcome! Is there anything I can help you with.
+   欢迎光临！请问有什么可以帮您的吗？
+
+2. The problem is anything but easy. 
+
+   这个问题一点也不简单。
+
+3. I don't want anything else, thanks. 
+
+   我不要别的东西了，谢谢。
+
+4. Did you find anything? 
+
+   你发现什么了吗？
+
+# nest /nest/
+
+n. 窝，巢，穴；舒适的居所，安乐窝；（套叠的）一套物件，一组物件；藏匿处，秘密窝点
+
+v. （鸟类）筑巢，做窝；（一套物件）逐个套叠；嵌套（信息）；找鸟巢
+
+1. Most birds lay their aggs in their nests.
+   大多数鸟儿把蛋生在它们的巢穴里。
+
+2. They call it "The Bird's Nest". 
+
+   人们把它叫做“鸟巢”。
+
+3. 
+   There are three pretty eggs in the bird's nest. 
+
+   在鸟窝里有三个漂亮的蛋
+
+# normally /ˈnɔːrməli/
+
+adv. 通常，平常；正常地；正交地
+
+1. Primary schools are normally open from Monday to Friday.
+   通常来说，小学在周一到周五上课。
+
+2. It normally takes 20 minutes to get there. 
+
+   去那儿一般要花20分钟。
+
+3. The child is developing normally. 
+
+   这孩子发育正常。
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
 # motivate /ˈmoʊtɪveɪt/
 
 v. 成为……的动机，是……的原因；激励，激发
