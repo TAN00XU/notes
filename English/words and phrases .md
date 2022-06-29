@@ -12,6 +12,342 @@
 
 
 
+# engage /ɪnˈɡeɪdʒ/
+
+v. 雇用，聘请；参加，从事；吸引，引起；与……交战，开战；（使）（机器）啮合，接合；<旧>预定（膳食，地方等）；适应，与……有密切关系；允诺，签约保证；（运动员或击剑手）使（兵器）交结在一起；占用
+
+1. We never engage in irregularities. 
+
+   我们决不搞歪的邪的。
+
+   + irregularities /ˌɪreɡjəˈlærəti/
+     + n. [物]不规则行为
+
+2. They had found a lot more activities to engage in. 
+
+   他们找到了更多的活动参与。
+
+# land /lænd/
+
+n. 陆地，地面；土地（尤指耕地或建筑用地）；地产，地皮；农耕，农村生活；国度，国土；想象（或虚构）的地方；（枪炮）阳膛线
+
+v. 着陆，降落；使（飞机）平稳着陆；登陆，上岸；（从船或飞机上）卸下（货物）；落下，跌落；<非正式>使陷入（困境）；<非正式>（令人不快的事）突然出现；<非正式>（尤指轻而易举或意外地）获得；打中（一拳）
+
+1. This land is covered with green grass.
+   这片土地上长满了青草。
+
+2. 
+   Who do you rent the land from? 
+
+   你从谁那里租用的土地？
+
+3. This is private land, so beat it! 
+
+   这里是私人土地，滚开！
+
+   + beat /biːt/
+     + v. （反复地）敲，击，打；狠打，猛抽；搅拌，混合；拍动，扇动（翅膀）；（心脏）跳动，搏动；击败，战胜；抢……之先，赶在……之前；避开，避免
+     + n. 敲，击；（音乐或诗歌的）强音拍；（经常去或经过的）路线，地点；以之字形航线抢风航行
+     + adj. <非正式>筋疲力尽，疲惫不堪；垮掉的一代的
+
+# phrase /freɪz/
+
+n. 短语，词组；惯用语，习语；乐句；（芭蕾）舞句
+
+v. 用……方式表达，以……措辞表达；把（乐曲）分成短句
+
+1. Which phrase shows the change of lifestyle? 
+
+   哪一句展现了生活方式的改变？
+
+# pity  /ˈpɪti/
+
+n. 同情，怜悯；可惜的事，遗憾的事；仁慈，慈悲
+
+v. 同情，怜悯
+
+1. What a pity! My ice cream dropped before I ate it.
+   真遗憾！我还没来得及吃，我的冰淇淋就掉地上了。
+
+2. 
+   I took pity on her and rent her the money. 
+
+   我同情她，就把钱借给了她。
+
+3. 
+   I don't want your pity. 
+
+   我用不着你可怜。
+
+4. 
+   He was dead to all feelings of pity. 
+
+   他毫无同情心。
+
+   + feelings /ˈfiːlɪŋz/
+     + n. 感觉，触觉；感情，情绪；意见，观点；同情；……感（feeling 的复数）
+
+# be disappointed with /bi ˌdɪsəˈpɔɪntɪd wɪð/
+
+对……感到失望
+
+1. He's so disappointed with his performance in the race.
+
+   他对自己在比赛中的表现感到很失望。
+
+# political /pəˈlɪtɪkl/
+
+adj. 政治（上）的，政府的；政党的，党派的；对政治感兴趣的，参与政治的；反政府的；（组织内部人际间）牵涉权力关系的，争权夺利的
+
+1. The young man is giving a political speech to the public.
+   这个年轻人在向公众发表一场政治演说。
+
+2. What is his political creed? 
+
+   他的政治信仰是什么？
+
+   + creed /kriːd/
+     + n. 教条，宗教信仰；信念，信条；（基督教）信经（the Creed）
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+# original /əˈrɪdʒənl/
+
+adj. 起初的，原先的；原作的，真迹的；新创作的，未发表的；独创的，新颖的；有独到见解的，有独创性的
+
+n. （艺术作品或文件的）原件，原稿；（文学作品中人物或地点的）原型；原版书，原版唱片；（根据服装展特制图样定做的）真品原板服装；<非正式>（举止、服装等）怪异滑稽的人，独特有趣的人
+
+1. I gave her a copy and kept the original document myself.
+
+   我给她了一份复印件，并自己保存了原件。
+
+2. That line isn't in the original script. 
+
+   原剧本中没有那句台词。
+
+   + script /skrɪpt/
+     + n. 剧本，讲稿；笔迹，手写体；连写体，草体；字体；（一种语言的）字母系统，字母表；<英>（考生的）笔试答卷； 脚本（程序）（计算机的一系列指令）；<非正式>（医生的）处方；期待，计划
+     + v. 写剧本，写讲稿；事先准备，计划
+
+3. Is this a duplicate or the original? 
+
+   这是副本还是正本？
+
+   + duplicate /ˈduːplɪkeɪt/
+     + v. 复制，复印；（无必要地）重复（某事）；使成倍增加
+     + adj. 完全一样的，复制的；二重的
+     + n. 完全一样的东西，复制品
+
+# pace /peɪs/
+
+n. 步速，（移动的）速度；（发生、进展、发展的）速度，节奏；一步，一步之距；（马行走或奔跑的）步法；<文>步态；快节奏；快跑的能力；（板球）（影响球速的）两个三柱门之间的场地状况
+
+v. （因担忧、紧张或不耐烦而）踱步，踱步于；（在赛跑中）为……定速度；为……领跑；为（书、电影等中的故事）设定节奏；调整自己的工作（或活动）节奏；步测；（马）走侧对步（主见于专门饲养或训练的马）
+
+prep. <正式> （用于人名前，委婉提出不同意见）请……原谅
+
+1. They were walking at a fast pace.
+   他们正在快步走。
+
+2. He'll have to learn to pace himself in this job. 
+
+   他必须学会使自己适应这项工作的节奏。
+
+# interview /ˈɪntərvjuː/
+
+v. 面试，面谈；采访，访问；讯问，审问；接见，会见
+
+n. 面试，面谈；采访，访谈；问讯，口头审讯；接见，会见
+
+1. 
+   The interview went well. 
+
+   面试很顺利。
+
+2. My whole future is riding on this interview. 
+
+   我的未来全靠这次面试了。
+
+3. You will be asked to present yourself for interview. 
+
+   将请你到场面试。
+
+# pattern /ˈpætərn/
+
+n. 模式，方式；图案，花样；模范，典范；模型，底样；（布或墙纸的）样品；样式；（声音或词汇有规则排列的）模式
+
+v. 用图案装饰，给……加上花样；仿照，模仿；赋予……以固定（或易辨认）的形式；使形成，促成（某行为模式）
+
+1. The day followed the usual pattern. 
+
+   这一天和平常过得一样。
+
+2. Lessons all follow the same pattern. 
+
+   所有的课程都遵循相同的模式。
+
+3. 
+   This is the center circle of the pattern. 
+
+   这是图案的中心圈。
+
+be concerned/kənˈsɜːrnd/ with
+
+参与，干预；关心；相干；涉及
+
+phr. 与……有关
+
+1. The second chapter is concerned with the health of the elderly.
+   第二章所涉及的是老年人的健康问题。
+   + concerned /ˈtʃæptər/
+     + n. 章，回，篇；阶段，时期；分会，分部；议会法案；一系列，一连串（a chapter of）；全体教士；宗教团体理事会
+     + v. 把……分成章节
+   + elderly /ˈeldərli/
+     + adj. 上了年纪的；老掉牙的
+     + n. 老人（the elderly）
+
+
+
+
+
+---
+
+
+
+# be absorbed in
+
+v. 专心于；全神贯注于
+
+1. This Book is easy to be absorbed in. 
+
+   这本书容易让人沉迷其中。
+
+2. 
+   I think I can be absorbed in what I am doing! 
+
+   我想我一旦行动起来就会全神贯注。
+
+3. Although it's very noisy outside, she absorbed in her book and didn't notice it.
+   虽然外面很吵，但是她完全专注于看书而没有注意到噪音。
+
+   + notice /ˈnoʊtɪs/
+     + n. 注意，察觉；通告，布告；公告牌，警示牌；通知；事先声明，警告；预先通知期；剧评，书评；辞职信，搬迁通知；（报纸、杂志上的）小型广告，简短通告；警告书，说明书
+     + v. 意识，注意；留意；正式通知；简评；客气对待；<古>提到，谈到
+
+# cheat /tʃiːt/
+
+v. 欺骗，行骗；侥幸逃脱，逃避；作弊；对配偶（或伴侣）不忠
+
+n. 骗子，作弊者；欺骗手段，欺诈行为；秘技，作弊软件
+
+1. He was a liar and a cheat. 
+
+   他是一个说谎的人，一个骗子。
+
+2. The man cheated in the card game. 
+
+   那个男人在打牌时作弊了。
+
+3. I assume that he won't cheat you. 
+
+   想来他是不会骗你的。
+
+   + assume /əˈsuːm/
+     + v. 假定，假设，认为；装出，做出；承担，就职；呈现，具有；夺取，篡夺
+
+# occasion /əˈkeɪʒn/
+
+n. （某事发生的）时刻，时候；<正式>时机，适当的机会；特殊（或重大）场合，特殊（或重大）事件；<正式>理由，原因
+
+v. <正式> 引起，惹起
+
+1. In china, New Year's Eve is an important family occasion.
+   在中国，除夕夜是重要的家庭团聚时刻。
+
+2. The wedding was a great occasion. 
+
+   这婚礼可是一大盛典。
+
+3. 
+   He was improperly dressed for the occasion. 
+
+   他的衣着不大适合这个场合。
+
+   + improperly /ɪmˈprɑːpərli/
+     + adv. 不适当地；错误地
+   + dressed /drest/
+     + adj. 穿好衣服的；穿着……衣服的；打扮好的；去内脏及分割加工好的（特指动物，如鱼，禽类等）
+     + v. 给……穿衣；布置，装饰（dress 的过去式和过去分词）
+
+# be accused/əˈkjuːzd/ of
+
+被指控；被控告犯有……
+
+1. He was accused of theft.
+   他被指控盗窃。
+   + theft /θeft/
+     + n. 偷窃，盗窃；盗窃罪
+
+# cut /kʌt/
+
+v. （尤指用刀）切，割，砍，剪，削，剁；削减，缩减；删节，删减；停止，切断（供应）；抄近路； （为决定谁先出牌等）切牌，抽牌； 灌制（唱片），制作（激光唱片等）；划伤，割伤；剪裁；开始长（新牙）；逃学，逃课；让人停止做某事；（用刀等从某物上）切下，割下；（用刀等将某物）切成，割成；切成，削成；剪短，修剪； （割断绳子、某物等）让逃跑,，释放；可用于切割，能切割；能被切开，能被割开；剪切（计算机文档）； 断绝(关系)，终止(沟通)； 剪辑，剪接；停止拍片（或录音、录像）；切换画面；（从感情上）伤害；（与另一条线）相交；混合（毒品和其他物质）；凿，挖，刻；划分（区域）；穿过，通过；砍，切，割（植物）；切断，割断；开除，除名；快速行进；突然转向；插队；关闭（引擎，电灯）；（直截了当地）处理；冲淡，稀释；去除（污垢、油污等）；阉割（动物，尤指马）；（将动物从大群中）分离出来；（武器，子弹，疾病）杀害，使丧命（或受伤）；<旧，非正式>怠慢，不理睬；<旧，非正式>匆忙离开，转移；削（球）；（高尔夫）打（斜切球）；（板球）平板向右外场击（球）；（板球）（球）投出后急转；<非正式>符合要求；超越（间隔，界限）
+
+n. （从动物躯体上）割下的一块肉；（尤指通过不诚实手段获得的）份，份额；（在山中开出的）通道；伤口，划口；（锋利物留下的）开口，破口；（数量或尺寸上的）削减；理发，发型；款式，式样；删剪，删节；剪辑；（唱片、磁带或 CD 上的）歌曲；（电影的）版本；精简，淘汰（如参赛人员）；切，割；（电影场景的）切换；（对相识之人的）视而不见，不理睬；伤人的话（或举动）；停电；（高尔夫）（比赛）半程；（网球，板球）削球，切球；（铁路）路堑，河道
+
+adj. 缩减的；割下的；雕过的；阉割过的
+
+1. I like the way he cuts my hair.
+   我喜欢他给我剪的头发。
+
+2. The telephone wires had been cut. 
+
+   电话线被割断了。
+
+   + wires /ˈwaɪərz/
+     + n. [电]电线；线变形器（wire 的复数）；小五金；网格
+
+3. 
+   You've had your hair cut! 
+
+   你理发了！
+
+4. 
+   I cut myself on a knife. 
+
+   我用刀时割伤了自己。
+
+   + knife /naɪf/
+     + n. 餐刀；刀子，刀具，匕首；手术刀
+     + v. 用刀伤害（或杀害）；如刀般划过
+
+
+
+
+
+
+
+---
+
+
+
 
 
 # nervous /ˈnɜːrvəs/
