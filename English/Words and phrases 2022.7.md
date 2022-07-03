@@ -1,3 +1,93 @@
+# include /ɪnˈkluːd/
+
+v. 包含；把……列为一部分，把……算入
+
+1. Does the price include tax? 
+
+   这个价钱是否包括税款？
+
+2. Elephants, frogs and birds can be included in the category of 'animals'.
+
+   大象、青蛙、和鸟都可以列入“动物“这个类别。
+
+# believe in /bɪˈliːv ɪn/
+
+1. Believe in yourself and you'll have a promising future.
+
+   相信自己，你会有一个美好的未来。
+
+2. I don't believe in ghosts. 
+
+   我不相信有鬼。
+
+3. Do you believe in life after death ? 
+
+   你相信来世吗？
+
+# regret /rɪˈɡret/
+
+v. 懊悔，惋惜；（用于正式书面语）对......感到抱歉，对......感到遗憾；<古>对（损失或缺乏）感到痛惜
+
+n. 遗憾，惋惜；（因无法出席会议、聚会等的）致歉语
+
+1. He regret that he didn't prepare well for the English exam.
+   他后悔没有好好准备英语考试。
+
+   + prepare /prɪˈper/
+     + v. 使做好准备，把……预备好；（为……）做好准备；预备（饭菜），做（饭）；配制（药品或化学制品）；乐意做（be prepared to do sth.）；（在和弦中）预备（不和谐音）
+
+2. 
+   I deeply regret what I said. 
+
+   我非常后悔说了那些话。
+
+3. I thought you might regret it. 
+
+   我以为你会后悔的。
+
+# belong to
+
+属于
+
+1. 
+   It could belong to anyone. 
+
+   它可以属于任何人。
+
+2. You do not belong to this country? 
+
+   你不属于这个国家吗？
+
+# reveal /rɪˈviːl/
+
+v. 揭示，透露；表明，证明；展示，显示；（通过神或超自然手段）启示
+
+n. （电视节目最后的）揭示；门侧，窗侧
+
+1. Reveal your thoughts and express your ideas to yourself. 
+
+   那就向你自己展示你的思想和观念。
+
+   + express /ɪkˈspres/
+     + v. 表达，表露；表现，体现；（用数学方法）表示；压榨，挤压出（空气或液体）；特快发运
+     + n. 快车；快递；初速大的猎枪；专使；捷运公司
+     + adj. 快递的，特快的；明确的；特意的
+     + adv. 用快递寄送
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
 # correspond /ˌkɔːrəˈspɑːnd/
 
 v. 类似于，相当于；通信；相一致，符合
