@@ -1,0 +1,14 @@
+person:
+  name: tx${random.uuid}
+  age: ${random.int}
+  happy: false
+  birthday: 2022/5/28
+  maps: {key1: value1, key2: value2}
+  lists: [1, 2, 3]
+  dog:
+    name: ${person.hello:hello}_旺财
+    age: 2
+
+spring:
+  mvc:
+    date-format:
