@@ -10,6 +10,220 @@
 
 
 
+
+
+# machine /məˈʃiːn/
+
+n. 机器，机械（装置）；计算机，电脑；（组织的）核心机构，领导核心；车辆（常指摩托车）；效率高的人（或动物）；机械般工作的人；（投币式）自动售货机
+
+v. 用机器制造（加工）；机器缝制，用缝纫机缝
+
+1. You can use this machine to make coffee.
+   你可以用这台机器冲咖啡。
+
+2. This machine won't let you down. 
+
+   你尽管放心，这台机器不会出毛病。
+
+3. 
+   How does this machine work? 
+
+   这部机器是如何工作的？
+
+4. This machine is very simple to use. 
+
+   这台机器操作非常简单。
+
+# somebody /ˈsʌmbədi/
+
+pron. 某人，有人；重要人物，当权人物
+
+n. 大人物，重要人物
+
+1. Somebody sends me the flowers, but I don't know who he is.
+   某人给我送了花，可是我不知道他是谁。
+
+2. Somebody was beating at the door. 
+
+   有人在打门。
+
+   + beating /ˈbiːtɪŋ/
+     + n. 打；[纸]打浆；敲打；失败
+     + v. 打（beat 的 ing 形式）
+
+3. Somebody should have told me. 
+
+   应该有人告诉我才是。
+
+# break away /breɪk əˈweɪ/
+
+脱离；放弃；逃跑
+
+1. The only thing the boy wants to do is to break away from school.
+   这个男孩只想逃离学校。
+
+# mind /maɪnd/
+
+n. 头脑，大脑；智慧，思维方式；聪明人，富有才智的人；注意力，心思；记忆力；意愿，意向
+
+v. 苦恼，反对；（请求允许或客气地请人做事）介意；不在意，不考虑；愿意做，乐意做；关心，照看；<英>当心，注意；<美>听从
+
+1. Here's a hard question for you: Are your mind and your brain the same thing?
+   问你一个难题：你的思想和你的头脑是同一个东西吗？
+   + brain /breɪn/
+     + n. 脑；<非正式>智力，智慧；聪明的人，智者；<非正式>电脑；（供食用的）动物脑髓
+     + v. <非正式>猛击……的头部
+
+2. 
+   He has an unusual cast of mind. 
+
+   他的思想与众不同。
+
+3. Try not to let your mind wander. 
+
+   尽量别让你的思想开小差。
+
+   + wander /ˈwɑːndər/
+     + v. 漫游，游荡，漫步，流浪；走神，开小差；偏离，走偏（道路、航线等）；（目光）游移，往别处看；（河流、道路等）蜿蜒曲折；离题；（因年老而）神志恍惚，精神错乱；（男人的手）在女人的身上摸来摸去（尤指女人不情愿时）；（对固定的性伴侣）不忠
+     + n. 游荡，漫步
+
+#  spirit /ˈspɪrɪt/
+
+n. 精神，心灵；情绪，心境；勇气，意志，活力；（对团体、队伍、社会的）忠心，（群体中的）态度，精神；心态，态度；本质，精髓，基本精神；真实意义，实质；灵魂，鬼魂；具有特别品质的人物，在群体或活动中发挥特殊作用的人物；烈酒；挥发性液体（尤指用蒸馏法提炼的燃料）；神灵；圣灵（Spirit，Holy Spirit 的简称）	
+
+v. 偷偷带走，秘密弄走；鼓励，鼓舞
+
+1. He is dead, but his spirit lives on. 
+
+   他死了，但他的灵魂将永存。
+
+2. What a noble spirit this is! 
+
+   这是多么高尚的精神！
+
+   + noble /ˈnoʊbl/
+     + adj. 崇高的，高尚的；宏伟的，卓越的；贵族的，高贵的；惰性的
+     + n. （旧时的）贵族
+
+3. The spirit still exists. 
+
+   精神永在。
+
+   + exists /ɪɡˈzɪsts/
+     + n. 存在量词（exist 的复数）
+     + v. 存在；出现；活着（exist 的三单形式）
+
+
+
+---
+
+
+
+# temple /ˈtempl/
+
+n. 庙宇，寺院；太阳穴，鬓角；犹太教堂；教堂，礼拜堂（尤指法国新教教堂）；<美>（寺庙举行的）宗教仪式；耶路撒冷古神殿，犹太古圣殿（the Temple）；律师协会会所（the Temple）；被视为圣灵的殿堂的物体（尤指人的身体）；专供某种活动之用的场所；边撑，伸幅器
+
+1. 
+   We go to temple on Saturdays. 
+
+   我们每个星期六去寺庙。
+
+2. The temple is now inaccessible to the public. 
+
+   这个寺庙现在不对公众开放。
+
+   + inaccessible /ˌɪnækˈsesəbl/
+     + adj. 难到达的，不可及的；难懂的，难以理解的；难得到的，不可使用的；（人）不接受别人示好的，不可接近的
+
+# blind to /blaɪnd tu/
+
+无视于……；对……熟视无睹
+
+1. He was blind to the fire beside his bed.
+   他对床边的火毫无察觉。
+
+2. Blind to application state. 
+
+   无视应用程序状态。
+
+# silent /ˈsaɪlənt/
+
+adj. （人）安静的，沉默的；沉默寡言的，不爱说话的；（事物）无声的，寂静的；（情感、行为等）不用言语表达的，默默的；只字不提的，不愿讲的；（电影）无声的；（字母）不发音的；（疾病或问题等）悄然的，无症状的
+
+1. We should keep silent in the library.
+   在图书馆里我们应当保持安静。
+
+2. All is silent on the island now. 
+
+   现在这个岛上一片寂静。
+
+3. You `have the right` to remain silent if you choose. 
+
+   如果你愿意，你`有权`保持沉默。
+
+   + remain /rɪˈmeɪn/
+     + v. 逗留，留下；剩余，遗留；保持不变，一直是；仍需去做（或处理）
+     + n. 剩余（物），遗迹；遗体，残骸
+
+# boast about
+
+自夸，吹嘘，夸耀
+
+1. He is boasting about his past achievements to his son.
+   他在向儿子夸耀自己过去的成就。
+
+   + achievements /əˈtʃiːvmənt/
+     + n. 成绩，成就；完成，实现；（纹章）纹章牌
+
+2. That's nothing to boast about. 
+
+   那没有什么值得自吹的
+
+# silver /ˈsɪlvər/
+
+n. 银；银器（尤指餐具）；银币；银（白）色；银牌（silver medal 的简写）
+
+adj. 银（白）色的；银制的，含银的，（有关）银的；二十五周年纪念的，银婚纪念的；<美>口才流利的
+
+v. 镀（或包）银于；<文>使具有银色光泽，使变成银色；使（头发）变成银灰色（或银白色）
+
+1. 
+   He's an Olympic silver medallist. 
+
+   他是奥运会银牌得主。
+
+   + medallist /ˈmedəlɪst/
+     + n. 奖章获得者
+
+# bound to /baʊnd tu/
+
+一定会；束缚于
+
+1. He's bound to hurt himself if there's no protection for him.
+
+   如果没有保护，他一定会伤到自己
+
+   + protection /prəˈtekʃn/
+     + n. 保护，防护；保护物，护身符；保险；避孕（措施）；保护费；贸易保护，关税保护制；保护条例，保护措施；（登山）安全保护器材数量与质量
+
+2. Everyone's opinion is bound to be subjective. 
+
+   每个人的意见都必定是主观的。
+
+   + subjective /səbˈdʒektɪv/
+     + adj. 出自（或涉及）个人感情的，个人的；主观的（非现实世界的）；（语法中）主语的；自觉的
+     + n. （语法）主格（the subjective）
+
+
+
+
+
+---
+
+
+
+
+
 # semester /sɪˈmestər/
 
 n. 学期，半学年
