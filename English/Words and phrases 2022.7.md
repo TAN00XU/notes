@@ -8,9 +8,286 @@
 
 
 
+# field /fiːld/
+
+n. 田地，田野；专业，领域；（尤指为比赛或体育运动划出的）场地；战场；现场，实地；信息栏，字段；视野；场；全体参赛运动员（或动物）；矿田（尤指油田或气田）；语义场；外场员，防守队；盾面，底；单色旗底；<古>战斗，战役
+
+v. 使参加竞选，使参加比赛；处理，回应（电话或请求等）；接（球），守（球）；部署（军队）；担任外场队员，担任防守队员；（政党）推出（候选人）参选
+
+adj. 实地的，野外的；（军事装备）轻便机动的，战役用的；（比赛）田赛的
+
+1. There is a large field around the farm house.
+   农舍周围有一大片田野。
+
+2. The players jogged onto the field. 
+
+   运动员们慢慢跑进赛场。
+
+3. He walked across the field. 
+
+   他走过田地。
+
+# unable /ʌnˈeɪb(ə)l/
+
+adj. 不能胜任的，不会的
+
+1. The system is unable to log you on. 
+
+   这个系统无法让你登录。
+
+2. She was unable to find employment. 
+
+   她没能找到工作。
+
+# break up /ˈbreɪk ʌp/
+
+打碎，破碎；结束；解散；衰落
+
+1. When do you break up for Christmas? 
+
+   你们什么时候放假过圣诞节？
+
+# relationship /rɪˈleɪʃnʃɪp/
+
+n. （人、团体、国家等相互间的）关系；（人或事物之间的）关联，关系；恋人关系，性爱关系；血缘关系，姻亲关系
+
+1. There five people have different relationship with each other.
+
+   这五个人之间有不同的关系。
+
+2. 
+   Their relationship flowered. 
+
+   他们的关系变得更好了。
+
+3. It's important to nurture a good working relationship. 
+
+   维持良好的工作关系非常重要。
+
+   + nurture /ˈnɜːrtʃər/
+     + v. 培养，促进；养育，培育；抱有，怀有；扶持，帮助；滋养，滋生
+     + n. 养育，培育；教养；（总称）环境因素
+
+# unusual /ʌnˈjuːʒuəl/
+
+adj. 不寻常的，罕见的；与众不同的，独特的
+
+1. That guy has an unusual ability! He can fly!
+   这个男人有不同寻常的能力！他会飞！
+
+2. It's unusual for the trees to flower so early. 
+
+   这种树这么早开花很不寻常。
+
+3. He did an unusual good deed. 
+
+   他做了一件不寻常的善事。
+
+   + deed /diːd/
+     + n. 行为，行动；契约，证书；功绩，英勇事迹
+     + v. 立契转让
+
+# bring about /brɪŋ əˈbaʊt/
+
+引起；使掉头；导致
+
+1. Such a small issue brought about a quarrel bwtween the kids.
+   一点小事引发了孩子间的争吵。
+
+   + quarrel /ˈkwɑːrəl/
+     + n. 争吵，拌嘴；抱怨（或不赞成）的理由；<史>（用石弓或劲弩发射的）方镞箭，方头投射物
+     + v. 争吵，吵架；不同意，反对；抱怨
+
+2. Only actions can bring about changes. 
+
+   只有行动能够带来改变。
+
+---
 
 
 
+# break out /breɪk aʊt/
+
+v. 爆发；突发
+
+1. Since the disease broke out, everyone in the street wears a mask.
+   因疾病爆发，街上的每个人都戴起了口罩。
+   + disease /dɪˈziːz/
+     + n. 疾病，病害；弊病，恶习
+     + v. 传染，使……有病
+   + mask /mæsk/
+     + n. 面罩，口罩；防毒面具，呼吸面罩；面膜；假面具，假面；伪装，掩饰；表情，面容；遮盖物，遮蔽物；（古希腊和罗马演员佩戴的）人头面具；遮光板，遮光片；（制造微电路用）模板；（蜻蜓幼虫）脸盖
+     + v. 掩饰，伪装，隐瞒；盖住（气味、味道、声音等）；遮盖；戴面具
+
+# china /ˈtʃaɪnə/
+
+n. 瓷，瓷料；瓷器，瓷制品；<英，非正式>朋友；中国（China）
+
+1. This is a beautiful china teacup and teapot.
+   这是一套精美的青花瓷茶杯和茶壶。
+
+# transfer /trænsˈfɜːr/
+
+v. （使）转移，搬迁；转移（感情），传染（疾病），转让（权力等）；（使）调动，转职；转会，使转会（尤指职业足球队）；（将所得学分）转到（另一所学校）；转接（电话）；将（钱）转到（另一个账户上）；转让（财产，权利），移交（责任）；转用；转存，转录（资料、音乐等），改编；（旅途中）转乘，换乘；转印（图画，图案）；（通过延伸、隐喻）转变（词义，短语义）
+
+n. 转移，转让，调动；（运动员）转会；转换，过渡；已调动的人，已转移的东西；（旅行中）转乘，转搭；<美>转车票，换乘票；纸上可转印的图画或图案；迁移（将已习得的行为在新的情况下应用）
+
+1. The worker transferred the box to another place.
+   工人把箱子转移到了另一个地方。
+
+2. 
+   How can I transfer money from my bank account to his? 
+
+   怎么才能把我账户上的钱转到他的账户上呢？
+
+# break through /breɪk θruː/
+
+突破；突围；有重要创见
+
+1. The man's punch managed to break through the wall.
+
+   这个男人的拳头成功打破了这面墙。
+
+   + punch /pʌntʃ/
+     + n. 一拳，一击；<非正式>（出拳打击时所需要的）力量；感染力，活力；打孔器，穿孔机；孔洞；压印器，冲压机；潘趣酒（由果汁和酒制成的甜味饮品）；庞奇（奇形怪状、钩鼻、驼背的小丑，木偶戏《庞奇和朱迪》中的男主角）（Punch）；（矮壮的）萨福克驮马（Suffolk punch） ；（矮壮的）萨福克驮马（Suffolk punch）
+     + v. 用拳猛击（某人或某物）；按（按钮或键）；（用工具或机器）打孔，扎眼；<美>（用刺棒）赶（牲口） ；<美>（用刺棒）赶（牲口）
+
+2. 
+   Scientists think they are beginning to break through in the fight against cancer. 
+
+   科学家认为他们在对抗癌症的研究中开始有所突破。
+
+   + scientist /ˈsaɪəntɪst/
+     + n. 科学家
+   + cancer /ˈkænsər/
+     + n. 癌症；痼疾，社会恶习；巨蟹宫，巨蟹座（Cancer）；出生于巨蟹宫时段（即6月22日至7月22日）的人（Cancer）
+
+# incomplete /ˌɪnkəmˈpliːt/
+
+adj. 不完整的，不完全的；不完善的，未完成的；（向前）传球不成功的
+
+n. <美>（学业成绩评分）未修毕，未完成
+
+1. The building is still incomplete? How slow!
+
+   这栋楼还没有建好？龟速啊！
+
+2. This is a very incomplete part of the picture. 
+
+   这是图片中非常不完整的一部分。
+
+3. 
+   I realized that the historical record was incomplete. 
+
+   我意识到历史记录是不完整的。
+
+   + record /ˈrekərd; rɪˈkɔːrd/
+     + n. 记录，记载；（某人或某物过去的）记录，经历；（尤指体育运动中的）最佳纪录，最好成绩；唱片；前科，犯罪记录；唱片乐曲；（计算机）记录（指作为一个单位处理的一批相关信息）
+     + v. 记录，记载；录制；（仪器）显示，标示；（尤指体育上）获得（好成绩）；发表正式（或法律方面的）声明，申明；演奏音乐供录制
+     + adj. 创纪录的
+
+
+
+---
+
+
+
+# subway /ˈsʌbweɪ/
+
+n. <美>地铁；<英>地下通道
+
+v. 乘地铁
+
+1. 
+   You'd better take the subway. 
+
+   你最好乘地铁。
+
+2. He takes the subway to work every day.
+   他每天乘地铁上班。
+
+3. 
+   Can I go there by subway? 
+
+   我可以乘地铁去那里吗？
+
+# supermarket /ˈsuːpərmɑːrkɪt/
+
+n. 超级市场，超市
+
+1. You can buy a lot of things in the supermarket.
+   你可以在超市买到很多东西。
+
+2. 
+   I do a weekly shop at the supermarket. 
+
+   我一周上超市一次。
+
+3. 
+   He stops at the supermarket. 
+
+   他在超市门口停下。
+
+4. I ride my bicycle to the supermarket. 
+
+   我骑自行车去超市。
+
+## sometimes /ˈsʌmtaɪmz/
+
+adv. 有时，间或
+
+1. Sometimes, the weather will change every day.
+   有的时候，天气每天都在变。
+
+2. I like to be on my own sometimes. 
+
+   有时候我喜欢一个人待着。
+
+3. Sometimes I go by car. 
+
+   有时我坐车去。
+
+# survive /sərˈvaɪv/
+
+v. （经历事故、战争或疾病后）活下来，幸存；比……活得久，比……长寿；挺过，艰难度过；幸免于难，留存；（靠很少的钱）继续维持生活；设法对付（困难或令人不愉快的事）
+
+1. The girl survive the shipwreck.
+
+   + shipwreck /ˈʃɪprek/
+     + n. 海难；遇难船
+     + vt. 使失事；使毁灭；使失败
+
+   这个女孩在海滩中幸存了下来。
+
+2. How do I ever survive? 
+
+   我要怎么继续生存？
+
+3. Now I feel I could survive anywhere! 
+
+   现在我觉得我可以在任何地方生存！
+
+# symbol /ˈsɪmbl/
+
+n. 象征，标志；符号；代表性的人（物）
+
+1. Doves are the symbol of peace.
+   鸽子是和平的象征。
+   + doves /dʌvz; doʊvz/
+     + n. 白鸽（dove 的复数）；菜包肉末饭
+   + peace /piːs/
+     + n. 和平，太平；平静，安宁；（心情）平静，平和；和约；和平时期；治安；和睦，和谐；平安礼（the peace）；和平运动，裁军运动（尤指核裁军运动）；和平运动，裁军运动（尤指核裁军运动）
+     + v. 安静
+
+2. Because it's our country's symbol. 
+
+   因为它是我们国家的象征。
+
+
+
+
+
+---
 
 
 
