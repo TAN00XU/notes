@@ -6,6 +6,117 @@
 
 
 
+# off /ɔːf/
+
+adv. 离开（某处），（在时间或空间上）距，离；从……移开，从……脱离；不再会发生，被取消；关掉，切断；没有，不再供应；不上课，不工作，休息；削价，减价；入睡；做完，光；获得，拥有；<英>（接在数词后）一次的产量；在剧院舞台的后面（或旁边）
+
+prep. 从……离开，向下；靠近，离……不远；从……去掉，从……移开；低于……水平；远离；不上课，不工作，休息；依靠……（过活）；（表示来源或原因）来自，由于
+
+adj. （食物）不新鲜的；<非正式>令人不快的，不公平的；<英，非正式>不友好的，敌对的；状态不如平常好的；<美>不正确的，不对的；微小的；不连接的，不盖在上面的；萧条的，淡季的；离开家的，不工作的；不运转的，不运作的；<英>（一对之中）右边的，右侧的；（某些体育比赛）越位的；在车辆离人行道边缘最远的一侧的
+
+n. 起跑，开始，出发（the off）；（板球）击球手对面的半场
+
+v. <美>杀死（某人）；<非正式>离开
+
+1. He had to be off in a hurry.
+   他不得不匆忙离开。
+
+2. They're ready for the off. 
+
+   他们准备起跑了。
+
+# vary/ˈveri/
+
+v. （使）不同，（使）呈现差异；（根据情况而）变化，改变；改变，使……变化；变奏
+
+1. Each cup on the table varies in color and size.
+   桌上的每个杯子颜色和大小各不相同。
+
+2. 
+   A baby's need for food can vary from day to day. 
+
+   婴儿对食物的需求天天都在变化。
+
+# bring forth /brɪŋ fɔːrθ/
+
+v. 产生；发表；生孩子
+
+1. This apple tree always brings forth lots of fruit.
+   这颗苹果树总是结出很多果实。
+
+2. 
+   These efforts will surely bring forth good fruit. 
+
+   这些努力必将产生良好的结果。
+
+   + effort/ˈefərt/
+     + n. 努力，艰难的尝试；力气，精力；有组织的活动；努力的结果，成就；努力的结果，成就
+   + surely /ˈʃʊrli/
+     + adv. （用于表明你相信某事极有可能）想必，谅必；无疑，肯定；<美>当然；绝不可能，绝对不会（用于表示不相信）；自信地；稳当地
+
+# demand /dɪˈmænd/
+
+v. 强烈要求；需要，需求
+
+n. 坚决的要求；需求，需求量；（困难的）要求
+
+1. I demand to see the manager. 
+
+   我坚决要求见经理。
+
+2. Demand is outstripping supply. 
+
+   需求快超过供给了。
+
+   + outstripping /ˌaʊtˈstrɪpɪŋ/
+     + vt. 超过；胜过；比……跑得快（outstrip 的变形）
+   + supply /səˈplaɪ/
+     + n. 供给量，储备；（商品、服务的）供应量；供应，补给；生活必需品，日用品（supplies）；供应（的）；临时替代者（尤指代课教师）；<英>议会拨给政府作开支的款项（supplies）
+     + v. 供应，提供，供给；补充，填充；满足要求（或需要）；提供援助；替代
+
+3. Demand is high at this time of year. 
+
+   一年的这个时期需求很大。
+
+# vision /ˈvɪʒn/
+
+n. 幻想，想象；幻觉，幻象；构想，展望；眼力，远见卓识；视力，视觉；视野；美好的人（或事物）；（电视或电影的）图像
+
+v. <罕>想像
+
+1. 
+   Cats have good night vision. 
+
+   猫在夜间视力好。
+
+2. The eye doctor said that my vision is excellent.
+   眼科医生说我的视力非常好。
+
+3. Why do you have this vision? 
+
+   为什么你有这样的愿景？
+
+# bring forward
+
+提出；提前；结转
+
+1. She is always bringing forward new ideas in meetings.
+   她总是可以在会议中提出新的想法。
+
+2. The rain will bring forward young crops. 
+
+   这场雨会促进禾苗的生长。
+
+   + crops /krɑːps/
+     + n. 农作物（crop 的复数）；收成；[冶]切头
+     + v. 种植（crop 的三单形式）；收割；修剪；产庄稼
+
+
+
+---
+
+
+
 # tense /tens/
 
 adj. 紧张的，焦虑的；（气氛或局势）令人紧张的，引发恐慌的；（身体或肌肉）僵直的，绷紧的；（金属丝等）拉紧的，绷紧的；（语音，尤指元音）紧的
