@@ -6,6 +6,244 @@
 
 
 
+
+
+
+
+
+
+
+
+# tent /tent/
+
+n. 帐篷；西班牙红葡萄酒；（外科）塞条，塞子；（医院里给重病病人用的）氧气帐（oxygen tent 的简称）；住处；帷幕
+
+v. 由帐篷组成，用帐篷（或帐篷状物）遮盖；使成帐篷状；（尤指马戏团）住帐篷，在帐篷里宿营；暂时居住
+
+1. The couple put up a tent beside the river.
+   那对夫妻在河边支起了帐篷。
+
+2. 
+   There's a big split in the tent. 
+
+   帐篷上撕了一个大口子。
+
+3. I heard the tent rip. 
+
+   我听到了帐篷撕裂的声音。
+
+# complicated /ˈkɑːmplɪkeɪtɪd/
+
+adj. 复杂的，难处理的
+
+v. 使复杂化，使难以理解；引起并发症（complicate 的过去式和过去分词形式）
+
+1. Math is a very complicated subject -- it makes my head hurt.
+   数学是一门非常复杂的学科，它让我很头疼。
+
+2. The story is very complicated. 
+
+   故事情节复杂。
+
+3. 
+   But it gets complicated. 
+
+   但这变得很复杂。
+
+# bring to /brɪŋ tu/
+
+使恢复知觉；停船
+
+1. The lifeguard brought the drowned man to.
+   救生员让溺水者恢复了意识。
+   + lifeguard /ˈlaɪfɡɑːrd/
+     + n. 救生员；警卫
+     + vt. 护卫，保护
+     + vi. 当救生员
+   + guard /ɡɑːrd/
+     + n. 卫兵，警卫；看守，保卫，警戒；列车长；保护装置；（英国的）禁卫军；（篮球）后卫；（拳击运动员的）防御姿势
+     + v. 守卫，保卫；看守，监视；警惕，防范；保护，维护
+   + drowned /draʊnd/
+     + adj. 淹死的
+     + v. 淹死；（使）淹死；浸没；（一声音）盖过（另一声音）；为……困扰（drown 的过去式及过去分词）
+
+# light /laɪt/
+
+n. 光，光线；光源（如电灯）；日光，阳光；交通信号灯；车灯；（可手持的）灯，手电筒；装饰灯；打火机，点火器；（理解某人或某物的）方式，角度；眼光，（个人的）观点，标准（lights）；（对问题的）了解，（对疑团的）识破，启迪；眼神；亮色，浅色；窗，天窗，采光口；浅色衣服（lights）；浅色调（lights）；（律）采光权；圣灵亮光；直棂窗窗玻璃上的竖框；杰出的人，有声望的人；<英>（字谜游戏中的）待填空格
+
+adj. 浅色的，淡色的；采光好的，光线足的；天亮的，白天的；轻的，不重的；分量不足的；小巧的；少量的，程度低的；不严厉的；（风）轻柔的；轻声的；（碰触）轻轻的；不累的，轻松的；娱乐性的，消遣性的；无忧无虑的，愉快的，快活的；少量的，不多的；单薄的，不保暖的；（饭食）简单的；（饮食或使用）少量的；酒精含量低的，低度酒的；（食物）清淡的，易消化的；载重量轻的，适合轻载的；（武器、机械）轻型的；（士兵）轻装的；（睡眠）不深的，易醒的；（食物）松软的；（土地）轻质的（质地疏松、多孔、易渗水的）；（同位素）轻的，（化合物）含轻同位素的；（字体）细体的
+
+v. 照亮，照耀；（使）燃烧，点燃；用光指引；点烟
+
+adv. （旅行）轻装地；轻地
+
+1. She is lighting a candle.
+   她正在点蜡烛。
+   + candle /ˈkænd(ə)l/
+     + n. 蜡烛；旧烛光，国际烛光（发光强度单位）
+     + v. 对着光检查
+
+2. Sound travels more slowly than light. 
+
+   声比光传播得慢。
+
+3. You only need to apply light pressure. 
+
+   你只要轻轻地一压就行了。
+
+   + pressure /ˈpreʃər/
+     + n. 压力，挤压；（气体或液体形成的）压力，压强；心理压力，紧张；催促，要求；气压
+     + v. 对……施加压力，强迫；使……增压
+
+# provided /prəˈvaɪdɪd/
+
+conj. 假如，只要，在……条件下
+
+v. 提供；规定；为（可能事件）作充分准备（provide 的过去式和过去分词形式）
+
+1. You may watch TV, provided your homework is finished first.
+   如果你先把家庭作业做完，你就可以看电视了。
+
+2. Lunch and refreshments will be provided. 
+
+   将提供午餐和茶点。
+
+   + refeeshments /rɪˈfreʃmənts/
+     + n. 点心；[食品] 茶点；小吃
+
+# January /ˈdʒænjueri/
+
+n. 一月
+
+1. January always has 31 day.
+   一月份一般有31天。
+
+2. Spring Festival is usually in January or February. 
+
+   春节通常在一月或二月。
+
+3. We always have snow in January. 
+
+   我们这里1月份总会下雪。
+
+
+
+---
+
+
+
+# flexible /ˈfleksəbl/
+
+adj. 灵活的；柔韧的，易弯曲的
+
+1. Are you working flexible hours? 
+
+   你的工作时间灵活吗？
+
+2. 
+   It's strong, yet very flexible. 
+
+   它很坚固，但也很灵活。
+
+# weak /wiːk/
+
+adj. 虚弱的，无力的；不牢固的；懦弱的，无判断力的；缺乏政治（或社会）影响力的，无权力的；疲软的，萧条的；不擅长，（能力）弱的；无说服力的，逻辑不周密的；力量微弱的，无强度的；（光、热或声音）微弱的，隐约的；无活力的，无生气的；（饮品）稀的；（脸的部分）瘦小的，（容貌）不突出的；（受强烈情感影响而）腿发软的；（感情）脆弱的，（态度）不坚定的；（作用或效果）弱的，差的；（动词）规则的，弱（变化）的；（音节）轻读的，非重读的；弱电解的，弱电解质的
+
+n. 穷人，弱者，病人（the weak）
+
+1. He's so weak that he can't even lift this tiny weight.
+   他真的是太虚弱了，竟然连这么轻的重量都举不起来。
+
+   + tiny /ˈtaɪni/
+     + adj. 极小的，微小的
+     + n. <非正式>幼童
+
+2. She was too weak to stand. 
+
+   她虚弱得站都站不住。
+
+3. He was a weak little mouse of a man. 
+
+   他是个懦弱无能的人。
+
+# weekly /ˈwiːkli/
+
+adj. 每周的，一周一次的；持续一周的，按周计算的；周刊的
+
+n. 周报，周刊
+
+adv. 每周，每星期
+
+1. This TV show is updated weekly.
+   这个电视节目每周更新一次。
+
+2. I do a weekly shop at the supermarket. 
+
+   我一周上超市一次。
+
+# bring out /brɪŋ aʊt/
+
+v. 出版，生产；使显示；说出；激发
+
+1. The author will bring out a new book soon.
+   这位作家将会出版一本新书。
+   + soon /suːn/
+     + adv. 很快，马上，不久；早，快；宁可，宁愿
+
+2. 
+   She can bring out the best in you. 
+
+   她为你带来一切美好。
+
+3. You can't bring out this plant. 
+
+   你不能把这棵植物带出去。
+
+   + plant /plænt/
+     + n. 植物；工厂，发电厂；<美>房屋，设施；重型机械，机械设备；栽赃物品；密探，卧底；（斯诺克）击接触球犯规
+     + v. 栽种，种植；灌输（思想）；栽赃；安放（炸弹），（秘密）放置；安插（眼线、密探等）；把……牢牢插进，稳固地放置……；（通常出于不可告人的目的）发布，散布；移栽，移植（室外）；<非正式>埋葬（人）；创建，建立（殖民地，城市，社区）；（在河流或湖泊中）放养（鱼苗、鱼卵、牡蛎等）
+
+# inform/ɪnˈfɔːrm/
+
+v. 通知，告知；告发，检举（inform on）；赋特征于，渗透；了解，熟悉；影响
+
+1. She excitedly informed us that she was getting married next week.
+
+   她兴奋地告诉我们她下周就要结婚了。
+
+   + excitedly /ɪkˈsaɪtɪdli/
+     + adv. 兴奋地；激动地
+
+2. 
+   I hope you will write to me from time to time and inform me of your progress. 
+
+   我希望你能经常写信给我，告诉我你的进展如何。
+
+   + progress /ˈprɑːɡres; ˈprɑːɡrəs/
+     + n. 进步，进展；前进，行进；（社会的）进步
+     + v. 进步，进展；使（任务，事业）取得持续进展；（时间）推移，流逝；缓慢行进；（占星）计算行星（或星象图各星及坐标）的位置
+
+# welfare /ˈwelfer/
+
+n. 幸福，安康；福利救济，社会福利；（给失业者和穷人的）福利救济金
+
+adj. 福利的；接受社会救济的
+
+1. The organization aims to improve the welfare of animals.
+   这个组织旨在提升动物的福利。
+   + organization /ɔːrɡənəˈzeɪʃn/
+     + n. 组织，机构；组织工作，筹备工作；编排，配置，结构；条理，逻辑性
+   + aims /eɪmz/
+     + vi. 目的在于；瞄准（aim 的三单形式）
+     + vt. 把……对准；针对（aim 的三单形式）
+     + n. 目的；瞄准（aim 的复数形式）
+
+
+
+---
+
+
+
 # off /ɔːf/
 
 adv. 离开（某处），（在时间或空间上）距，离；从……移开，从……脱离；不再会发生，被取消；关掉，切断；没有，不再供应；不上课，不工作，休息；削价，减价；入睡；做完，光；获得，拥有；<英>（接在数词后）一次的产量；在剧院舞台的后面（或旁边）
