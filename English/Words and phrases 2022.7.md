@@ -14,6 +14,82 @@
 
 
 
+# build up /ˈbɪld ʌp/
+
+vt. 增进；加强
+
+vi. 积累；向上发展
+
+1. Lifting weights has built up his strength.
+   举重逐步增强了他的力量。
+
+2. You do build up a good relationship with the client. 
+
+   你确实与客户建立了良好的关系。
+
+# meal /miːl/
+
+n. 一餐，进餐（时间）；一餐所吃的食物；磨成粗粉的东西
+
+v. 进餐
+
+1. The family enjoyed a tasty meal.
+   这家人享受了一顿美餐。
+
+   + tasty /ˈteɪsti/
+     + adj. 美味的；<非正式> 有趣的；<英，非正式> 性感的，迷人的；善战的
+
+2. We had a meal in a restaurant. 
+
+   我们在餐厅吃了顿饭。
+
+   + restaurant /ˈrestrɑːnt/
+     + n. 餐馆，饭店
+
+3. What you need is a good meal. 
+
+   你需要的是一顿美餐。
+
+# marriage /ˈmærɪdʒ/
+
+n. 结婚，婚姻；婚礼；紧密结合；配对（指伯齐克和其他牌戏中同花色K与Q组合）
+
+1. They don't believe in marriage. 
+
+   他们不相信婚姻。
+
+2. Their marriage was finished. 
+
+   他们的婚姻破裂了。
+
+# accumulate /əˈkjuːmjəleɪt/
+
+v. 积累，积攒
+
+1. He accumulates wealth for future use.
+   他积累财富以供将来使用。
+
+   + wealth /welθ/
+     + n. 财富；富有；大量
+
+2. I just want to accumulate some useful experience there. 
+
+   我只想在那里积累一些有用的经验。
+
+   + experience /ɪkˈspɪriəns/
+     + n. 经历，往事；经验，阅历；传统
+     + v. 经历，遭遇；体会到，感受到
+
+3. We have to accumulate more experience. 
+
+   我们要累积经验。
+
+
+
+---
+
+
+
 # tent /tent/
 
 n. 帐篷；西班牙红葡萄酒；（外科）塞条，塞子；（医院里给重病病人用的）氧气帐（oxygen tent 的简称）；住处；帷幕
