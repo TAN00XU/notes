@@ -140,7 +140,7 @@ flowchart LR
 
 + 十进制整数：由数字0~9和正负号表示。（123）
 + 八进制整数：由数字0开头，只有0~7.（012）
-+ 十六进制整数：有0xx开头，有0~9，和  A~F( a~ f)。(0x12A)
++ 十六进制整数：由0xx开头，有0~9，和  A~F( a~ f)。(0x12A)
 
 ## 实型常量（实数或浮点数）
 
@@ -196,7 +196,7 @@ flowchart LR
 
 + 占字节数随机器不同而不同,一般占一个机器字
 + short (2B) <= int <= long (4B)
-+ 可用sizeof (类型标识符)测量
++ 可用sizeof (类型标识符) 测量
 
 ## 实型变量
 
@@ -208,9 +208,213 @@ flowchart LR
 + 字符变量存放字符ASCII码
 + char与int数据间可进行算术运算
 
+# 数据类型转换
+
+## 强制类型转换符
+
++ 形式：(类型名) 表达式
+
+(int) 2.2	=>2
+
+(int) 5.5 / (int) 2.5	=>2
+
+## 自动类型转换
+
+设char w; int x; float y; double z; 则表达式w*x+z-y的值的类型是double.
+
+# 运算符和表达式
+
+## 算数运算符和算数表达式
+
++ 基本算数运算符：+ - * / %
+
++ 结合方向：从左到右
++ 优先级：+ - $\longrightarrow$  * / % $\longrightarrow$ + -
++ 说明："-"作为单目运算符时，右结合
+
+**求余左右两边必须是整数： ==5.5%2  $\textcolor{red}{\times}$==**
+
+## C语言运算符优先级
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width:700px;">
+    <tbody>
+    <tr>
+        <td style="text-align:center;width:81px;">优先级</td>
+        <td style="text-align:center;width:457px;">运算符</td>
+        <td style="text-align:center;width:110px;">说明</td>
+        <td style="width:91px;">结合性</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">1</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">( )</span> <span style="color:#fe2c24;">[ ]</span>&nbsp;
+            <span style="color:#fe2c24;">&nbsp;.</span>(成员选择(对象))&nbsp; &nbsp;<span
+                    style="color:#fe2c24;"> &nbsp;-&gt;</span>(成员选择(指针))
+        </td>
+        <td style="text-align:center;width:110px;"></td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">2</td>
+        <td style="text-align:center;width:457px;"><p><span style="color:#fe2c24;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;！</span>(逻辑非运算符)<span
+                style="color:#fe2c24;">&nbsp; &nbsp;+</span>(正)&nbsp;
+            <span style="color:#fe2c24;">&nbsp;-</span>(负)&nbsp; &nbsp;<span style="color:#fe2c24;">~</span>&nbsp;
+            &nbsp;<span style="color:#fe2c24;">++</span>&nbsp; &nbsp;<span style="color:#fe2c24;">--</span>&nbsp; <span
+                    style="color:#fe2c24;">&nbsp;*</span><span style="color:#0d0016;">(取值运算符)&nbsp; </span>&nbsp; <span
+                    style="color:#fe2c24;">&amp;</span><span style="color:#0d0016;">(取地址符)&nbsp; &nbsp;</span></p>
+            <p><span style="color:#0d0016;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                    style="color:#fe2c24;">sizeof</span><span style="color:#0d0016;">(</span>长度运算符<span
+                    style="color:#0d0016;">)</span></p></td>
+        <td style="text-align:center;width:110px;">单目运算符</td>
+        <td style="width:91px;">从右到左</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">3</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">*</span>(乘)&nbsp; &nbsp; <span
+                style="color:#fe2c24;">/</span>(除)&nbsp; <span style="color:#fe2c24;">&nbsp; %</span>(取余)
+        </td>
+        <td colspan="1" rowspan="10" style="text-align:center;width:110px;">双目运算符</td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">4</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">+</span>(加)&nbsp; &nbsp; &nbsp;
+            &nbsp;<span style="color:#fe2c24;"> -</span>(减)
+        </td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">5</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">&lt;&lt;</span>(左移)&nbsp; &nbsp;<span
+                style="color:#fe2c24;"> &gt;&gt;</span>(右移)&nbsp; &nbsp;<span
+                style="color:#fe2c24;"> &gt;&gt;&gt;</span></td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">6</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">&gt;</span>(大于)&nbsp; &nbsp; &nbsp;<span
+                style="color:#fe2c24;">&gt;=</span>(大于等于)&nbsp; &nbsp; &nbsp;<span style="color:#fe2c24;">&lt;</span>(小于)&nbsp;
+            &nbsp; &nbsp;<span style="color:#fe2c24;">&lt;=</span>(小于等于)
+        </td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">7</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">==</span>(等于)&nbsp; &nbsp; &nbsp; &nbsp;<span
+                style="color:#fe2c24;"> !=</span>(不等于)
+        </td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">8</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">&amp;</span>(按位与)</td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">9</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">^</span>(按位异或)</td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">10</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">|</span>(按位或)</td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">11</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">&amp;&amp;</span>(逻辑与)</td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">12</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">||</span>(逻辑或)</td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">13</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">?:</span>(条件运算符)</td>
+        <td style="text-align:center;width:110px;">三目运算符</td>
+        <td style="width:91px;">从右到左</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">14</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">=</span>(赋值运算符)&nbsp; &nbsp; <span
+                style="color:#fe2c24;">/=</span>(除后赋值)&nbsp; &nbsp;<span style="color:#fe2c24;"> *=</span>(乘后赋值)&nbsp;
+            &nbsp; <span style="color:#fe2c24;">%=</span>(取余后赋值)&nbsp; &nbsp; <span style="color:#fe2c24;">+=</span>(加后赋值)&nbsp;
+            &nbsp;<span style="color:#fe2c24;"> -=</span>(减后赋值)&nbsp; &nbsp; <span
+                    style="color:#fe2c24;">&gt;&gt;=</span>(右移后赋值)&nbsp; &nbsp; <span
+                    style="color:#fe2c24;">&lt;&lt;=</span>(左移后赋值)&nbsp; <span
+                    style="color:#fe2c24;">&nbsp; &amp;=</span>(按位与后赋值)&nbsp; &nbsp; <span
+                    style="color:#fe2c24;">|=</span>(按位或后赋值)&nbsp; &nbsp; <span style="color:#fe2c24;">^=</span>(按位异或后赋值)&nbsp;
+            &nbsp;&nbsp;
+        </td>
+        <td style="text-align:center;width:110px;">复合运算符</td>
+        <td style="width:91px;">从右到左</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;width:81px;">15</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">,</span>(逗号运算符)</td>
+        <td style="text-align:center;width:110px;">从左向右顺序运算</td>
+        <td style="width:91px;">从左到右</td>
+    </tr>
+    </tbody>
+</table>
 
 
-$\infty$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -227,7 +431,7 @@ $\infty$
 
 
 
-输出
+# 输出格式化
 
 ```
 
