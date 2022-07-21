@@ -1,3 +1,5 @@
+```txt
+
 cmake_minimum_required(VERSION 3.21)
 project(test C)
 set(CMAKE_C_STANDARD 99)
@@ -38,3 +40,6 @@ endforeach ()
 #    # 分别生成add_executable(<name> <source>)命令
 #    add_executable (${exe} ${file})
 #endforeach ()
+
+```
+
