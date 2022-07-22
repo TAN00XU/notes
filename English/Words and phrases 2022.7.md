@@ -14,6 +14,120 @@
 
 
 
+
+
+# foundation /faʊnˈdeɪʃn/
+
+n. 地基，基础；基本原理，根据；基金会；建立，创办；（化妆打底用的）粉底霜
+
+1. A strong building needs a solid foundation.
+   一座坚固的建筑需要有稳固的地基。
+   + solid/ˈsɑːlɪd/
+     + adj. 坚硬的；固体的，固态的；结实的，牢固的；实心的，无空隙的；纯的，无杂质的；纯色的，单色的；可信赖的，切实的；可靠的，靠得住的；忠实的，坚定的；一致的，团结的；（时间）没有间断的，连续的；（成就或工作）相当好的，经得起时间考验的；立体的，立方的；（人）高大结实的；（排版）密排的；（线路）无间断的，畅通的；<美，非正式>关系融洽的；<澳新，非正式>严厉的，不公平的；普通的，扎实的；<英，非正式>好的；<英，非正式>很难的
+     + n. 立体图形，立方体；固体；固体食物；（液体中的）固形物
+
+2. 
+   Best friends are the foundation of my life. 
+
+   良友们是我生活的基础。
+
+# acceptable /əkˈseptəbl/
+
+adj. 可接受的，（大多数人）认同的；合意的，令人满意的；尚可的，勉强的；可容忍的，可允许的
+
+1. 
+   The food was acceptable, but no more. 
+
+   食物还可以，但说不上很好。
+
+2. That sort of behaviour is not acceptable. 
+
+   那样的行为是不允许的。
+
+   + behaviour /bɪˈheɪvjər/
+     + n. 行为，举止，态度；活动方式，特点，特性；习惯
+
+# accessory /əkˈsesəri/
+
+n. 附件，配件；装饰品，配饰；同谋，从犯
+
+adj. 辅助的，副的；附属的；同谋的
+
+1. Everything is suddenly now an accessory rather than an essential. 
+
+   现在，任何东西都突然成为佩饰而非必需品。
+
+   + rather /ræðər/
+
+     - adv. 颇，相当；宁愿，最好（would rather）；而不是；更确切地说；（用以使表达的语气婉转）有几分，有点儿；恰恰相反，而是
+
+     - int. <英，旧>当然，的确（表同意）
+
+   + essential /ɪˈsenʃ(ə)l/
+
+     + adj. 必不可少的，非常重要的；基本的，精髓的；（氨基酸、脂肪酸）必需的；（疾病）自发的，原发的
+     + n. 必不可少的东西，必需品；要素，本质；（某学科的）基础，基本知识
+
+# burn out
+
+烧坏；烧尽；不再热衷
+
+1. Run too fast and you'll burn out. 
+
+   跑得太快会使你筋疲力尽。
+
+2. If we answer this call to often we burn out. 
+
+   如果我们总是接这样的电话，非得累死不可。
+
+# online /ˌɑːnˈlaɪn/
+
+adj. （产品、服务或信息）在线的，网上的；（计算机）联机的
+
+adv. 在网上，利用网际网路（购买、获得等）；联机地，在电脑操控下；开始运行，存在着
+
+1. Online shopping provides a more convenient way of shopping.
+   网络购物是一种更方便的购物途径。
+
+   + convenient /kənˈviːniənt/
+   + adj. 方便的，便利的；附近的，方便到达的；<旧>适当的
+
+2. You can chat to other people who are online. 
+
+   你可以与其他在线的人聊天。
+
+3. He often goes shopping online. 
+
+   他经常在网上购物。
+
+4. You can just post it online. 
+
+   你只要在网上发布就可以了。
+
+# arrangement /əˈreɪndʒmənt/
+
+n. 安排，筹备；商定，约定；整理，排列，布置；改编
+
+1. There was a comfortable arrangement of tables for outdoor dining.
+   户外用餐的餐桌布置得很舒服。
+   + comfortable /ˈkʌmftəbl; ˈkʌmfərtəbl/
+     + adj. 令人舒适的；感到舒服的，安逸的；自信的，自在的；富裕的，宽裕的；满意的；易取胜的，轻松领先的；（病、伤后）疼痛减缓的，状况良好的；足够的
+     + n. <美>温暖的盖被
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
 # build up /ˈbɪld ʌp/
 
 vt. 增进；加强

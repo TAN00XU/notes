@@ -92,6 +92,7 @@ flowchart LR
 ## C数据类型
 
 ```mermaid
+
 flowchart LR
 	A(C数据类型)
         A --> B1(基本类型)
@@ -550,6 +551,82 @@ printf("%d\n",a,b);//1
 | 单分支if语句                                                 | 双分支if语句                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 形式：<br /><span style="color:red;font-weight:bolder;">if(条件) 语句；</span> | 形式：<br /><span style="color:red;font-weight:bolder;">if(条件) 语句1;<br />else 语句2；</span> |
+
+## switch语句
+
+```c
+switch(表达式){
+    case 常量表达式1: 
+        语句1;
+        break;
+    case 常量表达式2: 
+        语句2;
+        break;
+        ……
+    case 常量表达式n: 
+        语句n;
+        break;
+    [default: 语句n+1]//其它，可有可无
+}
+```
+
+# 循环结构
+
++ <span style="color:red;font-weight:bolder;">while</span> 语句
++ <span style="color:red;font-weight:bolder;">do~while</span> 语句
++ <span style="color:red;font-weight:bolder;">for</span> 语句
+
+## while语句
+
+### 一般形式：
+
+```c
+while(表达式)
+    循环体语句;
+```
+
+### 执行流程：
+
+```flow
+st=>start: while
+e=>end: 结束
+comd=>condition: expr
+op1=>operation: 循环体
+
+st->comd(yes@真（非0）)->op1(left)->comd
+comd(yes@真（非0）)->op1
+comd(no@假（0）)->e 
+op1@>comd({"stroke":"Red"})
+```
+
+### 特点：
+
+先判断表达式，后执行循环体
+
+## do~while语句
+
+### 一般形式：
+
+```c
+do
+    循环体语句;
+while(表达式);
+```
+
+### 执行流程
+
+```flow
+st=>start: do 
+e=>end: 结束
+op1=>operation: 循环体
+comd=>condition: expr
+
+st->op1->comd->e
+comd(yes@真（非0）)->op1
+comd(no@假（0）,bottom)->e 
+comd@>op1({"stroke":"Red"})
+
+```
 
 
 
