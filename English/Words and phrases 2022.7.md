@@ -10,9 +10,123 @@
 
 
 
+# gather /ˈɡæðər/
+
+v. 聚集，召集；收集，采集；认为，推断；增加（速度、力量等）；给……打褶；收紧，拉近
+
+1. People gather around to listen to the girl's beautiful singing.
+   人们聚在一块，听女孩美妙的演唱。
+
+2. 
+   People would gather from near and far. 
+
+   人们会从四面八方聚起来。
+
+3. 
+   As soon as you gather some information, act on it! 
+
+   一旦你收集到一些信息，按照信息行事！
+
+# assistance /əˈsɪstəns/
+
+n. 帮助，援助
+
+1. I climbed up the hill with the assistence of my friend.
+   在我朋友的帮助下，我爬上了山。
+
+2. 
+   Can I be of any assistance? 
+
+   我能有所帮助吗？
+
+# burst into /bɜːrst ˈɪntu/
+
+闯入；情绪的突然发作；突然开始
+
+1. The crowd burst into cheers. 
+
+   人群中爆发出一片欢呼声。
+
+2. The sisters shared a secret and then burst into laughter.
+   这对姐妹分享了一个秘密，然后突然开始大笑不止。
+   + secret /ˈsiːkrət/
+     + adj. 秘密的，保密的；（感情、担心、行动）不公开的，暗自的；（某人的行为）诡秘的，神秘的；善于掩饰自己的，严守秘密的
+     + n. 秘密，内情；神秘，奥秘；秘诀，诀窍；（罗马天主教弥撒捐献仪式后牧师的）默祷
+
+# biological /ˌbaɪəˈlɑːdʒɪk(ə)l/
+
+adj. 生物的，生物学的，生命的；亲生的；含酶的；生化武器的
+
+1. Biological science is concerned with research of animals, plants and micro-organisms.
+   生物科学涉及对动物、植物和微生物的研究。
+   + concerned /kənˈsɜːrnd/
+     + adj. 相关的， 关于（某个主题）的；担心的，焦急的；关注的，感兴趣的；关心的，挂念的
+     + v. 有关，关于；涉及，影响；使忧虑，使担心（concern 的过去式和过去分词形式）
+   + research /ˈriːsɜːrtʃ; rɪˈsɜːrtʃ;/
+     + n. （尤指大学或科研机构进行的）研究，探讨；研究工作，调查工作
+     + v. 研究，探索；为……收集资料，调查
+   + micro-organisms /maɪkroʊ ˈɔrɡənˌɪzəm/
+     + 微生物
+
+# breed /briːd/
+
+v. 交配繁殖；饲养，培育；养育，培养；引起，酿成；（通过核反应）增殖可裂变物质
+
+n. 品种；（人的）类型，种类
+
+1. There are hundreds of different dog breeds.
+   狗有几百个不同的品种。
+
+2. He used to breed dogs for the police. 
+
+   他过去为警察部门养殖狗。
+
+# burst out
+
+闯出来；突发；摆脱；大声喊叫
+
+1. The cat burst out laughing.
+   这只猫突然大笑起来。
+
+2. My tears burst out my eyes. 
+
+   我的泪水夺眶而出。
+
+3. The whole audience burst out laughing. 
+
+   观众都笑了。
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 
 
 

@@ -1,4 +1,4 @@
-#  32个关键字
+#  <span style="color:red;">32个关键字</span>
 
 |  关键字  | 含义                         |  关键字  | 含义                       |
 | :------: | :--------------------------- | :------: | -------------------------- |
@@ -259,7 +259,7 @@ flowchart LR
 + 优先级：+ - $\longrightarrow$  * / % $\longrightarrow$ + -
 + 说明："-"作为单目运算符时，右结合
 
-**求余左右两边必须是整数： ==5.5%2  $\textcolor{red}{\times}$==**
+**求余左右两边必须是整数： 5.5%2  $\textcolor{red}{\times}$**
 
 ## C语言运算符优先级
 
@@ -599,6 +599,10 @@ comd(no@假（0）)->e
 op1@>comd({"stroke":"Red"})
 ```
 
+
+
+
+
 ### 特点：
 
 先判断表达式，后执行循环体
@@ -613,7 +617,7 @@ do
 while(表达式);
 ```
 
-### 执行流程
+### 执行流程：
 
 ```flow
 st=>start: do 
@@ -628,7 +632,322 @@ comd@>op1({"stroke":"Red"})
 
 ```
 
+### 特点：
 
+先执行循环体，后判断表达式
 
+## for语句
 
+### 一般形式：
 
+```c
+for([expr1]:[expr2]:[expr3])
+   循环体语句;
+```
+
+<span style="color:red;font-weight:bolder;">`for(循环变量赋初值;循环条件;循环变量增值)`</span>
+
+### 执行流程：
+
+```flow
+st=>start: for
+e=>end: 结束
+op1=>operation: expr1
+op2=>operation: 循环体
+op3=>operation: expr3
+comd=>condition: expr2
+
+st->op1->comd->op2->op3(left)->comd
+comd(yes@真（非0）)->op2
+comd(no@假（0）)->e 
+op3(left)@>comd({"stroke":"Red"})
+```
+
+## break与continue
+
+### break语句
+
++ break语句可以用来从循环体内跳出循环体，即提前结束循环，接着执行循环下面的语句
++ 一般形式：`break;`
++ <span style="color:red;font-weight:bolder;">注意：</span>
+  + break语句不能用于<span style="text-decoration: underline">循环语句和switch语句</span>之外的任何其他语句中。
+
+### continue语句
+
++ 作用为结束本次循环，即跳过循环体中下面尚未执行的语句，接着进行下一次是否执行循环的判定
+
++ 一般形式：`continue;`
+
+# 数组的应用
+
+## 一维数组的定义和引用
+
+数组：是一组具有<span style="color:red;font-weight:bolder;">相同数据类型</span>的数据的<span style="color:aqua;font-weight:bolder;">有序集合</span>
+
+### 一维数组的定义格式为：
+
+<span style="color:red;font-weight:bolder;">类型说明符 数组名 [常量表达式]</span>
+
+例如：`int a [10];`
+
+​	它表示定义了一个整型数组，数组名为a，此数组有10个元素。
+
+### 一维数组的引用
+
+#### 数组元素的引用方式：
+
+<span style="color:red;font-weight:bolder;">数组名[下标]</span>
+
+下标可以是整型常量或整型表达式
+
+#### 一维数组的初始化
+
+#### （1）在定义数组是对数组元素赋初值
+
+例如：`int a[10]={0,1,2,3,4,5,6,7,8,9};`
+
+#### （2）可以只给一部分元素赋值
+
+例如：`int a[10]={0,1,2,3};`
+
+<span style="color:red;">没有赋值的元素默认是0</span>
+
+#### （3）在对全部元素赋初值时，由于数据的个数已经确定，因此可以不指定数组长度
+
+例如：`int a[5]={1,2,3,4,5};`
+
+也可以写成`int a[]={1,2,3,4,5};`
+
+## 二维数组的定义和引用
+
+### 二维数组的定义
+
+<span style="color:red;font-weight:bolder;">类型说明符 数组名 [常量表达式] [常量表达式]</span>
+
+例如：
+
+定义a为3*4（三行四列）的数组，b为5*10（五行十列）的数组
+
+如下：
+
+`float a[3][4],b[5][10];`
+
+### 二位数组的引用
+
+#### 二位数组元素的表示形式为：
+
+<span style="color:red;font-weight:bolder;">数组名 [下标] [下标]</span>
+
+例如：a [2] [3]
+
+下标可以是整型表达式，如a [2-1] [2*2-1]
+
+### 二位数组的初始化
+
+#### （1）分行给二维数组赋初值
+
+`int a [3] [4] ={{1,2,3,4},{5,6,7,8}};`
+
+#### （2）可以将所有的数据写在一个花括号内，按数组排列的顺序对各元素赋初值。
+
+`int a [2] [4] ={0,1,2,3,4,5,6,7,8,9};`
+
+#### （3）可以对部分元素赋初值
+
+`int a [3] [3] ={{1},{4},{7}};`
+
+#### （4）如果对全部元素都赋初值，这定义数组时对第一维的长度可以不指定，但第二维的长度不能省
+
+`int a[] [4]={0,1,2,3,4,5,6,7,8,9,10,11};`
+
+## 字符数组
+
+### 字符数组的定义
+
+用来存放字符数据的数组是字符数组。字符数组中的一个元素存放一个字符。
+
+```c
+char c [5];
+c[0]='C';
+c[1]='H';
+c[3]='I';
+c[4]='N';
+c[5]='A';
+```
+
+### 字符数组的初始化
+
+对字符数组初始化，可以逐个字符赋给数组中的各元素
+
+1. `char c[10] = {'t','','a','n','','0','0','','x','u'};`
+
+2. `char c[15] = {'t','','a','n','','0','0','','x','u'};`
+
+3. `char c[] = {'t','','a','n','','0','0','','x','u'};`
+4. `char c[5] = {'t','','a','n','','0','0','','x','u'};` $\textcolor{red}{\times}$不可以定义少，赋值多
+
++ <span style="color:red;font-weight:bolder;">只定义未赋值会是随机值。如：`char [5];`</span>
+
++ <span style="color:red;font-weight:bolder;">给部分元素赋值了，剩下的默认是'\0'，如：2</span>
+
+## 字符串和字符串结束标志
+
+C语言规定了字符串结束标志，以字符 ' <span style="color:red;font-weight:bolder;">\0</span> '作为标志。可以用字符串常量来使字符数组初始化。
+
+例如：
+
+```c
+char c []= {"China"};//char c[6]
+char c []= "China";//char c[6]
+char c []= {'C','h','i','n','a','\0'};//char c[6]
+char c [10] ={"China"};//char c[10]，有5个\0
+```
+
+### 字符数组的输入和输出
+
+利用scanf和pringtf函数
+
++ <span style="color:red;font-weight:bolder;">如果字符串中包含多个\0，那么字符串输出在第一个\0处就截止</span>
+
+  + 例如：
+
+    + ```c
+      char c [5] = {'a', 'b','\0','c','d','\0'};
+      printf("%s\n",c);
+      //输出
+      ab
+      ```
+
+###  字符串输入输出函数
+
++ <span style="color:red;font-weight:bolder;">gets</span>
+
++ <span style="color:red;font-weight:bolder;">puts</span>
+
+### 字符串处理函数
+
+#### （1）<span style="color:red;font-weight:bolder;">strcat函数——连接</span>
+
+```c
+char s[20]="ABC";
+char t[20]="DEF";
+strcat(s,t);
+printf("%s,%s\n",s,t);
+//输出结果
+ABCDEF,DEF
+```
+
+#### （2）<span style="color:red;font-weight:bolder;">strcpy函数——复制</span>
+
+```c
+char s[20]="ABC";
+char t[20]="DEF";
+strcpy(s,t);
+printf("%s,%s\n",s,t);
+//输出结果
+DEF,DEF
+```
+
+#### （3）<span style="color:red;font-weight:bolder;">strcmp函数——比较</span>
+
++ 如果字符串1=字符串2，函数值为0
++ 如果字符串1>字符串2，函数值为一正整数
++ 如果字符串1<字符串2，函数值为一负整数
+
+```c
+strcmp("ABC","ABC");//0
+strcmp("ABC","ABB");//1
+strcmp("ABC","ACB");//-1
+```
+
+<span style="color:red;font-weight:bolder;">逐个字符进行比较，只要不相等就停下</span>
+
+#### （4）<span style="color:red;font-weight:bolder;">strlen函数——长度</span>
+
+strlen是测试字符串长度的函数。函数的值为字符串中的实际长度（不包括'\0'在内）
+
+```c
+char str [10] ={"China"};
+printf("%d",strlen(str));
+//输出结果
+5
+```
+
+#### （5）<span style="color:red;font-weight:bolder;">strlwr——小写</span>
+
+一般形式：`strlwr(字符串)`
+
+strlwr函数的作用是将字符串中的大写字母换成小写字母。
+
+#### （6）<span style="color:red;font-weight:bolder;">strupr函数——大写</span>
+
+一般形式：`strupr(字符串)`
+
+strlwr函数的作用是将字符串中的小写字母换成大写字母。
+
+# 函数
+
+## 函数的定义
+
+### 无参函数
+
+```c
+类型标识符 函数名()
+{
+	声明部分
+    语句部分
+}
+```
+
+### 有参函数
+
+```c
+类型标识符 函数名(形式参数列表)
+{
+	声明部分
+    语句部分
+}
+```
+
+### 空函数
+
+```c
+类型标识符 函数名()
+{
+}
+```
+
+## 函数调用
+
+### 函数调用的形式
+
+1. <span style="color:yellow;font-weight:bolder;">语句调用</span>
+   + 例如: `fun(a,b);`
+2. <span style="color:yellow;font-weight:bolder;">表达式调用</span>
+   + 例如: `y=fun(x);`
+3. <span style="color:yellow;font-weight:bolder;">参数调用</span>
+   + 将函数的返回值作为实参进行调用,称为函数的参数调用
+
+## 函数参数和函数的值
+
+<span style="color:red;font-weight:bolder;">形式参数</span>：在定义函数时函数名后面括弧中的变量名，简称<span style="color:red;font-weight:bolder;">形参</span>，作用是<span style="color:yellow;font-weight:bolder;text-decoration:underline;">接收</span>传来的数据。
+
+<span style="color:red;font-weight:bolder;">实际参数</span>：在主调函数中调用一个函数时,函数名后面括弧中的参数(可以是一个表达式)，简称<span style="color:red;font-weight:bolder;">实参</span>。
+
+<span style="color:red;font-weight:bolder;">函数返回值</span>：<span style="color:yellow;font-weight:bolder;text-decoration:underline;">return</span>后面表达式的值。
+
+<span style="color:red;font-weight:bolder;">函数返回值类型</span>：定义函数时的类型。
+
+### 关于形参和实参的说明：
+
+1. 形参须单独定义，属于临时变量，调用函数时为其分配存储单元，函数调用结束后释放其存储单元。
+2. 实参可以是常量、变量或表达式。
+3. 实参的类型可以与形参类型不一致，以形参的类型为准。
+4. 实参向对形参的数据传递是“<span style="color:yellow;font-weight:bolder;text-decoration:underline;">值传递</span>”,<span style="color:yellow;font-weight:bolder;text-decoration:underline;">单向</span>传递，只由实参传给形参，而不能由形参传回来给实参。
+5. 实参与形参各占用独立的存储单元。
+
+### 关于返回值的说明：
+
+1. 如果需要从被调用函数带回一个函数值供主调函数使用，被调用函数中必须包含return语句。如果不需要从被调用函数带回函数值可以不要return语句。
+2. 一个函数中可以有一个以上的return语句，执行到哪一个return语句，哪一个语句起作用。return语句后面的括弧也可以不要。
+3. 对于不带回值的函数，应当用"void”定义函数为“无类型”(或称“空类型”)。这样，系统就保证不使函数带回任何值，即禁止在调用函数中使用被调用函数的返回值。此时在函数体中不得出现return语句。
