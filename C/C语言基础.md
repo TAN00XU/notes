@@ -1195,5 +1195,5 @@ s=p[1]+p[3]+p[5];//2+4+6==12
 
 ### （2）指针数组
 
-<span style="color:red;font-weight:bolder;">`int *q[3];`</span>
+<p style="color:red;font-weight:bolder;">`int *q[3];`</p>
 
