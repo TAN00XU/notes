@@ -1189,11 +1189,14 @@ s=p[1]+p[3]+p[5];//2+4+6==12
 
 ### （1）数组指针
 
-<span style="color:red;font-weight:bolder;">`int (*p)[4];`</span>
+<span style="color:red;font-weight:bolder;">**`int (*p)[4];`**</span>
 
-说明：p是类型为int型<span style="color: aqua;font-weight:bolder;">数组的指针</span>。改数组长度为4.
+说明：p是类型为int型<span style="color: aqua;font-weight:bolder;">数组的指针</span>。改数组长度为4。
 
 ### （2）指针数组
 
-<p style="color:red;font-weight:bolder;">`int *q[3];`</p>
+<span style="color:red;font-weight:bolder;">**`int *q[3];`**</span>
 
+q[0]、q[1]、q[2]均为int *
+
+说明：q是由三个<span style="color: aqua;font-weight:bolder;">*指针*</span>变量构成<span style="color: aqua;font-weight:bolder;">*的数组*</span>，简称指针数组。
