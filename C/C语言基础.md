@@ -406,13 +406,13 @@ flowchart LR
 
 + 后置运算：i++ , i++
 
-**<span style="color:red;">先运算、后增减</span>**
+**<span style="color:red;">**先运算、后增减**</span>**
 
 ## 逗号运算符和表达式
 
 ### 形式：
 
-表达式1 <span style="color:red;">,</span> 表达式2 <span style="color:red;">,</span> ……表达式n
+表达式1 <span style="color:red;">**,**</span> 表达式2 <span style="color:red;">**,**</span> ……表达式n
 
 ### 结合性：
 
@@ -445,7 +445,7 @@ flowchart LR
 
 ## 条件运算符与表达式
 
-一般形式： expr1(条件) <span style="color:red;">?</span> exper2(真) <span style="color:red;">:</span> expr3(假)
+一般形式： expr1(条件) **<span style="color:red;">?</span> **exper2(真)** <span style="color:red;">:</span> **expr3(假)
 
 例子：求a+|b|
 
@@ -460,7 +460,7 @@ flowchart LR
 
 ### （1）字符输出函数
 
-+ 格式：<span style="color:red;font-weight:bolder;">putchar</span> (c)
++ 格式：**<span style="color:red;font-weight:bolder;">putchar</span> (c)**
 
 + 参数：c为*字符常量、变量、或表达式*
 
@@ -468,7 +468,7 @@ flowchart LR
 
 ###  （2）格式输出函数
 
-+ 格式：<span style="color:red;font-weight:bolder;">`printf("格式控制串",输出表)`</span>
++ 格式：**<span style="color:red;font-weight:bolder;">`printf("格式控制串",输出表)`</span>**
 
 + 功能：按指定格式向显示器输出数据
 
@@ -532,17 +532,17 @@ printf("%d\n",a,b);//1
 
 ### （1）字符输入函数
 
-格式：<span style="color:red;font-weight:bolder;">getchar</span>() 
+格式：**<span style="color:red;font-weight:bolder;">getchar</span>() **
 
 功能：从键盘读一个字符
 
 ### （2）格式输入函数
 
-格式：<span style="color:red;font-weight:bolder;">`scanf("格式控制串",地址表)`</span> 
+格式：**<span style="color:red;font-weight:bolder;">`scanf("格式控制串",地址表)`</span> **
 
 功能：按指定格式从键盘读入数据，存入地址表指定的存储单元中，并按回车键结束
 
-地址表：变量的地址，常用<span style="color:red;font-weight:bolder;">取地址运算符&</span> 
+地址表：变量的地址，常用<span style="color:red;font-weight:bolder;">**取地址运算符&</span> **
 
 # 选择结构
 
@@ -550,7 +550,7 @@ printf("%d\n",a,b);//1
 
 | 单分支if语句                                                 | 双分支if语句                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 形式：<br /><span style="color:red;font-weight:bolder;">if(条件) 语句；</span> | 形式：<br /><span style="color:red;font-weight:bolder;">if(条件) 语句1;<br />else 语句2；</span> |
+| 形式：<br /><span style="color:red;font-weight:bolder;">**if(条件) 语句；**</span> | 形式：<br /><span style="color:red;font-weight:bolder;">**if(条件) 语句1;**<br />**else 语句2；**</span> |
 
 ## switch语句
 
@@ -572,9 +572,9 @@ switch(表达式){
 
 # 循环结构
 
-+ <span style="color:red;font-weight:bolder;">while</span> 语句
-+ <span style="color:red;font-weight:bolder;">do~while</span> 语句
-+ <span style="color:red;font-weight:bolder;">for</span> 语句
++ <span style="color:red;font-weight:bolder;">**while**</span> 语句
++ <span style="color:red;font-weight:bolder;">**do~while**</span> 语句
++ <span style="color:red;font-weight:bolder;">**for**</span> 语句
 
 ## while语句
 
@@ -669,7 +669,7 @@ op3(left)@>comd({"stroke":"Red"})
 
 + break语句可以用来从循环体内跳出循环体，即提前结束循环，接着执行循环下面的语句
 + 一般形式：`break;`
-+ <span style="color:red;font-weight:bolder;">注意：</span>
++ <span style="color:red;font-weight:bolder;">**注意：**</span>
   + break语句不能用于<span style="text-decoration: underline">循环语句和switch语句</span>之外的任何其他语句中。
 
 ### continue语句
@@ -682,11 +682,11 @@ op3(left)@>comd({"stroke":"Red"})
 
 ## 一维数组的定义和引用
 
-数组：是一组具有<span style="color:red;font-weight:bolder;">相同数据类型</span>的数据的<span style="color:aqua;font-weight:bolder;">有序集合</span>
+数组：是一组具有<span style="color:red;font-weight:bolder;">**相同数据类型**</span>的数据的<span style="color:aqua;font-weight:bolder;">*有序集合*</span>
 
 ### 一维数组的定义格式为：
 
-<span style="color:red;font-weight:bolder;">类型说明符 数组名 [常量表达式]</span>
+<span style="color:red;font-weight:bolder;">**类型说明符 数组名 [常量表达式]**</span>
 
 例如：`int a [10];`
 
@@ -696,7 +696,7 @@ op3(left)@>comd({"stroke":"Red"})
 
 #### 数组元素的引用方式：
 
-<span style="color:red;font-weight:bolder;">数组名[下标]</span>
+<span style="color:red;font-weight:bolder;">**数组名[下标]**</span>
 
 下标可以是整型常量或整型表达式
 
@@ -710,7 +710,7 @@ op3(left)@>comd({"stroke":"Red"})
 
 例如：`int a[10]={0,1,2,3};`
 
-<span style="color:red;">没有赋值的元素默认是0</span>
+<span style="color:red;">**没有赋值的元素默认是0**</span>
 
 #### （3）在对全部元素赋初值时，由于数据的个数已经确定，因此可以不指定数组长度
 
@@ -722,7 +722,7 @@ op3(left)@>comd({"stroke":"Red"})
 
 ### 二维数组的定义
 
-<span style="color:red;font-weight:bolder;">类型说明符 数组名 [常量表达式] [常量表达式]</span>
+<span style="color:red;font-weight:bolder;">**类型说明符 数组名 [常量表达式] [常量表达式]**</span>
 
 例如：
 
@@ -736,7 +736,7 @@ op3(left)@>comd({"stroke":"Red"})
 
 #### 二位数组元素的表示形式为：
 
-<span style="color:red;font-weight:bolder;">数组名 [下标] [下标]</span>
+<span style="color:red;font-weight:bolder;">**数组名 [下标] [下标]**</span>
 
 例如：a [2] [3]
 
@@ -786,13 +786,13 @@ c[5]='A';
 3. `char c[] = {'t','','a','n','','0','0','','x','u'};`
 4. `char c[5] = {'t','','a','n','','0','0','','x','u'};` $\textcolor{red}{\times}$不可以定义少，赋值多
 
-+ <span style="color:red;font-weight:bolder;">只定义未赋值会是随机值。如：`char [5];`</span>
++ **<span style="color:red;font-weight:bolder;">只定义未赋值会是随机值。如：`char [5];`</span>**
 
-+ <span style="color:red;font-weight:bolder;">给部分元素赋值了，剩下的默认是'\0'，如：2</span>
++ <span style="color:red;font-weight:bolder;">**给部分元素赋值了，剩下的默认是'\0'，如：2**</span>
 
 ## 字符串和字符串结束标志
 
-C语言规定了字符串结束标志，以字符 ' <span style="color:red;font-weight:bolder;">\0</span> '作为标志。可以用字符串常量来使字符数组初始化。
+C语言规定了字符串结束标志，以字符 '** <span style="color:red;font-weight:bolder;">\0</span>** '作为标志。可以用字符串常量来使字符数组初始化。
 
 例如：
 
@@ -807,7 +807,7 @@ char c [10] ={"China"};//char c[10]，有5个\0
 
 利用scanf和pringtf函数
 
-+ <span style="color:red;font-weight:bolder;">如果字符串中包含多个\0，那么字符串输出在第一个\0处就截止</span>
++ **<span style="color:red;font-weight:bolder;">如果字符串中包含多个\0，那么字符串输出在第一个\0处就截止</span>**
 
   + 例如：
 
@@ -820,13 +820,13 @@ char c [10] ={"China"};//char c[10]，有5个\0
 
 ###  字符串输入输出函数
 
-+ <span style="color:red;font-weight:bolder;">gets</span>
++ <span style="color:red;font-weight:bolder;">**gets**</span>
 
-+ <span style="color:red;font-weight:bolder;">puts</span>
++ <span style="color:red;font-weight:bolder;">**puts**</span>
 
 ### 字符串处理函数
 
-#### （1）<span style="color:red;font-weight:bolder;">strcat函数——连接</span>
+#### （1）<span style="color:red;font-weight:bolder;">**strcat函数——连接**</span>
 
 ```c
 char s[20]="ABC";
@@ -837,7 +837,7 @@ printf("%s,%s\n",s,t);
 ABCDEF,DEF
 ```
 
-#### （2）<span style="color:red;font-weight:bolder;">strcpy函数——复制</span>
+#### （2）<span style="color:red;font-weight:bolder;">**strcpy函数——复制**</span>
 
 ```c
 char s[20]="ABC";
@@ -848,7 +848,7 @@ printf("%s,%s\n",s,t);
 DEF,DEF
 ```
 
-#### （3）<span style="color:red;font-weight:bolder;">strcmp函数——比较</span>
+#### （3）<span style="color:red;font-weight:bolder;">**strcmp函数——比较**</span>
 
 + 如果字符串1=字符串2，函数值为0
 + 如果字符串1>字符串2，函数值为一正整数
@@ -860,9 +860,9 @@ strcmp("ABC","ABB");//1
 strcmp("ABC","ACB");//-1
 ```
 
-<span style="color:red;font-weight:bolder;">逐个字符进行比较，只要不相等就停下</span>
+<span style="color:red;font-weight:bolder;">**逐个字符进行比较，只要不相等就停下**</span>
 
-#### （4）<span style="color:red;font-weight:bolder;">strlen函数——长度</span>
+#### （4）<span style="color:red;font-weight:bolder;">**strlen函数——长度**</span>
 
 strlen是测试字符串长度的函数。函数的值为字符串中的实际长度（不包括'\0'在内）
 
@@ -873,13 +873,13 @@ printf("%d",strlen(str));
 5
 ```
 
-#### （5）<span style="color:red;font-weight:bolder;">strlwr——小写</span>
+#### （5）<span style="color:red;font-weight:bolder;">**strlwr——小写**</span>
 
 一般形式：`strlwr(字符串)`
 
 strlwr函数的作用是将字符串中的大写字母换成小写字母。
 
-#### （6）<span style="color:red;font-weight:bolder;">strupr函数——大写</span>
+#### （6）<span style="color:red;font-weight:bolder;">**strupr函数——大写**</span>
 
 一般形式：`strupr(字符串)`
 
@@ -921,29 +921,29 @@ strlwr函数的作用是将字符串中的小写字母换成大写字母。
 
 ### 函数调用的形式
 
-1. <span style="color:aqua;font-weight:bolder;">语句调用</span>
+1. <span style="color:aqua;font-weight:bolder;">*语句调用*</span>
    + 例如: `fun(a,b);`
-2. <span style="color:aqua;font-weight:bolder;">表达式调用</span>
+2. <span style="color:aqua;font-weight:bolder;">*表达式调用*</span>
    + 例如: `y=fun(x);`
-3. <span style="color:aqua;font-weight:bolder;">参数调用</span>
+3. <span style="color:aqua;font-weight:bolder;">*参数调用*</span>
    + 将函数的返回值作为实参进行调用,称为函数的参数调用
 
 ## 函数参数和函数的值
 
-<span style="color:red;font-weight:bolder;">形式参数</span>：在定义函数时函数名后面括弧中的变量名，简称<span style="color:red;font-weight:bolder;">形参</span>，作用是<span style="color:aqua;font-weight:bolder;text-decoration:underline;">接收</span>传来的数据。
+<span style="color:red;font-weight:bolder;">**形式参数**</span>：在定义函数时函数名后面括弧中的变量名，简称<span style="color:red;font-weight:bolder;">**形参**</span>，作用是<span style="color:aqua;font-weight:bolder;text-decoration:underline;">*接收*</span>传来的数据。
 
-<span style="color:red;font-weight:bolder;">实际参数</span>：在主调函数中调用一个函数时,函数名后面括弧中的参数(可以是一个表达式)，简称<span style="color:red;font-weight:bolder;">实参</span>。
+<span style="color:red;font-weight:bolder;">**实际参数**</span>：在主调函数中调用一个函数时,函数名后面括弧中的参数(可以是一个表达式)，简称<span style="color:red;font-weight:bolder;">**实参**</span>。
 
-<span style="color:red;font-weight:bolder;">函数返回值</span>：<span style="color:aqua;font-weight:bolder;text-decoration:underline;">return</span>后面表达式的值。
+<span style="color:red;font-weight:bolder;">**函数返回值**</span>：<span style="color:aqua;font-weight:bolder;text-decoration:underline;">*return*</span>后面表达式的值。
 
-<span style="color:red;font-weight:bolder;">函数返回值类型</span>：定义函数时的类型。
+<span style="color:red;font-weight:bolder;">**函数返回值类型**</span>：定义函数时的类型。
 
 ### 关于形参和实参的说明：
 
 1. 形参须单独定义，属于临时变量，调用函数时为其分配存储单元，函数调用结束后释放其存储单元。
 2. 实参可以是常量、变量或表达式。
 3. 实参的类型可以与形参类型不一致，以形参的类型为准。
-4. 实参向对形参的数据传递是“<span style="color: aqua;font-weight:bolder;text-decoration:underline;">值传递</span>”,<span style="color: aqua;font-weight:bolder;text-decoration:underline;">单向</span>传递，只由实参传给形参，而不能由形参传回来给实参。
+4. 实参向对形参的数据传递是“<span style="color: aqua;font-weight:bolder;text-decoration:underline;">*值传递*</span>”，<span style="color: aqua;font-weight:bolder;text-decoration:underline;">*单向*</span>传递，只由实参传给形参，而不能由形参传回来给实参。
 5. 实参与形参各占用独立的存储单元。
 
 ### 关于返回值的说明：
@@ -958,19 +958,19 @@ strlwr函数的作用是将字符串中的小写字母换成大写字母。
 
 ## 函数的嵌套调用
 
-C语言<span style="color:red;font-weight:bolder;">不能嵌套定义</span>函数（嵌套定义就是在定义一个函数时，其函数体内又包含另一个函数的完整定义），但<span style="color:red;font-weight:bolder;">可以嵌套调用函数</span>，也就是说，在调用一个函数的过程中，又调用另一个函数。
+C语言<span style="color:red;font-weight:bolder;">**不能嵌套定义**</span>函数（嵌套定义就是在定义一个函数时，其函数体内又包含另一个函数的完整定义），但<span style="color:red;font-weight:bolder;">**可以嵌套调用函数**</span>，也就是说，在调用一个函数的过程中，又调用另一个函数。
 
 ## 函数的递归调用
 
-在调用一个函数的过程中又出现<span style="color:red;font-weight:bolder;">直接</span>或<span style="color:red;font-weight:bolder;">间接</span>地调用该函数本身，称为函数的递归调用。
+在调用一个函数的过程中又出现<span style="color:red;font-weight:bolder;">**直接**</span>或<span style="color:red;font-weight:bolder;">**间接**</span>地调用该函数本身，称为函数的递归调用。
 
 ## 局部变量和全局变量
 
-<span style="color:red;font-weight:bolder;">局部变量</span>：所有*函数内部、复合语句内部*定义的变量都是局部变量。仅仅在其所属的范围有效。
+<span style="color:red;font-weight:bolder;">**局部变量**</span>：所有*函数内部、复合语句内部*定义的变量都是局部变量。仅仅在其所属的范围有效。
 
-<span style="color:red;font-weight:bolder;">全局变量</span>：在所有*函数外面*定义的变量是全局变量，他的作用范围是从定义开始直至源文件结束。
+<span style="color:red;font-weight:bolder;">**全局变量**</span>：在所有*函数外面*定义的变量是全局变量，他的作用范围是从定义开始直至源文件结束。
 
-<span style="color:red;font-weight:bolder;">全局变量和局部变量可以同名，当全局变量和局部变量都出现时，优先局部变量</span>
+<span style="color:red;font-weight:bolder;">**全局变量和局部变量可以同名，当全局变量和局部变量都出现时，优先局部变量**</span>
 
 ## 变量的存储类别
 
@@ -979,13 +979,13 @@ C语言<span style="color:red;font-weight:bolder;">不能嵌套定义</span>函�
 具体包含四种:
 
 1. <span style="color:red;font-weight:bolder;">**自动**</span>的(auto)
-2. <span style="color:red;font-weight:bolder;">静态</span>的(static)
+2. <span style="color:red;font-weight:bolder;">**静态**</span>的(static)
 3. 寄存器的(register)
 4. 外部的(extern)
 
 ### 静态局部变量
 
-静态(<span style="color:red;font-weight:bolder;">static</span>)局部变量的初值在<span style="color: aqua;font-weight:bolder;">编译</span>时赋予,在整个程序运行期间存在。其作用域仍然只限于定义它的函数,其他函数不能引用。
+静态(<span style="color:red;font-weight:bolder;">**static**</span>)局部变量的初值在<span style="color: aqua;font-weight:bolder;">*编译*</span>时赋予,在整个程序运行期间存在。其作用域仍然只限于定义它的函数,其他函数不能引用。
 
 ```c
 int fun(int n){
@@ -1009,11 +1009,11 @@ int main(){
 
 ### （1）指针的概念
 
-一个变量的<span style="color:red;font-weight:bolder;">*地址*</span>称为该变量的指针。
+一个变量的<span style="color:red;font-weight:bolder;">**地址**</span>称为该变量的指针。
 
 ### （2）指针的定义
 
-类型名 <span style="color:red;font-weight:bolder;">*</span>指针变量名;
+类型名 <span style="color:red;font-weight:bolder;">*****</span>指针变量名;
 
 `int *p;`
 
@@ -1101,7 +1101,7 @@ p=&a[0];
 1. 下标法，如<span style="color:red;font-weight:bolder;">a[ i ]</span>形式
 2. 指针法，如<span style="color:red;font-weight:bolder;">* (a + i)</span>或* (p + i)。
    + 其中a是数组名，p是指向数组元素的指针变量，其初值p=a。
-     + <span style="color:red;font-weight:bolder;">**数组名**</span>代表<span style="color:red;font-weight:bolder;">**首地址**</span>，及第0个地址。<span style="color: aqua;font-weight:bolder;">&a[0]</span>
+     + <span style="color:red;font-weight:bolder;">**数组名**</span>代表<span style="color:red;font-weight:bolder;">**首地址**</span>，及第0个地址。<span style="color: aqua;font-weight:bolder;">*&a[0]*</span>
 
 ###   （3）数组名做函数参数
 
