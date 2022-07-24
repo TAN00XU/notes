@@ -1,5 +1,6 @@
 # Words and phrases 2022.7
 
+  
 
 
 
@@ -7,6 +8,252 @@
 
 
 
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+# few /fjuː/
+
+det. 一些，几个；很少，不多，几乎没有
+
+pron. 一些人（或物）；很少的人（或物）
+
+adj. 少数的；很少（的），几乎没有（的）
+
+n. （尤指享有某种机遇等的）少数派，少数（the few） ；参加过不列颠之战的少数几个英国皇家空军飞行员（the Few）
+
+1. We kicked a few ideas around. 
+
+   我们随便谈了几个想法。
+
+   + kick /kɪk/
+     + v. 踢，踢腿；对（自己）生气；戒除（恶习）；踢球得分；（枪）射击时后坐，朝……反冲；活跃，精力充沛
+     + n. 踢，踢腿；极度兴奋，极大的乐趣；（毒品或酒精的）效力，刺激性；突然的猛烈震动；（枪射击时的）反冲，后坐力；（沙尘造成的）球的不规则运动；（赛跑接近终点时的）冲刺；有特定踢球能力的运动员；（一次）踢球（动作）；（玻璃瓶等的）凹底
+
+2. There are very few people on the train.
+   地铁上几乎没什么人。
+
+3. I'm going away for a few days. 
+
+   我要离开几天。
+
+# comparison /kəmˈpærɪsn/
+
+n. 比较，对照；相提并论，相比；比喻，比拟；（副词或形容词的）比较（变化）
+
+1. I made a comparsion between the two houses.
+   我将这两栋房子做了比较。
+
+2. There is no comparison between the two. 
+
+   二者不能相比。
+
+# cultural /ˈkʌltʃərəl/
+
+adj. 文化的，与文化有关的；艺术的，文艺的
+
+1. These cultural symbols are very important to Chinese people.
+   这些文化符号对中国人来说非常重要。
+
+2. It might seem odd,but it is a cultural tradition. 
+
+   可能看上去很奇怪，但这是一个文化传统。
+
+   + odd /ɑːd/
+     + adj. 奇怪的，反常的；偶然出现的，偶尔发生的；奇形怪状的，各种各样的；不成对的，不同类的；奇数的；可得到的，可用的；少量的，不重要的；（尤指在双方至少各进一球的情况下）一球险胜的
+     + adv. （用于数字后）大约，左右
+
+# by air /baɪ er/
+
+乘飞机；通过航空途径
+
+1. She is going to travel by air to the China.
+
+   她正准备乘飞机去中国旅行。
+
+2. He arrived by air. 
+
+   他坐飞机到达了。
+
+3. Do you like travel by air? 
+
+   你喜欢坐飞机旅行吗？
+
+# adult /əˈdʌlt; ˈædʌlt/
+
+n. 成年人；成年动物
+
+adj. 成年的，发育成熟的；成人的，理智的；（电影、杂志等）仅限于成人的
+
+v. <非正式>像成年人一样表现；<非正式>变成熟
+
+1. An adult is person who is 18 years old or over.
+   成年人的年龄大于或等于18岁。
+
+2. I'd like two adult tickets, please. 
+
+   我买两张成人票。
+
+   + tickets /ˈtɪkɪt/
+     + n. 票，入场券；（交通违章）通知单，罚款单；（政党在选举中支持的）候选人名单；（竞选时所支持的）纲领，政见；（商店中标明货物价格、尺码等的）标签；彩票，奖券；途径；（货物）收条；（船员、飞行员等的）执照；工单；<英>退役证书；<苏格兰，美，非正式>……人，……家伙
+     + v. 售票；给（违章停车、超速行驶的人）开罚单；（为显示价格、尺寸等）贴标签于；给定目标；<美>注定
+
+3. Children must be accompanied by an adult. 
+
+   儿童必须要有大人陪同。
+
+   + accompany /əˈkʌmpəni/
+     + v. 陪伴，陪同；伴随，与……一起发生；为……伴奏（或伴唱）；附带，补充
+
+# destructive /dɪˈstrʌktɪv/
+
+adj. 破坏性的，毁灭性的
+
+1. Too much happiness can be destructive. 
+
+   乐极生悲。
+
+2. I felt like being destructive. 
+
+   我想要破坏发泄。
+
+
+
+
+
+---
+
+
+
+
+
+# territory /ˈterətɔːri/
+
+n. 领土，版图，领地；（美国、加拿大等的）准州；（某些国家划分的）地区；（某一动物或人想控制的）领地，地盘；（某人负责的）区域，地区；（具有某种特性的）地区，地方；（知识等的）领域，范围；（体育运动中的）防守区
+
+1. 
+   Let's meet on neutral territory. 
+
+   我们在中立地区会面吧。
+
+   + neutral /ˈnuːtrəl/
+     + adj. 中立的，不偏不倚的；中性的，不带感情色彩的；暗淡的，素净的；（化学中）中性的，非酸非碱的；不带电的
+     + n. （车辆排挡的）空挡；中立者，中立国；素净色，中和色；不活动，停滞；不带电的接触点
+
+2. This type of work is uncharted territory for us. 
+
+   我们从未涉足过这类工作。
+
+   + uncharted /ˌʌnˈtʃɑːrtɪd/
+     + adj. 未知的；图上未标明的
+
+# restaurant /ˈrestrɑːnt/
+
+n. 餐馆，饭店
+
+1. It is expensive to eat at this fancy restaurant.
+   在这家高档餐厅吃饭很贵。
+
+   + expensive /ɪkˈspensɪv/
+     + adj. 花钱多的，昂贵的；（错误或决定）代价高的
+   + fancy /ˈfænsi/
+     + v. <英，非正式> 喜欢，想要；<英，非正式> 爱恋，爱慕；<英，非正式> 认为……会成功（赢）；<文> 认为，想象；<英，非正式>自负，自命不凡（fancy oneself）；<英> （表示惊奇或震惊）真想不到，竟然；爱恋，爱慕（常用于英式口语中）； <英，非正式>喜欢，想要（常用于英式口语中）；<英，非正式>爱恋，爱慕（常用于英式口语中）；<英，非正式>认为……会成功（赢）
+     + n. 喜欢，想要；想象，想象力，想象的事物；<旧> （无根据的）想法，空想；花色小蛋糕；（赛马或其他体育比赛中）最被看好的人（或动物）；<旧> 喜爱的人（或事物）；（16和17世纪音乐用语）幻想曲；（无根据的）想法，空想
+     + adj. 时髦的，奢华的；华丽的，花哨的；复杂的，高难度的；（食品）特级的，优质的；娴熟的，巧妙的；（花）杂色的；（动物）供观赏的；（画，雕塑）凭想像创作的，想像出来的
+
+2. 
+   We had a meal in a restaurant. 
+
+   我们在餐厅吃了顿饭。
+
+3. 
+   He got thrown out of the restaurant. 
+
+   他被逐出了餐馆。
+
+# charity /ˈtʃærəti/
+
+n. 慈善组织，慈善机构；慈善事业；仁慈，宽厚；赈济，施舍
+
+1. The charity aims to help people in need.
+
+   这个慈善机构旨在帮助有需要的人。
+
+2. Do you give much to charity? 
+
+   慈善捐助你捐得多吗？
+
+3. 
+   We are raising money for charity. 
+
+   我们在进行慈善募捐。
+
+   + raise /reɪz/
+     + v. 提升，举起；（使）直立，站立；建造，树立（纪念碑等）；增加，提高（数量、水平等）；筹集，筹募；召集，征募（尤指士兵）；提及（某事）；引起，使出现；饲养，种植；抚养，养育； 使积方，使自乘……次；比（对手）多下赌注； 打捞（船只）；使（面包）发酵；使复活；（暂时）终止，解除；（通过无线电或电话）与……取得联系；开具（发货单或其他单据）；把（动物）从窝里赶出；（海上人员）驶近能看见（陆地或其他船只）的地方；（免疫）刺激（抗血清、抗体等的）生成
+     + n. <美>加薪；（扑克牌或勃莱格牌用语）赌注加码；（举重）（持杠铃时的）提，举；上升
+
+# cite /saɪt/
+
+v. 引用，援引；引证，引以为例；传唤，传讯；嘉奖，表彰
+
+n. <美>引用，引文
+
+1. Can you cite another case like this? 
+
+   你能举另外一个像这样的实例吗？
+
+# by accident /baɪ ˈæksɪdənt/
+
+偶然；意外地
+
+1. This isn't by accident. 
+
+   这并不偶然。
+
+2. 
+   The gun went off by accident. 
+
+   枪走火了。
+
+3. We met by accident at the airport. 
+
+   我们在机场不期而遇。
+
+# visit /ˈvɪzɪt/
+
+v. 参观，游览；拜访，作客；浏览（网页）；视察，巡视；找（医生或律师）咨询；<美>闲谈；（多作圣经用语）（上帝）救助（某人），降临（某地）；使某人遭受（有害或不快之事）
+
+n. 参观，游览；拜访，作客；（政治领导人或公务员的）访问，视察；（到网站的）访问；（在宾馆或汽车旅馆等的）住宿，逗留；就诊，咨询（律师等）；<美，非正式>会面，闲聊
+
+1. Our neighbors always visit us after work.
+
+   我们的邻居下班之后经常来串门。
+
+   + neighbors /'nebəz/
+     + n. 街坊邻里，邻居；邻国；邻元素（neighbor 的复数）
+
+2. I went back to visit my old school. 
+
+   我回去拜访了母校。
+
+3. 
+   They visit us every other week. 
+
+   他们隔周来看我们一次。
+
+
+
+
+
+---
 
 
 

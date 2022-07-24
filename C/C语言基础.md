@@ -921,20 +921,20 @@ strlwr函数的作用是将字符串中的小写字母换成大写字母。
 
 ### 函数调用的形式
 
-1. <span style="color:yellow;font-weight:bolder;">语句调用</span>
+1. <span style="color:aqua;font-weight:bolder;">语句调用</span>
    + 例如: `fun(a,b);`
-2. <span style="color:yellow;font-weight:bolder;">表达式调用</span>
+2. <span style="color:aqua;font-weight:bolder;">表达式调用</span>
    + 例如: `y=fun(x);`
-3. <span style="color:yellow;font-weight:bolder;">参数调用</span>
+3. <span style="color:aqua;font-weight:bolder;">参数调用</span>
    + 将函数的返回值作为实参进行调用,称为函数的参数调用
 
 ## 函数参数和函数的值
 
-<span style="color:red;font-weight:bolder;">形式参数</span>：在定义函数时函数名后面括弧中的变量名，简称<span style="color:red;font-weight:bolder;">形参</span>，作用是<span style="color:yellow;font-weight:bolder;text-decoration:underline;">接收</span>传来的数据。
+<span style="color:red;font-weight:bolder;">形式参数</span>：在定义函数时函数名后面括弧中的变量名，简称<span style="color:red;font-weight:bolder;">形参</span>，作用是<span style="color:aqua;font-weight:bolder;text-decoration:underline;">接收</span>传来的数据。
 
 <span style="color:red;font-weight:bolder;">实际参数</span>：在主调函数中调用一个函数时,函数名后面括弧中的参数(可以是一个表达式)，简称<span style="color:red;font-weight:bolder;">实参</span>。
 
-<span style="color:red;font-weight:bolder;">函数返回值</span>：<span style="color:yellow;font-weight:bolder;text-decoration:underline;">return</span>后面表达式的值。
+<span style="color:red;font-weight:bolder;">函数返回值</span>：<span style="color:aqua;font-weight:bolder;text-decoration:underline;">return</span>后面表达式的值。
 
 <span style="color:red;font-weight:bolder;">函数返回值类型</span>：定义函数时的类型。
 
@@ -943,7 +943,7 @@ strlwr函数的作用是将字符串中的小写字母换成大写字母。
 1. 形参须单独定义，属于临时变量，调用函数时为其分配存储单元，函数调用结束后释放其存储单元。
 2. 实参可以是常量、变量或表达式。
 3. 实参的类型可以与形参类型不一致，以形参的类型为准。
-4. 实参向对形参的数据传递是“<span style="color:yellow;font-weight:bolder;text-decoration:underline;">值传递</span>”,<span style="color:yellow;font-weight:bolder;text-decoration:underline;">单向</span>传递，只由实参传给形参，而不能由形参传回来给实参。
+4. 实参向对形参的数据传递是“<span style="color: aqua;font-weight:bolder;text-decoration:underline;">值传递</span>”,<span style="color: aqua;font-weight:bolder;text-decoration:underline;">单向</span>传递，只由实参传给形参，而不能由形参传回来给实参。
 5. 实参与形参各占用独立的存储单元。
 
 ### 关于返回值的说明：
@@ -951,3 +951,249 @@ strlwr函数的作用是将字符串中的小写字母换成大写字母。
 1. 如果需要从被调用函数带回一个函数值供主调函数使用，被调用函数中必须包含return语句。如果不需要从被调用函数带回函数值可以不要return语句。
 2. 一个函数中可以有一个以上的return语句，执行到哪一个return语句，哪一个语句起作用。return语句后面的括弧也可以不要。
 3. 对于不带回值的函数，应当用"void”定义函数为“无类型”(或称“空类型”)。这样，系统就保证不使函数带回任何值，即禁止在调用函数中使用被调用函数的返回值。此时在函数体中不得出现return语句。
+
+## 函数声明
+
+声明的作用：是把函数名、函数参数的个数和参数类型等信息通知编译系统，以便在遇到函数调用时，编译系统能正确识别函数并检查调用是否合法。如果被调用函数的定义出现在主调函数之前可以不必加以声明。
+
+## 函数的嵌套调用
+
+C语言<span style="color:red;font-weight:bolder;">不能嵌套定义</span>函数（嵌套定义就是在定义一个函数时，其函数体内又包含另一个函数的完整定义），但<span style="color:red;font-weight:bolder;">可以嵌套调用函数</span>，也就是说，在调用一个函数的过程中，又调用另一个函数。
+
+## 函数的递归调用
+
+在调用一个函数的过程中又出现<span style="color:red;font-weight:bolder;">直接</span>或<span style="color:red;font-weight:bolder;">间接</span>地调用该函数本身，称为函数的递归调用。
+
+## 局部变量和全局变量
+
+<span style="color:red;font-weight:bolder;">局部变量</span>：所有*函数内部、复合语句内部*定义的变量都是局部变量。仅仅在其所属的范围有效。
+
+<span style="color:red;font-weight:bolder;">全局变量</span>：在所有*函数外面*定义的变量是全局变量，他的作用范围是从定义开始直至源文件结束。
+
+<span style="color:red;font-weight:bolder;">全局变量和局部变量可以同名，当全局变量和局部变量都出现时，优先局部变量</span>
+
+## 变量的存储类别
+
+存储方式分为两大类：<span style="color:red;font-weight:bolder;">静态</span>存储类和<span style="color:red;font-weight:bolder;">动态</span>存储类。
+
+具体包含四种:
+
+1. <span style="color:red;font-weight:bolder;">自动</span>的(auto)
+2. <span style="color:red;font-weight:bolder;">静态</span>的(static)
+3. 寄存器的(register)
+4. 外部的(extern)
+
+### 静态局部变量
+
+静态(<span style="color:red;font-weight:bolder;">static</span>)局部变量的初值在<span style="color: aqua;font-weight:bolder;">编译</span>时赋予,在整个程序运行期间存在。其作用域仍然只限于定义它的函数,其他函数不能引用。
+
+```c
+int fun(int n){
+    static int s = 2;
+    s+=n;
+    return s;
+}
+int main(){
+    int x=2;
+    printf("%d\n",fun(x));
+    printf("%d\n",fun(x));
+}
+//输出结果
+4
+6
+```
+
+# 指针
+
+## 指针与变量
+
+### （1）指针的概念
+
+一个变量的<span style="color:red;font-weight:bolder;">地址</span>称为该变量的指针。
+
+### （2）指针的定义
+
+类型名 <span style="color:red;font-weight:bolder;">*</span>指针变量名;
+
+`int *p;`
+
+### （3）指针的赋值
+
+1. 通过取地址运算符：
+
+   ```c
+   int a, *p;
+   p=&a;
+   ```
+
+2. 通过另一个指针
+
+   ```c
+   int a, *p, *q;
+   p=&a;
+   q=p;
+   ```
+
+3. 空指针的定义
+
+   `int *p = NULL;`
+
+### （4）函数之间的地址传递
+
+```c
+void fun(int *x, int *y){
+    *X+=*y;
+    *y+=*x;
+}
+main(){
+    int a =3,b=5;
+    fun(&a,&b);
+    printf("%d,%d\n",a,b);
+}
+//输出结果
+8,13
+```
+
+#### 例子：
+
+交换内容
+
+```c
+int a,b,*p,*q,t;
+p=&a; q=&b;
+scanf("%d%d",p,q);
+t=*p; *p=*q; *q=t;
+printf("%d,%d\n",*p,*q);
+//输出结果
+5,3
+```
+
+交换地址
+
+```c
+int a,b,*p,*q,t;
+p=&a; q=&b;
+scanf("%d%d",p,q);
+t=p; p=q; q=t;
+printf("%d,%d\n",*p,*q);
+//输出结果
+5,3
+```
+
++ 交换内容，地址不变；（有*号）
+
++ 交换地址，内容不变；
+
+## 指针与一维数组
+
+### （1）指向数组元素的指针
+
+```c
+int a[10];
+int *p;
+p=&a[0];
+```
+
+<img src="../NotesImg/image-20220724161459427.png" alt="image-20220724161459427" style="zoom: 25%;" />
+
+### （2）通过指针引用数组元素
+
+1. 下标法，如<span style="color:red;font-weight:bolder;">a[ i ]</span>形式
+2. 指针法，如<span style="color:red;font-weight:bolder;">* (a + i)</span>或* (p + i)。
+   + 其中a是数组名，p是指向数组元素的指针变量，其初值p=a。
+     + <span style="color:red;font-weight:bolder;">数组名</span>代表<span style="color:red;font-weight:bolder;">首地址</span>，及第0个地址。<span style="color: aqua;font-weight:bolder;">&a[0]</span>
+
+###   （3）数组名做函数参数
+
+```c
+int fun(int b[], int n){
+    int i,s=0;
+    for(i=0;i<n;i+=2){
+        s+=b[i];
+    }
+    return s;
+}
+main(){
+    int a[]={1,,2,3,4,5},s;
+    s=fun(a,5);//a == &a[0]
+    printf("%d\n",s);
+}
+```
+
+## 指针与二维数组
+
+### （1）二维数组的地址
+
+`int a[3][4];`
+
+ 说明，a是二维数组名，即二维数组的首地址，第0行的地址。
+
++ `*(a+1)+2`：第一行第二列的地址
++ `*(*(a+2)+3)`：第二行第三列的内容
+
++ `a[1]+2`：第一行第二列的地址
++ `*(a[2]+3)`：第二行第三列的内容
+
+### （2）引用二维数组元素
+
+#### 二维数组a引用的四种形式
+
+1. <span style="color:red;font-weight:bolder;">a[i]\[j]</span>
+2. <span style="color:red;font-weight:bolder;">*(\*(a+i)+j)</span>
+3. <span style="color:red;font-weight:bolder;">*(a[i]+j)</span>
+4. <span style="color:red;font-weight:bolder;">(*(a+i))[j]</span>
+
+##### 例子：
+
+`int a[2][3]={1,2,3,4,5,6};`
+
+*(\*(a+1)+2)=<span style="text-decoration: underline;text-decoration-color: aqua">     6     </span> , *(a[0]+2)=<span style="text-decoration: underline;text-decoration-color: aqua">     3     </span> ,
+
+*(\*a+1)=<span style="text-decoration: underline;text-decoration-color: aqua">     2     </span> , *(a[1]+1)=<span style="text-decoration: underline;text-decoration-color: aqua">     5     </span> .
+
+### （3）指向二维数组的指针
+
+```c
+int a[2][3]={1,2,3,4,5,6},*p;
+int m,s;
+p=&a[0][0];
+m=(*p)*(*(p+2))*(*(p+4));//m==1*3*5==15
+s=p[1]+p[3]+p[5];//2+4+6==12
+```
+
+## 指针与字符串
+
+### （1）字符串指针的定义
+
+`char *p;`
+
+### （2）字符串指针的赋值
+
+`char *p="ABCD";` 
+
+把字符串的首地址给到p，即字符串ABCD的A的地址
+
+1. `char s[]="ABCD",*p=s;`
+
+   则*(p+4)的值为<span style="text-decoration: underline;text-decoration-color: aqua">  0 </span> 。
+
+2. 有如下说明`char s[8]="distance"; char *p=s;`
+
+   则*(p+2)的值为<span style="text-decoration: underline;text-decoration-color: aqua">  s  </span> 。
+
+3. 在C语句中`char s[8]="glister"; char *p=s; `
+
+   则*(p+4)的值为<span style="text-decoration: underline;text-decoration-color: aqua">  t  </span> 。
+
+## 指针数组和数组指针
+
+### （1）数组指针
+
+<span style="color:red;font-weight:bolder;">`int (*p)[4];`</span>
+
+说明：p是类型为int型<span style="color: aqua;font-weight:bolder;">数组的指针</span>。改数组长度为4.
+
+### （2）指针数组
+
+<span style="color:red;font-weight:bolder;">`int *q[3];`</span>
+
