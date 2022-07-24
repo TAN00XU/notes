@@ -974,11 +974,11 @@ C语言<span style="color:red;font-weight:bolder;">不能嵌套定义</span>函�
 
 ## 变量的存储类别
 
-存储方式分为两大类：<span style="color:red;font-weight:bolder;">静态</span>存储类和<span style="color:red;font-weight:bolder;">动态</span>存储类。
+存储方式分为两大类：<span style="color:red;font-weight:bolder;">**静态**</span>存储类和<span style="color:red;font-weight:bolder;">**动态**</span>存储类。
 
 具体包含四种:
 
-1. <span style="color:red;font-weight:bolder;">自动</span>的(auto)
+1. <span style="color:red;font-weight:bolder;">**自动**</span>的(auto)
 2. <span style="color:red;font-weight:bolder;">静态</span>的(static)
 3. 寄存器的(register)
 4. 外部的(extern)
@@ -1009,7 +1009,7 @@ int main(){
 
 ### （1）指针的概念
 
-一个变量的<span style="color:red;font-weight:bolder;">地址</span>称为该变量的指针。
+一个变量的<span style="color:red;font-weight:bolder;">*地址*</span>称为该变量的指针。
 
 ### （2）指针的定义
 
@@ -1101,7 +1101,7 @@ p=&a[0];
 1. 下标法，如<span style="color:red;font-weight:bolder;">a[ i ]</span>形式
 2. 指针法，如<span style="color:red;font-weight:bolder;">* (a + i)</span>或* (p + i)。
    + 其中a是数组名，p是指向数组元素的指针变量，其初值p=a。
-     + <span style="color:red;font-weight:bolder;">数组名</span>代表<span style="color:red;font-weight:bolder;">首地址</span>，及第0个地址。<span style="color: aqua;font-weight:bolder;">&a[0]</span>
+     + <span style="color:red;font-weight:bolder;">**数组名**</span>代表<span style="color:red;font-weight:bolder;">**首地址**</span>，及第0个地址。<span style="color: aqua;font-weight:bolder;">&a[0]</span>
 
 ###   （3）数组名做函数参数
 
@@ -1191,7 +1191,7 @@ s=p[1]+p[3]+p[5];//2+4+6==12
 
 <span style="color:red;font-weight:bolder;">**`int (*p)[4];`**</span>
 
-说明：p是类型为int型<span style="color: aqua;font-weight:bolder;">数组的指针</span>。改数组长度为4。
+说明：p是类型为int型<span style="color: aqua;font-weight:bolder;">*数组的指针*</span>。改数组长度为4。
 
 ### （2）指针数组
 
