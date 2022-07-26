@@ -14,17 +14,117 @@
 
  
 
+# hide /haɪd/
+
+v. 把……藏起来，隐藏；躲藏，躲避；遮住，遮挡；掩盖，隐瞒
+
+n. （可观察鸟兽行动的）隐匿处，埋伏处；兽皮；<非正式>（困境中的）生命，人身安全
+
+1. The boy is hiding inside the big box.
+   男孩就藏在这个大箱子里。
+
+2. We've nothing to hide. 
+
+   我们没啥好隐瞒的。
+
+3. 
+   They'll hide from you. 
+
+   他们会躲着你的。
+
+# by chance /baɪ tʃæns/
+
+偶然；意外地
+
+1. They are just there by chance. 
+
+   它们只是偶然在这儿。
+
+2. I met her by chance. 
+
+   我偶然碰到她。
+
+# check /tʃek/
+
+v. 检查，核对；查看，查询；克制，抑制；存放，寄放；托运；在……上打钩；将（对方的）军
+
+n. 检查，核对；制止（手段），抑制（手段）；结账单；支票（=cheque）；方格图案；衣帽寄存处；寄存凭证；钩号；（国际象棋）将军
+
+1. Let me check if your blood pressure is normal.
+   让我查查你的血压是否正常。
+
+   + blood /blʌd/
+     + n. 血，血液；出身，血统；成员，人员；杀戮，流血；气质，脾气；<旧>纨绔子弟，花花公子；血样，血检
+     + v. 使取得初次经验；用猎物的血涂（新手的）脸；让（猎狗）第一次尝血
+
+   + pressure /ˈpreʃər/
+     + n. 压力，挤压；（气体或液体形成的）压力，压强；心理压力，紧张；催促，要求；气压
+     + v. 对……施加压力，强迫；使……增压
+
+   + normal /ˈnɔːrm(ə)l/
+     + adj. 正常的，标准的；（身心）健康的，（人）普通的；（线或线性特征）正交的，垂直的；（盐溶液）与血液的盐浓度相同的；正（断层）的；平常的，通常的
+     + n. 常态，通常标准；<非正式>正常人，循规蹈矩者；法线，正交
+
+2. It's down to you to check the door. 
+
+   检查门是否关好是你的事。
+
+3. 
+   Can I have the check, please? 
+
+   请把账单给我好吗？
+
+# forecast /ˈfɔːrkæst/
+
+v. 预测，预报
+
+n. 预测，预报
+
+1. The weather forecast says the weather next week will be terrible.
+   天气预报说下周的天气会很糟糕。
+   + terrible /ˈterəb(ə)l/
+     + adj. 糟糕的，令人极为不快的；极度的，极其严重的；劣质的，很差劲的；可怕的，骇人的；生病的，不高兴的；危害极大的，造成极大伤害的
+
+2. 
+   Snow is forecast for tomorrow. 
+
+   预报明天有雪。
+
+# homesick /ˈhoʊmsɪk/
+
+adj. 想家的；思乡病的
+
+1. Gazing at the bright moon, he became homsick for his hometown.
+   看着这轮明月，他很思念自己的家乡。
+
+   + gazing /ɡeɪzɪŋ/
+     + v. 凝望，凝视
+   + bright /braɪt/
+     + adj. 明亮的；鲜艳的；聪明的；欢快的，有活力的；光明的，有希望的；清晰嘹亮的
+     + n. <美>前大灯，头灯；明亮醒目的颜色
+     + adv. <文>光亮地，明亮地
+
+2. 
+   I feel a little bit homesick. 
+
+   我有点想家了。
+
+3. I think he's ok but he's a bit homesick now. 
+
+   我想他没事，但他现在有点想家。
+
+# by far
+
+到目前为止；远，非常（与比较级或最高级连用）
+
+1. This is by far the fastest he was ever run 100 meters.
+   这是迄今为止他跑100米最快的一次。
+   + fastest /fæstɪst/
+     + adj. 最快速的（fast 的最高级
 
 
 
-
-
-
-
-
-
-
-
+---
 
 
 
