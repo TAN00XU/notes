@@ -18,7 +18,130 @@
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+# hang /hæŋ/
+
+v. 悬挂，吊；（使）挂在墙上；垂下，垂落；悬浮；绞死；贴，糊（墙纸）；安装（门）；（决定）未做出；逗留，徘徊；投曲线球失败；（尤指驾车时）拐弯；（使）死机
+
+n. 悬挂方式；下垂，低垂；（画展中画作的）陈列，布局
+
+1. Don't hang up on me—we must talk! 
+
+   别挂断电话—我们一定得谈谈！
+
+2. Can you just hang on a sec? 
+
+   您能稍等一下吗？
+
+3. There's a peg near the door to hang your coat on. 
+
+   门边有个钩子可以挂衣服。
+
+   + peg /peɡ/
+     + n. 挂钩，挂钉；<英>晾衣夹子；（系帐篷用的）桩；（标明某物位置的）界桩；（价格、数量等的）限度，标定点；（进一步讨论某事物的）依据，理由；（桶）孔塞；<非正式>（摩托车的）脚镫；赛位（分配给参赛者钓鱼或射击的位置）；<非正式>（人的）腿；少量威士忌（白兰地）；（烈酒的）计量，度量；弦钮，琴栓；<美，非正式>全力投球，钉子球
+     + v. 用钉（或桩）固定；使工资、价格等固定于某水平（或与……挂鈎）；用衣夹把（洗的衣服）夹在衣绳上；（钓鱼或射击比赛中）给（比赛者）分派赛位；<非正式>视为，看作；（棒球）投掷快速低球；（在克里比奇牌戏中）用得分枚计分；疾行，孜孜不倦地做某事
+     + adj. 越往下端越细的
+     + abbr. （PEG）聚乙（烯）二醇（polyethylene glycol）
+
+   + coat /koʊt/
+     + n. 外套，大衣；<美>（指套装的）短上衣；（动物）皮毛，（植物）表皮；涂料层，覆盖层
+     + v. 给……涂上，用……覆盖；给……穿外套
+
+# educational/ˌedʒuˈkeɪʃən(ə)l/
+
+adj. 教育的；有教育意义的
+
+1. Well, this is the whole educational process.
+   好吧，这就是教育的全过程。
+
+2. They have different educational backgrounds. 
+
+   他们有着不同的教育背景。
+
+# by all means /baɪ ɔːl miːnz/
+
+一定，务必；尽一切办法；（表示允许）当然，可以
+
+1. Although not permitted inside, he could, by all means, use phone outside.
+   尽管室内禁止通话，但他还是可以在室外接电话。
+   + permit /pərˈmɪt/
+     + v. 批准，许可；（使）成为可能；破例做，放纵
+     + n. 执照，许可证；古氏鲳鲹
+
+2. 
+   Please find it out by all means. 
+
+   无论如何请找到。
+
+3. By all means, this isn't the end! 
+
+   无论如何，这都不是结束！
+
+# attend /əˈtend/
+
+v. 随同，陪同；经常去，定期去(学校、教堂等)；伴随……而至，（作为结果）伴随；出席，参加；注意，专心；处理，照料；致力于
+
+1. A nurse attending to the newborn baby.
+   一位护士正在照顾新生的宝宝。
+
+   + nurse /nɜːrs/
+     + n. 护士；<旧>保姆，奶妈；保育虫；（保护其他作物的）防护作物；沙锥齿鲨
+     + v. 看护，照料；细心打理；调养，调治；喂奶，哺乳；吃奶；怀有；慢慢地喝；爱惜地搂抱；<旧>（在某种特定条件下）被抚养长大；（台球，斯诺克）聚球，使球互相靠拢
+
+2. 
+   Which school do they attend? 
+
+   他们上的是哪一所学校？
+
+3. Our children attend the same school. 
+
+   我们的孩子上同一所学校。
+
+# effectively /ɪˈfektɪvli/
+
+adv. 有效地；实际上
+
+1. The candy stopped the baby from crying very effectively.
+   糖果非常有效地让小宝宝停止了哭泣。
+   + candy /ˈkændi/
+     + n. 糖果，巧克力；冰糖；中看不中用的东西
+     + v. 把（水果）制成蜜饯；用糖煮；使结晶
+
+# fiction /ˈfɪkʃn/
+
+n. 小说；虚构的事，谎言；杜撰，编造
+
+1. I read everything from fiction to history. 
+
+   我从小说到历史书什么书都读。
+
+2. I'm actually writing my own fiction. 
+
+   我现在也正在写自己的小说。
+
+   + actually /ˈæktʃuəli/
+     + adv. 实际上，事实上；（用于开始新话题）其实；竟然，居然
+
+
+
+
+
+---
+
+
+
+
 
 # few /fjuː/
 

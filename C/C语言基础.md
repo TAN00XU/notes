@@ -4,7 +4,7 @@
 | :------: | :--------------------------- | :------: | -------------------------- |
 |   auto   | 储存类别为自动变量           |   long   | 长整数                     |
 |  break   | 终止switch或循环语句         |   main   | 主函数                     |
-|   case   | 字符类型                     | register | 寄存器类型                 |
+|   case   | switch的标号                 | register | 寄存器类型                 |
 |   char   | 字符类型                     |  return  | 函数返回                   |
 |  const   | 常量——“不变的”类型           |  short   | 短整数类型                 |
 | continue | 中止循环的当次运行           |  signed  | 有符号的类型               |
@@ -50,7 +50,7 @@
 # C程序运行步骤和方法
 
 ```mermaid
-flowchart LR
+graph LR
 	A(开始) 
 	==编辑==> B("源程序文件(.c)") 
 	==编译==> C("目标文件(.obj)") 
@@ -153,7 +153,7 @@ flowchart LR
 ## 分类
 
 + 符号常量：用标识符代表常量
-  + 定义格式： ==*#define 符号常量 常量*==
+  + 定义格式：<span style="color:red;">**#define 符号常量 常量**</span>
 
 + 直接常量：
   + 整型常量
@@ -1005,6 +1005,10 @@ int main(){
 
 # 指针
 
+一般来说固定占4个字节
+
+16为地址,指针即为2个字节,现在一般是32位系统,所以是4个字节,以后64位,则就为8个字节。
+
 ## 指针与变量
 
 ### （1）指针的概念
@@ -1177,7 +1181,7 @@ s=p[1]+p[3]+p[5];//2+4+6==12
 
    则*(p+4)的值为<span style="text-decoration: underline;text-decoration-color: aqua">  0 </span> 。
 
-2. 有如下说明`char s[8]="distance"; char *p=s;`
+2. 如下`char s[8]="distance"; char *p=s;`
 
    则*(p+2)的值为<span style="text-decoration: underline;text-decoration-color: aqua">  s  </span> 。
 
@@ -1200,3 +1204,527 @@ s=p[1]+p[3]+p[5];//2+4+6==12
 q[0]、q[1]、q[2]均为int *
 
 说明：q是由三个<span style="color: aqua;font-weight:bolder;">*指针*</span>变量构成<span style="color: aqua;font-weight:bolder;">*的数组*</span>，简称指针数组。
+
+## 函数指针和指针函数
+
+### （1）函数指针
+
+<span style="color:red;font-weight:bolder;">**`int (*p)();`**</span>
+
+说明：p是返回值为整型<span style="color:aqua;font-weight:bolder;">*函数的指针*</span>。
+
+（2）指针函数
+
+<span style="color:red;font-weight:bolder;">**`int *p();`**</span>
+
+说明：p是返回值为整型<span style="color:aqua;font-weight:bolder;">*指针的函数*</span>。
+
+## 指针总结
+
+| 定义           | 含义                                              |
+| -------------- | ------------------------------------------------- |
+| `int i;`       | 定义整型变量i                                     |
+| `int *p;`      | p为指向整型数据的指针变量                         |
+| `int a[n];`    | 定义整型数组a，它有n个元素                        |
+| `int *p[n];`   | 定义指针数组p，它由n个指向整型数据的指针元素组成  |
+| `int (*p)[n];` | p为指向含n个元素的一维数组的指针变量              |
+| `int f();`     | f为带回整型函数值的函数                           |
+| `int *p();`    | p为带回一个指针的函数，该指针指向整型数据         |
+| `int (*p)();`  | p为指向函数的指针，该函数返回一个整型值           |
+| `int **p;`     | p是一个指针变量，它指向一个指向整型数据的指针变量 |
+
+# 	预处理命令
+
+## C提供的预处理功能主要有以下三种：
+
+1. <span style="color:red;font-weight:bolder;">**宏定义**</span>
+2. <span style="color:red;font-weight:bolder;">**文件包含**</span>
+3. <span style="color:red;font-weight:bolder;">**条件编译**</span>
+
+为与一般C语句相区别，这些命令以符号“<span style="color:red;font-weight:bolder;">**#**</span>”开头。
+
+例如：
+
+`#define`
+
+`#include`
+
+## 宏定义
+
++ 宏定义后面不能加分号
+
+### （1）不带参数的宏定义
+
+<span style="color:red;font-weight:bolder;">**`#define 标识符 字符串`**</span>
+
+例如：`# define PI 3.1415926 `
+
+### （2）带参数的宏定义
+
+<span style="color:red;font-weight:bolder;">**`#define 宏名(参数表) 字符串`**</span>
+
+字符串中包含在括弧中所指定的参数
+
+例如：`#define S(a,b) a*b`
+
+### 例题：
+
+1. `# define K 2+3` 则K/K=<span style="text-decoration: underline;text-decoration-color: aqua">     6     </span>.（2+3/2+3）
+
+2. `#define ADD 10+5` 则3*ADD/5=<span style="text-decoration: underline;text-decoration-color: aqua">     31     </span>. （3\*10+5/5）
+
+3. `#define f(x) x*x`
+   `int a=6,b=2;`
+   f(a)+f(b)=<span style="text-decoration: underline;text-decoration-color: aqua">     40     </span>; （a*a + b\*b => 36+4）
+
+   f(a+b)=<span style="text-decoration: underline;text-decoration-color: aqua">     20     </span>; （a+b\*a+b => 6+2*6+2）
+
+   f(a)/f(b)=<span style="text-decoration: underline;text-decoration-color: aqua">     36     </span>. （a*a/b\*b => 6\*6/2\*2）
+
+## 文件包含
+
+### 一般形式为：
+
+<span style="color:red;font-weight:bolder;">**`#include "文件名"`**</span>
+
+<span style="color:red;font-weight:bolder;">**`#include <文件名>`**</span>
+
+例如：
+
+`#include <stdio.h>`输入输出
+
+`#include "math.h"`数学函数
+
+## 条件编译
+
+### （1）
+
+```c
+#ifdef 标识符
+	程序段1
+#else
+    程序段2
+#endif
+```
+
+### （2）
+
+```c
+#ifndef 标识符
+	程序段1
+#else
+    程序段2
+#endif
+```
+
+### （3）
+
+```c
+#if 表达式
+	程序段1
+#else
+    程序段2
+#endif
+```
+
+# 结构体和共用体
+
+## 定义和使用结构体
+
+### （1）结构体类型：
+
+用户自己建立的由<span style="color:red;font-weight:bolder;">**不同类型**</span>数据组成的组合型的数据结构。
+
+### （2）声明一个结构体类型的一般形式为：
+
+<span style="color:red;font-weight:bolder;">**`struct`**</span> 结构体名
+
+{成员列表};
+
+```c
+struct student{
+    int num;
+    char name[20];
+    float score;
+}
+```
+
+## 定义结构体变量
+
+### (1)首先声明结构体类型，再定义结构体变量
+
+```c
+struct student{
+    int num;
+    char name[9];
+};
+struct student a,*b,c[3];
+```
+
+{int num; char name[9];} ==> <span style="color:red;font-weight:bolder;">**成员**</span>
+
+struct student ==>结构体<span style="color:red;font-weight:bolder;">**类型名**</span>
+
+a,\*b,c[3] ==> 结构体<span style="color:red;font-weight:bolder;">**变量名**</span>
+
+### (2)声明结构体的同时定义变量
+
+```c
+struct student{
+    int num;
+    char name[9];
+} a,*p,c[3];
+```
+
++ 在这里没有student也可以
+
+## 结构体变量的初始化
+
+### （1）结构体变量的初始化
+
+```c
+struct{
+    int a;
+    float b;
+}s={12,34.56};
+//a=12,b=34.56
+```
+
+### （2）结构体数组的初始化
+
+```c
+struct data{
+    int x;
+    int y;
+}c[3]={12,23,34,45,56,67};
+/*
+	c[0]=>x=12,y=23
+	c[1]=>x=34,y=45
+	c[2]=>x=56,y=67
+*/
+```
+
+## 结构体变量的引用
+
+### 形式一：结构体变量 <span style="color:red;font-weight:bolder;">**.**</span> 成员名
+
+### 形式二：结构体指针名<span style="color:red;font-weight:bolder;">**->**</span>成员名
+
+### 形式三：<span style="color:red;font-weight:bolder;">**(\***</span>结构体指针名<span style="color:red;font-weight:bolder;">**).**</span>成员名
+
+" . "成员运算符
+
+" -> "指向运算符
+
+优先级：最高
+
+结合性：自左向右
+
+# 共用体
+
+## 共用体的概念
+
+使几个不同的变量<span style="color:red;font-weight:bolder;">**共占同一段内存**</span>的结构称为“共用体”类型的结构。
+
+## 定义共用体类型变量的一般形式：
+
+<span style="color:red;font-weight:bolder;">**union**</span> 共用体名
+
+{
+
+​	成员列表
+
+}变量列表;
+
+
+
+例如：
+
+```c
+union data
+{
+    int i;
+    char ch;
+    float f;
+} a,b,c;
+```
+
+## 共用体变量的引用
+
+采用<span style="color:red;font-weight:bolder;">**变量.成员**</span>的引用方法。
+
+例如引用上述例子中的a,b,c共用体变量
+
+`a.i`(引用共用体变量中的整型变量i)
+
+`a.ch`(引用共用体变量中的字符变量ch)
+
+`a.f`(引用共用体变量中的实型变量f)
+
+# 结构体和共用体的区别
+
++ 结构体变量所占内存长度是各成员占的内存<span style="color:red;font-weight:bolder;">**长度之和**</span>。每个成员分别占有其自己的内存单元。
++ 共用体变量所占的内存长度等于<span style="color:red;font-weight:bolder;">**最长的成员的长度**</span>。
+
+# 用typedef定义类型
+
+用typedef声明<span style="color:red;font-weight:bolder;">**新的类型名来代替已有的类型名**</span>
+
+例如：
+
++ 声明INTEGER为整型：typedef int INTEGER
+
++ 声明结构体类型
+
+  ```c
+  typedef struct date
+  {
+      int month;
+      int day;
+      int year;
+  }DATE;
+  ```
+
+# 简单位运算
+
+位运算是指按<span style="color:red;font-weight:bolder;">**二进制位**</span>进行的运算
+
+| 运算符 | 含义     | 运算符 | 含义 |
+| ------ | -------- | ------ | ---- |
+| &      | 按位与   | ~      | 取反 |
+| \|     | 按位或   | <<     | 左移 |
+| ^      | 按位异或 | >>     | 右移 |
+
+注：
+
+1. 位运算符中除~以外，均为二目(元)运算运算符，即要求两侧各有一个运算量。
+2. 运算量只能是整型或字符型的数据，不能为实型数据。
+
+## 按位与
+
+0 & 0 = 0 ,
+
+0 & 1 = 0 ,
+
+1 & 0 = 0 ,
+
+1 & 1 = 1 .
+
+## 按位或
+
+0 | 0 = 0 ,
+
+0 | 1 = 1 ,
+
+1 | 0 = 1 ,
+
+1 | 1 = 1 .
+
+## 按位异或
+
+0 ^ 0 = 0 ,
+
+0 ^ 1 = 1 ,
+
+1 ^ 0 = 1 ,
+
+1 ^ 1 = 0 ,
+
+## 取反
+
+将0变1，将1变0.
+
+## 左移运算符<<
+
+将一个数的各二进制位全部左移若干位
+
++ 如a=15，即二进制数00001111，a=<<2，左移2位得00111100（十进制数60）
+
+## 右移运算符>>
+
+将一个数的各二进制位全部由移若干位，移到右端的低位被舍弃，对无符号数，高位补0。
+
++ 若a=15，即二进制数00001111，a=>>2，右移2位得00000011（十进制数3）
+
+<span style="color:red;font-weight:bolder;">**左移一位相当一乘以2，右移一位相当于除以2**</span>
+
+#  文件
+
+## （1）文件的定义
+
+所谓文件一般指存储在外部介质(如磁盘磁带)上数据的集合。
+
+操作系统是以文件为单位对数据进行管理的。
+
+## （2）文件的分类
+
+```mermaid
+graph LR
+	文件-->ASCII文件
+	文件-->二进制文件
+
+```
+
+## （3）文件缓冲区
+
+```mermaid
+graph LR
+	程序数据区--输出-->输出文件缓冲区--输出-->file[("文件（磁盘）")]--输入-->输入文件缓冲区--输入-->程序数据区
+```
+
+## （4）文件类型的指针
+
+Turbo C在stdio.h文件中有以下文件类型的声明：
+
+```c
+typedef struct
+{
+    shortlevel;/*缓冲区“满”或“空”的程度*/
+    unsignedflags; /*文件状态标志*/
+    charfd;/*文件描述符*/
+    unsignedcharhold; /*如无缓冲区不读取字符*/
+    shortbsize;/*缓冲区的大小*/
+    unsignedchar*buffer;/*数据缓冲区的位置*/
+    unsignedar*curp;/*指针,当前的指向*/
+    unsignedistemp;/*临时文件,指示器*/
+    shorttoken;/*用于有效性检查*/
+}FILE;//结构体别名
+```
+
+<span style="color:red;font-weight:bolder;">**`FILE *fp;/*定义一个指向文件型数据的指针变量*/`**</span>
+
+在缓冲文件系统中，每个被使用的文件都要在内存中开辟一个FILE类型的区，存放文件的有关信息。
+
+## 打开和关闭文件
+
+### （1）文件的打开（<span style="color:red;font-weight:bolder;">**fopen**</span>函数）
+
+例如：
+`FILE *fp;`
+
+`fp=fopen("ABC","r);`
+
+表示要打开名字为"ABC" 的文件，使用文件方式为读入。
+
+### （2）文件使用方式
+
+| 文件使用方式 | 含义                                                         |
+| ------------ | ------------------------------------------------------------ |
+| "r"          | (只读)为<span style="color:red;font-weight:bolder;">**输入**</span>打开一个<span style="color:red;font-weight:bolder;">**文本文件**</span>   （存在且有数据才能用） |
+| "w"          | (只写)为<span style="color:red;font-weight:bolder;">**输出**</span>打开一个<span style="color:red;font-weight:bolder;">**文本文件 **</span> （没有就新建，有就删除之前的再新建）） |
+| "a"          | (追加)向<span style="color:red;font-weight:bolder;">**文本**</span>文件尾<span style="color:red;font-weight:bolder;">**增加**</span>数据 |
+| "rb"         | (只读)为<span style="color:red;font-weight:bolder;">**输入**</span>打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span> |
+| “wb"         | (只写)为<span style="color:red;font-weight:bolder;">**输出**</span>打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span> |
+| "ab"         | (追加)向<span style="color:red;font-weight:bolder;">**二进制**</span>文件尾增加数据 |
+| "r+"         | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**文本文件**</span> |
+| "w+"         | (读写)为读/写建立一个<span style="color:red;font-weight:bolder;">**新的文本文件**</span> |
+| "a+"         | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**文本文件**</span> |
+| "rb+"        | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span> |
+| "wb+"        | (读写)为读/写建立一个<span style="color:red;font-weight:bolder;">**新的二进制文件**</span> |
+| "ab+"        | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span> |
+
+### （3）文件的关闭（<span style="color:red;font-weight:bolder;">**fclose**</span>函数）
+
+`dclose (fp);`
+
+fp => 文件指针
+
+## 顺序读写文件
+
+### （1）字符输入输出函数
+
+| 函数名 | 调用形式        | 功能                                                         |
+| ------ | --------------- | ------------------------------------------------------------ |
+| fgetc  | fgetc(fp)       | 从fp指向的文件<span style="color:red;font-weight:bolder;">**读**</span>入一个字符 |
+| fputc  | fputc(ch,fp)    | 把字符ch<span style="color:red;font-weight:bolder;">**写**</span>到fp所指向的文件中 |
+| fgets  | fgets(str,n,fp) | 从fp指向的文件中<span style="color:red;font-weight:bolder;">**读**</span>入一个长度为n-1的字符串，存放到字符数组str中 |
+| fputs  | fputs(str,fp)   | 把str所指向的字符串<span style="color:red;font-weight:bolder;">**写**</span>到fp所指向的文件中 |
+
+### （2）用格式化的方式读写文件
+
+#### 函数调用：
+
+<span style="color:red;font-weight:bolder;">**fprintf**</span>(文件指针，格式字符串，输出表列);
+
+<span style="color:red;font-weight:bolder;">**fscanf**</span>(文件指针，格式字符串，输入表列);
+
+例：
+
+`fprintf(fp,"%d,%6.2f",i,t);`
+
+`fscanf(fp,"%d,%f",&i,&t);`
+
+#### 注意：
+
+用fprintf和scanf函数对磁盘文件读写，使用方便，容易理解，但由于在输入时要将ASCII码转换为二进制形式，在输出时又要将二进制形式转换成字符，花费时间较多。因此，在<span style="color:aqua;font-weight:bolder;">*内存与磁盘频繁交换数据*</span>的情况下，最好不要用fprintf和fscanf函数，而用<span style="color:aqua;font-weight:bolder;">*fread*</span>和<span style="color:aqua;font-weight:bolder;">*fwrite*</span>函数
+
+### （3）用二进制方式读写文件
+
+#### 函数调用：
+
+<span style="color:red;font-weight:bolder;">**fread**</span>(buffer,size,count,fp);
+
+<span style="color:red;font-weight:bolder;">**fwrite**</span>(buffer,size,count,fp);
+
+例如：
+
+`fread(f,4,10,fp);`
+
+从fp指向的文件中读入10个4字节的数据，放到数组f中。
+
+## 随机读写文件
+
+### <span style="color:red;font-weight:bolder;">**rewind**</span>函数
+
+#### 函数的作用：
+
+时位置指针重新返回文件的开头，无返回值。
+
+### <span style="color:red;font-weight:bolder;">**fseek**</span>函数
+
+#### 调用形式：
+
+<span style="color:red;font-weight:bolder;">**fseek**</span>(文件类型指针，位移量，起始点)
+
+起始点：0文件开头、1当前位置、2文件末尾
+
+例如：
+
+`fseek(fp,100L,0);`
+
+将文件位置移到离<span style="color:red;font-weight:bolder;">**文件头**</span>100个字节处
+
+`fseek(fp,50L,1);`
+
+将文件位置指针移到离<span style="color:red;font-weight:bolder;">**当前位置**</span>50个字节处
+
+`fseek(sp,-10L,2);`
+
+将位置指针从文件<span style="color:red;font-weight:bolder;">**末尾**</span>处向后退10个字节
+
+## 小结
+
+| 分类     | 函数名         | 功能                           |
+| -------- | -------------- | ------------------------------ |
+| 打开文件 | fopen()        | 打开文件                       |
+| 关闭文件 | fclose()       | 关闭文件                       |
+| 文件定位 | fseek()        | 改变文件位置指针的位置         |
+|          | rewind()       | 使文件位置指针重新至于文件开头 |
+|          | ftell()        | 返回文件位置指针的当前值       |
+| 文件状态 | feof()         | 若到文件末尾，函数值为真       |
+|          | ferror()       | 若对文件操作出错，函数值为真   |
+|          | clearerr()     | 使ferror()和feof()函数值置零   |
+| 文件读写 | fgetc(),getc() | 从指定文件取得一个字符         |
+|          | fputc(),putc() | 把字符输出到指定文件           |
+|          | fgets()        | 从指定文件读取字符串           |
+|          | fputs()        | 把字符串输出到指定文件         |
+|          | getw()         | 从指定文件读取一个字（int型）  |
+|          | putw()         | 把一个字输出到指定文件         |
+|          | fread()        | 从指定文件中读取数据项         |
+|          | fwrite()       | 把数据项写到指定文件中         |
+|          | fscanf()       | 从指定文件按格式输入数据       |
+|          | fprintf()      | 按指定格式将数据写到指定文件中 |
+
+更改
+
+chuchuchuchuchu
