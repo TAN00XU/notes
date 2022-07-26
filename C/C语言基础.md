@@ -77,15 +77,15 @@ graph LR
 
 ## 算法的特性
 
-+ ==**有穷性**==：包含有限的操作步骤
++ <span style="color:red;font-weight:bolder;">**有穷性**</span>：包含有限的操作步骤
 
-+ ==**确定性**==：算法中的每一个步骤都应当是确定的
++ <span style="color:red;font-weight:bolder;">**确定性**</span>：算法中的每一个步骤都应当是确定的
 
-+ ==**有零个或多个输入**==：输入是指在执行算法时需要从外界取得必要的信息
++ <span style="color:red;font-weight:bolder;">**有零个或多个输入**</span>：输入是指在执行算法时需要从外界取得必要的信息
 
-+ ==**有一个或多个输出**==：算法的目的是为了求解, “解”就是输出
++ <span style="color:red;font-weight:bolder;">**有一个或多个输出**</span>：算法的目的是为了求解, “解”就是输出
 
-+ ==**有效性**==：算法中的每一个步骤都应当能有效地执行,并得到确定的结果,
++ <span style="color:red;font-weight:bolder;">**有效性**</span>：算法中的每一个步骤都应当能有效地执行,并得到确定的结果,
 
 # 基本数据类型
 
@@ -1725,6 +1725,3 @@ fp => 文件指针
 |          | fscanf()       | 从指定文件按格式输入数据       |
 |          | fprintf()      | 按指定格式将数据写到指定文件中 |
 
-更改
-
-chuchuchuchuchu
