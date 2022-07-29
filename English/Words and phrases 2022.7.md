@@ -12,6 +12,220 @@
 
 
 
+
+
+
+
+# pillow /ˈpɪloʊ/
+
+n. 枕头；蕾丝枕头（lace pillow的简称）；<美>坐垫，靠垫
+
+v. 将（头）枕在……上，枕着（某物）；<文>为……当枕头
+
+1. I love sleeping with soft pillow.
+   我爱枕着软软的枕头入睡。
+
+2. She nuzzled her face into her pillow. 
+
+   她把脸埋进枕内。
+
+   + nuzzled /ˈnʌzld/
+     + v. （用鼻子或嘴）摩擦，轻推；用头挨擦；把头紧挨在（nuzzle 的过去式及过去分词）
+
+# by means of
+
+用，依靠，用……办法，借助……
+
+1. The load was lifted by means of a crane. 
+
+   重物是用起重机吊起来的。
+
+   + crane /kreɪn/
+     + n. 鹤；起重机，吊车；机动升降台架
+     + v. 伸长（脖子）看，探头看；（用起重机）吊运；（行动前）迟疑，踌躇（crane at）
+
+# recycle /ˌriːˈsaɪkl/
+
+v. 回收利用，再利用；（将可回收物品）送入回收加工厂；使再循环；再次应用，重新使用（观念、文章等）
+
+n. 回收利用，循环使用
+
+1. We should recyle trash by putting it into different bins.
+   我们应当通过把垃圾扔进分类垃圾桶中来将其回收再利用。
+   + trash /træʃ/
+     + n. 垃圾，废物；<美>垃圾桶；劣质的东西，（尤指）拙劣的作品；<美>废物，窝囊废；（西印度）（作燃料的）甘蔗叶（梢），甘蔗渣
+     + v. <非正式>损坏，毁坏；<非正式>抨击，谴责；<非正式>丢弃，去除；（计算机）把（文件，程序）送进回收站删除，清空（磁盘）；剥（甘蔗）皮以使其更快成熟
+   + bins /bɪnz/
+     + n. 箱子；素材屉；工具屉（bin 的复数形式）
+     + v. 把……放入箱子中（bin 的三单形式）
+
+2. We can recycle some of our rubbish. 
+
+   我们可以回收一些垃圾。
+
+   + rubbish /ˈrʌbɪʃ/
+     + n. 垃圾，废弃物；毫无价值的东西，劣质产品；废话，瞎说
+     + v. <英，非正式>严厉批评，把……说得一无是处
+     + adj. <英，非正式>很差劲的，无用的
+
+3. 
+   I usually recycle newspapers and cans. 
+
+   我通常回收报纸和罐头。
+
+   + cans /kænz/
+     + n. 金属罐，罐（can 的复数）；易拉罐；耳机；头戴受话器
+
+# retailer /ˈriːteɪlər/
+
+n. 零售商，零售店；讲述者
+
+1. This retailer sells many kinds of products.
+   这个零售商销售各种各样的商品。
+
+# by mistake /baɪ mɪˈsteɪk/
+
+错误地；由于差错
+
+1. He took someone else's umbrella by mistake.
+   他错拿了别人的伞。
+   + umbrella /ʌmˈbrelə/
+     + n. 伞，雨伞，阳伞；综合体，总体；保护伞，庇护；（有众多附属小机构或小群体的）伞形组织；（战斗机或高射炮构成的）掩护幕，防空火网；（动）（水母）伞膜
+     + adj. （大的组织）包括许多小团体的；（词汇）总称的，总括的
+
+2. Did you take it the car by mistake? 
+
+   你有没有把它放错车子了。
+
+3. 
+   I did it by mistake. 
+
+   我误做了这事。
+
+4. Would you please find out who took my book by mistake? 
+
+   请你查清楚谁错拿了我的书，好吗？
+
+
+
+---
+
+
+
+# thermometer /θərˈmɑːmɪtər/
+
+n. 温度计，寒暑表，体温计
+
+1. The man used thermometer to take his temperature.
+   这个男人用一支温度计来测量体温。
+
+2. What does the thermometer read? 
+
+   温度计的读数是多少？
+
+# labor /ˈleɪbər/
+
+n. 劳动；工作；劳工；分娩
+
+vi. 劳动；努力；苦干
+
+vt. 详细分析；使厌烦
+
+1. These workers are the labor force in this factory.
+
+   这些工人是这个工厂的劳动力。
+
+   + force /fɔːrs/
+     + n. 暴力，武力；力，力量；自然力；（有某目的）一群人；有影响力的人（或事）；影响力；武装部队；警察部门；风力
+     + v. 强迫；用力推；使发生；勉强做出
+
+2. 
+   Happy Labor Day! 
+
+   劳动节快乐！
+
+3. It may help children learn the worth of labor. 
+
+   它可以帮助孩子们了解劳动的价值。
+
+   + worth /wɜːrθ/
+     + adj. 价值……的，值……钱的；值得的，具有……价值的；拥有……财产的；（尤指合同）毫无价值的
+     + n. 价格，价值；重要性，作用； 能用（一个星期、一个月等）的东西
+
+# lessen /lesn/
+
+v. （使）缩小，（使）减少
+
+1. Let's lesson the volume before our neighbors come over.
+
+   我们把音量调小一点吧，不然邻居会来敲门的。
+
+   + volume /ˈvɑːljəm/
+     + n. 体积，容积；总数，总量；音量，响度；（控制音量的）旋钮，控制杆；（成套图书中的）卷，册；（期刊）合订本；书籍；<史>（写在羊皮纸或纸草纸上的）书卷；（尤指头发的）厚，多
+     + adj. 大量的
+     + v. 以卷的形式发出；成团卷起
+
+2. The noise began to lessen. 
+
+   噪音开始减弱。
+
+# by hand /baɪ hænd/
+
+adv. 用手
+
+1. She copied the story by hand.
+   她把这个故事用手抄了一遍。
+
+2. I like to write by hand when I travel. 
+
+   当我旅行时，我喜欢手写一些东西。
+
+3. It was written by hand. 
+
+   这是手写的。
+
+# mess /mes/
+
+n. 肮脏，杂乱；不整洁或邋遢的人（或物）；掉落的东西，溅出的东西；（动物的）粪便；困境，混乱局面；处于困境的人；（军队的）食堂，交谊厅；<美，非正式> 大量；（尤指引不起食欲的）半干半稀的一份食物
+
+v. 弄脏，弄乱；玩弄；随地便溺；在军人食堂就餐
+
+1. The living room is in a mess after a party.
+   一场聚会后，客厅里乱糟糟的。
+
+2. The room was in a mess. 
+
+   这个房间杂乱不堪。
+
+3. Everything was in a thorough mess. 
+
+   一切都是乱七八糟的。
+
+   + thorough /ˈθɜːroʊ/
+     + adj. 彻底的，全面的；彻头彻尾的，十足的；仔细的，缜密的；仔细周到，工作缜密
+
+# by itself /baɪ ɪtˈself/
+
+单独地；自动地
+
+1. The washing machine will start by itself in a few minutes.
+   洗衣机将在几分钟后自动启动。
+   + wash /wɑːʃ/
+     + v. 清洗，洗涤；洗澡，（用水和肥皂）洗（身体的某部分）；（水）漫过，流过，冲刷；<非正式>站得住脚，令人相信或接受；（织物，服装，染料）耐洗；（情感）强烈冲击；粉刷；镀（金，银）于；<文>使湿透，浸泡
+     + n. 洗涤；正在洗的衣物，将要洗的衣物；（涂料的）薄涂层，涂料；<美>（对对立双方均无益处的）形势（或结果）；（船驶过划出的）波浪，波浪拍打声；（尤指用于清洗皮肤的）洗药，清洁剂；（水流的）冲积物；浅水沙滩；泔水，泔脚；已发酵的麦芽汁；(the Wash) 沃什湾
+
+2. How did the door open by itself? 
+
+   门怎么自己开了？
+
+
+
+
+
+
+
+---
+
  
 
 # hide /haɪd/

@@ -286,11 +286,10 @@ flowchart LR
                 style="color:#fe2c24;">&nbsp; &nbsp;+</span>(正)&nbsp;
             <span style="color:#fe2c24;">&nbsp;-</span>(负)&nbsp; &nbsp;<span style="color:#fe2c24;">~</span>&nbsp;
             &nbsp;<span style="color:#fe2c24;">++</span>&nbsp; &nbsp;<span style="color:#fe2c24;">--</span>&nbsp; <span
-                    style="color:#fe2c24;">&nbsp;*</span><span style="color:#0d0016;">(取值运算符)&nbsp; </span>&nbsp; <span
-                    style="color:#fe2c24;">&amp;</span><span style="color:#0d0016;">(取地址符)&nbsp; &nbsp;</span></p>
+                    style="color:#fe2c24;">&nbsp;*</span><span>(取值运算符)&nbsp; </span>&nbsp; <span
+                    style="color:#fe2c24;">&amp;</span><span>(取地址符)&nbsp; &nbsp;</span></p>
             <p><span style="color:#0d0016;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                    style="color:#fe2c24;">sizeof</span><span style="color:#0d0016;">(</span>长度运算符<span
-                    style="color:#0d0016;">)</span></p></td>
+                    style="color:#fe2c24;">sizeof</span><span>（长度运算符）</span></p></td>
         <td style="text-align:center;width:110px;">单目运算符</td>
         <td style="width:91px;">从右到左</td>
     </tr>
@@ -385,6 +384,7 @@ flowchart LR
     </tr>
     </tbody>
 </table>
+
 
 
 
@@ -1725,4 +1725,3 @@ fp => 文件指针
 |          | fscanf()       | 从指定文件按格式输入数据       |
 |          | fprintf()      | 按指定格式将数据写到指定文件中 |
 
-测试一下
