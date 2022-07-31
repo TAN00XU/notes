@@ -12,7 +12,312 @@
 
 
 
+---
 
+# by reason /ˈriːzn/ of
+
+由于；因为
+
+1. She was asked for help by reason of her experience in dealing with this disease.
+   因为她在治疗这种疾病方面有丰富的经验，所以病人向她寻求帮助。
+   + dealing /ˈdiːlɪŋ/
+     + n. 交往，交易；经营方式
+   + disease /dɪˈziːz/
+     + n. 疾病，病害；弊病，恶习
+     + v. 传染，使……有病
+
+# necessary /ˈnesəseri/
+
+adj. 必要的，必需的；必然的，不可避免的；迫不得已的，非自愿的
+
+n. （生活）必需品；<英，非正式>必要的事（the necessary）；<英，非正式>足够的钱（the necessary）
+
+1. A boat is necessary to get across the river.
+   要过河就得有船。
+
+2. 
+   I can take the car if necessary. 
+
+   如果必要的话，我可以乘汽车去。
+
+3. 
+   If necessary I can come at once. 
+
+   如果有必要，我可以马上来。
+
+4. 
+   If necessary , you can contact me at home. 
+
+   必要的话，我在家时你也可以和我联系。
+
+   + contact /ˈkɑːntækt/
+     + n. 联系，联络；接触，触摸；联络人，熟人，社会关系；会见，往来，接触；传染病接触者；隐形眼镜；接通电，触点，接头；（无线电）通信
+     + v. 联系，联络；接触
+     + adj. 供联络的；接触性的，通过接触而起作用的
+
+# unwilling /ʌnˈwɪlɪŋ/
+
+adj. 不愿意的；不情愿的；勉强的
+
+1. The dog is unwilling to follow its master.
+   这只狗不愿意跟着他的主人走。
+
+2. I am unwilling to set a precedent. 
+
+   我不想开先例。
+
+   + precedent /ˈpresɪdənt/
+     + n. 先例，前例；判例，实例；常规，惯例
+     + adj. 在先的，前面的
+
+# by the way /baɪ ðə weɪ/
+
+顺便说说，顺便问一下；在途中
+
+1. Can I check in online? And by the way, what's the WIFI password?
+
+   我可以网上办理入住 吗？顺便问一下，无线网密码是多少呢？
+
+2. By the way, when is the final exam? 
+
+   顺便问一下，期末考试是什么时候？
+
+3. 
+   What's the time, by the way? 
+
+   顺便问一句，几点钟了
+
+# vibration /vaɪˈbreɪʃ(ə)n/
+
+n. 震动，颤动，抖动；<非正式>（情感）感应，共鸣
+
+1. The phone rings with a vibration.
+   手机铃声伴随着一阵震动响起。
+
+2. OK, that was the case for vibration. 
+
+   这是振动的例子。
+
+
+
+---
+
+
+
+
+
+# used /juːst; juːzd/
+
+adj. 用过的，旧的；二手的；习惯于，适应于
+
+v. 使用，利用；消耗；说，写，使用（词语或语言）（use 的过去式和过去分词）
+
+1. My phone is used, but I don't plan to by a new one.
+   我的手机用旧了，但我不打算换新的。
+
+# theme /θiːm/
+
+n. （谈话、书籍、电影等的）题目，主题；（音乐的）主旋律；（电影、电视节目、广播节目的）主题音乐，主题曲；（学生的）作文；（聚会、房间等的）风格；（句子的）主位；（名词、动词等的）词干；<史>（拜占庭帝国的）行政区
+
+adj. 以奇想主题布置的
+
+v. （休闲场所、活动）以……主题
+
+1. We have their new theme. 
+
+   我们有他们的新主题。
+
+2. How can we find out the theme of a text? 
+
+   我们怎样才能找到文章的主题呢？
+
+3. 
+   There may also be more than one theme in a story. 
+
+   一个故事也可能有多个主题。
+
+# by oneself /baɪ wʌnˈself/
+
+独自地，单独
+
+1. The little boy does many things all by himself without depending on his parents.
+   这个小男孩不依赖父母，很多事都是自己做。
+   + depend /dɪˈpend/
+     + v. 取决于；依赖，依靠；相信，指望；那得看情况；（语法上）从属（depend on/upon）
+
+2. One cannot live by oneself. 
+
+   人不能单独生活。
+
+3. 
+   I am to feel everything is by oneself. 
+
+   我是觉得一切是由自己。
+
+# market /ˈmɑːrkɪt/
+
+n. 集市，市场；交易，交易量；行销地区，购买人群；市场机制；股市；市面，市况
+
+v. 推销，促销；出售；做买卖
+
+adj. 市场的，由市场决定的
+
+1. I usually buy fruits and vegetables at the market.
+   我通常在市场里买水果和蔬菜。
+
+2. He sold boots at a market stall. 
+
+   他在市场的一个摊位上卖靴子。
+
+   + boot /buːt/
+     + n. 靴子；猛踢；（汽车的）行李箱，后备箱；车轮固定夹；解雇；再者，除此之外（to boot）
+     + v. 猛踢；锁住（非法停车的轮子）；启动（电脑）；在车轮上装制动装置；解雇；（使） 穿靴
+
+# treatment /ˈtriːtmənt/
+
+n. 对待，待遇；处理，讨论；治疗，医治；（净化或防治）处理，加工；护理，护理品；<非正式>极致； 对待，待遇
+
+1. She is receiving treatment for a hand injury.
+   她的手受伤了，正在接受治疗。
+
+   + receive /rɪˈsiːvɪŋ/
+     + v. 得到，收到；遭受，经受（特定待遇）；对……作出反应；接待，招待；接收（某人为成员）；接收，收听（信号）；（通过无线电）听到；购买，窝藏（赃物）；接（球）；领受（圣餐面包或葡萄酒）；接受（治疗）；形成（看法，印象）；容纳，承接
+   + injury /ˈɪndʒəri/
+     + n. （身体上的）伤，损害；<法律>（对感情的）伤害，挫伤
+
+2. 
+   He had to go to hospital for treatment. 
+
+   他不得不去医院接受治疗。
+
+3. How successful will this new treatment be? 
+
+   这种新疗法将会有多大成效？
+
+# unhappy /ʌnˈhæpi/
+
+adj. 不快乐的；不幸福的；不适当的
+
+1. He showed us that he was unhappy.
+   他向我们表示他不开心。
+
+2. I hate to see you unhappy. 
+
+   我不愿见你不高兴。
+
+   + hate /heɪt/
+     + v. 厌恶，不喜欢；仇恨，憎恨；（表示不愿说某事，或客气地请求）不愿，不想
+     + n. 憎恶，憎恨；<非正式> 所憎恶的人（或事物）；<非正式>所憎恶的人（或事物）
+
+3. 
+   He sure looked unhappy. 
+
+   他的确显得不高兴。
+
+
+
+---
+
+
+
+# skip /skɪp/
+
+v. 蹦蹦跳跳地走；跳绳；不做（应做的事等），不参加；跳过，略过；快速转移，骤然转换（话题）；悄悄溜走，突然离开；打水漂；当（运动队的）领队
+
+n. 蹦跳；（计算机）跳跃（进位），跳行；<美，非正式>违约者，讨债者；<英> 废料桶；罐笼，箕斗，吊斗；（草地滚木球或冰壶运动队的）领队，队长
+
+1. The girl is exercising with a skipping rope.
+   这个小女孩正在练习跳绳。
+
+   + rope /roʊp/
+     + n. 粗绳，绳索；（球状物的）（一）串，（一）条；<美>（套捕牛、马等的）套索；（拳击台、摔跤台的）围绳（the ropes）；绞刑（the rope）；<非正式>办事的规矩，诀窍（the ropes）
+     + v. 用绳子捆（或绑、系）；<美>用绳套捕捉（动物）；用绳（或带子）围起（或隔开）（rope sth. off）；借绳爬下/借绳登山（rope down/up）；<非正式>说服……参加（活动） (rope someone in/into)；拧成绳状
+
+2. Can we skip the small talk? 
+
+   我们能不能跳过闲聊？
+
+3. Don't skip this part! 
+
+   别跳过这个环节！
+
+# supportive /səˈpɔːrtɪv/
+
+adj. 支持的，拥护的，给予帮助的
+
+1. My family was supportive of my dream to be a singer.
+   对于我想要成为歌唱家的梦想，我的家人持肯定态度。
+
+2. He was very supportive. 
+
+   他非常支持我的工作。
+
+3. My parents were very supportive of me. 
+
+   而我的父母给了我巨大的支持。
+
+# by no means
+
+决不
+
+1. Although he can sing very loud, he is by no means a good singer.
+   尽管他能唱得很大声，但他决不是一个好歌手。
+
+2. 
+   That was by no means the end of the matter. 
+
+   事情决不可能到此为止。
+
+   + matter /ˈmætər/
+     + n. 事情，问题；事态，情况；困境，麻烦（the matter）；物质；材料，物品，东西；书面材料，印刷品；（身体感染部位排出的）脓，黄水；命题内容；（表示数量或时间之少）大约，左右；（法庭审问或证明的）事项，案件
+     + v. 要紧，有关系；（伤口）化脓，流脓
+
+3. It is by no means cheap. 
+
+   并不便宜。
+
+   + cheap /tʃiːp/
+     + adj. 便宜的，廉价的；价低质劣的；小气的，吝啬的；卑劣的，可耻的；无足轻重的；简单的，容易获取的
+     + adv. 低价地，便宜地
+
+# fall /fɔːl/
+
+v. 降落，落下；跌倒，倒塌；（水平、数量、价格等）下跌，减少；属于；下垂，低垂；照射（到），（阴影）落在；降临，发生；倒台，失势；被打败，沦陷；阵亡，被击毙；打中，击中；（嗓音或声音）变轻，变小；进入（某状态），开始变成（某事物）
+
+n. 落下，跌倒；（数量、水平、价格等的）下降，降低；秋天，秋季；失败，垮台 ；瀑布；（摔跤或柔道项目中的）摔倒，压倒；（雨、雪等的）降落；堕落
+
+1. An apple fall from the tree and hit Newton.
+   苹果从树上落下并砸中了牛顿。
+   + hit /hɪt/
+     + v. 打，击；撞击，碰撞；击中，命中；击（球）；产生不良影响，危害；攻击，袭击；达到（一个特定的水平，阶段，数字）；碰到，遇到（困难、问题等）；使（某人）突然意识到；使（突然）闻到，使看到；按，摁；<非正式>给（人）一剂毒品（或烈酒）；<非正式>（产品）面市并产生影响；<非正式>给（21点纸牌游戏玩家）发另一张纸牌
+     + n. 打击；命中，击中；很受欢迎的人（或事物），成功；（对网站的）访问，点击；<非正式>毒品的一剂；<美，非正式>暴力犯罪，凶杀；很受欢迎的人（或事物）
+
+2. 
+   I'm not going to fall, am I? 
+
+   我不会摔跤吧，对吗？
+
+3. The price did a free fall. 
+
+   价格发生了自由跌落。
+
+# sympathetic /ˌsɪmpəˈθetɪk/
+
+adj. 同情的，有同情心的；赞同的，支持的；（电影或小说中的人物）讨人喜欢的，可爱的；合意的，合适的；（结构）和谐的；交感神经的，自主神经系统的；（与）交感性（有关）的，（产生）交感性的
+
+n. 交感神经
+
+1. He came over as a sympathetic person. 
+
+   他给人的印象是一个富有同情心的人。
+
+2. I don't find her a very sympathetic person. 
+
+   我觉得她并不十分招人喜欢。
+
+
+
+---
 
 
 
