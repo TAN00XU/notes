@@ -1,14 +1,6 @@
 # Words and phrases 2022.7
 
-  
-
-
-
-
-
-
-
-
+ 
 
 
 
