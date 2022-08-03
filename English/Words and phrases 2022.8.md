@@ -6,6 +6,228 @@
 
 
 
+
+
+
+
+# relieved /rɪˈliːvd/
+
+adj. 放心的，宽慰的
+
+v. 缓和（不快或痛苦）；减轻（问题的严重性）；调剂，使有趣（relieve 的过去式和过去分词形式）
+
+1. The parents were relieved that their child's operation was successful.
+   孩子的手术成功了，这对父母松了一口气。
+
+2. 
+   She sounded relieved. 
+
+   她听上去很放心。
+
+3. I was quite relieved to hear that you didn't get hurt. 
+
+   听到你没有受伤，我就放心了。
+
+# abandon /əˈbændən/
+
+v. 抛弃，遗弃；（因危险）离开，舍弃；中止，不再有；放弃（信念、信仰或看法）；陷入，沉湎于（某种情感）
+
+n. 放任，放纵
+
+1. He had to abandon his car in the desert.
+   他不得不把自己的车子抛弃在沙漠中。
+   + desert /ˈdezərt/
+     + n. 沙漠，荒漠；荒凉的地方；应得的赏罚
+     + v. 离弃，舍弃（某地）；抛弃，遗弃（某人）；背弃，放弃；擅离，开小差；突然丧失
+     + adj. 无人居住的，荒凉的；像沙漠的
+
+2. The captain gave the order to abandon ship. 
+
+   船长下令弃船。
+
+# call forth
+
+唤起；使产生；使起作用
+
+1. The sale at the mall called forth customers' up to shop.
+   商场的大减价唤起了顾客们强烈的购物欲。
+   + sale /seɪl/
+     + n. 出售，销售；销售额（sales）；销售活动，（尤指）拍卖；降价出售，大减价；销售部门（sales）；销售业务，销售工作（sales）
+   + mall /mɔːl/
+     + n. 购物中心，步行商业区；（有遮蔽设施的）步行道，散步场所；铁圈球球场
+
+# accent /ˈæksent/
+
+n. 口音，腔调，土音；着重点，强调；重音；（字母上的）读音符号；点缀，特色
+
+v. 强调，突出；重读；以重音演奏
+
+1. 
+   Everybody laughs at my accent. 
+
+   大家都拿我的口音取笑。
+
+2. The word "tomato" is pronounced differently in English and American accents.
+   “番茄”的英式口音和美式口语不同。
+
+   + pronounced /prəˈnaʊnst/
+     + adj. 明显的，显著的；讲出来的
+     + v. 发音；宣告；断言（pronounce 的过去式和过去分词）
+
+# actor /ˈæktər/
+
+n. 演员；像在演戏的人；（行动或过程）参与者
+
+1. An actor has to be able to show different expressions.
+   演员必须能展现出不同的表情。
+   + expression /ɪkˈspreʃən/
+     + n. 表达，表示；表情，神情；（表演、歌唱或演奏时的）情感表现；词语，措词；式，表达式；挤压
+
+2. I yearned to be an actor. 
+
+   我曾渴望成为一名演员。
+
+   + yearn /jɜːrn/
+     + v. 怀念，渴望
+
+3. 
+   Did you always want to be an actor? 
+
+   你以前一直想当演员吗？
+
+4. He was a poor actor. 
+
+   他是个差劲的演员。
+
+   + poor /pʊr; pɔːr/
+     + adj. 贫穷的；可怜的，不幸的；（身体）虚弱的，衰弱的；不擅长的，不熟练的；劣质的，差的，次的；贫乏的；（数量、比率等）不理想的，不合理的
+
+
+
+---
+
+
+
+# young /jʌŋ/
+
+adj. 幼小的，年轻的；存在不久的，新成立的；（显得）年轻的，（显得）岁数不大的；适合年轻人的；由年轻人（或儿童）构成的，青少年的，平均年龄小的；夭折的，早逝的
+
+n. 年轻人（the young）；幼崽，雏鸟
+
+1. He seemed so young, a mere boy. 
+
+   他看来那么年轻，只是个孩子。
+
+   + mere /mɪr/
+     + adj. 仅仅，只不过；只凭……就足以
+     + n. <旧>小湖，池塘；（尤指毛利人用绿岩制的武器）石棒
+
+2. Our company is quite young, founded one month ago.
+   我们公司很新，于一个月前成立。
+
+# widely /ˈwaɪdli/
+
+adv. 普遍地，广泛地，范围广地；大不相同
+
+1. 
+   The idea is now widely accepted. 
+
+   这个思想现在已获得普遍接受。
+
+   + accepted /əkˈseptɪd/
+     + adj. 公认的，为公众所接受的
+     + v. 接受；相信，认为……正确；同意（accept 的过去式和过去分词形式）
+
+2. She's very widely read in law. 
+
+   她在法律方面知识渊博。
+
+# amazed /əˈmeɪzd/
+
+adj. 惊奇的，惊讶的
+
+v. 使惊奇，使惊愕（amaze 的过去式和过去分词形式）
+
+1. They are both amazed by the splendid views.
+   他们俩都对这壮丽的风景惊叹不已。
+   + splendid /splendɪd/
+     + adj. 极佳的，非常好的；壮丽的，灿烂的，辉煌的；（一段时光）令人愉快的
+     + int. （表示赞许或满意）好极了，痛快
+
+2. Just the size of the place amazed her. 
+
+   仅仅地方之大就使她十分惊奇。
+
+3. I was amazed at the extent of his knowledge. 
+
+   他知识之渊博令我惊奇。
+
+   + extent /ɪkˈstent/
+     + n. 程度；范围，长度
+
+# call at /kɔːl æt/
+
+拜访，访问；停靠（车站），短暂访问（某地）
+
+1. The teacher called at her student's home to talk with his parents.
+   这位老师到学生家里拜访，和其家长进行了一番交谈。
+
+2. May I call at your office sometime? 
+
+   我能去办公室拜访你吗？
+
+3. Do we call at Rome? 
+
+   我们在罗马停留吗？
+
+# bored /bɔːrd/
+
+adj. 无聊的，厌倦的；（枪）有特定口径的
+
+v. 使厌烦；钻；盯着看（bore 的过去式和过去分词形式）
+
+1. They are bored of having a meeting.
+   他们开会开烦了。
+
+2. 
+   I'm bored. Let's go home. 
+
+   我无聊着呢。让我们回家吧。
+
+3. People are often bored. 
+
+   人们会经常感到无聊烦闷。
+
+# disabled /dɪsˈeɪbld/
+
+adj. 丧失能力的，有残疾的；（活动、组织、设施）与残疾人有关的
+
+v. 使丧失能力，使伤残；使不能运转（disable 的过去式和过去分词形式）
+
+1. These two young prople are disabled but can still play basketball.
+   这两个年轻人虽然残疾了，但仍能打篮球。
+
+2. 
+   He was born disabled. 
+
+   他天生残疾。
+
+3. 
+   She did not perceive herself as disabled. 
+
+   她没有把自己看成残疾人。
+
+   + perceive /pərˈsiːv/
+     + vt. 认为，理解；察觉，注意到；意识到
+
+
+
+
+
+---
+
+
+
 # volunteer /ˌvɑːlənˈtɪr/
 
 n. 志愿者，义务工作者；自告奋勇者，主动做某事的人；志愿兵，义勇兵；自生植物；<法律>无因受益人
