@@ -10,6 +10,129 @@
 
 
 
+
+
+# till /tɪl/
+
+prep. 直到，到……为止；<苏格兰>向，朝
+
+conj. 直到，到……为止
+
+n. （商店等处的）现金出纳机，收银机；<英，非正式>（大商店中的）交款处，收银枱；（商店或银行）放钱的抽屉，收银盒；（地质）冰碛（物）
+
+v. 耕作，犁地
+
+1. 
+   I haven't got to leave till seven. 
+
+   我可以等到七点钟才离开。
+
+2. 
+   Sit there and wait till I've done. 
+
+   坐在那儿等到我做完。
+
+3. 
+   I'm happy to leave it till tomorrow. 
+
+   我愿意把它留到明天再做
+
+# call off
+
+取消；依次叫名；叫走
+
+1. The flight was called off because of bed weather.
+   航班因恶劣天气而被取消了。
+
+2. They decided not to call off the plan. 
+
+   他们决定不取消这个计划。
+
+3. Shall we call off the meeting? 
+
+   我们应该取消这次会议吗？
+
+# suggest /səˈdʒest/
+
+v. 提议，建议；推荐，举荐；显示，表明；暗示，暗指；使人想到，使人联想到
+
+1. You look terrible! I suggest you go to see a doctor.
+   你看起来糟透了！我建议你去看医生。
+
+2. 
+   I suggest we let the matter drop. 
+
+   我建议咱们别再提及此事。
+
+3. Who would you suggest for the job? 
+
+   要你说，谁适合做这个工作？
+
+4. Can you suggest a good dictionary? 
+
+   你能推荐一本好词典吗？
+
+# advise /ədˈvaɪz/
+
+v. 通知，告知；劝告，建议
+
+1. My friend advised me to use this app when I failed the English exam.
+   当我的英语考试不及格时，我的朋友建议我用这个应用程序。
+   + fail /feɪl/
+     + v. 失败；未能做到，未能做；辜负，使失望；不及格，未能通过；出故障，失灵；衰弱，衰退；破产，倒闭；歉收；不下雨，下雨少；忘记
+     + n. 不及格；<非正式>过失，失败
+
+2. I shall act as you advise. 
+
+   我将按你的劝告去做。
+
+3. 
+   I'd advise you not to tell him. 
+
+   我劝你别告诉他。
+
+# call out /ˈkɔːl aʊt/
+
+唤起；出动；大声叫唤
+
+1. 
+   Are you ready to call out for help? 
+
+   你是否准备呼求帮助？
+
+2. Firefighters have been called out to the house fire.
+   消防员被召集来扑灭房屋大火。
+
+   + firefighter /faɪərfaɪtər/
+     + n. 消防队员
+   + fighter /ˈfaɪtər/
+     + n. 战士，斗争者；斗士；奋斗者；好战者
+
+# autumn /ˈɔːtəm/
+
+n. 秋天，秋季；晚年，渐衰期；秋（从秋分到冬至）
+
+adj. 秋天的，秋季的
+
+1. Leaves turn yellow in the autumn.
+   秋天，叶子都变黄了。
+   + leaves /liːvz/
+     + n. 树叶，叶片；花瓣；（纸）页，张；薄金属片；活动桌板，折叠桌板；（窗、门等）扇；空心墙的内面（或外面）（leaf 的复数）
+     + v. 离开；让……留下（leave 的第三人称单数）
+
+2. 
+   Autumn has arrived here. 
+
+   秋天到了。
+
+
+
+
+
+---
+
+
+
 # relieved /rɪˈliːvd/
 
 adj. 放心的，宽慰的
