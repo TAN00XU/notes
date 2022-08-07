@@ -1,4 +1,4 @@
-# Words and phrases 2022.8
+#        Words and phrases 2022.8
 
 
 
@@ -9,6 +9,236 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+# capable of /ˈkeɪpəbl/
+
+有……能力的；可……的
+
+1. The baby is already capable of feeding himself.
+   宝宝已经能够自己吃饭了。
+
+   + feeding /ˈfiːdɪŋ/
+     + n. 饲养；吃；输送
+     + adj. 供给饲料的；摄取食物的
+     + v. 饲养（feed 的ing形式）
+
+2. 
+   I wouldn't have thought him capable of it. 
+
+   我不会想到他能干这事。
+
+   + thought /θɔːt/
+     + n. 想法，看法，主意；考虑，深思；关心，顾虑；意图，希望，念头；思想，思潮；思考，思维；心思，思想（thoughts）
+     + v. 认为，觉得；思考，考虑；想做，打算做（think 的过去式和过去分词形式）
+
+3. 
+   I'm perfectly capable of doing it myself, thank you. 
+
+   谢谢，我完全有能力自己做。
+
+   + perfectly /ˈpɜːrfɪktli/
+     + adv. 完美地，极佳地；绝对地，完全地
+
+# united /juˈnaɪtɪd/
+
+adj. 团结的，统一的；共同的，一致的；联队（用于某些足球队名）；（国家）统一的，合并的
+
+v. （使）联合，（使）团结（unite 的过去式和过去分词形式）
+
+1. The six of us united and working on a business plan together.
+   我们六人团结一致，一起制定商业计划。
+   + together /təˈɡeðər/
+     + adv. 在一起，共同；以使接触（或相结合），到一起；（位置）在一起，紧挨地；关系密切，有婚姻关系；同时，一齐；（团结）在一起，合作地；合计地，总和地；不间断地，接连地；靠着，贴着
+     + adj. <非正式>自信而有条理的，沉稳的；（两人）结婚的，有性关系（或恋爱关系）的
+
+2. 
+   We need to become a more united team. 
+
+   我们要成为一支更加团结的队伍。
+
+# brief /briːf/
+
+adj. 短暂的；简短的；（衣服）很短的
+
+v. 给……指示，向……介绍情况；<英>向（辩护律师）提供案情摘要
+
+n. 指示，任务简介；摘要，概要；短内裤（briefs）；辩护状；辩护律师；<英>委托辩护
+
+1. I want to see my brief. 
+
+   我想见我的律师。
+
+2. 
+   Now please be brief – my time is valuable. 
+
+   现在请长话短说–我的时间很宝贵。
+
+   + valuable /ˈvæljuəb(ə)l/
+     + adj. 值钱的，贵重的；有益的，宝贵的；重要的，珍贵的；可估价的
+     + n. 贵重品
+
+3. 
+   There was only time for a brief exchange. 
+
+   只有简短的交谈时间。
+
+   + exchange /ɪksˈtʃeɪndʒ/
+     + n. 交换，互换；短暂的交谈，争吵；交战，交火；兑换，汇兑；交流，互访；交易所；（商品的）调换；电话局，电话交换台；换子，兑子
+     + v. 调换，更换；交流，交谈；交换，互换；兑换，交易
+
+# care for 
+
+关心，照顾；喜欢
+
+1. The mother cared for her daughter when she was sick.
+   妈妈在女儿生病的时候照顾她。
+
+2. He didn't much care for her friends. 
+
+   他不太喜欢她的朋友。
+
+3. Would you care for another drink? 
+
+   您再来一杯好吗？
+
+# breathe /briːð/
+
+v. 呼吸；呼出，吐出；吸入；低声说；透气；（酒）通气透香；将……注入
+
+1. 
+   Every morning we get up early, breathe the fresh air and hear the birds sing in the woods. 
+
+   每天早上我们早早起床，呼吸新鲜空气，听鸟儿在树林里歌唱。
+
+   + fresh /freʃ/
+     + adj. 新的，不同的；新近的，新近体验的；新颖的，独创的；新鲜的；清新的，清爽的；精神饱满的，精力充沛的；（水）淡的，无盐的；（风）凉爽的，强劲的；刚从……来的，刚经历过……的；（尤指对异性）放肆的，大胆无礼的；容光焕发的，气色好的；<美> （油漆）未干的；（人）年轻可爱但缺乏经验的；气味难闻的，有点臭的；（颜色）鲜艳的，明艳的； 新的，不同的； 新近的，新近体验的； <美>（油漆）未干的
+     + adv. 刚刚，新近地
+   + woods /wʊdz/
+     + n. （林）树林，森林；木头
+     + v. 供以木材；用树木覆盖（wood的第三人称单数）
+
+2. It was so heavy that I couldn't breathe. 
+
+   它太重了，我无法呼吸。
+
+
+
+---
+
+
+
+# interfere /ˌɪntərˈfɪr/
+
+v. 干涉，干扰；阻碍，妨害；（未经允许）摆弄，（尤指）弄坏；（光或其他电磁波）相互作用，相互干扰；（指马）碰踝，绊脚
+
+1. I try not to let work interfere with my personal life. 
+
+   我尽量不让工作干扰我的私生活。
+
+   + personal /ˈpɜːrsən(ə)l/
+     + adj. 个人的，私人的；私密的，隐私的；针对个人的，人身攻击的；人身的，身体的；人际的，私交的；供个人使用的；亲自的；有人性的；（语法）人称的
+     + n. （报纸私人广告栏内的）私人信息发布，私人广告；（报纸或杂志上的）个人启事栏，私人广告栏（the personals）
+
+2. 
+   Don't interfere in matters that don't concern you. 
+
+   不要干涉与你无关的事情。
+
+   + concern /kənˈsɜːrn/
+     + n. 担心，忧虑；使人担忧的事物；关心，关爱；重要的事物，关心的事；（某人）负责的事，涉及的事；公司，企业；<非正式>复杂的物体
+     + v. 有关，关于；涉及，影响；使忧虑，使担心
+
+# call up /kɔːl ʌp/
+
+打电话给；召集；使想起；提出
+
+1. She is going to call up her boss.
+   她正准备给她老板打电话。
+
+2. 
+   We call up our friends. 
+
+   我们召集朋友。
+
+# text /tekst/
+
+n. （书、杂志等中区别于图片的）正文，文字材料；（演说等的）原文；（学习某课程必读的）课本，教科书；（供讨论或回答问题的）文本，文章；（讨论等的）题目，主题；（尤指科学或学术方面的）文献；（计算机、手机等）文档；短信；（尤指引作布道主题的）圣经经文；（尤指用于手稿的）粗体正楷
+
+v. （用手机）给……发短信
+
+1. Mary is reading the text before +ing the exam question.
+   在回答考试问题前，玛丽正在阅读正文。
+
+2. 
+   How can I wrap the text around? 
+
+   我怎么才能使文本换行呢？
+
+   - wrap /ræp/
+     - v. 包，裹，包装；用（手臂、指头或腿）围紧，用……绕住；绕……走；完成拍摄，杀青 ；<非正式>使（车辆）撞上（固定物体）；（使文字）换行
+     - n. 披肩，围巾； 包裹（或包装）材料；宽松外套，浴衣；面卷饼（一种三明治，由薄面包包着肉、蔬菜等）；拍摄（或录音）结束，停机；（全身覆盖湿布或海草等进行的）皮肤护理；（喻）秘密；<英，非正式>一小包白粉（毒品）
+
+3. I'll send you a text message. 
+
+   我会给你发一条短信。
+
+# bachelor /ˈbætʃələr/
+
+n. 未婚男子，单身汉；学士；尚未交配的雄鸟
+
+1. Believe it or not, he is still a bachelor. 
+
+   信不信由你，他还是个单身汉。
+
+2. After four years of hard work, I finally got my bachelor's degree！
+
+   进过四年的努力学习，我终于拿到了我的学士学位！
+
+   + degree /dɪˈɡriː/
+     + n. 度，度数（温度单位）；（角的）度，度数；学位课程，学位；程度；音级；次，次数；（形容词或副词的）级；共济会职务；<旧>社会地位，官衔
+
+# candidate /ˈkændɪdət/ for 
+
+候选人；人选
+
+1. There are three candidate for the general election.
+   有三位候选人参加全国竞选。
+   + general /ˈdʒen(ə)rəl/
+     + adj. 总体的，普遍的；一般的，常规的；大致的，大概的；综合的，广泛的；首席的，总管的
+     + n. 上将，将军；半军事化管理的宗教组织（如耶稣会修士、多明我会修士或救世军）的领袖；<古>大众，公众
+   + election /ɪˈlekʃ(ə)n/
+     + n. 选举；当选；选举权；上帝的选拔
+
+# bitter /ˈbɪtər/
+
+adj. 味苦的；痛苦的，辛酸的；激烈的，充满敌意的；愤愤不平的；严寒的，刺骨的；（巧克力）黑色不加糖的
+
+n. 苦啤酒
+
+adv. 严寒刺骨地
+
+v. 使变苦
+
+1. The medicine is so bitter that she can't drink it without suger.
+   这药太苦了，以至于她不加糖就喝不下去。
+
+2. I felt quite bitter about it at the time. 
+
+   当时我对此感到相当痛苦。
+
+
+
+---
 
 
 
