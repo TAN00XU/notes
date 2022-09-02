@@ -1,6 +1,7 @@
 package com.tan00xu.config;
 
 import org.springframework.util.StringUtils;
+import org.springframework.web.server.i18n.LocaleContextResolver;
 import org.springframework.web.servlet.LocaleResolver;
 
 
@@ -23,9 +24,9 @@ public class MyLocaleResolver implements LocaleResolver {
         //如果获取到了，则使用获取到的语言
         if (StringUtils.hasText(language)) {
             String[] split = language.split("_");
+            //国家 地区
             locale = new Locale(split[0], split[1]);
         }
-
         return locale;
     }
 

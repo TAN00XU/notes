@@ -408,6 +408,7 @@ public class MyLocaleResolver implements LocaleResolver {
         //如果获取到了，则使用获取到的语言
         if (StringUtils.hasText(language)) {
             String[] split = language.split("_");
+            //国家 地区
             locale = new Locale(split[0], split[1]);
         }
 
@@ -418,6 +419,15 @@ public class MyLocaleResolver implements LocaleResolver {
     public void setLocale(HttpServletRequest request, HttpServletResponse response, Locale locale) {
 
     }
+}
+```
+
+## 将自己写的组件配置到容器中
+
+```java
+@Bean
+public LocaleResolver localeResolver() {
+    return new MyLocaleResolver();
 }
 ```
 

@@ -11,7 +11,7 @@ public class CmdOutputInformation {
      * debug
      * @param debug 待输出的字符串
      */
-    public void debug(String debug) {
+    public static void debug(String debug) {
         System.out.println("\033[4;34m" + debug + "\033[0m");
     }
 
@@ -19,7 +19,7 @@ public class CmdOutputInformation {
      * info
      * @param info 待输出的字符串
      */
-    public void info(String info) {
+    public static void info(String info) {
         System.out.println("\033[32m" + info + "\033[0m");
     }
 
@@ -27,7 +27,7 @@ public class CmdOutputInformation {
      * warn
      * @param warn 待输出的字符串
      */
-    public void warn(String warn) {
+    public static void warn(String warn) {
         System.out.println("\033[33m" + warn + "\033[0m");
     }
 
@@ -35,15 +35,9 @@ public class CmdOutputInformation {
      * error
      * @param error 待输出的字符串
      */
-    public void error(String error) {
+    public static void error(String error) {
         System.out.println("\033[7;31;40m" + error + "\033[0m");
     }
 
-    public static void main(String[] args) {
-        CmdOutputInformation cmdOutputInformation = new CmdOutputInformation();
-        cmdOutputInformation.debug("debug");
-        cmdOutputInformation.info("info");
-        cmdOutputInformation.warn("warn");
-        cmdOutputInformation.error("error");
-    }
+
 }

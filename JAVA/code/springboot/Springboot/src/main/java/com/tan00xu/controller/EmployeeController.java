@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
+/**
+ * @author TAN00XU
+ */
 @Controller
 @RequestMapping("/emp")
 public class EmployeeController {
@@ -36,7 +39,7 @@ public class EmployeeController {
     }
     @PostMapping("/addEmployee")
     public String addEmployee(Employee employee) {
-        new CmdOutputInformation().debug("过=======");
+        System.out.println(employee);
         employeeDao.addEmployee(employee);
         return "redirect:/emp/empList";
     }
@@ -47,9 +50,28 @@ public class EmployeeController {
      */
     @GetMapping("/editEmployee/{id}")
     public String toUpdateEmployee(@PathVariable("id") Integer id, Model model) {
-        
+        Employee employeeById = employeeDao.getEmployeeById(id);
+        model.addAttribute("emp",employeeById);
+        //获取所有部门信息
+        Collection<Department> departments = departmentDao.listDepartment();
+        model.addAttribute("departments", departments);
         return "emp/EmpUpdate";
     }
+
+
+    @PostMapping("/editEmployee")
+    public String updateEmployee(Employee employee) {
+        employeeDao.addEmployee(employee);
+
+        return "redirect:/emp/empList";
+    }
+
+    @GetMapping("/delectEmp/{id}")
+    public String toDeleteEmployee(@PathVariable("id") Integer id, Model model) {
+        employeeDao.deleteEmployeeById(id);
+        return "redirect:/emp/empList";
+    }
+
 
 
 }

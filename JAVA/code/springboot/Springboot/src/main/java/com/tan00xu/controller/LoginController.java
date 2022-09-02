@@ -8,9 +8,24 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpSession;
 
+/**
+ * 登录控制器
+ *
+ * @author TAN00XU
+ */
 @Controller
+@RequestMapping("/user")
 public class LoginController {
-    @RequestMapping("/user/login")
+    /**
+     * 登录
+     *
+     * @param username 用户名
+     * @param password 密码
+     * @param model    模型
+     * @param session  会话
+     * @return {@link String}
+     */
+    @RequestMapping("/login")
     public String login(
             @RequestParam("username") String username,
             @RequestParam("password") String password,
@@ -26,5 +41,18 @@ public class LoginController {
             model.addAttribute("msg", "用户名或密码错误");
             return "index";
         }
+    }
+
+
+    /**
+     * 注销
+     *
+     * @param session 会话
+     * @return {@link String}
+     */
+    @RequestMapping("/logout")
+    public String logout(HttpSession session) {
+        session.invalidate();
+        return "redirect:/index.html";
     }
 }

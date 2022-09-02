@@ -7,9 +7,9 @@ import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+//@EnableWebMvc
 
 @Configuration
-//@EnableWebMvc
 public class MvcConfig implements WebMvcConfigurer {
 
     /**

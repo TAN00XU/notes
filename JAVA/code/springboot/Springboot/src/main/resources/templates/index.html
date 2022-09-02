@@ -16,6 +16,7 @@
 		<form class="form-signin" th:action="@{/user/login}">
 			<img class="mb-4" th:src="@{/img/bootstrap-solid.svg}" alt="" width="72" height="72">
 			<h1 class="h3 mb-3 font-weight-normal" th:text="#{login.tip}"></h1>
+			<!--消息回显-->
 			<p style="color: red" th:text="${msg}"></p>
 			<input type="text" name="username" class="form-control" th:placeholder="#{login.username}" required="" autofocus="">
 			<input type="password" name="password" class="form-control" th:placeholder="#{login.password}" required="">

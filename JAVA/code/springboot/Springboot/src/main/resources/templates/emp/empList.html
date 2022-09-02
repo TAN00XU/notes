@@ -73,12 +73,13 @@
                     <tr th:each="emp:${employees}">
                         <td th:text="${emp.getId}"></td>
                         <td th:text="${emp.getName}"></td>
+                        <td th:text="${emp.getEmail()}"></td>
                         <td th:text="${emp.getGender==1?'男':'女'}"></td>
                         <td th:text="${emp.department.getDepartmentName}"></td>
                         <td th:text="${#dates.format(emp.getBirthday,'yyyy-MM-dd HH:mm:ss')}"></td>
                         <td>
-                            <a class="btn btn-sm btn-primary" th:href="@{/edit/{id}(id=${emp.getId})}">编辑</a>
-                            <button class="btn btn-sm btn-danger">删除</button>
+                            <a class="btn btn-sm btn-primary" th:href="@{/emp/editEmployee/{id}(id=${emp.getId})}">编辑</a>
+                            <a class="btn btn-sm btn-danger" th:href="@{/emp/delectEmp/{id}(id=${emp.getId})}">删除</a>
                         </td>
                     </tr>
                     </tbody>
