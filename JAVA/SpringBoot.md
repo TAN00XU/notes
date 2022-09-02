@@ -1,10 +1,10 @@
 [Spring Boot框架入门教程（快速学习版） (biancheng.net)](http://c.biancheng.net/spring_boot/)
 
-# 微服务
+# 一、微服务
 
 [微服务（Microservices）——Martin Flower - 船长&CAP - 博客园 (cnblogs.com)](https://www.cnblogs.com/liuning8023/p/4493156.html)
 
-# 原理
+# 二、原理
 
 ## 父依赖
 
@@ -87,7 +87,7 @@ C1==>C11
 
 作用：自动扫描并加载符合条件的组件或者bean ， 将这个bean定义加载到IOC容器中
 
-# yaml语法
+# 三、yaml语法
 
 YAML是 "YAML Ain't a Markup Language" （YAML不是一种标记语言）的递归缩写。在开发的这种语言时，YAML 的意思其实是："Yet Another Markup Language"（仍是一种标记语言）
 
@@ -348,7 +348,7 @@ server:
 
 优先级4：资源路径下配置文件
 
-# thymeleaf
+# 四、thymeleaf
 
 [thymeleaf文档](./documents/Thymeleaf3.0文档.pdf)
 
@@ -466,4 +466,152 @@ public void addInterceptors(InterceptorRegistry registry) {
 
 
 
-# Date
+# 五、SpringBoot整合数据库操作
+
+## 5.1 整合JDBC
+
+### 5.1.1 pom
+
+```xml
+<dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-jdbc</artifactId>
+</dependency>
+
+<dependency>
+   <groupId>mysql</groupId>
+   <artifactId>mysql-connector-java</artifactId>
+   <scope>runtime</scope>
+</dependency>
+```
+
+### 5.1.2 yaml配置
+
+```yaml
+spring:
+  datasource:
+    username: root
+    password: 123123
+    #时区 serverTimezone=UTC&
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+```
+
+### 5.1.3 测试
+
+```java
+@Autowired
+DataSource dataSource;
+@Test
+void contextLoads() throws SQLException {
+   //查看默认数据源 class com.zaxxer.hikari.HikariDataSource
+   System.out.println(dataSource.getClass());
+   //获得数据库连接
+   Connection connection = dataSource.getConnection();
+   System.out.println("\033[7;31;40m" + connection + "\033[0m");
+   //关闭
+   connection.close();
+}
+```
+
+### 5.1.4 JdbcTemplate
+
+#### 5.1.4.1 主要提供以下几类方法：
+
++ execute方法：可以用于执行任何SQL语句，一般用于执行DDL语句；
++ update方法及batchUpdate方法：update方法用于执行新增、修改、删除等语句；
++ batchUpdate方法用于执行批处理相关语句；
++ query方法及queryForXXX方法：用于执行查询相关语句；
++ call方法：用于执行存储过程、函数相关语句。
+
+#### 5.1.4.2 测试
+
+```java
+package com.tan00xu.controler;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+import java.util.Map;
+
+@RestController
+public class JdbcController {
+
+    @Autowired
+    JdbcTemplate jdbcTemplate;
+
+    /**
+     * 查询数据库的所有信息
+     *
+     * @return {@link List}<{@link Map}<{@link String}, {@link Object}>>
+     */
+    @GetMapping("/listALl")
+    public List<Map<String,Object>> ListALl(){
+        String sql = "select * from user";
+        return jdbcTemplate.queryForList(sql);
+
+    }
+
+    /**
+     * 添加用户
+     *
+     * @return {@link String}
+     */
+    @GetMapping("/addUser")
+    public String addUser() {
+        String sql = "insert into test.user(id,username,password) value (2,'张三','123123')";
+        jdbcTemplate.update(sql);
+        return "OK";
+    }
+
+    @GetMapping("/update/{id}")
+    public String updateUser(@PathVariable("id") int id) {
+        String sql = "update test.user set username =?,password =? where id="+id;
+        //封装
+        Object[] objects = new Object[2];
+        objects[0] ="李四";
+        objects[1] = "zzzzzz";
+
+        jdbcTemplate.update(sql,objects);
+        return "OK";
+    }
+
+    @GetMapping("/delete/{id}")
+    public String deleteUse(@PathVariable("id") int id) {
+        String sql = "delete from test.user where id=?";
+        jdbcTemplate.update(sql,id);
+        return "OK";
+    }
+
+}
+```
+
+## 5.2 整合Druid数据源
+
+### 5.2.1 pom
+
+```xml
+<dependency>
+   <groupId>com.alibaba</groupId>
+   <artifactId>druid</artifactId>
+   <version>1.2.11</version>
+</dependency>
+```
+
+### 5.2.2 yaml配置
+
+```yaml
+spring:
+  datasource:
+    username: root
+    password: 123123
+    #时区 serverTimezone=UTC&
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+```
