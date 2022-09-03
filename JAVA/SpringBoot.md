@@ -763,9 +763,15 @@ public ServletRegistrationBean StatViewServlet(){
 }
 ```
 
+### 5.5.7  配置 Druid web 监控 filter 过滤器
+
+
+
 ```java
 /**
  * 过滤器
+ * 配置 Druid 监控 之  web 监控的 filter
+ * WebStatFilter：用于配置Web和Druid数据源之间的管理关联监控统计
  *
  * @return {@link FilterRegistrationBean}
  */
@@ -784,3 +790,133 @@ public FilterRegistrationBean webStatFilter() {
 
 ## 5.3 整合Mybatis
 
+### 5.3.1 pom.xml
+
+```xml
+<dependency>
+   <groupId>org.mybatis.spring.boot</groupId>
+   <artifactId>mybatis-spring-boot-starter</artifactId>
+   <version>2.2.2</version>
+</dependency>
+```
+
+### 5.3.2 yaml配置
+
+```yaml
+#整合mybatis
+mybatis:
+  #resources/mybatis/mapper/*.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.tan00xu.pojo
+```
+
+### 5.3.3 mapper
+
+```java
+@Mapper
+@Repository
+public interface UserMapper {
+
+    /**
+     * 列出所有用户
+     *
+     * @return {@link List}<{@link User}>
+     */
+    List<User> listAllUser();
+
+    /**
+     * 根据id得到用户信息
+     *
+     * @param id id
+     * @return {@link User}
+     */
+    User getUserById(int id);
+
+    /**
+     * 添加用户
+     *
+     * @param user 用户
+     * @return int
+     */
+    int addUser(User user);
+
+    /**
+     * 更新用户
+     *
+     * @param user 用户
+     * @return int
+     */
+    int updateUser(User user);
+
+    /**
+     * 通过id删除用户
+     *
+     * @param id id
+     * @return int
+     */
+    int deleteUserById(int id);
+
+}
+```
+
+
+
+### 5.3.4 mapper.xml
+
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tan00xu.mapper.UserMapper">
+    <insert id="addUser">
+        insert into test.user (id, username, password)
+        VALUES (#{id}, #{username}, #{password})
+    </insert>
+
+    <delete id="deleteUserById">
+        delete
+        from test.user
+        where id = #{id}
+    </delete>
+
+    <update id="updateUser">
+        update test.user
+        set username=#{username},
+            password=#{password}
+        where id = #{id}
+    </update>
+
+    <select id="listAllUser" resultType="com.tan00xu.pojo.User">
+        select *
+        from test.user;
+    </select>
+
+    <select id="getUserById" resultType="com.tan00xu.pojo.User">
+        select *
+        from test.user
+        where id = #{id};
+    </select>
+</mapper>
+```
+
+### 5.3.5 controller
+
+```java
+@RestController
+public class UserController {
+
+    @Autowired
+    private UserMapper userMapper;
+
+    @GetMapping("/listAllUser")
+    public List<User> listAllUser(){
+        List<User> userList = userMapper.listAllUser();
+        userList.forEach(System.out::println);
+        return userList;
+
+    }
+
+}
+```
