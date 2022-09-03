@@ -592,7 +592,21 @@ public class JdbcController {
 
 ## 5.2 整合Druid数据源
 
-### 5.2.1 pom
+### 5.2.1 Druid简介
+
+Java程序很大一部分要操作数据库，为了提高性能操作数据库的时候，又不得不使用数据库连接池。
+
+Druid 是阿里巴巴开源平台上一个数据库连接池实现，结合了 C3P0、DBCP 等 DB 池的优点，同时加入了日志监控。
+
+Druid 可以很好的监控 DB 池连接和 SQL 的执行情况，天生就是针对监控而生的 DB 连接池。
+
+Druid已经在阿里巴巴部署了超过600个应用，经过一年多生产环境大规模部署的严苛考验。
+
+Spring Boot 2.0 以上默认使用 Hikari 数据源，可以说 Hikari 与 Driud 都是当前 Java Web 上最优秀的数据源，我们来重点介绍 Spring Boot 如何集成 Druid 数据源，如何实现数据库监控。
+
+Github地址：https://github.com/alibaba/druid/
+
+### 5.2.2 pom
 
 ```xml
 <dependency>
@@ -602,7 +616,16 @@ public class JdbcController {
 </dependency>
 ```
 
-### 5.2.2 yaml配置
+```xml
+<!--使用log4j日志-->
+<dependency>
+   <groupId>log4j</groupId>
+   <artifactId>log4j</artifactId>
+   <version>1.2.17</version>
+</dependency>
+```
+
+### 5.2.3 yaml配置
 
 ```yaml
 spring:
@@ -615,3 +638,149 @@ spring:
     #数据源
     type: com.alibaba.druid.pool.DruidDataSource
 ```
+
+### 5.2.4 **com.alibaba.druid.pool.DruidDataSource**基本配置参数
+
+| 配置                          | 缺省值             | 说明                                                         |
+| ----------------------------- | ------------------ | ------------------------------------------------------------ |
+| name                          |                    | 配置这个属性的意义在于，如果存在多个人数据源，监控的时候可以通过名字来区分开来。如果没有这个配置，将会生成一个名字，格式是："DataSouce-"+System.identityHashCode(this). |
+| url                           |                    | 连接数据库的url，不同数据库不一样。<br />例如：<br />msql:<br />jdbc:mysql://localhost:3306/druid<br />oracle:<br />jdbc:oracle:thin:@machine_name:port:dbname |
+| username                      |                    | 连接数据库的用户名                                           |
+| password                      |                    | 连接数据库的密码。如果你不希望密码直接写在配置文件中，可以使用ConfigFilter。 |
+| diverClassName                | 根据url自动识别    | 这一项可配可不配，如果不配置druid会根据url自动识别dbType ,然后选择相应的driverClassName |
+| initialSize                   | 0                  | 初始化时建立物理连接的个数。初始化发生在显示调用init方法，或者第一次getConnection时 |
+| maxActive                     | 8                  | 最大连接池数量                                               |
+| maxIdle                       | 8                  | 已不再使用，配置了也没效果                                   |
+| minIdle                       |                    | 最小连接池数量                                               |
+| maxWait                       |                    | 获取连接时最大等待时间,单位毫秒。配置了maxWait之后,缺省启用公平锁，并发效率会有所下降，如果需要可以通过配置<br/>useUnfairLock属性为true使用非公平锁。 |
+| poolPrearedStatements         | false              | 是否缓存preparedStatement，也就是PSCache。PsCache对支持游标的数据库性能提升巨大，比如说oracle。在mysql下建议关闭。 |
+| maxOpenPrearedStatements      | -1                 | 要启用PSCache,必须配置大于0，当大于0时，poolPreparedStatements自动触发修改为true。在Druid中，不会存在Oracle 下PSCache占用内存过多的问题，可以把这个数值配置大一些，比如说100 |
+| validationQuery               |                    | 用来检测连接是否有效的sql，要求是一个查询语句。如果validationQuery为null , testOnBorrow、testOnReturn.testWhileldle都不会其作用。 |
+| validationQueryTimeout        |                    | 单位:秒，检测连接是否有效的超时时间。底层调用jdbcStatement对象的void setQueryTimeout(int seconds)方法 |
+| testOnBorrow                  | true               | 申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。 |
+| testOnReturn                  | false              | 归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能 |
+| testWhileIdle                 | false              | 建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效。 |
+| timeBetweenEvictionRunsMillis | 1分钟(1.0.14)      | 有两个含义:<br />1) Destroy线程会检测连接的间隔时间，如果连接空闲时间大于等于minEvictableldleTimeMillis则关闭物理连接<br />2)testWhileldle的判断依据,详细看testWhileldle属性的说明 |
+| numTestsPerEvictionRun        |                    | 不再使用，一个DruidDataSource只支持一个EvictionRun           |
+| minEvictableldleTimeMillis    | 30分钟( 1.0.14）   | 连接保持空闲而不被驱逐的最长时间                             |
+| connectionInitSqls            |                    | 物理连接初始化的时候执行的sql                                |
+| exceptionSorter               | 根据dbType自动识别 | 当数据库抛出一些不可恢复的异常时,抛弃连接                    |
+| filters                       |                    | 属性类型是字符串，通过别名的方式配置扩展插件，常用的插件有:监控统计用的filter:stat 日志用的filter:log4j 防御sql注入的filter:wall |
+| proxyFilters                  |                    | 关型是List<com.alibaba.druid.filter.Filter>，如果同时配置了filters和proxyFilters，是组合关系，并非替换关系 |
+
+### 5.2.5 常用配置
+
+```yaml
+spring:
+  datasource:
+    username: root
+    password: 123123
+    #时区 serverTimezone=UTC&
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    #Spring Boot 默认是不注入这些属性值的，需要自己绑定
+    #druid 数据源专有配置
+    #druid:
+    # 配置初始化大小、最小、最大线程数
+    initialSize: 5
+    minIdle: 5
+    # CPU核数+1，也可以大些但不要超过20，数据库加锁时连接过多性能下降
+    maxActive: 20
+    # 最大等待时间，内网：800，外网：1200（三次握手1s）
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    # 配置一个连接在池中最大空间时间，单位是毫秒
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1
+    testWhileIdle: true
+    # 设置从连接池获取连接时是否检查连接有效性，true检查，false不检查
+    testOnBorrow: false
+    # 设置从连接池归还连接时是否检查连接有效性，true检查，false不检查
+    testOnReturn: false
+    # 可以支持PSCache（提升写入、查询效率）
+    poolPreparedStatements: true
+    # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙，stat：监控统计、log4j：日志记录、wall：预防sql注入
+    # 如果运行时报错 java.lang.ClassNotFoundException: org.apache.log4j
+    # 则导入 log4j 依赖即可 https://mvnrepository.com/artifact/log4j/log4j
+    filters: stat,wall,log4j
+    # 保持长连接
+    keepAlive: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+```
+
+5.2.6 自定义数据源
+
+```java
+@Configuration
+public class DruidConfig {
+    /**
+      将自定义的 Druid数据源添加到容器中，不再让 Spring Boot 自动创建
+      绑定全局配置文件中的 druid 数据源属性到 com.alibaba.druid.pool.DruidDataSource从而让它们生效
+      注解@ConfigurationProperties(prefix = "spring.datasource")：作用就是将 全局配置文件中
+      前缀为 spring.datasource的属性值注入到 com.alibaba.druid.pool.DruidDataSource 的同名参数中
+    */
+    @ConfigurationProperties(prefix = "spring.datasource")
+    @Bean
+    public DataSource druidDataSource() {
+        return new DruidDataSource();
+    }
+}
+```
+
+### 5.5.6 后台监控
+
+```java
+/**
+ * 后台监控统计视图servlet
+ * web.xml ServletRegistrationBean
+ * 因为Springboot 内置了servlet容器，所以没有web.xml，替代方法ServletRegistrationBean
+ *
+ * @return {@link ServletRegistrationBean}
+ */
+@Bean
+public ServletRegistrationBean StatViewServlet(){
+    ServletRegistrationBean<StatViewServlet> statViewServletServletRegistrationBean = new ServletRegistrationBean<>(new StatViewServlet(), "/druid/*");
+    //后台需要有人登录，账号密码配置
+    HashMap<String,String> initParameters = new HashMap<>();
+    //增加配置
+    //登录key是固定的 loginUsername loginPassword
+    initParameters.put("loginUsername","admin");
+    initParameters.put("loginPassword","123123");
+
+    //允许谁访问 参数为空所有人能访问,参数为localhost则本机能访问
+    initParameters.put("allow","");
+
+    //禁止谁能访问 initParameters.put("deny","192.168.137.1");
+
+    //设置初始化参数
+    statViewServletServletRegistrationBean.setInitParameters(initParameters);
+
+    return statViewServletServletRegistrationBean;
+}
+```
+
+```java
+/**
+ * 过滤器
+ *
+ * @return {@link FilterRegistrationBean}
+ */
+@Bean
+public FilterRegistrationBean webStatFilter() {
+    FilterRegistrationBean<Filter> filterFilterRegistrationBean = new FilterRegistrationBean<>();
+    filterFilterRegistrationBean.setFilter(new WebStatFilter());
+    //过滤请求
+    Map<String,String> initParameters = new HashMap<>();
+    //这些不统计
+    initParameters.put("exclusions", "*.js,*.css,/druid/*");
+    filterFilterRegistrationBean.setInitParameters(initParameters);
+    return filterFilterRegistrationBean;
+}
+```
+
+## 5.3 整合Mybatis
+

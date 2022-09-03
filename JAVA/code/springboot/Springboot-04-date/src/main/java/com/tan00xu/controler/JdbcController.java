@@ -20,7 +20,7 @@ public class JdbcController {
      *
      * @return {@link List}<{@link Map}<{@link String}, {@link Object}>>
      */
-    @GetMapping("/listALl")
+    @GetMapping("/listAll")
     public List<Map<String,Object>> ListALl(){
         String sql = "select * from user";
         return jdbcTemplate.queryForList(sql);
