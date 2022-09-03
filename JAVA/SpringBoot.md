@@ -920,3 +920,121 @@ public class UserController {
 
 }
 ```
+
+# 六、集成Spring Security
+
+Spring Security是一个功能强大且高度可定制的身份验证和访问控制框架。它实际上是保护基于spring的应用程序的标准。
+
+Spring Security是一个框架，侧重于为Java应用程序提供身份验证和授权。与所有Spring项目一样，Spring安全性的真正强大之处在于它可以轻松地扩展以满足定制需求
+
+在用户认证方面，Spring Security 框架支持主流的认证方式，包括 HTTP 基本认证、HTTP 表单验证、HTTP 摘要认证、OpenID 和 LDAP 等。在用户授权方面，Spring Security 提供了基于角色的访问控制和访问控制列表（Access Control List，ACL），可以对应用中的领域对象进行细粒度的控制。
+
+## 6.1 简介
+
+Spring Security 是针对Spring项目的安全框架，也是Spring Boot底层安全模块默认的技术选型，他可以实现强大的Web安全控制，对于安全控制，我们仅需要引入 `spring-boot-starter-security `模块，进行少量的配置，即可实现强大的安全管理！
+
+记住几个类：
+
++ `WebSecurityConfigurerAdapter`：自定义Security策略
++ `AuthenticationManagerBuilder`：自定义认证策略
++ `@EnableWebSecurity`：开启WebSecurity模式
+
+Spring Security的两个主要目标是 **“认证”** 和 **“授权”**（访问控制）。
+
+“认证”（Authentication）
+
+身份验证是关于验证您的凭据，如用户名/用户ID和密码，以验证您的身份。
+
+身份验证通常通过用户名和密码完成，有时与身份验证因素结合使用。
+
+“授权” （Authorization）
+
+授权发生在系统成功验证您的身份后，最终会授予您访问资源（如信息，文件，数据库，资金，位置，几乎任何内容）的完全权限。
+
+这个概念是通用的，而不是只在Spring Security 中存在。
+
+官网：https://spring.io/projects/spring-security
+
+文档：https://docs.spring.io/spring-security/site/docs/
+
+## 6.2 pom.xml
+
+```xml
+<!--security-->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+```
+
+
+
+## 6.3 SecurityConfig
+
+```java
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+
+    /**
+     * 授权
+     *
+     * @param http http
+     * @throws Exception 异常
+     */
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        //首页所有人可以访问，功能页只有对应有权限的人才能访问
+        //请求授权的规则
+        http.authorizeRequests()
+                .antMatchers("/").permitAll()
+                .antMatchers("/level1/**").hasRole("vip1")
+                .antMatchers("/level2/**").hasRole("vip2")
+                .antMatchers("/level3/**").hasRole("vip3");
+        //没有权限默认会到登录页面
+        http.formLogin()
+                .loginPage("/toLogin")
+                //用户名前端参数
+//                .usernameParameter("user")
+                //密码前端参数
+//                .passwordParameter("pwd")
+                //登录处理网址
+//                .loginProcessingUrl("/login")
+        ;
+
+        //防跨站攻击 默认开启
+        http.csrf().disable();//关闭功能
+        //注销，跳到首页
+        http.logout().logoutSuccessUrl("/");
+
+        //开启记住我
+        http.rememberMe()
+                .rememberMeParameter("remember");
+    }
+
+    /**
+     * 认证
+     * 密码编码：PasswordEncoder
+     *
+     * @param auth 身份验证
+     * @throws Exception 异常
+     */
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.inMemoryAuthentication().passwordEncoder(new BCryptPasswordEncoder())
+                .withUser("123")
+                .password(new BCryptPasswordEncoder().encode("123123"))
+                .roles("vip1")
+
+                .and()
+                .withUser("tx")
+                .password(new BCryptPasswordEncoder().encode("123123"))
+                .roles("vip2", "vip3")
+
+                .and()
+                .withUser("root")
+                .password(new BCryptPasswordEncoder().encode("123123"))
+                .roles("vip1", "vip2", "vip3");
+    }
+}
+```
