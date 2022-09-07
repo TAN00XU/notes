@@ -4,6 +4,8 @@
 
 [微服务（Microservices）——Martin Flower - 船长&CAP - 博客园 (cnblogs.com)](https://www.cnblogs.com/liuning8023/p/4493156.html)
 
+---
+
 # 二、原理
 
 ## 父依赖
@@ -86,6 +88,8 @@ C1==>C11
 这个注解在Spring中很重要 ,它对应XML配置中的元素。
 
 作用：自动扫描并加载符合条件的组件或者bean ， 将这个bean定义加载到IOC容器中
+
+---
 
 # 三、yaml语法
 
@@ -348,6 +352,8 @@ server:
 
 优先级4：资源路径下配置文件
 
+---
+
 # 四、thymeleaf
 
 [thymeleaf文档](./documents/Thymeleaf3.0文档.pdf)
@@ -464,7 +470,7 @@ public void addInterceptors(InterceptorRegistry registry) {
     }
 ```
 
-
+---
 
 # 五、SpringBoot整合数据库操作
 
@@ -921,6 +927,8 @@ public class UserController {
 }
 ```
 
+---
+
 # 六、集成Spring Security
 
 Spring Security是一个功能强大且高度可定制的身份验证和访问控制框架。它实际上是保护基于spring的应用程序的标准。
@@ -1039,6 +1047,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 }
 ```
 
+---
+
 # 七、shiro
 
 ## 7.1 概述
@@ -1131,6 +1141,8 @@ Subject：主体，代表了当前“用户”，这个用户不一定是一个�
 
 + Cryptography：密码模块，Shiro提高了一些常见的加密组件用于如密码加密/解密的
 
+---
+
 # 八、Swagger
 
 官网：https://swagger.io/
@@ -1176,7 +1188,7 @@ public class HelloController {
 }
 ```
 
-8.3 配置SwaggerConfig
+## 8.3 配置SwaggerConfig
 
 ```java
 @Configuration
@@ -1186,10 +1198,42 @@ public class HelloController {
 //新版本3.0
 @EnableOpenApi
 public class SwaggerConfig {
+
+
+    /**
+     * 配置Swagger的Docket的bean实例
+     *
+     * @return {@link Docket}
+     */
+    @Bean
+    public Docket docket() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(apiInfo());
+    }
+
+
+    /**
+     * 配置Swagger的api信息
+     *
+     * @return {@link ApiInfo}
+     */
+    private ApiInfo apiInfo() {
+        Contact contact = new Contact("饮梦", "https://gitee.com/TAN00XU", "2507320149@qq.com");
+        return new ApiInfo(
+                "饮梦的SwaggerAPI",
+                "梦中扬帆",
+                "1.0",
+                "localhost:8080",
+                contact,
+                "Apache 2.0",
+                "http://www.apache.org/licenses/LICENSE-2.0",
+                new ArrayList<>()
+        );
+    }
 }
 ```
 
-#### 新版本需要在application.yaml进行以下配置
+### 新版本需要在application.yaml进行以下配置
 
 ```yaml
 spring:
@@ -1199,11 +1243,115 @@ spring:
       matching-strategy: ant_path_matcher
 ```
 
-## 8.3 测试运行
+## 8.4 测试运行
 
 新版本3.0  **http://localhost:8080/swagger-ui/**
 
 老版本   **http://localhost:8080/swagger-ui.html**
 
-## 8.4 配置Swagger
+## 8.5 配置Swagger扫描接口
 
+```java
+@Bean
+public Docket docket() {
+    return new Docket(DocumentationType.SWAGGER_2)
+            .apiInfo(apiInfo())
+            //是否启用Swagger，若果为false，则不能在浏览器中访问
+            .enable(false)
+            .select()
+            //RequestHandlerSelectors 配置要扫描的接口的方式
+            //.basePackage() 指定要扫描的包
+            //.any() 扫描全部
+            //.none 都不扫描
+            //.withClassAnnotation() 扫描类上的注解，参数是一个注解的反射对象
+            //.withMethodAnnotation()扫描方法的注解
+            .apis(RequestHandlerSelectors.basePackage("com.tan00xu.controller"))
+            //paths() 过滤请求路径，只扫描以此开头的路径
+            .paths(PathSelectors.ant("/hello/**"))
+            .build();
+}
+```
+
+## 8.6 在部分环境中才开启Swagger
+
+```java
+ @Bean
+    public Docket docket(Environment environment) {
+        //设置要显示的Swagger环境
+        Profiles profiles = Profiles.of("dev", "test");
+        //通过environment.acceptsProfiles判断是否处在自己设定的环境中
+        boolean flag = environment.acceptsProfiles(profiles);
+
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(apiInfo())
+                //是否启用Swagger，若果为false，则不能在浏览器中访问
+                .enable(flag);
+    }
+```
+
+application.yaml
+
+```yaml
+spring:
+  profiles:
+    active: dev
+```
+
+application-dev.yaml
+
+```yaml
+spring:
+  mvc:
+    pathmatch:
+      #Springfox 使用的路径匹配是基于AntPathMatcher的，而Spring Boot 2.6.X使用的是PathPatternMatcher
+      matching-strategy: ant_path_matcher
+server:
+  port: 8080
+```
+
+application-prod.yaml
+
+```yaml
+spring:
+  mvc:
+    pathmatch:
+      #Springfox 使用的路径匹配是基于AntPathMatcher的，而Spring Boot 2.6.X使用的是PathPatternMatcher
+      matching-strategy: ant_path_matcher
+server:
+  port: 8082
+```
+
+## 8.7 配置API文档分组
+
+```java
+@Bean
+public Docket docket1(){
+    return new Docket(DocumentationType.SWAGGER_2).groupName("A");
+}
+@Bean
+public Docket docket2(){
+    return new Docket(DocumentationType.SWAGGER_2).groupName("B");
+}
+@Bean
+public Docket docket3(){
+    return new Docket(DocumentationType.SWAGGER_2).groupName("C");
+}
+```
+
+## 8.8 Swagger常用注解
+
+| **描述**           | **注解**           | **作用位置**                 | **常用参数**                                                 |
+| ------------------ | ------------------ | ---------------------------- | :----------------------------------------------------------- |
+| api集描述          | @Api               | controller类                 | @Api(tags = {"tag1","tag2","..."})|
+| api描述            | @ApiOperation      | controller类的方法 | @ApiOperation(value = "功能描述",notes = "备注") |
+| 描述返回对象的意义 | @ApiModel          | 返回对象类 ，返回的实体类    | @ApiModel(value="类名",description="类描述")    |
+| 对象属性           | @ApiModelProperty  | 实体类的字段   | @ApiModelProperty(value = "类属性描述",required = *true*,example = "属性举例",notes = "备注") |
+| 非对象参数集       | @ApiImplicitParams | controller的方法       | @ApiImplicitParams({@ApiImplicitParam(),@ApiImplicitParam(),...}) |
+| 非对象参数描述     | @ApiImplicitParam  | @ApiImplicitParams的方法里用 | @ApiImplicitParam(name = "参数名",value = "参数描述",required = *true*,paramType = "接口传参类型",dataType = "参数数据类型") |
+| Response集         | @ApiResponses      | controller的方法       | @ApiResponses({     @ApiResponse(),@ApiResponse(),..})       |
+| Response           | @ApiResponse       | @ApiResponses里用     | @ApiResponse(code = 10001, message = "返回信息")             |
+| 忽略注解           | @ApiIgnore         | 类，方法，方法参数           | @ApiIgnore          | 
+
+---
+
+# 九、异步任务
