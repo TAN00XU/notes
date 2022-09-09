@@ -1355,3 +1355,201 @@ public Docket docket3(){
 ---
 
 # 九、异步任务
+
+## 9.1 开启异步任务
+
+```java
+@SpringBootApplication
+@EnableAsync //开启异步功能
+public class Springboot09AsyncApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Springboot09AsyncApplication.class, args);
+    }
+
+}
+```
+
+## 9.2 @Async
+
+```java
+@RestController
+public class AsyncController {
+    @Autowired
+    private AsyncService asyncService;
+
+    @Async //告诉Spring这是一个异步方法
+    @RequestMapping("/hello")
+    public String hello() {
+        asyncService.hello();
+        return "ok";
+    }
+
+}
+
+```
+
+```java
+@Service
+public class AsyncService {
+    public void hello(){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("数据正在处理……");
+    }
+}
+```
+
+# 十、邮件任务
+
+## 10.1 pom.xml
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-mail</artifactId>
+</dependency>
+```
+
+## 10.2 配置
+
+```yaml
+spring:
+  mail:
+    username: 邮箱地址
+    password: 授权码
+    host: smtp.163.com
+    nickname: 饮梦
+    # 开启加密验证
+    properties:
+      mail.smtp.ssl:
+        enable: true
+        auth: true
+    default-encoding: UTF-8
+```
+
+## 10.3 实现
+
+```java
+   @Autowired
+    private JavaMailSender javaMailSender;
+
+/**
+     * 发送html邮件
+     *
+     * @param emailProperties 电子邮件属性
+     */
+    public void sendHtmlMail(EmailProperties emailProperties) {
+
+        MimeMessage message = javaMailSender.createMimeMessage();
+        try {
+            //true表示需要创建一个multipart message
+            MimeMessageHelper helper = new MimeMessageHelper(message, true);
+            helper.setFrom(new InternetAddress(fromAddress, nickname, "UTF-8"));
+            helper.setTo(emailProperties.getTo());
+            helper.setSubject(emailProperties.getSubject());
+
+
+            Context context = new Context();
+            // 给模板的参数的上下文
+            context.setVariable("params", emailProperties.getTemplateParams());
+            // 执行模板引擎，执行模板引擎传入模板名、上下文对象,Thymeleaf的默认配置期望所有HTML文件都放在 **resources/templates ** 目录下，以.html扩展名结尾。
+            String emailText = templateEngine.process(emailProperties.getTemplate(), context);
+
+            helper.setText(emailText, true);
+
+            /*if (properties.getFile() != null && !ValidateKit.checkNull(properties.getAttachmentName())) {
+                helper.addAttachment(properties.getAttachmentName(), properties.getFile());
+            }
+            message.setHeader("X-Priority", "3");
+
+
+            message.setHeader("X-MSMail-Priority", "Normal");
+
+            //以outlook名义发送邮件，不会被当作垃圾邮件
+            message.setHeader("X-Mailer", "Microsoft Outlook Express 6.00.2900.5512");
+
+            message.setHeader("X-MimeOLE", "Produced By Microsoft MimeOLE V6.00.2900.5512");
+
+            message.setHeader("ReturnReceipt", "1");
+*/
+            javaMailSender.send(message);
+        } catch (Exception e) {
+            e.printStackTrace();
+            CmdOutputInformationUtils.error("邮件发送失败");
+        }
+    }
+```
+
+# 十一、定时任务
+
+## 11.1 开启定时任务
+
+```java
+@SpringBootApplication
+@EnableScheduling //开启定时功能的注解
+public class Springboot10TestApplication {
+   public static void main(String[] args) {
+      SpringApplication.run(Springboot10TestApplication.class, args);
+   }
+}
+```
+
+## 11.2 定时任务
+
+```java
+@Service
+public class ScheduledService {
+
+    /**
+     * 定时任务
+     * 秒 分 时 日 月 星期
+     */
+    @Scheduled(cron = "50 09 22 * * ?")
+    public void timedTask() {
+        System.out.println("定时任务执行了！");
+    }
+}
+```
+
+## 11.3 cron表达式
+
+|  秒  | 分钟 | 小时 |  日  |  月  | 星期 |  年  |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+|  *   |  *   |  *   |  *   |  *   |  ?   |  *   |
+
+
+
+### 域取值
+
+下表为Cron表达式中六个域能够取的值以及支持的特殊字符。
+
+| 域   | 是否必需 | 取值范围                                                     | 特殊字符      |
+| :--- | :------- | :----------------------------------------------------------- | :------------ |
+| 秒   | 是       | [0, 59]                                                      | * , - /       |
+| 分钟 | 是       | [0, 59]                                                      | * , - /       |
+| 小时 | 是       | [0, 23]                                                      | * , - /       |
+| 日期 | 是       | [1, 31]                                                      | * , - / ? L W |
+| 月份 | 是       | [1, 12]或[JAN, DEC]                                          | * , - /       |
+| 星期 | 是       | [1, 7]或[MON, SUN]。若您使用[1, 7]表达方式，`1`代表星期一，`7`代表星期日。 | * , - / ? L # |
+| 年   | 否       | [当前年份，2099]                                             | * , - /       |
+
+
+
+### 特殊字符
+
+Cron表达式中的每个域都支持一定数量的特殊字符，每个特殊字符有其特殊含义。
+
+| 特殊字符 | 含义     | 示例               |
+| :------- | :------: | :---------------- |
+|   `*`    | 所有可能的值。                                               | 在月域中，`*`表示每个月；在星期域中，`*`表示星期的每一天。   |
+|   `,`    | 列出枚举值。                                                 | 在分钟域中，`5,20`表示分别在5分钟和20分钟触发一次。          |
+|   `-`    | 范围。                                                       | 在分钟域中，`5-20`表示从5分钟到20分钟之间每隔一分钟触发一次。 |
+|   `/`    | 指定数值的增量。                                             | 在分钟域中，`0/15`表示从第0分钟开始，每15分钟。在分钟域中`3/20`表示从第3分钟开始，每20分钟。 |
+|   `?`    | 不指定值，仅日期和星期域支持该字符。                         | 当日期或星期域其中之一被指定了值以后，为了避免冲突，需要将另一个域的值设为`?`。 |
+|   `L`    | 单词Last的首字母，表示最后一天，仅日期和星期域支持该字符。**说明** 指定`L`字符时，避免指定列表或者范围，否则，会导致逻辑问题。 | 在日期域中，`L`表示某个月的最后一天。在星期域中，`L`表示一个星期的最后一天，也就是星期日（`SUN`）。如果在`L`前有具体的内容，例如，在星期域中的`6L`表示这个月的最后一个星期六。 |
+|   `W`    | 除周末以外的有效工作日，在离指定日期的最近的有效工作日触发事件。`W`字符寻找最近有效工作日时不会跨过当前月份，连用字符`LW`时表示为指定月份的最后一个工作日。 | 在日期域中`5W`，如果5日是星期六，则将在最近的工作日星期五，即4日触发。如果5日是星期天，则将在最近的工作日星期一，即6日触发；如果5日在星期一到星期五中的一天，则就在5日触发。 |
+|   `#`    | 确定每个月第几个星期几，仅星期域支持该字符。                 | 在星期域中，`4#2`表示某月的第二个星期四。                    |
