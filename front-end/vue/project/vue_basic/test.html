@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var
+        r,
+        arr = ['apple', 'strawberry', 'banana', 'pear', 'apple', 'orange', 'orange', 'strawberry'];
+console.log(arr)
+    r = arr.filter(function (element, index, self) {
+        console.log('element------'+self.indexOf(element));
+        console.log('index------'+index)
+        console.log("结果"+(self.indexOf(element) === index))
+        return self.indexOf(element) === index;
+    })
+    console.log(r.toString())
+</script>
+</html>

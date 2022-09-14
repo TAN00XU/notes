@@ -16,6 +16,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Ticket implements Serializable {
+
     //    3.票(Ticket)的封装 ：所属区域、排、号、价格、是否被预订(构造时均为false，被预订成功后该属性变为true),预订者的手机号
     /**
      * 区域
