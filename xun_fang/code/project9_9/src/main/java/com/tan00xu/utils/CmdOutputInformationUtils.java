@@ -40,4 +40,5 @@ public class CmdOutputInformationUtils {
         System.out.println("\033[7;31;40m" + error + "\033[0m");
     }
 
+
 }

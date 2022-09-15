@@ -27,6 +27,6 @@ public class AdminViews {
     }
 
     public static void main(String[] args) {
-        queryListViewers();
+
     }
 }
