@@ -2,6 +2,7 @@ package com.tan00xu.views;
 
 import com.tan00xu.controller.ViewerOperatorController;
 import com.tan00xu.model.Viewer;
+import com.tan00xu.utils.CmdOutputInformationUtils;
 
 import java.util.ArrayList;
 

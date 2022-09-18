@@ -15,7 +15,6 @@ public class Server {
         serverThread();
     }
 
-
     static void serverThread() throws IOException {
         //创建服务器端的Socket对象(ServerSocket)
         ServerSocket serverSocket = new ServerSocket(8888);
@@ -42,16 +41,16 @@ public class Server {
                         bufferedWriter.newLine();
                         bufferedWriter.flush();
                     }
-                    System.out.println(25222);
                     //给出反馈
                     BufferedWriter result = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
                     result.write("已收到！");
                     result.newLine();
                     result.flush();
                     // 关闭
+                    socket.close();
                     bufferedReader.close();
                     bufferedWriter.close();
-//                    result.close();
+                    result.close();
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }

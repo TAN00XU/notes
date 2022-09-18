@@ -14,9 +14,7 @@ public class Client {
         clientThread();
     }
 
-
     static String fileName = "files\\client.txt";
-
 
     static void clientThread() throws IOException {
         //创建客户端的Socket对象

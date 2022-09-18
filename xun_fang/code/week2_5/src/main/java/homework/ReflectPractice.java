@@ -1,4 +1,4 @@
-package reflection.demo2;
+package homework;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * @author TAN00XU
  * @date 2022/09/16 19:01
  */
-public class TestReflect6 {
+public class ReflectPractice {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         ArrayList<String> arrayList = new ArrayList<>();
         Class<? extends ArrayList> aClass = arrayList.getClass();
