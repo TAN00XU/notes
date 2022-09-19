@@ -39,7 +39,8 @@ public class StreamCollector {
         Stream<String> stringStream = Stream.of(strArray).filter(s -> Integer.parseInt(s.split(",")[1]) > 30);
         System.out.println("-------------------------------");
 
-        Map<String, Integer> map = stringStream.collect(Collectors.toMap((s -> s.split(",")[0]), s -> Integer.parseInt(s.split(",")[1])));
+        Map<String, Integer> map = stringStream.collect(Collectors.toMap((s -> s.split(",")[0]), s ->
+                Integer.parseInt(s.split(",")[1])));
         for (Map.Entry<String, Integer> stringIntegerEntry : map.entrySet()) {
             System.out.printf("%s : %d\n", stringIntegerEntry.getKey(), stringIntegerEntry.getValue());
         }
