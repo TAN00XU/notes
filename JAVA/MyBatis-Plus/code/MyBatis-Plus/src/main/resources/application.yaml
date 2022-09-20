@@ -1,0 +1,17 @@
+spring:
+  #配置数据源信息
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/mybatis_plus_springboot?serverTimezone=GMT%2B8&characterEncoding=utf-8&&useUnicode=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123123
+mybatis-plus:
+  configuration:
+    # 配置MyBatis日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #设置MyBatis-Plus的全局配置
+  global-config:
+    db-config:
+      #设置实体类锁对应的表统一前缀
+      table-prefix: t_

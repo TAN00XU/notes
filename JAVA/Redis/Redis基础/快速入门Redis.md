@@ -392,7 +392,7 @@ redis-cli [options] [commonds]
 
 ![](assets/OYYWPNo.png)
 
-
+### 使用`--raw`选项解决中文乱码
 
 ### 1.4.2.图形化桌面客户端
 
@@ -1036,15 +1036,21 @@ class RedisStringTests {
     @Test
     void testString() {
         // 写入一条String数据
-        redisTemplate.opsForValue().set("name", "虎哥");
+        redisTemplate.opsForValue().set("time", new Date());
         // 获取string数据
-        Object name = stringRedisTemplate.opsForValue().get("name");
-        System.out.println("name = " + name);
+        Object time = stringRedisTemplate.opsForValue().get("time");
+        System.out.println("time => " + time);
     }
 }
 ```
 
+### 注意
 
+使用redisTemplate写入String可能写入的key有问题，"\xac\xed\x00\x05t\x00\x04time"
+
+使用`StringRedisTemplate`可以解决问题
+
+这是序列化导致的问题 
 
 
 
