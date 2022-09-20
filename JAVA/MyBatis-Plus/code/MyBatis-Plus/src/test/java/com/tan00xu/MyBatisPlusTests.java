@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.lang.reflect.Array;
+import java.sql.Wrapper;
 import java.util.*;
 
 /**
@@ -46,7 +47,7 @@ public class MyBatisPlusTests {
     @Test
     public void testDelete() {
         //通过id删除用户信息
-//        int i = userMapper.deleteById(1572025049776680962L);
+        int i = userMapper.deleteById(1L);
 //        System.out.println("result=>" + i);
 
         //根据map集合中设置的条件删除用户信息
@@ -78,8 +79,8 @@ public class MyBatisPlusTests {
     @Test
     public void testSelect() {
         //通过id查询用户信息 SELECT id,name,age,email FROM user WHERE id=?
-//        User user = userMapper.selectById(1L);
-//        System.out.println(user);
+        User user = userMapper.selectById(1L);
+        System.out.println(user);
 
         //根据多个id查询多个用户信息
 //        List<Long> list = Arrays.asList(1L, 2L, 3L);
@@ -97,5 +98,6 @@ public class MyBatisPlusTests {
 
         Map<String, Object> stringObjectMap = userMapper.selectMapById(1L);
         System.out.println(stringObjectMap);
+        
     }
 }

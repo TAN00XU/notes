@@ -1,6 +1,8 @@
 package com.tan00xu.entity;
 
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.tan00xu.enums.GenderEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -28,9 +30,22 @@ public class User {
      * 年龄
      */
     private Integer age;
+
+    /**
+     * 性别
+     */
+    private GenderEnum gender;
+
     /**
      * 电子邮件
      */
     private String email;
+
+    /**
+     * 是否被删除 逻辑删除字段 0为正常 1为被删除
+     */
+    @TableLogic
+    private Integer isDeleted;
+
 
 }

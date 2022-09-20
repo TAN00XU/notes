@@ -14,4 +14,12 @@ mybatis-plus:
   global-config:
     db-config:
       #设置实体类锁对应的表统一前缀
-      table-prefix: t_
+      #      table-prefix: t_
+      # 配置MyBatis-Plus的主键策略
+      id-type: assign_id
+  #配置类型别名所对应的包
+  type-aliases-package: com.tan00xu.entity
+  #扫描通用枚举包
+  type-enums-package: com.tan00xu.enums
+
+
