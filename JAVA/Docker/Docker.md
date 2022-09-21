@@ -387,3 +387,12 @@ docker cp 目的主机路径 容器id:容器内路径
 ### 2.4.6、总结
 
 ![docker 命令图](assets/command.png)
+
+## 2.5、练习
+
+```shel
+# 之前的启动都是后台，停止了容器之后，容器还可以查到
+# 加上 --rm 用完就删，一般用来测试
+docker run -it --rm tomcat:9.0
+```
+

@@ -1,6 +1,6 @@
 spring:
   redis:
-    host: 192.168.132.128
+    host: 47.109.33.195
     port: 6379
     password: 123123
     database: 0
