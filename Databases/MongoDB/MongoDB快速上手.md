@@ -313,19 +313,19 @@ mongo --help
 
 ### 2.4.1 官网下载压缩包 
 
-### 2.4.1 上传压缩包到Linux中，解压到当前目录
+### 2.4.2 上传压缩包到Linux中，解压到当前目录
 
 ```shell
 tar -xvf mongodb-linux-x86_64-4.0.10.tgz
 ```
 
-### 2.4.2 移动解压后的文件夹到指定的目录中
+### 2.4.3 移动解压后的文件夹到指定的目录中
 
 ```shell
 mv mongodb-linux-x86_64-4.0.10 /usr/local/mongodb
 ```
 
-2.4.3 新建目录，分别用来存储数据和日志
+2.4.4 新建目录，分别用来存储数据和日志
 
 ```shell
 #数据存储目录
@@ -334,7 +334,7 @@ mkdir -p /mongodb/single/data/db
 mkdir -p /mongodb/single/log
 ```
 
-### 2.4.4 新建并修改配置文件
+### 2.4.5 新建并修改配置文件
 
 ```shell
 vi /mongodb/single/mongod.conf
@@ -370,7 +370,7 @@ net:
 
 ```
 
-### 2.4.5 启动MongoDB服务
+### 2.4.6 启动MongoDB服务
 
 ```shell
 /usr/local/mongodb/bin/mongod -f /mongodb/single/mongod.conf
@@ -384,7 +384,7 @@ child process started successfully, parent exiting
 
 如果启动后不是 successfully ，则是启动失败了。原因基本上就是配置文件有问题。
 
-2.4.6 远程连接，连不上的问题
+### 2.4.7 远程连接，连不上的问题
 
 ```shell
 #查看防火墙状态
@@ -395,3 +395,309 @@ systemctl stop firewalld
 systemctl disable firewalld
 ```
 
+### 2.4.8 停止关闭服务
+
+#### 2.4.8.1 快速关闭方法（快速，简单，数据可能会出错）
+
+> 通过系统的kill命令直接杀死进程： 杀完要检查一下，避免有的没有杀掉。
+
+```shell
+# 查看进程
+ps -ef
+# 查看进程
+ps -ef | grep mongod
+#通过进程编号关闭节点
+kill -2 [pid]
+```
+
+##### 【补充】
+
+如果一旦是因为数据损坏，则需要进行如下操作：
+
+1. 删除lock文件
+
+```shell
+rm -f /mongodb/single/data/db/*.lock
+```
+
+2. 修复数据
+
+```shell
+/usr/local/mongdb/bin/mongod --repair --dbpath=/mongodb/single/data/db
+```
+
+#### 2.4.8.2 标准的关闭方法（数据不容易出错，但麻烦）
+
+> 通过mongo客户端中的shutdownServer命令来关闭服务
+
+```shell
+//客户端登录服务，注意，这里通过localhost登录，如果需要远程登录，必须先登录认证才行。
+mongo --port 27017
+//#切换到admin库
+use admin
+//关闭服务
+db.shutdownServer()
+```
+
+
+
+# 三、基本命令
+
+
+
+## 3.1 数据操作
+
+### 3.1.1 选择和创建数据库
+
++ 选择和创建数据库的语法格式，如果数据库不存在则自动创建
+
+```shell
+use 数据库名称
+```
+
++ 查看有权限查看的所有的数据库命令
+
+```shell
+show dbs
+或
+show databases
+```
+
+#### 注意: 
+
+​	在 MongoDB 中，集合只有在内容插入后才会创建! 就是说，创建集合(数据表)后要再插入一个文档(记录)，集合才会真正创建。
+
+#### 查看当前正在使用的数据库命令
+
+`db`
+
+​	MongoDB 中默认的数据库为 test，如果你没有选择数据库，集合将存放在 test 数据库中。
+
+#### 数据库名可以是满足以下条件的任意UTF-8字符串。
+
++ 不能是空字符串（"")。 
++ 不得含有' '（空格)  .  $  /  \和\0 (空字符)。 
++ 应全部小写。 
++ 最多64字节。
+
+#### 有一些数据库名是保留的，可以直接访问这些有特殊作用的数据库。
+
++ admin： 从权限的角度来看，这是"root"数据库。要是将一个用户添加到这个数据库，这个用户自动继承所有数据库的权限。一些特 定的服务器端命令也只能从这个数据库运行，比如列出所有的数据库或者关闭服务器。 
++ local: 这个数据永远不会被复制，可以用来存储限于本地单台服务器的任意集合 c
++ onfig: 当Mongo用于分片设置时，config数据库在内部使用，用于保存分片的相关信息。
+
+
+
+### 3.1.2 数据库的删除
+
+`db.dropDatabase()`
+
+提示：主要用来删除已经持久化的数据库
+
+
+
+## 3.2 集合操作
+
+> 集合，类似关系型数据库中的表。 
+>
+> 可以显示的创建，也可以隐式的创建。
+
+### 3.2.1  集合的显式创建
+
+`db.createCollection(name)`
+
+参数说明： 
+
++ name: 要创建的集合名称
+
+#### 查看当前库中的表：show tables命令
+
+```sql
+show collections
+或
+show tables
+```
+
+#### 集合的命名规范
+
++ 集合名不能是空字符串""。
++ 集合名不能含有\0字符（空字符)，这个字符表示集合名的结尾。 
++ 集合名不能以"system."开头，这是为系统集合保留的前缀。 
++ 用户创建的集合名字不能含有保留字符。有些驱动程序的确支持在集合名里面包含，这是因为某些系统生成的集合中包含该字符。除非你要访问这种系统创建的集合，否则千万不要在名字里出现$。
+
+3.2.2 集合的隐式创建
+
+> 当向一个集合中插入一个文档的时候，如果集合不存在，则会自动创建集合。
+>
+> 通常我们使用隐式创建文档即可。
+
+### 3.2.3 集合的删除
+
+```sql
+db.[集合名称].drop()
+```
+
+#### 返回值
+
+​	如果成功删除选定集合，则 drop() 方法返回 true，否则返回 false。	
+
+
+
+## 3.3 文档基本CRUD
+
+> 文档（document）的数据结构和 JSON 基本一样。 所有存储在集合中的数据都是 BSON 格式。
+
+### 3.3.1 文档的插入
+
+#### 单个文档插入
+
+​	使用insert() 或 save() 方法向集合中插入文档
+
+```sql
+db.collection.insertOne(
+<document or array of documents>,
+{
+writeConcern: <document>,
+ordered: <boolean>
+}
+)
+```
+
+##### 参数:
+
+| Parameter    | Type              | Description                                                  |
+| ------------ | ----------------- | ------------------------------------------------------------ |
+| document     | document or array | 要插入到集合中的文档或文档数组。（(json格式）                |
+| writeConcern | document          | Optional. A document expressing the write concern. Omit to use the default write concern. See Write Concern.Do not explicitly set the write concern for the operation if run in a transaction. To use write concern with transactions, see Transactions and Write Concern. |
+| ordered      | boolean           | 可选。如果为真，则按顺序插入数组中的文档，如果其中一个文档出现错误，MongoDB将返回而 不处理数组中的其余文档。如果为假，则执行无序插入，如果其中一个文档出现错误，则继续处理 数组中的主文档。在版本2.6+中默认为true |
+
+##### 【示例】
+
+要向comment的集合(表)中插入一条测试数据：
+
+```sql
+db.comment.insertOne({
+    "articleid":"100000",
+    "content":"今天天气真好，阳光明媚",
+    "userid":"1001",
+    "nickname":"Rose",
+    "createdatetime":new Date(),
+    "likenum":NumberInt(10),
+    "state":null
+})
+```
+
+查询
+
+```sql
+db.comment.find()
+```
+
+
+
+##### 提示
+
+1. comment集合如果不存在，则会隐式创建 
+2. mongo中的数字，默认情况下是double类型，如果要存整型，必须使用函数NumberInt(整型数字)，否则取出来就有问题了。
+3. 插入当前日期使用 new Date() 
+4. 插入的数据没有指定 _id ，会自动生成主键值
+5. 如果某字段没值，可以赋值为null，或不写该字段。
+
+
+
+#### 批量插入
+
+```sql
+db.collection.insertMany(
+[ <document 1> , <document 2>, ... ],
+{
+writeConcern: <document>,
+ordered: <boolean>
+}
+)
+```
+
+##### 【示例】
+
+```sql
+db.comment.insertMany([
+{
+		"_id": "1",
+		"articleid": "100001",
+		"content": "我们不应该把清晨浪费在手机上，健康很重要，一杯温水幸福你我他。",
+		"userid": "1002",
+		"nickname": "相忘于江湖",
+		"createdatetime": new Date("2019-08-05T22:08:15.522Z"),
+		"likenum": NumberInt(1000),
+		"state": "1"
+	},
+	{
+		"_id": "2",
+		"articleid": "100001",
+		"content": "我夏天空腹喝凉开水，冬天喝温开水",
+		"userid": "1005",
+		"nickname": "伊人憔悴",
+		"createdatetime": new Date("2019-08-05T23:58:51.485Z"),
+		"likenum": NumberInt(888),
+		"state": "1"
+	},
+	{
+		"_id": "3",
+		"articleid": "100001",
+		"content": "我一直喝凉开水，冬天夏天都喝。",
+		"userid": "1004",
+		"nickname": "杰克船长",
+		"createdatetime": new Date("2019-08-06T01:05:06.321Z"),
+		"likenum": NumberInt(666),
+		"state": "1"
+	},
+	{
+		"_id": "4",
+		"articleid": "100001",
+		"content": "专家说不能空腹吃饭，影响健康。",
+		"userid": "1003",
+		"nickname": "凯撒",
+		"createdatetime": new Date("2019-08-06T08:18:35.288Z"),
+		"likenum": NumberInt(2000),
+		"state": "1"
+	},
+	{
+		"_id": "5",
+		"articleid": "100001",
+		"content": "研究表明，刚烧开的水千万不能喝，因为烫嘴。",
+		"userid": "1003",
+		"nickname": "凯撒",
+		"createdatetime": new Date("2019-08-06T11:01:02.521Z"),
+		"likenum": NumberInt(3000),
+		"state": "1"
+	}
+])
+```
+
+##### 提示：
+
++ 插入时指定了 _id ，则主键就是该值。 
++ 如果某条数据插入失败，将会终止插入，但已经插入成功的数据不会回滚掉。
+
+因为批量插入由于数据较多容易出现失败，因此，可以使用try catch进行异常捕捉处理，测试的时候可以不处理。
+
+```sql
+try {
+    db.comment.insertMany([
+        {},
+        {}
+    ]);
+} catch (e) {
+	print (e);
+}
+```
+
+
+
+### 3.3.2 文档的基本查询
+
+```sql
+db.collection.find(<query>, [projection])
+```
+
+参数：
