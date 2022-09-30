@@ -1169,10 +1169,10 @@ Subject：主体，代表了当前“用户”，这个用户不一定是一个�
 
 ```xml
 <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-boot-starter</artifactId>
-            <version>3.0.0</version>
-        </dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-boot-starter</artifactId>
+    <version>3.0.0</version>
+</dependency>
 ```
 
 ## 8.2 编写一个controller
