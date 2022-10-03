@@ -648,3 +648,179 @@ Topic 主题模式可以实现 Pub/Sub 发布与订阅模式和 Routing 路由�
 > \# 匹配一个或多个单词
 >
 > . 作为单词的分割
+
+
+
+## 4.5 工作模式总结
+
+1. 简单模式 HelloWorld 
+
+   一个生产者、一个消费者，不需要设置交换机（使用默认的交换机）。 
+
+2.  工作队列模式 Work Queue 
+
+   一个生产者、多个消费者（竞争关系），不需要设置交换机（使用默认的交换机）。 
+
+3. 发布订阅模式 Publish/subscribe 
+
+   需要设置类型为 fanout 的交换机，并且交换机和队列进行绑定，当发送消息到交换机后，交换机会将消 息发送到绑定的队列。 
+
+4. 路由模式 Routing 
+
+   需要设置类型为 direct 的交换机，交换机和队列进行绑定，并且指定 routing key，当发送消息到交换机 后，交换机会根据 routing key 将消息发送到对应的队列。
+
+5. 通配符模式 Topic 
+
+   需要设置类型为 topic 的交换机，交换机和队列进行绑定，并且指定通配符方式的 routing key，当发送 消息到交换机后，交换机会根据 routing key 将消息发送到对应的队列。
+
+
+
+# 五、Spring 整合**RabbitMQ**
+
+
+
+## 5.1 导包
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>5.3.23</version>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.amqp</groupId>
+        <artifactId>spring-rabbit</artifactId>
+        <version>2.3.10</version>
+    </dependency>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-test</artifactId>
+        <version>5.3.23</version>
+    </dependency>
+</dependencies>
+```
+
+
+
+## 5.2 创建配置文件
+
+### rabbitmq.properties
+
+```properties
+rabbitmq.host=
+rabbitmq.port=5672
+rabbitmq.username=admin
+rabbitmq.password=admin
+#  virtual-host: /tan00xu
+```
+
+### spring-rabbitmq-producer.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/rabbit
+       http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <!--加载配置文件-->
+    <context:property-placeholder location="rabbitmq.properties"/>
+
+    <!--定义rabbitmq connectionFactory-->
+    <rabbit:connection-factory
+            id="connectionFactory"
+            host="${rabbitmq.host}"
+            username="${rabbitmq.username}"
+            password="${rabbitmq.password}"
+    />
+    <!--            virtual-host="${rabbitmq.virtual-host}"/>-->
+
+    <!--定义管理交换机、队列-->
+    <rabbit:admin connection-factory="connectionFactory"/>
+
+    <!--定义持久化队列，不存在则自动创建；不绑定交换机则绑定到默认交换机，默认交换机类型为direct，名字为""，路由键为队列的名字-->
+    <rabbit:queue id="spring_queue" name="spring_queue" auto-declare="true"/>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~广播；所有队列都能收到消息~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--定义广播交换机中的持久化队列，不存在则自动创建-->
+    <rabbit:queue id="spring_fanout_queue_1" name="spring_fanout_queue_1" auto-declare="true"/>
+
+    <!--定义广播交换机中的持久化队列，不存在则自动创建-->
+    <rabbit:queue id="spring_fanout_queue_2" name="spring_fanout_queue_2" auto-declare="true"/>
+
+    <!--定义广播类型交换机；并绑定上述两个队列-->
+    <rabbit:fanout-exchange id="spring_fanout_exchange" name="spring_fanout_exchange" auto-declare="true">
+        <rabbit:bindings>
+            <rabbit:binding queue="spring_fanout_queue_1"/>
+            <rabbit:binding queue="spring_fanout_queue_2"/>
+        </rabbit:bindings>
+    </rabbit:fanout-exchange>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~通配符；*匹配一个单词，#匹配多个单词 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--定义广播交换机中的持久化队列，不存在则自动创建-->
+    <rabbit:queue id="spring_topic_queue_star" name="spring_topic_queue_star" auto-declare="true"/>
+    <!--定义广播交换机中的持久化队列，不存在则自动创建-->
+    <rabbit:queue id="spring_topic_queue_well" name="spring_topic_queue_well" auto-declare="true"/>
+    <!--定义广播交换机中的持久化队列，不存在则自动创建-->
+    <rabbit:queue id="spring_topic_queue_well2" name="spring_topic_queue_well2" auto-declare="true"/>
+
+    <rabbit:topic-exchange id="spring_topic_exchange" name="spring_topic_exchange" auto-declare="true">
+        <rabbit:bindings>
+            <rabbit:binding pattern="heima.*" queue="spring_topic_queue_star"/>
+            <rabbit:binding pattern="heima.#" queue="spring_topic_queue_well"/>
+            <rabbit:binding pattern="itcast.#" queue="spring_topic_queue_well2"/>
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+
+    <!--定义rabbitTemplate对象操作可以在代码中方便发送消息-->
+    <rabbit:template id="rabbitTemplate" connection-factory="connectionFactory"/>
+</beans>
+```
+
+## 5.3 生产者
+
+```java
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = {"classpath:spring-rabbitmq-producer.xml"})
+public class ProducerTest {
+
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
+
+    @Test
+    public void testHelloWorld() {
+        //发送消息
+        rabbitTemplate.convertAndSend("spring_queue", "hello world spring...");
+    }
+
+    /**
+     * 发送fanout消息
+     */
+    @Test
+    public void testFanout() {
+        //发送消息
+        rabbitTemplate.convertAndSend("spring_fanout_exchange", "", "hello world spring fanout...");
+    }
+
+    /**
+     * 发送Topic消息
+     */
+    @Test
+    public void testTopic() {
+        //发送消息
+        rabbitTemplate.convertAndSend("spring_topic_exchange", "heima.he.wuhu", "hello world spring Topic...");
+    }
+}
+```
