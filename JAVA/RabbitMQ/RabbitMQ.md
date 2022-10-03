@@ -824,3 +824,188 @@ public class ProducerTest {
     }
 }
 ```
+
+## 5.4 消费者
+
+### rabbitmq.properties
+
+```properties
+rabbitmq.host=47.109.33.195
+rabbitmq.port=5672
+rabbitmq.username=admin
+rabbitmq.password=admin
+#  virtual-host: /tan00xu
+```
+
+### spring-rabbitmq-consumer.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/rabbit
+       http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+    <!--加载配置文件-->
+    <context:property-placeholder location="classpath:rabbitmq.properties"/>
+
+    <!-- 定义rabbitmq connectionFactory -->
+    <rabbit:connection-factory
+            id="connectionFactory"
+            host="${rabbitmq.host}"
+            port="${rabbitmq.port}"
+            username="${rabbitmq.username}"
+            password="${rabbitmq.password}"
+    />
+    <!--    virtual-host="${rabbitmq.virtual-host}"-->
+
+    <bean id="springQueueListener" class="com.tan00xu.SpringQueueListener"/>
+    <!--    <bean id="fanoutListener1" class="com.tan00xu.FanoutListener1"/>-->
+    <!--    <bean id="fanoutListener2" class="com.tan00xu.FanoutListener2"/>-->
+    <!--    <bean id="topicListenerStar" class="com.tan00xu.TopicListenerStar"/>-->
+    <!--    <bean id="topicListenerWell" class="com.tan00xu.TopicListenerWell"/>-->
+    <!--    <bean id="topicListenerWell2" class="com.tan00xu.TopicListenerWell2"/>-->
+
+    <!--监听器容器-->
+    <rabbit:listener-container connection-factory="connectionFactory" auto-declare="true">
+        <rabbit:listener ref="springQueueListener" queue-names="spring_queue"/>
+        <!--        <rabbit:listener ref="fanoutListener1" queue-names="spring_fanout_queue_1"/>-->
+        <!--        <rabbit:listener ref="fanoutListener2" queue-names="spring_fanout_queue_2"/>-->
+        <!--        <rabbit:listener ref="topicListenerStar" queue-names="spring_topic_queue_star"/>-->
+        <!--        <rabbit:listener ref="topicListenerWell" queue-names="spring_topic_queue_well"/>-->
+        <!--        <rabbit:listener ref="topicListenerWell2" queue-names="spring_topic_queue_well2"/>-->
+    </rabbit:listener-container>
+</beans>
+```
+
+### MessageListener实现类
+
+```java
+public class SpringQueueListener implements MessageListener {
+    @Override
+    public void onMessage(Message message) {
+        //打印消息
+        System.out.println(new String(message.getBody()));
+    }
+}
+```
+
+### 测试
+
+```java
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = {"classpath:spring-rabbitmq-consumer.xml"})
+public class ConsumerTest {
+    @Test
+    public void test1() {
+        while (true) {
+        }
+
+    }
+}
+```
+
+
+
+# 六、Springboot整合**RabbitMQ**
+
+
+
+## 6.1 导包
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-amqp</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+    </dependency>
+  
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+```
+
+## 6.2 配置文件
+
+```yaml
+spring:
+  rabbitmq:
+    host: 
+    port: 5672
+    username: admin
+    password: admin
+```
+
+## 6.3 生产者
+
+### RabbitMQConfig
+
+```java
+@Configuration
+public class RabbitMQConfig {
+    public static final String EXCHANGE_NAME = "springboot_topic_exchange";
+    public static final String QUEUE_NAME = "springboot_queue";
+
+    // 1. 交换机
+    @Bean("bootExchange")
+    public Exchange bootExchange() {
+        return ExchangeBuilder
+                .topicExchange(EXCHANGE_NAME)
+                .durable(true)
+                .build();
+    }
+
+    // 2. 队列
+    @Bean("bootQueue")
+    public Queue bootQueue() {
+        return QueueBuilder.durable(QUEUE_NAME).build();
+    }
+
+    // 3. 队列和交换机绑定
+    @Bean
+    public Binding bindQueueExchange(@Qualifier("bootQueue") Queue bootQueue, @Qualifier("bootExchange") Exchange bootExchange) {
+//        return BindingBuilder.bind(bootQueue()).to(bootExchange()).with("boot.#").noargs();
+        return BindingBuilder.bind(bootQueue).to(bootExchange).with("boot.#").noargs();
+
+    }
+
+}
+```
+
+
+
+## 6.4 消费者
+
+```java
+@Component
+public class RabbitMQListener {
+
+    @RabbitListener(queues = "springboot_queue")
+    public void ListenerQueue(Message message) {
+        System.out.println(new String(message.getBody()));
+    }
+}
+```
