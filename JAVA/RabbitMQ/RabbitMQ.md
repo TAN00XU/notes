@@ -216,7 +216,7 @@ Work Queues：与入门程序的简单模式相比，多了一个或一些消费
 
 ## 4.2 Pub/Sub 订阅模式
 
-![Pub/Sub 订阅模式](/assets/Pub Sub 订阅模式.png)
+![Pub/Sub 订阅模式](./assets/Pub Sub 订阅模式.png)
 
 在订阅模型中，多了一个 Exchange 角色，而且过程略有变化： 
 
@@ -391,7 +391,7 @@ public class Consumer_PubSub02 {
 +  消息的发送方在向 Exchange 发送消息时，也必须指定消息的 RoutingKey 
 + Exchange 不再把消息交给每一个绑定的队列，而是根据消息的 Routing Key 进行判断，只有队列的 Routingkey 与消息的 Routing key 完全一致，才会接收到消息
 
-![Routing 路由模式](/assets/Routing 路由模式.png)
+![Routing 路由模式](./assets/Routing 路由模式.png)
 
 + P：生产者，向 Exchange 发送消息，发送消息时，会指定一个routing key 
 +  X：Exchange（交换机），接收生产者的消息，然后把消息递交给与 routing key 完全匹配的队列 

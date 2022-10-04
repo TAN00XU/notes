@@ -1162,3 +1162,8 @@ void testSaveUser() throws JsonProcessingException {
 
 
 
+# 问题记录
+
+## 控制台查询中文乱码问题
+
+` redis-cli --raw`
