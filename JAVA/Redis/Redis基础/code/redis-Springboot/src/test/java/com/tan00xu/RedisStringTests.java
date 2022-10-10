@@ -50,7 +50,7 @@ public class RedisStringTests {
         stringRedisTemplate.opsForHash().put("user:222", "name", "王五");
         stringRedisTemplate.opsForHash().put("user:222", "age", "22");
         Map<Object, Object> entries = stringRedisTemplate.opsForHash().entries("user:222");
-        entries.forEach((K, V) -> System.out.printf("%s--%s", K, V));
+        entries.forEach((K, V) -> System.out.printf("%s--%s\n", K, V));
 
     }
 }
