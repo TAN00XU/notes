@@ -7,6 +7,7 @@ import com.tan00xu.authdemo.utils.RedisCache;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
@@ -49,8 +50,11 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         } catch (Exception e) {
             throw new RuntimeException("token不合法！");
         }
+//        CmdOutputInformationUtils.info(new LoginUser().getAuthorities());
         //3 获取userId redis获取用户信息
         LoginUser loginUser = redisCache.getCacheObject("login:" + userId);
+        CmdOutputInformationUtils.error(loginUser);
+
         if (Objects.isNull(loginUser)) {
             throw new RuntimeException("当前用户未登录！");
         }

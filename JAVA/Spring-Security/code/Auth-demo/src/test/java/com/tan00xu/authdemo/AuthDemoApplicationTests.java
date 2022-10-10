@@ -2,6 +2,7 @@ package com.tan00xu.authdemo;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.tan00xu.authdemo.dao.MenuMapper;
 import com.tan00xu.authdemo.dao.UserDao;
 import com.tan00xu.authdemo.domain.User;
 import com.tan00xu.authdemo.utils.JwtUtil;
@@ -53,4 +54,11 @@ class AuthDemoApplicationTests {
         System.out.println(encode);
     }
 
+    @Autowired
+    MenuMapper menuMapper;
+
+    @Test
+    void testSelectPermsByUserId() {
+        System.out.println(menuMapper.selectPermsByUserId(1L));
+    }
 }

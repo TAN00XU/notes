@@ -1,6 +1,8 @@
 package com.tan00xu.authdemo.config;
 
 import com.tan00xu.authdemo.filter.JwtAuthenticationTokenFilter;
+import com.tan00xu.authdemo.handler.AccessDeniedHandlerImpl;
+import com.tan00xu.authdemo.handler.AuthenticationEntryPointImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -37,6 +39,12 @@ public class SecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
+    @Autowired
+    AccessDeniedHandlerImpl accessDeniedHandler;
+
+    @Autowired
+    AuthenticationEntryPointImpl authenticationEntryPoint;
+
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
@@ -54,6 +62,12 @@ public class SecurityConfig {
         http
                 //把JWT过滤器放在user过滤器之前
                 .addFilterBefore(jwtAuthenticationTokenFilter, UsernamePasswordAuthenticationFilter.class);
+        http
+                .exceptionHandling().authenticationEntryPoint(authenticationEntryPoint)
+                .accessDeniedHandler(accessDeniedHandler)
+        ;
+        //允许跨域
+        http.cors();
         return http.build();
     }
 

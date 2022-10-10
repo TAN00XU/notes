@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("demo")
 public class DemoController {
     @GetMapping("hello")
-    @PreAuthorize("hasAuthority('test')")
+    @PreAuthorize("hasAuthority('dev:code:pull')")
     public String hello() {
         return "hello world";
     }
