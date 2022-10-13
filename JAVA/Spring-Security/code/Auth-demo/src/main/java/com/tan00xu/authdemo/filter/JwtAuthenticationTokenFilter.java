@@ -3,11 +3,10 @@ package com.tan00xu.authdemo.filter;
 import com.tan00xu.authdemo.domain.LoginUser;
 import com.tan00xu.authdemo.utils.CmdOutputInformationUtils;
 import com.tan00xu.authdemo.utils.JwtUtil;
-import com.tan00xu.authdemo.utils.RedisCache;
+import com.tan00xu.authdemo.utils.RedisCacheUtils;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
@@ -31,7 +30,7 @@ import java.util.Objects;
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 
     @Autowired
-    RedisCache redisCache;
+    RedisCacheUtils redisCache;
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {

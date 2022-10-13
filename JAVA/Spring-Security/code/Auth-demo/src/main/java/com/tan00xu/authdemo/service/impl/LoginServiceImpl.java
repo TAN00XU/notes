@@ -5,7 +5,7 @@ import com.tan00xu.authdemo.domain.ResponseResult;
 import com.tan00xu.authdemo.domain.User;
 import com.tan00xu.authdemo.service.LoginService;
 import com.tan00xu.authdemo.utils.JwtUtil;
-import com.tan00xu.authdemo.utils.RedisCache;
+import com.tan00xu.authdemo.utils.RedisCacheUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -27,7 +27,7 @@ public class LoginServiceImpl implements LoginService {
     AuthenticationManager authenticationManager;
 
     @Autowired
-    RedisCache redisCache;
+    RedisCacheUtils redisCache;
 
     @Override
     public ResponseResult login(User user) {
