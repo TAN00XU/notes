@@ -396,3 +396,106 @@ docker cp 目的主机路径 容器id:容器内路径
 docker run -it --rm tomcat:9.0
 ```
 
+
+
+# 三、使用数据卷
+
+> **方式一：直接使用命令 -v 挂载来实现**
+
+```shell
+docker run -it -v 主机目录：容器目录
+ 
+# 例如 
+docker run -it -v /home/ceshi:/home centos /bin/bash
+```
+
+
+
+## 3.1 安装mysql
+
+```shell
+# 获取镜像
+[root@TAN00XU home]# docker pull mysql:5.7
+ 
+# 运行容器， 需要做数据挂载！ 
+# 安装启动mysql，需要配置密码（注意）
+# 官方测试， docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+ 
+# 启动我们的
+-d      # 后台运行
+-p      # 端口隐射
+-v      # 卷挂载
+-e      # 环境配置
+--name  # 容器的名字
+[root@TAN00XU home]# docker run -d -p 3306:3306 -v /home/mysql/conf:/etc/mysql/conf.d -v /home/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysql01 mysql:5.7
+9552bf4eb2b69a2ccd344b5ba5965da4d97b19f2e1a78626ac1f2f8d276fc2ba
+ 
+# 在本地测试创建一个数据库，查看下我们的路径是否ok！
+```
+
+
+
+## 3.2 匿名和具名挂载
+
+```shell
+# 匿名挂载
+-v 容器内路径
+docker run -d -P --name nginx01 -v /etc/nginx nginx     # -P 随机指定端口
+ 
+# 查看所有volume的情况
+[root@TAN00XU ~]# docker volume ls
+DRIVER              VOLUME NAME
+local               561b81a03506f31d45ada3f9fb7bd8d7c9b5e0f826c877221a17e45d4c80e096
+local               36083fb6ca083005094cbd49572a0bffeec6daadfbc5ce772909bb00be760882
+ 
+# 这里发现，这种情况就是匿名挂载，我们在-v 后面只写了容器内的路径，没有写容器外的路径！
+ 
+# 具名挂载
+[root@TAN00XU ~]# docker run -d -P --name nginx02 -v juming-nginx:/etc/nginx nginx
+26da1ec7d4994c76e80134d24d82403a254a4e1d84ec65d5f286000105c3da17
+[root@TAN00XU ~]# docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                   NAMES
+26da1ec7d499        nginx               "/docker-entrypoint.…"   3 seconds ago       Up 2 seconds        0.0.0.0:32769->80/tcp   nginx02
+486de1da03cb        nginx               "/docker-entrypoint.…"   3 minutes ago       Up 3 minutes        0.0.0.0:32768->80/tcp   nginx01
+[root@TAN00XU ~]# docker volume ls
+DRIVER              VOLUME NAME
+local               561b81a03506f31d45ada3f9fb7bd8d7c9b5e0f826c877221a17e45d4c80e096
+local               36083fb6ca083005094cbd49572a0bffeec6daadfbc5ce772909bb00be760882
+local               juming-nginx
+ 
+# 通过-v 卷名：容器内的路径
+# 查看一下这个卷
+# docker volume inspect juming-nginx
+ 
+[root@TAN00XU ~]# docker volume inspect juming-nginx
+
+
+```
+
+所有docker容器内的卷，没有指定目录的情况下都是在`/var/lib/docker/volumes/xxxxx/_data`
+
+**我们通过具名挂载可以方便的找到我们的一个卷，大多数情况下使用的是`具名挂载`**
+
+```shell
+# 如何确定是具名挂载还是匿名挂载，还是指定路径挂载！
+-v  容器内路径                   # 匿名挂载
+-v  卷名:容器内路径               # 具名挂载
+-v /主机路径:容器内路径            # 指定路径挂载
+```
+
+拓展：
+
+```shell
+# 通过 -v 容器内容路径 ro rw 改变读写权限
+ro  readonly    # 只读
+rw  readwrite   # 可读可写
+ 
+docker run -d -P --name nginx02 -v juming-nginx:/etc/nginx:ro nginx
+docker run -d -P --name nginx02 -v juming-nginx:/etc/nginx:rw nginx
+ 
+# ro 只要看到ro就说明这个路径只能通过宿主机来操作，容器内容无法操作
+```
+
+
+
+# 四、Dockerfile

@@ -517,9 +517,9 @@ public class Consumer_Routing01 {
 
 
 
-![Topics 通配符模式](/assets/Topics 通配符模式1.png)
+![Topics 通配符模式](./assets/Topics 通配符模式1.png)
 
-![Topics 通配符模式](/assets/Topics 通配符模式2.png)
+![Topics 通配符模式](./assets/Topics 通配符模式2.png)
 
 + 红色 Queue：绑定的是 usa.# ，因此凡是以 usa. 开头的 routing key 都会被匹配到 
 + 黄色 Queue：绑定的是 #.news ，因此凡是以 .news 结尾的 routing key 都会被匹配
