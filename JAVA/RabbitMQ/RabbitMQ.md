@@ -26,7 +26,23 @@ docker run -di --name=myrabbit -p 15672:15672 rabbitmq:management
 或者运行时设置用户和密码
 
 ```shell
-docker run -di --name myrabbit -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=admin -p 15672:15672 -p 5672:5672 -p 25672:25672 -p 61613:61613 -p 1883:1883 rabbitmq:management
+docker run -di --name myrabbit    -p 5672:5672  -p 61613:61613 -p 1883:1883 rabbitmq:management
+
+docker run -d 
+# 客户端
+-p 5672:5672
+# web界面
+-p 15672:15672 
+# Erland distribution
+-p 25672:25672
+# 主机名
+--hostname myrabbitmq
+--name myrabbitmq 
+-v /mydata/rabbitmq/data:/mydata/rabbitmq/data 
+# 默认用户名和密码
+-e RABBITMQ_DEFAULT_USER=admin
+-e RABBITMQ_DEFAULT_PASS=admin
+--restart always rabbitmq
 ```
 
 
