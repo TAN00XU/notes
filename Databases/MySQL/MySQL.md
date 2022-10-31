@@ -623,7 +623,7 @@ REVOKE 权限列表 ON 数据库名.表名 FROM '用户名'@'主机名';
 | LPAD(str, n, pad)  | 左填充，用字符串pad对str的左边进行填充，达到n个字符串长度  |
 | RPAD(str, n, pad)  | 右填充，用字符串pad对str的右边进行填充，达到n个字符串长度  |
 | TRIM(str)  | 去掉字符串头部和尾部的空格  |
-| SUBSTRING(str, start, len)  | 返回从字符串str从start位置起的len个长度的字符串  |
+| SUBSTRING(str, start, len)  | 返回从字符串str从start位置起的len个长度的字符串，索引从1开始 |
 
 使用示例：
 
@@ -655,6 +655,17 @@ SELECT SUBSTRING('Hello World', 1, 5);
 | MOD(x, y)  | 返回x/y的模  |
 | RAND() | 返回0~1内的随机数 |
 | ROUND(x, y) | 求参数x的四舍五入值，保留y位小数 |
+
+
+
+例子
+
+```mysql
+-- 通过数据库的函数，生成一个六位数的随机函数
+select lpad(round(rand()*1000000,0),6,'0');
+```
+
+
 
 ### 日期函数
 
@@ -702,7 +713,7 @@ select
 from employee;
 ```
 
-## 约束
+## 三、约束
 
 1. 概念：约束是用来作用于表中字段上的规则，用于限制存储在表中的数据。
 2. 目的：保证数据库中的数据的正确、有效性和完整性
@@ -762,7 +773,12 @@ alter table emp add constraint fk_emp_dept_id foreign key(dept_id) references de
 ```
 
 删除外键：  
-`ALTER TABLE 表名 DROP FOREIGN KEY 外键名;`  
+
+```mysql
+ALTER TABLE 表名 DROP FOREIGN KEY 外键名;
+```
+
+
 
 #### 删除/更新行为
 
@@ -774,8 +790,17 @@ alter table emp add constraint fk_emp_dept_id foreign key(dept_id) references de
 | SET NULL  | 当在父表中删除/更新对应记录时，首先检查该记录是否有对应外键，如果有则设置子表中该外键值为null（要求该外键允许为null）  |
 | SET DEFAULT  | 父表有变更时，子表将外键设为一个默认值（Innodb不支持）  |
 
-更改删除/更新行为：  
-`ALTER TABLE 表名 ADD CONSTRAINT 外键名称 FOREIGN KEY (外键字段) REFERENCES 主表名(主表字段名) ON UPDATE 行为 ON DELETE 行为;`  
+更改删除/更新行为： 
+
+```mysql
+ALTER TABLE 表名 
+ADD CONSTRAINT 外键名称 
+FOREIGN KEY (外键字段) 
+REFERENCES 主表名(主表字段名) 
+ON UPDATE 行为 ON DELETE 行为;
+```
+
+
 
 ## 多表查询
 
