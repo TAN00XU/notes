@@ -802,7 +802,7 @@ ON UPDATE 行为 ON DELETE 行为;
 
 
 
-## 多表查询
+## 四、多表查询
 
 ### 多表关系
 
@@ -831,22 +831,34 @@ ON UPDATE 行为 ON DELETE 行为;
 ### 查询
 
 合并查询（笛卡尔积，会展示所有组合结果）：  
-`select * from employee, dept;`  
+```mysql
+select * from employee, dept;
+```
+
 
 > 笛卡尔积：两个集合A集合和B集合的所有组合情况（在多表查询时，需要消除无效的笛卡尔积）  
 
 消除无效笛卡尔积：  
-`select * from employee, dept where employee.dept = dept.id;`  
+
+```mysql
+select * from employee, dept where employee.dept = dept.id;
+```
 
 ### 内连接查询
 
 内连接查询的是两张表交集的部分
 
 隐式内连接：  
-`SELECT 字段列表 FROM 表1, 表2 WHERE 条件 ...;`   
+
+```mysql
+SELECT 字段列表 FROM 表1, 表2 WHERE 条件 ...;
+```
 
 显式内连接：  
-`SELECT 字段列表 FROM 表1 [ INNER ] JOIN 表2 ON 连接条件 ...;`  
+
+```mysql
+SELECT 字段列表 FROM 表1 [ INNER ] JOIN 表2 ON 连接条件 ...;
+```
 
 显式性能比隐式高
 
