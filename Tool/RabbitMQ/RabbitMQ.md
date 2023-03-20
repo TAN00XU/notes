@@ -15,7 +15,7 @@ docker pull rabbitmq:management
 ### 2 创建并运行容器
 
 ```shell
-docker run -di --name=myrabbit -p 15672:15672 rabbitmq:management
+docker run -d --name=myrabbit -p 15672:15672 rabbitmq:management
 ```
 
 ### 3 推荐方式
@@ -42,7 +42,8 @@ docker run -d
 # 默认用户名和密码
 -e RABBITMQ_DEFAULT_USER=admin
 -e RABBITMQ_DEFAULT_PASS=admin
---restart always rabbitmq
+--restart always 
+rabbitmq:management
 ```
 
 

@@ -465,9 +465,9 @@ docker run
 -p6379:6379 
 --name redis7 
 # 挂载配置文件
--v /home/redis7/conf/redis.conf:/etc/redis/conf/redis.conf 
+-v /home/redis/redis7/conf/redis.conf:/etc/redis/conf/redis.conf 
 # 把redis持久化的数据在宿主机内显示，做数据备份
--v /home/redis7/data:/data 
+-v /home/redis/redis7/data:/data 
 -d 
 redis 
 # 通过配置文件启动
@@ -481,6 +481,8 @@ redis-server /etc/redis/conf/redis.conf
 要在docker中启动redis，必须将" daemonize "设置为" no "。 这很重要。 
 
 如果不是no，则docker本身必须在后台运行，此配置选项也会在守护进程中启动，因此两者会发生冲突
+
+
 
 # 2.Redis常见命令
 
