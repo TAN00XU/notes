@@ -1,4 +1,4 @@
-[toc]
+[TOC]
 
 官网 : [Home - Docker](https://www.docker.com/)
 
@@ -18,7 +18,7 @@
                   docker-latest-logrotate \
                   docker-logrotate \
                   docker-engine
-                  
+
 # 2. 需要的安装包
 sudo yum install -y yum-utils
 
@@ -31,7 +31,7 @@ sudo yum-config-manager \
 sudo yum-config-manager \
      --add-repo \
      https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
-   
+
 # 更新域名软件包索引
 yum makecache fast
 
@@ -137,7 +137,7 @@ Options:
       --format string   Pretty-print search using a Go template
       --limit int       Max number of search results (default 25)
       --no-trunc        Don't truncate output
-      
+
 # 搜索收藏数大于3000的镜像
 docker search mysql --filter=STARS=3000
 ```
@@ -149,9 +149,9 @@ docker search mysql --filter=STARS=3000
 ```shell
 # 下载镜像 docker pull 镜像名[:tag] 
 [root@tan00xu ~]# docker pull mysql
-Using default tag: latest  		#如果不写tag默认就是latest
+Using default tag: latest          #如果不写tag默认就是latest
 latest: Pulling from library/mysql
-051f419db9dd: Pull complete		#分层下载,docker image的核心-联合文件系统
+051f419db9dd: Pull complete        #分层下载,docker image的核心-联合文件系统
 7627573fa82a: Pull complete
 a44b358d7796: Pull complete
 95753aff4b95: Pull complete
@@ -162,9 +162,9 @@ f26212810c32: Pull complete
 d803d4215f95: Pull complete
 d5358a7f7d07: Pull complete
 435e8908cd69: Pull complete
-Digest: sha256:b9532b1edea72b6cee12d9f5a78547bd3812ea5db842566e17f8b33291ed2921	#签名
+Digest: sha256:b9532b1edea72b6cee12d9f5a78547bd3812ea5db842566e17f8b33291ed2921    #签名
 Status: Downloaded newer image for mysql:latest
-docker.io/library/mysql:latest	#下载来源的真实地址
+docker.io/library/mysql:latest    #下载来源的真实地址
 
 # 这两个命令一样
 docker pull mysql
@@ -322,8 +322,8 @@ docker logs -tf 容器id
 docker logs --tail number 容器id #num为要显示的日志条数
 
 docker logs 
-	-tf # 显示日志
-	-tail number # 要显示的日志条数
+    -tf # 显示日志
+    -tail number # 要显示的日志条数
 ```
 
 
@@ -404,7 +404,7 @@ docker run -it --rm tomcat:9.0
 
 ```shell
 docker run -it -v 主机目录：容器目录
- 
+
 # 例如 
 docker run -it -v /home/ceshi:/home centos /bin/bash
 ```
@@ -416,11 +416,11 @@ docker run -it -v /home/ceshi:/home centos /bin/bash
 ```shell
 # 获取镜像
 [root@TAN00XU home]# docker pull mysql:5.7
- 
+
 # 运行容器， 需要做数据挂载！ 
 # 安装启动mysql，需要配置密码（注意）
 # 官方测试， docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
- 
+
 # 启动我们的
 -d      # 后台运行
 -p      # 端口隐射
@@ -429,7 +429,7 @@ docker run -it -v /home/ceshi:/home centos /bin/bash
 --name  # 容器的名字
 [root@TAN00XU home]# docker run -d -p 3306:3306 -v /home/mysql/conf:/etc/mysql/conf.d -v /home/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysql01 mysql:5.7
 9552bf4eb2b69a2ccd344b5ba5965da4d97b19f2e1a78626ac1f2f8d276fc2ba
- 
+
 # 在本地测试创建一个数据库，查看下我们的路径是否ok！
 ```
 
@@ -441,15 +441,15 @@ docker run -it -v /home/ceshi:/home centos /bin/bash
 # 匿名挂载
 -v 容器内路径
 docker run -d -P --name nginx01 -v /etc/nginx nginx     # -P 随机指定端口
- 
+
 # 查看所有volume的情况
 [root@TAN00XU ~]# docker volume ls
 DRIVER              VOLUME NAME
 local               561b81a03506f31d45ada3f9fb7bd8d7c9b5e0f826c877221a17e45d4c80e096
 local               36083fb6ca083005094cbd49572a0bffeec6daadfbc5ce772909bb00be760882
- 
+
 # 这里发现，这种情况就是匿名挂载，我们在-v 后面只写了容器内的路径，没有写容器外的路径！
- 
+
 # 具名挂载
 [root@TAN00XU ~]# docker run -d -P --name nginx02 -v juming-nginx:/etc/nginx nginx
 26da1ec7d4994c76e80134d24d82403a254a4e1d84ec65d5f286000105c3da17
@@ -462,11 +462,11 @@ DRIVER              VOLUME NAME
 local               561b81a03506f31d45ada3f9fb7bd8d7c9b5e0f826c877221a17e45d4c80e096
 local               36083fb6ca083005094cbd49572a0bffeec6daadfbc5ce772909bb00be760882
 local               juming-nginx
- 
+
 # 通过-v 卷名：容器内的路径
 # 查看一下这个卷
 # docker volume inspect juming-nginx
- 
+
 [root@TAN00XU ~]# docker volume inspect juming-nginx
 
 
@@ -489,13 +489,15 @@ local               juming-nginx
 # 通过 -v 容器内容路径 ro rw 改变读写权限
 ro  readonly    # 只读
 rw  readwrite   # 可读可写
- 
+
 docker run -d -P --name nginx02 -v juming-nginx:/etc/nginx:ro nginx
 docker run -d -P --name nginx02 -v juming-nginx:/etc/nginx:rw nginx
- 
+
 # ro 只要看到ro就说明这个路径只能通过宿主机来操作，容器内容无法操作
 ```
 
 
 
 # 四、Dockerfile
+
+

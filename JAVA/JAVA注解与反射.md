@@ -13,19 +13,17 @@
 1. Annotation是从JDK5.0开始引入的新技术。
 
 2. Annotation的作用：
-
-   * 不是程序本身，可以对程序作出解释。（这一点与注释（comment）一样）
-
-   * ==可以被其他程序（比如：编译器等）读取==
    
-3. Annotation的格式：
+   * 不是程序本身，可以对程序作出解释。（这一点与注释（comment）一样）
+   
+   * ==可以被其他程序（比如：编译器等）读取==
 
+3. Annotation的格式：
    ​    注解是以"==@注释名=="在代码中存在的，可以添加一些参数值，例如：`@SuppressWarnings(value = " unchecked ")`。
 
 4. Annotation在哪里使用
-
    ​    可以附加在package、class、method、field等上面，相当于给他们添加了额为的辅助信息，我们可以通过反射机制编程实现对这些元素的访问。
-
+   
    ---
 
 ### 二，内置注解
@@ -35,18 +33,17 @@
 * **@Deprecated**：定义在`java.long.Deprecated`中，此注解可以用于修辞方法、属性、类，表示不鼓励程序员使用这样的元素，通常是因为它很危险或者存在更好的选择。
 
 * **@SuppressWarnings**：定义在`java.lang.SuppressWarnings`中，用来抑制编译时的警告信息。
-
+  
   * 与前两个有所不同，你需要添加一个参数才能正确使用，这些参数都是已经定义好了的。
-
   - [x] `@SuppressWarnings("all")`
-
+  
   - [x] `@SuppressWarnings("unchecked")`
-
+  
   - [x] `@SuppressWarnings(value = {"unchecked" , "depreciation"})`
-
+  
   - [x] 等等……
-
-    ``` java
+    
+    ```java
     @Target({TYPE, FIELD, METHOD, PARAMETER, CONSTRUCTOR, LOCAL_VARIABLE})
     @Retention(RetentionPolicy.SOURCE)
     public @interface SuppressWarnings {
@@ -69,11 +66,11 @@
         String[] value();
     }
     ```
-
-    ​		编译器要在带注释的元素中抑制的一组警告。允许重复名称。名称的第二次和连续出现将被忽略。存在无法识别的警告名称不是错误：编译器必须忽略它们无法识别的任何警告名称。但是，如果注释包含无法识别的警告名称，它们可以自由发出警告。字符串"unchecked"用于抑制未经检查的警告。编译器供应商应结合此注释类型记录他们支持的其他警告名称。鼓励他们合作以确保相同的名称在多个编译器中工作。
-    ​	返回值：要抑制的警告集。
     
-    ``` java
+    ​        编译器要在带注释的元素中抑制的一组警告。允许重复名称。名称的第二次和连续出现将被忽略。存在无法识别的警告名称不是错误：编译器必须忽略它们无法识别的任何警告名称。但是，如果注释包含无法识别的警告名称，它们可以自由发出警告。字符串"unchecked"用于抑制未经检查的警告。编译器供应商应结合此注释类型记录他们支持的其他警告名称。鼓励他们合作以确保相同的名称在多个编译器中工作。
+    ​    返回值：要抑制的警告集。
+    
+    ```java
     @SuppressWarnings("unchecked")//执行了未检查的转换时的警告，例如当使用集合时没有用泛型(Generics) 来指定集合保存的类型。
     @SuppressWarnings("unused")  //未使用的变量
     @SuppressWarnings("resource")  //有泛型未指定类型
@@ -96,8 +93,7 @@
     ```
     
     
-     	
-  
+
   ---
 
 
@@ -110,9 +106,10 @@
    + **@Retention：**表示需要在什么级别保存该注释信息,用于描述注解的生命周期。==(**SOURCE < CLASS < RUNTIME**)==
    + **@Document：**说明该注解将被包含在javadoc中。
    + **@Inherited：**说明子类可以继承父类中的该注解 。
+   
    ---
-
-
+   
+   
 
 ### 四，自定义注解
 
@@ -126,7 +123,7 @@
    + 如果只有一个参数成员,一般参数名为value。
    + 注解元素必须要有值，我们定义注解元素时，经常使用空字符，0作为默认值。 
 
-``` java
+```java
 //注解可以显示赋值，如果没有默认值，我们就必须给注解赋值
 @MyAnnotation(age = 18)
 public void test() {}
@@ -155,7 +152,6 @@ public void test() {}
 ##### 1. 动态语言
 
 + 是一类在运行时可以改变其结构的语言：例如新的函数、对象、甚至代码可以被引进，已有的函数可以被删除或是其他结构上的变化。
-
   通俗点说就是在运行时代码可以根据某些条件改变自身结构。
 
 + 主要动态语言： Object-C、 C#、JavaScript、PHP、Python等。
@@ -163,27 +159,24 @@ public void test() {}
 ##### 2. 静态语言
 
 + 与动态语言相对应的,运行时结构不可变的语言就是静态语言。
-
   如Java、C、 C++。
 
 + Java不是动态语言，但Java可以称之为“准动态语言”。即Java有一定的动态性，我们可以利用反射机制获得类似动态语言的特性。
-
   Java的动态性让编程的时候更加灵活！
-
 
 #### Ⅱ. Java Reflection
 
 + Reflection（反射）是Java被视为动态语言的关键，反射机制允许程序在执行期借助于Reflection API取得任何类的内部信息（*类名、接口、方法、属性*），并能直接操作任意对象的内部属性及方法。
 
-``` java
+```java
 Class c = Class.forName("java.lang.String")
 ```
 
 + 加载完类之后,在堆内存的方法区中就产生了一个Class类型的对象（一个类只有一个Class对象），这个对象就包含了完整的类的结构信息。我们可以通过这个对象看到类的结构。这个对象就像一面镜子，透过这个镜子看到类的结构。所以，我们形象的称之为：反射。
+  
+  
 
-
-
-``` mermaid
+```mermaid
 graph LR
     id>"正常方式："]-->id0(["引入需要的“包类”名称"])-->id1([通过new实例化])-->id2(["取得实例化对象"])
     1id>"反射方式："]-->1id0(["实例化对象"])-->1id1(["getClass()方法"])-->1id2(["得到完整的“包类“名称"])
@@ -240,17 +233,17 @@ graph LR
 
 在Object类中定义了以下的方法，此方法将被所有的子类继承
 
-``` java 
+```java
 public final Class getClass();
 ```
 
 + 以上的方法返回值的类型是一个Class类，此类是Java反射的源头，实际上所谓反射从程序的运行结果来看也很好理解，即：可以通过对象反射求出类的名称。
 
-``` mermaid
+```mermaid
 graph BT
-	A((Person类)) & B((Animal类))-->X((Class))
-	Aa((张三)) & Ab((李四)) & Ac((王五))-->A
-	Ba((小猫)) & Bb((小狗))-->B
+    A((Person类)) & B((Animal类))-->X((Class))
+    Aa((张三)) & Ab((李四)) & Ac((王五))-->A
+    Ba((小猫)) & Bb((小狗))-->B
 ```
 
 对象照镜子后可以得到的信息：某个类的属性、方法和构造器、某个类到底实现了哪些接口。对于每个类而言，JRE都为其保留一个不变的Class类型的对象。一个Class对象包含了特定某个结构(class/interface/enum/annotation/primitive type/void/[ ])的有关信息。
@@ -270,7 +263,7 @@ graph BT
 ### 六、Class类的常用方法
 
 | 方法名                                       | 功能说明                               |
-|-------------------------------------------|------------------------------------|
+| ----------------------------------------- | ---------------------------------- |
 | static ClassforName( String name)         | 返回指定类名name的Class对象                 |
 | Object newInstance                        | 调用缺省构造函数，返回Class对象的一个实例            |
 | getName()                                 | 返回此Class对象所表示的实体(类，接口，数组类或void)的名称 |
@@ -288,24 +281,25 @@ graph BT
 ### 七、获取Class类的实例
 
 1. 若已知具体的类，通过类的class属性获取，该方法最为安全可靠，程序性能最高。
-
-   ``` java
+   
+   ```java
    Class c = Person.class;
    ```
 
 2. 已知某个类的实例，调用该实例的getClass()方法获取Class对象
-
-   ``` java
+   
+   ```java
    Class c = person.getClass();
    ```
 
 3. 已知一个类的全类名，且该类在类路径下，可通过Class类的静态方法forName()获取，可能抛出ClassNotFoundException
-
-   ```java 
+   
+   ```java
    Class c = Class.forName("demo.Student");
    ```
 
 4. 内置基本数据类型可以直接用类名.Type
+
 5. 还可以利用ClassLoader
 
 ```java
@@ -414,13 +408,13 @@ public class Test {
 
 ### 九、Java内存分析
 
-``` mermaid
-	flowchart  LR
-		A([Java内存])-->B1(堆) & B2(栈) & B3(方法区)
-		B1-->B1b1[存放new的对象和数组] & B1b2["可以被所有的线程共享，不会存放别的对象引用"]
-		B2-->B2b1["存放基本变量类型（会包含这个基本类型的具体数值）"] & B2b2["引用对象的变量（会存放这个引用在堆里面的具体地址）"]
-		B3-->B3b1[可以被所有的线程共享] & B3b2[包含了所有的class和static变量]
-	
+```mermaid
+flowchart  LR
+        A([Java内存])-->B1(堆) & B2(栈) & B3(方法区)
+        B1-->B1b1[存放new的对象和数组] & B1b2["可以被所有的线程共享，不会存放别的对象引用"]
+        B2-->B2b1["存放基本变量类型（会包含这个基本类型的具体数值）"] & B2b2["引用对象的变量（会存放这个引用在堆里面的具体地址）"]
+        B3-->B3b1[可以被所有的线程共享] & B3b2[包含了所有的class和static变量]
+
 ```
 
 ---
@@ -429,9 +423,9 @@ public class Test {
 
 ### 十、了解类的加载过程
 
-​		当程序主动使用某个类时,如果该类还未被加载到内存中,则系统会通过如下	三个步骤来对该类进行初始化。 
+​        当程序主动使用某个类时,如果该类还未被加载到内存中,则系统会通过如下    三个步骤来对该类进行初始化。 
 
-``` mermaid
+```mermaid
 graph BT
     A["类的加载（Load）"]==>B["类的链接（Link）"]==>C["类的初始化（Initialize）"]
     a("将类的class文件读入内存，<br/>并为之创建一java.lang.Class对象。<br/>此过程由类加载器完成。 ").->A
@@ -451,11 +445,11 @@ style c stroke-dasharray: 5, 5
 
 #### 1. 加载：
 
-​		将class文件字节码内容加载到内存中，并将这些静态数据转换成方法区的运行时数据结构,然后生成一个代表这个类的`java.lang.Class`对象。
+​        将class文件字节码内容加载到内存中，并将这些静态数据转换成方法区的运行时数据结构,然后生成一个代表这个类的`java.lang.Class`对象。
 
 #### 2. 链接：
 
-​		将Java类的二进制代码合并到JVM的运行状态之中的过程。
+​        将Java类的二进制代码合并到JVM的运行状态之中的过程。
 
 + 验证：确保加载的类信息符合JVM规范没有安全方面的问题。
 + 准备：正式为类变量(static)分配内存并设置类变量默认初始值的阶段,这些内存都将在方法区中进行分配。
@@ -497,7 +491,7 @@ public class Test {
 //        Son son = new Son();
         //反射也会产生主动引用
 //        Class.forName("com.tan00xu.test.Son");
-        
+
         //不会产生类的引用的方法
 //        System.out.println(Son.b);
 //        Son[] array = new Son[5];
@@ -524,14 +518,14 @@ class Son extends Father {
 
 ==**初始化顺序依次是：**==
 
-``` mermaid
+```mermaid
 graph LR
-	a["静态变量、静态初始化块"]==>b["变量、初始化块"]==>构造器
+    a["静态变量、静态初始化块"]==>b["变量、初始化块"]==>构造器
 ```
 
 ==**如果有父类，则顺序是：**==
 
-``` mermaid
+```mermaid
 graph LR
     父类static方法==>子类static方法==>父类构造方法==>子类构造方法
 ```
@@ -539,25 +533,25 @@ graph LR
 ### 十三、类加载器的作用
 
 + 类加载的作用:
-
-  ​		将class文件字节码内容加载到内存中,并将这些静态数据转换成方法区的运行时数据结构,然后在堆中生成一个代表这个类的`java.lang.Class`对象,作为方法区中类数据的访问入口。
+  ​        将class文件字节码内容加载到内存中,并将这些静态数据转换成方法区的运行时数据结构,然后在堆中生成一个代表这个类的`java.lang.Class`对象,作为方法区中类数据的访问入口。
 
 + 类缓存:
-  		标准的JavaSE类加载器可以按要求查找类,但一旦某个类被加载到类加载器中,它将维持加载(缓存)一段时间。不过JVM垃圾回收机制可以回收这些Class对象
+  
+          标准的JavaSE类加载器可以按要求查找类,但一旦某个类被加载到类加载器中,它将维持加载(缓存)一段时间。不过JVM垃圾回收机制可以回收这些Class对象
 
-``` mermaid
+```mermaid
 graph TB
-	a["源程序（*.java文件）"]
-	==>
-	b([Java编译器])
-	==>
-	c[["字节码（*.class文件）"]]
-	==>
-	d([类装载器])
-	==>
-	e([字节码校验器])
-	==>
-	f[(操作系统平台)]
+    a["源程序（*.java文件）"]
+    ==>
+    b([Java编译器])
+    ==>
+    c[["字节码（*.class文件）"]]
+    ==>
+    d([类装载器])
+    ==>
+    e([字节码校验器])
+    ==>
+    f[(操作系统平台)]
 ```
 
 + 类加载器作用是用来把类(class)装载进内存的。JVM规范定义了如下类型的类的加载器
@@ -623,9 +617,9 @@ public class Test {
 
 #### 拓展：双亲委派机制
 
-​	当某个类加载器需要加载某个`.class`字节码文件时，它首先把这个任务委托给他的上级类加载器，递归这个操作，如果上级的类加载器没有加载该类，自己才会去加载这个类。
+​    当某个类加载器需要加载某个`.class`字节码文件时，它首先把这个任务委托给他的上级类加载器，递归这个操作，如果上级的类加载器没有加载该类，自己才会去加载这个类。
 
-​	当一个Hello.class这样的文件要被加载时。不考虑我们自定义类加载器，首先会在AppClassLoader中检查是否加载过，如果有那就无需再加载了。如果没有，那么会拿到父加载器，然后调用父加载器的loadClass方法。父类中同理也会先检查自己是否已经加载过，如果没有再往上。注意这个类似递归的过程，直到到达Bootstrap classLoader之前，都是在检查是否加载过，并不会选择自己去加载。直到BootstrapClassLoader，已经没有父加载器了，这时候开始考虑自己是否能加载了，如果自己无法加载，会下沉到子加载器去加载，一直到最底层，如果没有任何加载器能加载，就会抛出ClassNotFoundException。
+​    当一个Hello.class这样的文件要被加载时。不考虑我们自定义类加载器，首先会在AppClassLoader中检查是否加载过，如果有那就无需再加载了。如果没有，那么会拿到父加载器，然后调用父加载器的loadClass方法。父类中同理也会先检查自己是否已经加载过，如果没有再往上。注意这个类似递归的过程，直到到达Bootstrap classLoader之前，都是在检查是否加载过，并不会选择自己去加载。直到BootstrapClassLoader，已经没有父加载器了，这时候开始考虑自己是否能加载了，如果自己无法加载，会下沉到子加载器去加载，一直到最底层，如果没有任何加载器能加载，就会抛出ClassNotFoundException。
 
 ##### 双亲委派机制的作用：
 
@@ -641,17 +635,17 @@ public class Test {
 ### 十三、获取运行时类的完整结构
 
 + 通过反射获取运行时类的完整结构
-	Field, Method, Constructor, Superclass, Interface, Annotation
-	+ 实现的全部接口
-	+ 所继承的父类
-	+ 全部的构造器
-	+ 全部的方法
-	+ 全部的Field
-	+ 注解 
+    Field, Method, Constructor, Superclass, Interface, Annotation
+  + 实现的全部接口
+  + 所继承的父类
+  + 全部的构造器
+  + 全部的方法
+  + 全部的Field
+  + 注解 
 
 ---
 
- 
+
 
 ### 十四、动态创建对象执行方法
 
@@ -687,8 +681,11 @@ public class Test {
 #### 3. setAccessible
 
 + Method和Field, Constructor对象都有setAccessible()方法。
+
 + setAccessible作用是启动和禁用访问安全检查的开关。
+
 + 参数值为true则指示反射的对象在使用时应该取消Java语言访问检查。
+  
   1. 提高反射的效率。如果代码中必须用反射，而该句代码需要频繁的被调用，那么请设置为true。
   2. 使得原本无法访问的私有成员也可以访问
 
@@ -772,7 +769,6 @@ class User{
 
 ---
 
-
 ### 十五、获取反射信息
 
 #### 反射操作泛型
@@ -780,6 +776,7 @@ class User{
 1. Java采用泛型擦除的机制来引入泛型，Java中的泛型仅仅是给编译器javac使用的,确保数据的安全性和免去强制类型转换问题。但是，一旦编译完成，所有和泛型有关的类型全部擦除。
 
 2. 为了通过反射操作这些类型， Java新增了ParameterizedType, GenericArrayType，TypeVariable 和WildcardType几种类型来代表不能被归一到Class类中的类型但是又和原始类型齐名的类型 。
+   
    + **ParameterizedType：**表示一种参数化类型，比如`Collection<String>`
    + **GenericArrayType：**表示一种元素类型是参数化类型或者类型变量的数组类型
    + **TypeVariable：**是各种类型变量的公共父接口
@@ -846,7 +843,6 @@ class User{
 
 ---
 
-
 ### 十六、获取注解信息
 
 #### 1. 反射操作注解
@@ -857,9 +853,9 @@ class User{
 #### 2. ORM
 
 + 什么是ORM？
-
+  
   1. Object relationship Mapping --> 对象关系映射
-  ![image-20220309165950831](../NotesImg/image-20220309165950831.png)
+     ![image-20220309165950831](../NotesImg/image-20220309165950831.png)
   2. 类和表结构对应
   3. 属性和字段对应
   4. 对象和记录对应
