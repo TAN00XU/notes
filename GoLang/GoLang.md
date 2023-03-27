@@ -15,11 +15,10 @@ func main() { //main主函数 程序入口
 ```mermaid
 graph LR
     id(源文件 .go文件)--go build 编译-->id1(可执行文件 .exe文件)--运行-->id2(执行结果)
-    
 
 ```
 
- 或者
+或者
 
 ```mermaid
 graph LR
@@ -275,7 +274,7 @@ func main() {
 const identifier [type] = value
 ```
 
-可以省略[说明符] [type] ，因为编译器可以根据变量的值来推断其类型
+可以省略[说明符][type] ，因为编译器可以根据变量的值来推断其类型
 多个相同类型的声明可以简写为： 
 
 ```go
