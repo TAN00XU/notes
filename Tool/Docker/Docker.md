@@ -386,7 +386,7 @@ docker cp 目的主机路径 容器id:容器内路径
 
 ### 2.4.6、总结
 
-![docker 命令图](assets/command.png)
+![docker 命令图](./images/command.png)
 
 ## 2.5、练习
 
@@ -499,5 +499,3 @@ docker run -d -P --name nginx02 -v juming-nginx:/etc/nginx:rw nginx
 
 
 # 四、Dockerfile
-
-

@@ -83,7 +83,7 @@ $ ssh -T git@github.com
 
 
 
-# Windows乱码
+# Windows中文乱码解决办法
 
 ```shell
 $ git config --global core.quotepath false          # 显示 status 编码
