@@ -434,3 +434,4 @@ func main() {
 
 ## 6.3字符串类型
 
+![ASCII码表](./images/ASCII码表.png)
