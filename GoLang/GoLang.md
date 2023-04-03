@@ -422,6 +422,10 @@ num9对应的默认的类型为：float64
 
 ## 6.2 布尔类型
 
+1. 布尔类型也叫bool类型，bool类型数据只允许取值true和false
+2. 布尔类型占1个字节。
+3. 布尔类型适于逻辑运算，一般用于程序流程控制
+
 ```go
 // true 和 false
 // 默认值是 false
@@ -475,13 +479,15 @@ func main(){
 
 
 
-### 6.3.3 字符与字符串的使用
+## 6.4 字符串类型
+
+字符串就是一串固定长度的字符连接起来的字符序列
 
 Go语言的字符串的字节使用UTF-8编码表示Unicode文本
 
 ```go
-  var str string = "只因"
-	fmt.Printf("%T,%s\n", str, str) //string,只因
+  var str string = "饮梦"
+	fmt.Printf("%T,%s\n", str, str) //string,饮梦
 
 	//单引号 字符，整型——ASCII字符码
 	v1 := '中'
@@ -499,6 +505,212 @@ Go语言的字符串的字节使用UTF-8编码表示Unicode文本
 
 ```go
 //字符串连接 +
+//字符过长时，加号放在每行最后
 	fmt.Println("hello," + "dream")
 ```
+
+```go
+//3.字符串的表示形式：
+//（1）如果字符串中没有特殊字符，字符串的表示形式用双引号
+var s1 string = "tx"
+//（2）如果字符串中有特殊字符，字符串的表示形式用反引号 ``
+var s2 string = `
+	{
+		//如果字符串中有特殊字符
+		字符串的表示形式用
+		“反引号”
+	}
+`
+```
+
+## 6.5 数据类型的转换
+
+### 6.5.1 基本数据类型之间的转换
+
++ Go在不同类型的变量之间赋值时需要显式转换，并且只有显式转换(强制转换)。
+
++ 语法：
+
+  表达式**T(v)**将值v转换为类型T
+
+  T : 就是数据类型
+
+  v : 就是需要转换的变量
+
+**由于Go语言不存在隐式类型转换，因此所有的类型转换都必须显式的声明**
+
+```go
+// 类型B的值 = 类型B（类型A的值）
+valueOfTypeB = typeB(valueOfTypeA)
+```
+
+```go
+a := 5.0    //float
+b := int(a) //转换为int
+fmt.Printf("%T,%f\n", a, a) //float64,5.000000
+fmt.Printf("%T,%d\n", b, b) //int,5
+
+//整型不能转换为bool类型
+//e := bool(a)
+```
+
+
+
+### 6.5.2 基本数据类型和string之间的转换
+
+#### 基本类型转string类型
+
+1. fmt.Sprintf("%参数",表达式) 
+
+    func Sprintf
+
+    ```go
+    func Sprintf(format string, a ...interface{}) string
+    ```
+     **Sprintf**根据format参数生成格式化的字符串并返回该字符串。
+
+2. 使用strconv包的函数 
+
+    + func ParseInt
+      ```go
+      func ParseInt(s string, base int, bitSize int) (i int64, err error)
+      ```
+
+      返回字符串表示的整数值，接受正负号。
+
+      base指定进制（2到36），如果base为0，则会从字符串前置判断，"0x"是16进制，"0"是8进制，否则是10进制；
+
+      bitSize指定结果必须能无溢出赋值的整数类型，0、8、16、32、64 分别代表 int、int8、int16、int32、int64；返回的err是*NumErr类型的，如果语法有误，err.Error = ErrSyntax；如果结果超出类型范围err.Error = ErrRange。
+
+    + func ParseFloat
+      ```go
+      func ParseFloat(s string, bitSize int) (f float64, err error)
+      ```
+
+      解析一个表示浮点数的字符串并返回其值。
+
+      如果s合乎语法规则，函数会返回最为接近s表示值的一个浮点数（使用IEEE754规范舍入）。bitSize指定了期望的接收类型，32是float32（返回值可以不改变精确值的赋值给float32），64是float64；返回值err是*NumErr类型的，语法有误的，err.Error=ErrSyntax；结果超出表示范围的，返回值f为±Inf，err.Error= ErrRange。
+
+    + func FormatBool
+      ```go
+      func FormatBool(b bool) string
+      ```
+
+      根据b的值返回"true"或"false"。
+
+    
+
+```go
+func main(){
+    var n1 int = 19
+    var n2 float32 = 4.78
+    var n3 bool = false
+    var n4 byte = 'a'
+    var s1 string = fmt.Sprintf("%d",n1)
+    fmt.Printf("s1对应的类型是：%T ，s1 = %q \n",s1, s1)
+    var s2 string = fmt.Sprintf("%f",n2)
+    fmt.Printf("s2对应的类型是：%T ，s2 = %q \n",s2, s2)
+    var s3 string = fmt.Sprintf("%t",n3)
+    fmt.Printf("s3对应的类型是：%T ，s3 = %q \n",s3, s3)
+    var s4 string = fmt.Sprintf("%c",n4)
+    fmt.Printf("s4对应的类型是：%T ，s4 = %q \n",s4, s4)
+}
+```
+
+```go
+import(
+        "fmt"
+        "strconv"
+)
+func main(){
+        var n1 int = 18
+        var s1 string = strconv.FormatInt(int64(n1),10)  //参数：第一个参数必须转为int64类型 ，第二个参数指定字面值的进制形式为十进制
+        fmt.Printf("s1对应的类型是：%T ，s1 = %q \n",s1, s1)
+        var n2 float64 = 4.29
+        var s2 string = strconv.FormatFloat(n2,'f',9,64)
+        //第二个参数：'f'（-ddd.dddd）  第三个参数：9 保留小数点后面9位  第四个参数：表示这个小数是float64类型
+        fmt.Printf("s2对应的类型是：%T ，s2 = %q \n",s2, s2)
+        var n3 bool = true
+        var s3 string = strconv.FormatBool(n3)
+        fmt.Printf("s3对应的类型是：%T ，s3 = %q \n",s3, s3)
+}
+
+```
+
+
+
+#### String类型转基本类型
+
+##### func ParseBool
+
+```go
+func ParseBool(str string) (value bool, err error)
+```
+
+返回字符串表示的bool值。它接受1、0、t、f、T、F、true、false、True、False、TRUE、FALSE；否则返回错误。
+
+##### func ParseInt
+
+```go
+func ParseInt(s string, base int, bitSize int) (i int64, err error)
+```
+
+返回字符串表示的整数值，接受正负号。
+
+base指定进制（2到36），如果base为0，则会从字符串前置判断，"0x"是16进制，"0"是8进制，否则是10进制；
+
+bitSize指定结果必须能无溢出赋值的整数类型，0、8、16、32、64 分别代表 int、int8、int16、int32、int64；返回的err是*NumErr类型的，如果语法有误，err.Error = ErrSyntax；如果结果超出类型范围err.Error = ErrRange。
+
+##### func ParseFloat
+
+```go
+func ParseFloat(s string, bitSize int) (f float64, err error)
+```
+
+解析一个表示浮点数的字符串并返回其值。
+
+如果s合乎语法规则，函数会返回最为接近s表示值的一个浮点数（使用IEEE754规范舍入）。bitSize指定了期望的接收类型，32是float32（返回值可以不改变精确值的赋值给float32），64是float64；返回值err是*NumErr类型的，语法有误的，err.Error=ErrSyntax；结果超出表示范围的，返回值f为±Inf，err.Error= ErrRange。
+
+
+
+```go
+package main
+import(
+        "fmt"
+        "strconv"
+)
+func main(){
+        //string-->bool
+        var s1 string = "true"
+        var b bool
+        //ParseBool这个函数的返回值有两个：(value bool, err error)
+        //value就是我们得到的布尔类型的数据，err出现的错误
+        //我们只关注得到的布尔类型的数据，err可以用_直接忽略
+        b , _ = strconv.ParseBool(s1)
+        fmt.Printf("b的类型是：%T,b=%v \n",b,b)
+        //string---》int64
+        var s2 string = "19"
+        var num1 int64
+        num1,_ = strconv.ParseInt(s2,10,64)
+        fmt.Printf("num1的类型是：%T,num1=%v \n",num1,num1)
+        //string-->float32/float64
+        var s3 string = "3.14"
+        var f1 float64
+        f1,_ = strconv.ParseFloat(s3,64)
+        fmt.Printf("f1的类型是：%T,f1=%v \n",f1,f1)
+        //注意：string向基本数据类型转换的时候，一定要确保string类型能够转成有效的数据类型，否则最后得到的结果就是按照对应类型的默认值输出
+        var s4 string = "golang"
+        var b1 bool
+        b1 , _ = strconv.ParseBool(s4)
+        fmt.Printf("b1的类型是：%T,b1=%v \n",b1,b1)
+        var s5 string = "golang"
+        var num2 int64
+        num2,_ = strconv.ParseInt(s5,10,64)
+        fmt.Printf("num2的类型是：%T,num2=%v \n",num2,num2)
+}
+```
+
+
+
+## 6.6 指针
 
