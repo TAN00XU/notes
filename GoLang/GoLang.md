@@ -469,7 +469,7 @@ func main(){
 
 ### 6.3.1 ASCII 字符编码表
 
-![ASCII码表](./images/ASCII码表.png)
+![ASCII码表](./assets/images/ASCII码表.png)
 
 ### 6.3.2 转义字符
 
@@ -714,4 +714,3 @@ func main(){
 
 ## 6.6 指针
 
-<p>sss</p>
