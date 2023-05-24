@@ -717,6 +717,8 @@ i'm end
 
 
 1. 不能从外面`goto`到代码块里面去，因为代码块里面的`lable`，对外面的`goto`来说是不可见的。
+   
+   
    ```lua
    goto label;
    do
@@ -729,8 +731,10 @@ i'm end
    ```
 
    
-
+   
 2. 不能跳出或跳入一个函数，因为函数也是一个block(块)
+   
+   
    ```lua
    function func()
        :: label :: ;
@@ -743,7 +747,7 @@ i'm end
    --输出--
    no visible label 'label' for <goto> at line 8
    ```
-
+   
    
    
    ```lua
@@ -758,10 +762,12 @@ i'm end
    --输出--
    no visible label 'label' for <goto> at line 3
    ```
-
+   
    
    
 3. 不能跳入本地变量作用域
+   
+   
    ```lua
    do
        print("Hello World");
@@ -791,12 +797,32 @@ i'm end
 
    
 
-   
+## 九、表Table常用方法
 
    
 
-   
+### 9.1 `table.concat(list[, sep [, i [, j]]])`
+
+将数组中的元素拼接成一个字符串
+
+返回字符串 `list[i]..sep..list[i+1] ··· sep..list[j]`
+
++ `separation` 默认为空字符串
++ `i` 默认值为1
++ `j` 默认值为`#list`
++ 如果 `i` 比 `j` 大，返回空串
 
    
 
+### 9.2 `table.insert (list, [pos,] value)`
+
+向指定位置插入元素，默认插入到最后
+
+   在 `list` 的位置 `pos` 处插入元素 `value` ， 并后移元素 `list[pos], list[pos+1], ···, list[#list]`
+
++ `position`的默认值为 `#list+1`。直接调用 `table.insert(t,x)` 会将 `x` 插在列表 `t` 的末尾
+
    
+
+### 9.3 `table.remove (list [, pos])`
+
