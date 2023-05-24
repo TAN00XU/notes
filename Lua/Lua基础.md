@@ -826,3 +826,33 @@ i'm end
 
 ### 9.3 `table.remove (list [, pos])`
 
+删除数组中的元素，默认删除最后一个
+
+移除 `list` 中 `pos` 位置上的元素，并返回这个被**移除的值**，其后的元素会被前移。
+
++ `pos` 默认为 `#list`， 因此调用 `table.remove(l)` 将移除表 `l` 的最后一个元素
+
+
+
+### 9.4 `table.move(a1,f,e,t[,a2])` Lua>=5.3
+
+把表a1中从下标f到e的value移动到表a2中，位置为a2下标从t开始
+
++ `a2` 默认值为`a1`
+
+```lua
+local table1 = { 1, 2, 3, 4, 5 };
+
+local table2 = { "TX" };
+table.move(table1, 1, 5, 2, table2);
+
+print(table.concat(table1, "-"));
+print(table.concat(table2, "-"));
+--输出--
+1-2-3-4-5
+TX-1-2-3-4-5
+```
+
+
+
+### 9.5 `table.sort (list [, comp])`
