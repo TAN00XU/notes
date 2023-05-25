@@ -6,7 +6,7 @@
 
 > Lua 5.3 参考手册 - 目录 <https://www.runoob.com/manual/lua53doc/contents.html#index>
 
-
+> Lua 教程 | 菜鸟教程  <https://www.runoob.com/lua/lua-tutorial.html>
 
 ## 一、注释
 
@@ -1148,3 +1148,287 @@ print(string.format('%q', 'a string with "quotes" and \n new line'))
 + 在字符串 `s` 中找到第一个能用 `pattern` 匹配到的部分。 如果能找到，`match` 返回其中的捕获物； 否则返回 **nil** 。 
 + 如果 `pattern` 中未指定捕获， 返回整个 `pattern` 捕获到的串。 
 + 第三个可选数字参数 `init` 指明从哪里开始搜索； 它默认为 1 且可以是负数。
+
+```lua
+a, b = string.match("I have 2 questions for you.", "(%d+) (%w+)")
+print(a .. "---" .. b)
+--输出--
+2---questions
+
+print(string.format("%d, %q", string.match("I have 2 questions for you.", "(%d+) (%w+)")))
+--输出--
+2, "questions"
+```
+
+
+
+## 十一、函数 function
+
+Lua 编程语言函数定义格式如下：
+
+```lua
+optional_function_scope function function_name( argument1, argument2, argument3..., argumentn)
+    function_body
+    return result_params_comma_separated
+end
+```
+
+- **optional_function_scope:** 该参数是可选的指定函数是全局函数还是局部函数，未设置该参数默认为全局函数，如果你需要设置函数为局部函数需要使用关键字 **local**。
+
+- **function_name:** 指定函数名称。
+
+- **argument1, argument2, argument3..., argumentn:** 函数参数，多个参数以逗号隔开，函数也可以不带参数。
+
+- **function_body:** 函数体，函数中需要执行的代码语句块。
+
+- **result_params_comma_separated:** 函数返回值，Lua语言函数可以返回多个值，每个值以逗号隔开。
+
+  
+
+### 11.1 function 常见形式
+
+```lua
+-- 直接调用
+function show(a, b)
+    print(a, b);
+end
+show("hello", "world");
+--输出--
+hello	world
+---------------------------
+-- 当右值，赋值给一个变量，然后调用
+func1 = show;
+func1("hello", "world");
+--输出--
+hello	world
+---------------------------
+-- 匿名函数当右值，直接调用
+func2 = function(a, b)
+    print(a, b);
+end
+func2("hello", "world");
+--输出--
+hello	world
+---------------------------
+-- 当参数
+function show2(a, b, func)
+    func(a, b);
+end
+show2("hello", "world", show);
+show2("hello", "world", function(a, b)
+    print(a, b);
+end);
+--输出--
+hello	world
+---------------------------
+-- 当返回值
+function show3(a, b)
+    return function()
+        print(a, b);
+    end
+end
+show3("hello", "world")();
+-- 或者
+--func3 = show3("hello", "world");
+--func3();
+--输出--
+hello	world
+---------------------------
+-- 多返回值
+function show4(a, b)
+    return a, b;
+end
+print(show4("hello", "world"));
+--输出--
+hello	world
+---------------------------
+-- 可变参数
+function add(...)
+    local s = 0;
+    for i, v in ipairs { ... } do --> {...} 表示一个由所有变长参数构成的数组  
+        s = s + v;
+    end
+    return s;
+end
+print(add(1, 2, 3, 4, 5));
+--输出--
+15
+---------------------------
+-- 函数只有一个参数时，可以省略括号
+function show5(a)
+    print(a);
+end
+show5 "hello world";
+--输出--
+hello world
+---------------------------
+```
+
+
+
+### 11.2 table中的function
+
+```lua
+function show(a)
+    print(a);
+end
+
+t1 = {
+    show = show,
+    add  = function(a, b)
+        return a + b;
+    end
+}
+t1.show("hello world");
+t1["show"]("hello world");
+print(t1.add(1, 2));
+t1.show(t1.add(1, 2));
+
+t1.sub = function(a, b)
+    return a - b;
+end
+
+print(t1.sub(1, 2));
+
+--输出--
+hello world
+hello world
+3
+3
+-1
+```
+
+
+
+```lua
+calc = {
+    a    = 1,
+    b    = 2,
+    add  = function(self)
+        return self.a + self.b;
+    end,
+    sub  = function(self)
+        calc.result = self.a - self.b;
+        return self;
+    end,
+    show = function(self)
+        print(self.result);
+    end
+    
+}
+print(calc.add(calc));
+print(calc:sub():show()); --> 使用":"调用函数，会默认把自身传入
+print(calc.sub(calc).show(calc)); --> 使用self时，用"."调用函数需要手动传入self
+--输出--
+3
+-1
+
+-1
+
+```
+
+
+
+#### `.`和`:`的区别
+
++ `.` 用来访问table中的元素
++ `:` 用来调用table中的函数，相当于传递了self参数
++ 如果函数中没有`self`参数，那么`:`和`.`是一样的
++ 一般情况下，如果函数中有`self`参数，那么就用`:`，否则就用`.`
++ 如果函数中有self参数，但是不想用`:`，那么可以用`.`，但是需要手动传递`self`参数
++ 如果函数中没有self参数，但是想用`:`，那么可以用`:`，但是不要传递self参数
++ 如果函数中没有self参数，但是想用`:`，并且传递了self参数，那么self参数会被忽略
+
+
+
+### 11.3 `select`处理可变参函数
+
+- **`select('#', …)`** 返回可变参数的长度。
+- **`select(n, …)`** 用于返回从起点 **n** 开始到结束位置的所有参数列表。
+
+```lua
+function show(...)
+    print(select("#", ...));
+end
+show(1, 2, 3, 4, 5);
+--输出--
+5
+----------------------
+function show(...)
+    print(select(3, ...));
+end
+show(1, 2, 3, 4, 5);
+--输出--
+3	4	5
+```
+
+```lua
+function show(...)
+    print(select("#", ...));
+    print(select(1, ...));
+end
+show(1, 2, 3, 4, 5, "#", "", nil, { table }, function() end);
+--输出--
+10
+1	2	3	4	5	#		nil	table: 0000000000ff9280	function: 0000000000ffd440
+
+```
+
+
+
+### 11.4 `pack`处理可变参函数
+
+将可变参数打包成一个table，且会在最后多出一个`n`键，值为可变参的参数个数
+
+`table.pack`返回用所有参数以键 1,2, 3等填充的新表， 并将 "`n`" 这个域设为参数的总数。 注意这张返回的表不一定是一个序列。
+
+```lua
+function show(...)
+    local t = table.pack(...);
+    for i, v in pairs(t) do
+        print(i, v);
+    end
+    print(t[8])；
+end
+show(1, 2, 3, 4, 5, "#", "", nil, { table }, function() end);
+--输出--
+1	11
+2	22
+3	33
+4	44
+5	55
+6	#
+7	
+9	table: 00000000006f94c0
+10	function: 00000000006fd560
+n	10
+nil
+```
+
+### 11.5 `table.unpack (list [, i [, j]])`
+
+解包，将table解包为可变参
+
+返回列表中的元素。 这个函数等价于
+
+```lua
+     return list[i], list[i+1], ···, list[j]
+```
+
+`i` 默认为 1 ，`j` 默认为 `#list`。
+
+
+
+```lua
+function func(...)
+    return table.pack(...);
+end
+print(func(1, 2, 3, 4, 5));
+print(table.unpack(func(1, 2, 3, 4, 5)));
+print(table.unpack(func(1, 2, 3, 4, 5), 2, 3));
+--输出--
+table: 0000000000f99400
+1	2	3	4	5
+2	3
+```
+
