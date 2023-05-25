@@ -1,8 +1,10 @@
-> lua在线测试 <https://wiki.luatos.com/_static/luatos-emulator/lua.html>
-
 
 
 # Lua基础
+
+> lua在线测试 <https://wiki.luatos.com/_static/luatos-emulator/lua.html>
+
+> Lua 5.3 参考手册 - 目录 <https://www.runoob.com/manual/lua53doc/contents.html#index>
 
 
 
@@ -85,7 +87,7 @@ end
 
 ## 五、数据类型
 
-###### 5.1 八种数据类型
+### 5.1 八种数据类型
 
 | 数据类型 | 描述                                                         |
 | :------- | :----------------------------------------------------------- |
@@ -104,7 +106,7 @@ end
 
 
 
-###### 5.2 使用type函数测试给定变量或者值的类型
+### 5.2 使用type函数测试给定变量或者值的类型
 
 `type(X)` 函数实质是返回的是字符串，是一个` string` 类型，做比较时应该使用`type(X)=="nil"`
 
@@ -797,7 +799,7 @@ i'm end
 
    
 
-## 九、表Table常用方法
+## 九、表Table常用api
 
    
 
@@ -834,7 +836,7 @@ i'm end
 
 
 
-### 9.4 `table.move(a1,f,e,t[,a2])` Lua>=5.3
+### 9.4 `table.move(a1,f,e,t[,a2])` 
 
 把表a1中从下标f到e的value移动到表a2中，位置为a2下标从t开始
 
@@ -856,3 +858,293 @@ TX-1-2-3-4-5
 
 
 ### 9.5 `table.sort (list [, comp])`
+
+数组排序，默认从小到大，可自定义排序规则
+
++ 在表内从 `list[1]` 到 `list[#list]` *原地* 对其间元素按指定次序排序，直接操作原表无返回值
++  如果提供了 `comp` ， 它必须是一个可以接收两个列表内元素为参数的函数。
++ 如果没有提供 `comp`， 将使用标准 Lua 操作 `<` 作为替代品。及**从小到大**排序。
+
+```lua
+local myTable = { 5, 4, 1, 3, 2 }
+table.sort(myTable)
+print(table.concat(myTable, "-"))
+--输出--
+1-2-3-4-5
+```
+
+```lua
+local myTable = { 5, 4, 1, 3, 2 }
+function desc(a, b)
+    return a > b
+end
+table.sort(myTable, desc)
+print(table.concat(myTable, "-"))
+--输出--
+5-4-3-2-1
+```
+
+
+
+## 十、String常用api
+
+### 10.1 字符串，转义字符
+
+Lua 语言中字符串可以使用以下三种方式来表示：
+
+- 单引号间的一串字符。
+- 双引号间的一串字符。
+- **[[** 与 **]]** 间的一串字符。
+
+义字符用于表示不能直接显示的字符，比如后退键，回车键，等。如在字符串转换双引号可以使用 "\""。
+
+所有的转义字符和所对应的意义：
+
+| 转义字符 | 意义                                | ASCII码值（十进制） |
+| -------- | ----------------------------------- | ------------------- |
+| \a       | 响铃(BEL)                           | 007                 |
+| \b       | 退格(BS) ，将当前位置移到前一列     | 008                 |
+| \f       | 换页(FF)，将当前位置移到下页开头    | 012                 |
+| \n       | 换行(LF) ，将当前位置移到下一行开头 | 010                 |
+| \r       | 回车(CR) ，将当前位置移到本行开头   | 013                 |
+| \t       | 水平制表(HT) （跳到下一个TAB位置）  | 009                 |
+| \v       | 垂直制表(VT)                        | 011                 |
+| \\       | 代表一个反斜线字符''\'              | 092                 |
+| \'       | 代表一个单引号（撇号）字符          | 039                 |
+| \"       | 代表一个双引号字符                  | 034                 |
+| \0       | 空字符(NULL)                        | 000                 |
+| \ddd     | 1到3位八进制数所代表的任意字符      | 三位八进制          |
+| \xhh     | 1到2位十六进制所代表的任意字符      | 二位十六进制        |
+
+
+
+### 10.2 `string.upper (s)`
+
+接收一个字符串，将其中的小写字符都转为大写后返回其副本。 其它的字符串不会更改。 对小写字符的定义取决于当前的区域设置。
+
+```lua
+local s = "Hello World";
+print(string.upper(s));
+--输出--
+HELLO WORLD
+```
+
+
+
+### 10.3 `string.lower (s)`
+
+接收一个字符串，将其中的大写字符都转为小写后返回其副本。 其它的字符串不会更改。 对大写字符的定义取决于当前的区域设置。
+
+```lua
+local s = "Hello World";
+print(string.lower(s));
+--输出--
+hello world
+```
+
+
+
+### 10.4 `string.len (s)`
+
+接收一个字符串，返回其长度。 空串 `""` 的长度为 0 。 内嵌零也统计在内，因此 `"a\000bc\000"` 的长度为 5 。
+
+```lua
+local s = "Hello World";
+print(string.len(s));
+--输出--
+11
+```
+
+ 
+
+### 10.5 `string.reverse (s)`
+
+返回字符串 `s` 的翻转串。
+
+```lua
+local s = "Hello World";
+print(string.reverse(s))
+--输出--
+dlroW olleH
+```
+
+
+
+### 10.6 连接符`..`
+
+字符串连接符
+
+```lua
+print("Hello" .. "World")
+--输出--
+HelloWorld
+```
+
+
+
+### 10.7 `string.sub (s, i [, j])`
+
+截取字符串
+
+- s：要截取的字符串。
+- i：截取开始位置。
+- j：截取结束位置，默认为 -1，最后一个字符。
+
++ 返回 `s` 的子串， 该子串从 `i` 开始到 `j` 为止； `i` 和 `j` 都可以为负数。 
++ 如果不给出 `j` ，就当它是 -1 （和字符串长度相同）。 特别是， 调用 `string.sub(s,1,j)` 可以返回 `s` 的长度为 `j` 的前缀串， 而 `string.sub(s, -i)` 返回长度为 `i` 的后缀串。
++ 如果在对负数索引转义后 `i` 小于 1 的话，就修正回 1 。 如果 `j` 比字符串的长度还大，就修正为字符串长度。 如果在修正之后，`i` 大于 `j`， 函数返回空串。
+
+```lua
+local s = "Hello World";
+print("原始字符串", "\'" .. s .. "\'", "字符串长度", string.len(s));
+print("第一次截取", string.sub(s, 1, 4));
+print("第二次截取", string.sub(s, 1, -1));
+print("第三次截取", string.sub(s, 1, 22));
+print("第四次截取", string.sub(s, 5, 11));
+print("第五次截取", string.sub(s, 7));
+print("第六次截取", string.sub(s, 7, -1));
+print("第七次截取", string.sub(s, 7, -3));
+print("第八次截取", string.sub(s, -5));
+print("第九次截取", string.sub(s, -5, -1));
+print("第十次截取", string.sub(s, -5, -3));
+print("第十一次截取", string.sub(s, -11));
+print("第十二次截取", string.sub(s, -22));
+print("第十三次截取", string.sub(s, -22, -5));
+
+--输出--
+原始字符串	'Hello World'	字符串长度	11
+第一次截取	Hell
+第二次截取	Hello World
+第三次截取	Hello World
+第四次截取	o World
+第五次截取	World
+第六次截取	World
+第七次截取	Wor
+第八次截取	World
+第九次截取	World
+第十次截取	Wor
+第十一次截取	Hello World
+第十二次截取	Hello World
+第十三次截取	Hello W
+```
+
+
+
+### 10.8 `string.find (s, pattern [, init [, plain]])`
+
++ 在一个指定的目标字符串 `s`中搜索指定的内容 `pattern `，如果找到了一个匹配的子串，就会返回这个子串的起始索引和结束索引，不存在则返回 nil。
+
++ **init** 指定了搜索的起始位置，默认为 1，可以一个负数，表示从后往前数的字符个数。
+
++ **plain** 表示是否使用简单模式，默认为 false，true 只做简单的查找子串的操作，false 表示使用正则模式匹配。
+
+```lua
+print(string.find("Hello Lua user", "Lua", 1));
+--输出--
+7    9
+
+print(string.find("Hello Lua user", "%w+", 1, false));
+--输出--
+1	5
+```
+
+
+
+### 10.9 `string.gsub (s, pattern, repl [, n])`
+
+将字符串 `s` 中，所有的（或是在 `n` 给出时的前 `n` 个） `pattern` 都替换成 `repl` ，并返回其副本。 `repl` 可以是字符串、表、或函数。 `gsub` 还会在第二个返回值返回一共发生了多少次匹配。 `gsub` 这个名字来源于 *Global SUBstitution* 。
+
+```lua
+-- 全部替换
+print(string.gsub("TTTT", "T", "X"))
+--输出--
+XXXX	4
+
+--替换3次
+print(string.gsub("TTTT", "T", "X", 3))
+--输出--
+XXXT	3
+```
+
+
+
+```lua
+print(string.gsub("hello world", "(%w+)", "%1 %1"))
+--输出--
+hello hello world world	2
+-----------------------------------
+print(string.gsub("hello world", "%w+", "%0 %0", 1))
+--输出--
+hello hello world	1
+-----------------------------------
+print(string.gsub("hello world from Lua", "(%w+)%s*(%w+)", "%2 %1"))
+--输出--
+world hello Lua from	2
+-----------------------------------
+print(string.gsub("4+5 = $return 4+5$", "%$(.-)%$",
+        function(s)
+            return load(s)() --将字符串 s 转换为函数，然后执行这个函数，返回函数的返回值
+        end)
+)
+--输出--
+4+5 = 9	1
+-----------------------------------
+-- 使用 load() 函数加载字符串并编译为函数
+local func = load("print('Hello, World!')")
+-- 调用刚刚生成的函数
+func()
+--输出--
+Hello, World!
+-----------------------------------
+local t = { name = "lua", version = "5.3" }
+print(string.gsub("$name-$version.tar.gz", "%$(%w+)", t))
+--输出--
+lua-5.3.tar.gz	2
+```
+
+
+
+### 10.10 `string.byte (s [, i [, j]])`和`string.char (···)`
+
++  `byte `转换字符为整数值(可以指定某个字符，默认第一个字符)。 `i` 的默认值是 1 ； `j` 的默认值是 `i`。
++ `char `将整型数字转成字符并连接。接收零或更多的整数。 返回和参数数量相同长度的字符串。 其中每个字符的内部编码值等于对应的参数值
+
+```lua
+print(string.byte("ABCD"))
+print(string.byte("ABCD", 2))
+print(string.byte("ABCD", 1, 4))
+--输出--
+65
+66
+65	66	67	68
+
+print(string.char(65, 66, 67, 68, 97, 98, 99, 100))
+--输出--
+ABCDabcd
+```
+
+
+
+### 10.11 `string.format (formatstring, ···)`
+
++ 返回不定数量参数的格式化版本， 格式化串为第一个参数（必须是一个字符串）。 
++ 格式化字符串遵循 ISO C 函数 `sprintf` 的规则。 不同点在于选项 `*`, `h`, `L`, `l`, `n`, `p` 不支持， 另外还增加了一个选项 `q`。 `q` 选项将一个字符串格式化为两个双引号括起，对内部字符做恰当的转义处理的字符串。
+
+```lua
+print(string.format("the value is:%d", 4))
+--输出--
+the value is:4
+
+print(string.format('%q', 'a string with "quotes" and \n new line'))
+--输出--
+"a string with \"quotes\" and \
+ new line"
+```
+
+
+
+### 10.12 `string.match (s, pattern [, init])`
+
++ 在字符串 `s` 中找到第一个能用 `pattern` 匹配到的部分。 如果能找到，`match` 返回其中的捕获物； 否则返回 **nil** 。 
++ 如果 `pattern` 中未指定捕获， 返回整个 `pattern` 捕获到的串。 
++ 第三个可选数字参数 `init` 指明从哪里开始搜索； 它默认为 1 且可以是负数。
