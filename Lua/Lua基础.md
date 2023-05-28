@@ -1432,3 +1432,383 @@ table: 0000000000f99400
 2	3
 ```
 
+
+
+## 十二、元表(Metatable)
+
+在 Lua table 中我们可以访问对应的 key 来得到 value 值，但是却无法对两个 table 进行操作(比如相加)。
+
+因此 Lua 提供了元表(Metatable)，允许我们改变 table 的行为，每个行为关联了对应的元方法。
+
+例如，使用元表我们可以定义 Lua 如何计算两个 table 的相加操作 a+b。
+
+当 Lua 试图对两个表进行相加时，先检查**两者之一**是否有元表，之后检查是否有一个叫 **__add** 的字段，若找到，则调用对应的值。 **__add** 等即时字段，其对应的值（往往是一个函数或是 table）就是"元方法"。
+
+- **`setmetatable(table,metatable)`:** 对指定 table 设置元表(metatable)，如果元表(metatable)中存在 __metatable 键值，setmetatable 会失败。返回表table。
+- **`getmetatable(table)`:** 返回对象的元表(metatable)。
+
+
+
+### 12.1 元表方法
+
+| 键值       | 操作                        | 描述                                                         |
+| ---------- | --------------------------- | ------------------------------------------------------------ |
+| __add      | +                           | 如果任何不是数字的值（包括不能转换为数字的字符串）做加法， Lua 就会尝试调用元方法。 首先、Lua 检查第一个操作数（即使它是合法的）， 如果这个操作数没有为 " |
+| __sub      | -                           | 行为和 "add" 操作类似。                                      |
+| __mul      | *                           | 行为和 "add" 操作类似。                                      |
+| __div      | /                           | 行为和 "add" 操作类似。                                      |
+| __mod      | %                           | 行为和 "add" 操作类似。                                      |
+| __pow      | ^ （次方）                  | 行为和 "add" 操作类似。                                      |
+| __unm      | - （取负）                  | 行为和 "add" 操作类似。                                      |
+| __idiv     | // （向下取整除法）         | 行为和 "add" 操作类似。                                      |
+| __band     | & （按位与）                | 行为和 "add" 操作类似， 不同的是 Lua 会在任何一个操作数无法转换为整数时 尝试取元方法。 |
+| __bor      | \| （按位或）               | （按位或）操作                                               |
+| __bxor     | ~ （按位异或）              | 行为和 "band" 操作类似。                                     |
+| __bnot     | ~ （按位非）                | 行为和 "band" 操作类似。                                     |
+| __shl      | << （左移）                 | 行为和 "band" 操作类似。                                     |
+| __shr      | >> （右移）                 | 行为和 "band" 操作类似。                                     |
+| __concat   | .. （连接）                 | 行为和 "add" 操作类似， 不同的是 Lua 在任何操作数即不是一个字符串 也不是数字（数字总能转换为对应的字符串）的情况下尝试元方法。 |
+| __len      | # （取长度）                | 如果对象不是字符串，Lua 会尝试它的元方法。 如果有元方法，则调用它并将对象以参数形式传入， 而返回值（被调整为单个）则作为结果。 如果对象是一张表且没有元方法， Lua 使用表的取长度操作。 其它情况，均抛出错误。 |
+| __eq       | == （等于）                 | 和 "add" 操作行为类似， 不同的是 Lua 仅在两个值都是表或都是完全用户数据 且它们不是同一个对象时才尝试元方法。 调用的结果总会被转换为布尔量。 |
+| __lt       | < （小于）                  | 和 "add" 操作行为类似， 不同的是 Lua 仅在两个值不全为整数也不全为字符串时才尝试元方法。 调用的结果总会被转换为布尔量。 |
+| __le       | <= （小于等于）             | 和其它操作不同， 小于等于操作可能用到两个不同的事件。 首先，像 "lt" 操作的行为那样，Lua 在两个操作数中查找 " |
+| __index    | 索引 table[key]             | 当 table 不是表或是表 table 中不存在 key 这个键时，这个事件被触发。 此时，会读出 table 相应的元方法。<br />尽管名字取成这样， 这个事件的元方法其实可以是一个函数也可以是一张表。 如果它是一个函数，则以 table 和 key 作为参数调用它。 如果它是一张表，最终的结果就是以 key 取索引这张表的结果。 （这个索引过程是走常规的流程，而不是直接索引， 所以这次索引有可能引发另一次元方法。） |
+| __newindex | 索引赋值 table[key] = value | 和索引事件类似，它发生在 table 不是表或是表 table 中不存在 key 这个键的时候。 此时，会读出 table 相应的元方法。<br />同索引过程那样， 这个事件的元方法即可以是函数，也可以是一张表。 如果是一个函数， 则以 table、 key、以及 value 为参数传入。 如果是一张表， Lua 对这张表做索引赋值操作。 （这个索引过程是走常规的流程，而不是直接索引赋值， 所以这次索引赋值有可能引发另一次元方法。）一旦有了 "newindex" 元方法， Lua 就不再做最初的赋值操作。 （如果有必要，在元方法内部可以调用 rawset 来做赋值。） |
+| __call     | 函数调用操作 func(args)     | 当 Lua 尝试调用一个非函数的值的时候会触发这个事件 （即 func 不是一个函数）。 查找 func 的元方法， 如果找得到，就调用这个元方法， func 作为第一个参数传入，原来调用的参数（args）后依次排在后面。 |
+
+
+
+### 12.2 不触发任何元方法
+
+> 以下方法都不经过元表
+
+
+
+#### 12.2.1 `rawequal (v1, v2)`
+
+在不触发任何元方法的情况下 检查 `v1` 是否和 `v2` 相等。 返回一个布尔量。
+
+
+
+#### 12.2.2 `rawlen (v)`
+
+在不触发任何元方法的情况下 返回对象 `v` 的长度。 `v` 可以是表或字符串。 它返回一个整数。
+
+
+
+#### 12.2.3 `rawset (table, index, value)`
+
+在不触发任何元方法的情况下 将 `table[index]` 设为 `value`。 `table` 必须是一张表， `index` 可以是 **nil** 与 NaN 之外的任何值。 `value` 可以是任何 Lua 值。
+
+这个函数返回 `table`。
+
+
+
+#### 12.2.4 `rawget (table, index)`
+
+在不触发任何元方法的情况下 获取 `table[index]` 的值。 `table` 必须是一张表； `index` 可以是任何值。
+
+
+
+### 12.3 元方法及示例
+
+
+
+#### 12.3.1* **`__index`**
+
+这是 metatable 最常用的键。
+
+当你通过键来访问 table 的时候，如果这个键没有值，那么Lua就会寻找该table的metatable（假定有metatable）中的\__index 键。如果__index包含一个表格，Lua会在表格中查找相应的键。
+
+
+
+Lua 查找一个表元素时的规则，其实就是如下 3 个步骤:
+
+1. 在表中查找，如果找到，返回该元素，找不到则继续
+2. 判断该表是否有元表，如果没有元表，返回 nil，有元表则继续。
+3. 判断元表有没有 __index 方法，如果 __index 方法为 nil，则返回 nil；如果 __index 方法是一个表，则重复 1、2、3；如果 __index 方法是一个函数，则返回该函数的返回值。
+
+
+
+```mermaid
+graph TB
+	getValue(取值)-->ifKey{是否有key}
+	ifKey--有-->haveKey["直接返回对应值"]
+	ifKey--无-->noKey{是否有元表__index}
+	noKey--有-->FuncOrTable{是方法还是表}
+		FuncOrTable--是方法-->isFunc["返回方法中的值"]
+		FuncOrTable--是表-->istable["表中是否有key，有返回对应值，否则返回nil"]
+    noKey--无-->noMate["返回nil"]
+```
+
+
+
+```lua
+t = { name = TX, age = 18 }
+print(t.address) -- 没有key，没有元表__index-->nil 
+--输出--
+nil
+---------------------
+
+t = { name = TX, age = 18 }
+meta = {
+    __index = {
+        address = "China"
+    }
+}
+t.address = "中国";
+setmetatable(t, meta);
+print(t.address); -- 自己有key，有元表__index，不管元表-->中国
+--输出--
+China
+---------------------
+
+t = { name = TX, age = 18 }
+meta = {
+    __index = {
+        address = "China"
+    }
+}
+setmetatable(t, meta)
+print(t.address) -- 没有key，有元表__index，且__index是表有对应key-->China
+--输出--
+China
+---------------------
+
+myTable = setmetatable({ name = "TX" }, {
+    __index = function(t, key)
+        if key == "address" then
+            return "China";
+        else
+            return "noValue";
+        end
+    end
+})
+print(myTable.name, myTable.address, myTable.age);
+--输出--
+TX	China	noValue
+---------------------
+```
+
+
+
+#### 12.3.2* **`__newindex`**
+
+__newindex 元方法用来对表更新，__index则用来对表访问 。
+
+当你给表的一个缺少的索引赋值，解释器就会查找__newindex 元方法：如果存在则调用这个函数而不进行赋值操作。
+
+```mermaid
+graph TB
+	setValue("设置表的值")-->ifKey{"表中是否有对应key"}
+	ifKey--有-->setTableValue["直接在表中设置对应值"]
+	ifKey--无-->ifNewIndex{"是否有__newindex方法"}
+        ifNewIndex--有-->FuncOrTable{"是方法还是表"}
+            FuncOrTable--表-->isTable["值会被设置在__newindex对应的表中"]
+            FuncOrTable--方法-->isFunc["值可以再方法中进行操作\n设置在想要设置的表中"]
+        ifNewIndex--无-->setTableValue
+```
+
+
+
+
+
+```lua
+myMetatable = {}
+myTable = setmetatable({ key1 = "value1" }, { __newindex = myMetatable })
+
+print(myTable.key1)
+
+myTable.newKey = "新值2"
+print(myTable.newKey, myMetatable.newKey)
+
+myTable.key1 = "新值1"
+print(myTable.key1, myMetatable.key1)
+--输出--
+value1
+nil	新值2
+新值1	nil
+----------------------------
+myTable = setmetatable({ key1 = "value1" }, {
+    __newindex = function(myTable, key, value)
+        --在不触发任何元方法的情况下设置值，必须使用该方法给自身表设值，否则会出现死循环栈溢出
+        rawset(myTable, key, "[" .. value .. "]") 
+    end
+})
+
+myTable.key1 = "new value"
+myTable.key2 = 4
+myTable.key3 = "value3"
+
+print(myTable.key1, myTable.key2, myTable.key3)
+--输出--
+new value	[4]	[value3]
+```
+
+
+
+
+
+
+
+#### 12.3.3 `__add`
+
+```lua
+t1 = { 11, 22, 33, 44, 55 }
+t2 = { 66, 77, 88, 99 }
+meta = {
+    __add = function(t1, t2)
+        local result = {}
+        for k, v in pairs(t1) do
+            table.insert(result, v)
+        end
+        for k, v in pairs(t2) do
+            table.insert(result, v)
+        end
+        return result
+    end
+}
+setmetatable(t1, meta)
+--setmetatable(t2, meta)
+result = t1 + t2
+for k, v in pairs(result) do
+    print(k, v)
+end
+--输出--
+1	11
+2	22
+3	33
+4	44
+5	55
+6	66
+7	77
+8	88
+9	99
+```
+
+```lua
+t1 = { 11, 22, 33, 44, 55 }
+t2 = { 66, 77, 88, 99 }
+meta = {}
+meta.__add = function(t1, t2)
+    local len = #t1 > #t2 and #t1 or #t2;
+    local result = {}
+    for i = 1, len do
+        result[i] = (t1[i] or 0) + (t2[i] or 0);
+    end
+    return result;
+end
+
+setmetatable(t1, meta);
+--setmetatable(t2, meta);
+
+for k, v in pairs(t1 + t2) do
+    print(k, v);
+end
+--输出--
+1	77
+2	99
+3	121
+4	143
+5	55
+```
+
+
+
+#### 12.3.4 `__eq`
+
+```lua
+t1 = { 11, 22, 33, 44, 55 }
+t2 = { 11, 22, 33, 44, 55 }
+setmetatable(t1, {
+    __eq = function(t1, t2)
+        if #t1 ~= #t2 then
+            return false;
+        end
+        for i = 1, #t1 do
+            if t1[i] ~= t2[i] then
+                return false;
+            end
+        end
+        return true;
+    end
+})
+print(t1 == t2)
+--输出--
+true
+```
+
+
+
+#### 12.3.5 `__tostring`
+
+
+
+```lua
+t = {
+    name   = "LuaMeta",
+    time   = "5/28",
+    author = "TX",
+}
+meta = {
+    __tostring = function(table)
+        local result = "{\n";
+        for k, v in pairs(table) do
+            result = result .. k .. "=" .. v .. ",\n";
+        end
+        return result .. "}";
+    end
+}
+setmetatable(t, meta);
+print(t);
+--输出--
+{
+name=LuaMeta,
+author=TX,
+time=5/28,
+}
+```
+
+
+
+#### 12.3.6 `__call`
+
+`__call` 元方法在 Lua 调用一个值时调用
+
+当 Lua 尝试调用一个非函数的值的时候会触发这个事件 。 查找表的元方法， 如果找得到，就调用这个元方法，本表作为第一个参数传入，原来调用的参数（`args`）后依次排在后面。
+
+
+
+```lua
+t = { 1, 2, 3, 4, 5 }
+setmetatable(t, {
+    __call = function(table, ...)
+        local result = 0;
+        for k, v in pairs(t) do
+            result = result + v;
+        end
+        return result;
+    end
+})
+print(t())
+--输出--
+15
+---------------------------
+
+t = {}
+setmetatable(t, {
+    __call = function(t, ...)
+        for k, v in pairs({ ... }) do
+            print(k, v);
+        end
+    end
+})
+t(1, 2, 3, 4, 5)
+--输出--
+1	1
+2	2
+3	3
+4	4
+5	5
+```
+
