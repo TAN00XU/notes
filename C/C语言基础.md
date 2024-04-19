@@ -1,35 +1,35 @@
-#  <span style="color:red;">32个关键字</span>
+# <span style="color:red;">32个关键字</span>
 
-|  关键字  | 含义                         |  关键字  | 含义                       |
-| :------: | :--------------------------- | :------: | -------------------------- |
-|   auto   | 储存类别为自动变量           |   long   | 长整数                     |
-|  break   | 终止switch或循环语句         |   main   | 主函数                     |
-|   case   | switch的标号                 | register | 寄存器类型                 |
-|   char   | 字符类型                     |  return  | 函数返回                   |
-|  const   | 常量——“不变的”类型           |  short   | 短整数类型                 |
-| continue | 中止循环的当次运行           |  signed  | 有符号的类型               |
-| default  | switch语句的默认条件         |  sizeof  | 求类型、变量等的字节数     |
-|    do    | 循环语句之一，需要while配合  |  static  | 储存类别为静态的           |
-|  double  | 双精度实数类型               |  struct  | 结构体类型                 |
-|   else   | if语句的条件为假时执行的部分 |  switch  | 多路分支语句，需要case配合 |
-|   enum   | 枚举类型                     | typedef  | 类型别名定义               |
-|  extern  | 说明函数、变量为外部的       |  union   | 共用体类型                 |
-|  float   | 单精度实数类型               | unsigned | 无符号类型                 |
-|   for    | 循环语句之一                 |   void   | “空“（无）类型             |
-|   goto   | 转向语句，需要标号配合       | volatile | ”可变的“类型               |
-|    if    | 根据条件的分支语句           |  while   | 循环语句之一               |
-|   int    | 整数类型                     |          |                            |
+| 关键字      | 含义               | 关键字      | 含义              |
+|:--------:|:---------------- |:--------:| --------------- |
+| auto     | 储存类别为自动变量        | long     | 长整数             |
+| break    | 终止switch或循环语句    | main     | 主函数             |
+| case     | switch的标号        | register | 寄存器类型           |
+| char     | 字符类型             | return   | 函数返回            |
+| const    | 常量——“不变的”类型      | short    | 短整数类型           |
+| continue | 中止循环的当次运行        | signed   | 有符号的类型          |
+| default  | switch语句的默认条件    | sizeof   | 求类型、变量等的字节数     |
+| do       | 循环语句之一，需要while配合 | static   | 储存类别为静态的        |
+| double   | 双精度实数类型          | struct   | 结构体类型           |
+| else     | if语句的条件为假时执行的部分  | switch   | 多路分支语句，需要case配合 |
+| enum     | 枚举类型             | typedef  | 类型别名定义          |
+| extern   | 说明函数、变量为外部的      | union    | 共用体类型           |
+| float    | 单精度实数类型          | unsigned | 无符号类型           |
+| for      | 循环语句之一           | void     | “空“（无）类型        |
+| goto     | 转向语句，需要标号配合      | volatile | ”可变的“类型         |
+| if       | 根据条件的分支语句        | while    | 循环语句之一          |
+| int      | 整数类型             |          |                 |
 
 
 
 # 标识符：（名字）
 
-​	用户标识符：由字母（26个大小写字母）、数字（0-9）和下划线（"_"组成），不能以数字开头，区分大小写。
+​    用户标识符：由字母（26个大小写字母）、数字（0-9）和下划线（"_"组成），不能以数字开头，区分大小写。
 
 + 用户标识符不能含有除字母、数字和下划线外的其他字符
 + 用户标识符不能和关键字重名
-
-
+  
+  
 
 # C语言程序的结构
 
@@ -44,18 +44,18 @@
   + 用" ; "作为语句终止符
 + 注释
   + /*       */为注释
-
-
+    
+    
 
 # C程序运行步骤和方法
 
 ```mermaid
 graph LR
-	A(开始) 
-	==编辑==> B("源程序文件(.c)") 
-	==编译==> C("目标文件(.obj)") 
-	==链接==> D("可执行文件(.exe)") 
-	==运行==> 结果
+    A(开始) 
+    ==编辑==> B("源程序文件(.c)") 
+    ==编译==> C("目标文件(.obj)") 
+    ==链接==> D("可执行文件(.exe)") 
+    ==运行==> 结果
 ```
 
 
@@ -67,10 +67,12 @@ graph LR
 ### 一个程序应包括两个方面的内容:
 
 + 对数据组织的描述:
+  
   + ==数据结构== 顺序存储(数组)和链式存储V
 
 + 对操作步骤的描述:
-  + ==算法== 	穷举、迭代和递归，查找、添加、删除、改写
+  
+  + ==算法==     穷举、迭代和递归，查找、添加、删除、改写
   + ==数据结构+算法=程序==
 
 `所谓算法，是为解决一个问题而采取的方法和步骤。`
@@ -92,9 +94,8 @@ graph LR
 ## C数据类型
 
 ```mermaid
-
 flowchart LR
-	A(C数据类型)
+    A(C数据类型)
         A --> B1(基本类型)
             B1 --> C1(整型)
                 C1 --> D1(短整型short)
@@ -118,31 +119,31 @@ flowchart LR
 
 ### 有符号整数类型
 
-| 类型                       | 名称         | 字节数 | 取值范围                                                     |
-| -------------------------- | ------------ | ------ | ------------------------------------------------------------ |
-| signed char                | 有符号字符型 | 1      | -2 ^7(-128) ~ 2 ^7 - 1<br />(127)                            |
-| short int 或 short         | 短整型       | 2      | -2 ^15(-32 768) ~ 2 ^15 - 1<br />(32 767)                    |
-| int                        | 整型         | 4      | -2 ^31(-2 147 483 648) ~<br /> 2 ^31 - 1(2 147 483 647)      |
-| long int 或 long           | 长整型(早期) | 4      | -2 ^31(-2 147 483 648) ~ <br />2 ^31 - 1(2 147 483 647)      |
-| long long int 或 long long | 长整型(现任) | 8      | -2 ^63(-9.223372036548e+18) ~ <br />2 ^63-1(9.2233720368548e+18) |
+| 类型                        | 名称      | 字节数 | 取值范围                                                             |
+| ------------------------- | ------- | --- | ---------------------------------------------------------------- |
+| signed char               | 有符号字符型  | 1   | -2 ^7(-128) ~ 2 ^7 - 1<br />(127)                                |
+| short int 或 short         | 短整型     | 2   | -2 ^15(-32 768) ~ 2 ^15 - 1<br />(32 767)                        |
+| int                       | 整型      | 4   | -2 ^31(-2 147 483 648) ~<br /> 2 ^31 - 1(2 147 483 647)          |
+| long int 或 long           | 长整型(早期) | 4   | -2 ^31(-2 147 483 648) ~ <br />2 ^31 - 1(2 147 483 647)          |
+| long long int 或 long long | 长整型(现任) | 8   | -2 ^63(-9.223372036548e+18) ~ <br />2 ^63-1(9.2233720368548e+18) |
 
 ### 无符号整数类型
 
-| 类型                                         | 名称               | 字节数 | 取值范围                              |
-| -------------------------------------------- | ------------------ | ------ | ------------------------------------- |
-| unsigned char                                | 无符号字符型       | 1      | 0 ~ 2 ^8 -1 <br />(255)               |
-| unsigned short int 或 unsigned short         | 无符号短整型       | 2      | 0 ~ 2 ^16 -1<br />(65 535)            |
-| unsigned int                                 | 无符号整型         | 4      | 0 ~ 2 ^32 -1<br />(4 294 967 295)     |
-| unsigned long int 或 unsigned long           | 无符号长整形(早期) | 4      | 0 ~ 2 ^32 -1<br />(4 294 967 295)     |
-| unsigned long long int 或 unsigned long long | 无符号长整形(现任) | 8      | 0 ~ 2 ^64-1<br />(1.844674407371e+19) |
+| 类型                                          | 名称         | 字节数 | 取值范围                                  |
+| ------------------------------------------- | ---------- | --- | ------------------------------------- |
+| unsigned char                               | 无符号字符型     | 1   | 0 ~ 2 ^8 -1 <br />(255)               |
+| unsigned short int 或 unsigned short         | 无符号短整型     | 2   | 0 ~ 2 ^16 -1<br />(65 535)            |
+| unsigned int                                | 无符号整型      | 4   | 0 ~ 2 ^32 -1<br />(4 294 967 295)     |
+| unsigned long int 或 unsigned long           | 无符号长整形(早期) | 4   | 0 ~ 2 ^32 -1<br />(4 294 967 295)     |
+| unsigned long long int 或 unsigned long long | 无符号长整形(现任) | 8   | 0 ~ 2 ^64-1<br />(1.844674407371e+19) |
 
 ### 浮点类型
 
-| 类型        | 名称           | 字节数 | 取值范围                     |
-| ----------- | -------------- | ------ | ---------------------------- |
-| float       | 单精度浮点型   | 4      | -/+3.4e38(精确到6位小数)     |
-| double      | 双精度浮点型   | 8      | -/+1.7e308(精确到15位小数)   |
-| long double | 长双精度浮点型 | 12     | -/+1.19e4932(精确到18位小数) |
+| 类型          | 名称      | 字节数 | 取值范围                   |
+| ----------- | ------- | --- | ---------------------- |
+| float       | 单精度浮点型  | 4   | -/+3.4e38(精确到6位小数)     |
+| double      | 双精度浮点型  | 8   | -/+1.7e308(精确到15位小数)   |
+| long double | 长双精度浮点型 | 12  | -/+1.19e4932(精确到18位小数) |
 
 # 常量
 
@@ -153,9 +154,11 @@ flowchart LR
 ## 分类
 
 + 符号常量：用标识符代表常量
+  
   + 定义格式：<span style="color:red;">**#define 符号常量 常量**</span>
 
 + 直接常量：
+  
   + 整型常量
   + 实型常量
   + 字符常量
@@ -176,7 +179,7 @@ flowchart LR
 + 十进制小数形式：0.2
 + 指数形式：1.2E-3
 
-##  字符常量
+## 字符常量
 
 ### 定义：
 
@@ -186,14 +189,14 @@ flowchart LR
 
 + 转义字符：由一反斜杠'\\'后跟规定字符构成。
 
-| 转义字符 | 含义                 | 转义字符 | 含义                  |
-| -------- | -------------------- | -------- | --------------------- |
-| \n       | 换行                 | \t       | 水平制表（八列）      |
-| \v       | 垂直制表             | \b       | 退格                  |
-| \r       | 回车                 | \f       | 换页                  |
-| \a       | 响铃                 | \\       | 反斜杠                |
-| \\'      | 单引号               | \\"      | 双引号                |
-| \ddd     | 3位8进制数代表的字符 | \xhh     | 2位16进制数代表的字符 |
+| 转义字符 | 含义          | 转义字符 | 含义           |
+| ---- | ----------- | ---- | ------------ |
+| \n   | 换行          | \t   | 水平制表（八列）     |
+| \v   | 垂直制表        | \b   | 退格           |
+| \r   | 回车          | \f   | 换页           |
+| \a   | 响铃          | \\   | 反斜杠          |
+| \\'  | 单引号         | \\"  | 双引号          |
+| \ddd | 3位8进制数代表的字符 | \xhh | 2位16进制数代表的字符 |
 
 ## 字符串常量
 
@@ -203,9 +206,9 @@ flowchart LR
 
 存储：每个字符串尾**自动**加一个'\0'作为字符串结束标志
 
-| 0    | 1    | 2    | 3    | 4    | 5    |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| 'C'  | 'h'  | 'i'  | 'n'  | 'a'  | '\0' |
+| 0   | 1   | 2   | 3   | 4   | 5    |
+| --- | --- | --- | --- | --- | ---- |
+| 'C' | 'h' | 'i' | 'n' | 'a' | '\0' |
 
 # 变量
 
@@ -241,9 +244,9 @@ flowchart LR
 
 + 形式：(类型名) 表达式
 
-(int) 2.2	=>2
+(int) 2.2    =>2
 
-(int) 5.5 / (int) 2.5	=>2
+(int) 5.5 / (int) 2.5    =>2
 
 ## 自动类型转换
 
@@ -256,7 +259,9 @@ flowchart LR
 + 基本算数运算符：+ - * / %
 
 + 结合方向：从左到右
+
 + 优先级：+ - $\longrightarrow$  * / % $\longrightarrow$ + -
+
 + 说明："-"作为单目运算符时，右结合
 
 **求余左右两边必须是整数： 5.5%2  $\textcolor{red}{\times}$**
@@ -273,66 +278,66 @@ flowchart LR
     </tr>
     <tr>
         <td style="text-align:center;width:81px;">1</td>
-        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">( )</span> <span style="color:#fe2c24;">[ ]</span>&nbsp;
-            <span style="color:#fe2c24;">&nbsp;.</span>(成员选择(对象))&nbsp; &nbsp;<span
-                    style="color:#fe2c24;"> &nbsp;-&gt;</span>(成员选择(指针))
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">( )</span> <span style="color:#fe2c24;">[ ]</span> 
+            <span style="color:#fe2c24;"> .</span>(成员选择(对象))   <span
+                    style="color:#fe2c24;">  -></span>(成员选择(指针))
         </td>
         <td style="text-align:center;width:110px;"></td>
         <td style="width:91px;">从左到右</td>
     </tr>
     <tr>
         <td style="text-align:center;width:81px;">2</td>
-        <td style="text-align:center;width:457px;"><p><span style="color:#fe2c24;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;！</span>(逻辑非运算符)<span
-                style="color:#fe2c24;">&nbsp; &nbsp;+</span>(正)&nbsp;
-            <span style="color:#fe2c24;">&nbsp;-</span>(负)&nbsp; &nbsp;<span style="color:#fe2c24;">~</span>&nbsp;
-            &nbsp;<span style="color:#fe2c24;">++</span>&nbsp; &nbsp;<span style="color:#fe2c24;">--</span>&nbsp; <span
-                    style="color:#fe2c24;">&nbsp;*</span><span>(取值运算符)&nbsp; </span>&nbsp; <span
-                    style="color:#fe2c24;">&amp;</span><span>(取地址符)&nbsp; &nbsp;</span></p>
-            <p><span style="color:#0d0016;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+        <td style="text-align:center;width:457px;"><p><span style="color:#fe2c24;">         ！</span>(逻辑非运算符)<span
+                style="color:#fe2c24;">   +</span>(正) 
+            <span style="color:#fe2c24;"> -</span>(负)   <span style="color:#fe2c24;">~</span> 
+             <span style="color:#fe2c24;">++</span>   <span style="color:#fe2c24;">--</span>  <span
+                    style="color:#fe2c24;"> *</span><span>(取值运算符)  </span>  <span
+                    style="color:#fe2c24;">&</span><span>(取地址符)   </span></p>
+            <p><span style="color:#0d0016;">                        </span><span
                     style="color:#fe2c24;">sizeof</span><span>（长度运算符）</span></p></td>
         <td style="text-align:center;width:110px;">单目运算符</td>
         <td style="width:91px;">从右到左</td>
     </tr>
     <tr>
         <td style="text-align:center;width:81px;">3</td>
-        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">*</span>(乘)&nbsp; &nbsp; <span
-                style="color:#fe2c24;">/</span>(除)&nbsp; <span style="color:#fe2c24;">&nbsp; %</span>(取余)
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">*</span>(乘)    <span
+                style="color:#fe2c24;">/</span>(除)  <span style="color:#fe2c24;">  %</span>(取余)
         </td>
         <td colspan="1" rowspan="10" style="text-align:center;width:110px;">双目运算符</td>
         <td style="width:91px;">从左到右</td>
     </tr>
     <tr>
         <td style="text-align:center;width:81px;">4</td>
-        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">+</span>(加)&nbsp; &nbsp; &nbsp;
-            &nbsp;<span style="color:#fe2c24;"> -</span>(减)
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">+</span>(加)     
+             <span style="color:#fe2c24;"> -</span>(减)
         </td>
         <td style="width:91px;">从左到右</td>
     </tr>
     <tr>
         <td style="text-align:center;width:81px;">5</td>
-        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">&lt;&lt;</span>(左移)&nbsp; &nbsp;<span
-                style="color:#fe2c24;"> &gt;&gt;</span>(右移)&nbsp; &nbsp;<span
-                style="color:#fe2c24;"> &gt;&gt;&gt;</span></td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;"><<</span>(左移)   <span
+                style="color:#fe2c24;"> >></span>(右移)   <span
+                style="color:#fe2c24;"> >>></span></td>
         <td style="width:91px;">从左到右</td>
     </tr>
     <tr>
         <td style="text-align:center;width:81px;">6</td>
-        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">&gt;</span>(大于)&nbsp; &nbsp; &nbsp;<span
-                style="color:#fe2c24;">&gt;=</span>(大于等于)&nbsp; &nbsp; &nbsp;<span style="color:#fe2c24;">&lt;</span>(小于)&nbsp;
-            &nbsp; &nbsp;<span style="color:#fe2c24;">&lt;=</span>(小于等于)
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">></span>(大于)     <span
+                style="color:#fe2c24;">>=</span>(大于等于)     <span style="color:#fe2c24;"><</span>(小于) 
+               <span style="color:#fe2c24;"><=</span>(小于等于)
         </td>
         <td style="width:91px;">从左到右</td>
     </tr>
     <tr>
         <td style="text-align:center;width:81px;">7</td>
-        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">==</span>(等于)&nbsp; &nbsp; &nbsp; &nbsp;<span
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">==</span>(等于)       <span
                 style="color:#fe2c24;"> !=</span>(不等于)
         </td>
         <td style="width:91px;">从左到右</td>
     </tr>
     <tr>
         <td style="text-align:center;width:81px;">8</td>
-        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">&amp;</span>(按位与)</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">&</span>(按位与)</td>
         <td style="width:91px;">从左到右</td>
     </tr>
     <tr>
@@ -347,7 +352,7 @@ flowchart LR
     </tr>
     <tr>
         <td style="text-align:center;width:81px;">11</td>
-        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">&amp;&amp;</span>(逻辑与)</td>
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">&&</span>(逻辑与)</td>
         <td style="width:91px;">从左到右</td>
     </tr>
     <tr>
@@ -363,15 +368,15 @@ flowchart LR
     </tr>
     <tr>
         <td style="text-align:center;width:81px;">14</td>
-        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">=</span>(赋值运算符)&nbsp; &nbsp; <span
-                style="color:#fe2c24;">/=</span>(除后赋值)&nbsp; &nbsp;<span style="color:#fe2c24;"> *=</span>(乘后赋值)&nbsp;
-            &nbsp; <span style="color:#fe2c24;">%=</span>(取余后赋值)&nbsp; &nbsp; <span style="color:#fe2c24;">+=</span>(加后赋值)&nbsp;
-            &nbsp;<span style="color:#fe2c24;"> -=</span>(减后赋值)&nbsp; &nbsp; <span
-                    style="color:#fe2c24;">&gt;&gt;=</span>(右移后赋值)&nbsp; &nbsp; <span
-                    style="color:#fe2c24;">&lt;&lt;=</span>(左移后赋值)&nbsp; <span
-                    style="color:#fe2c24;">&nbsp; &amp;=</span>(按位与后赋值)&nbsp; &nbsp; <span
-                    style="color:#fe2c24;">|=</span>(按位或后赋值)&nbsp; &nbsp; <span style="color:#fe2c24;">^=</span>(按位异或后赋值)&nbsp;
-            &nbsp;&nbsp;
+        <td style="text-align:center;width:457px;"><span style="color:#fe2c24;">=</span>(赋值运算符)    <span
+                style="color:#fe2c24;">/=</span>(除后赋值)   <span style="color:#fe2c24;"> *=</span>(乘后赋值) 
+              <span style="color:#fe2c24;">%=</span>(取余后赋值)    <span style="color:#fe2c24;">+=</span>(加后赋值) 
+             <span style="color:#fe2c24;"> -=</span>(减后赋值)    <span
+                    style="color:#fe2c24;">>>=</span>(右移后赋值)    <span
+                    style="color:#fe2c24;"><<=</span>(左移后赋值)  <span
+                    style="color:#fe2c24;">  &=</span>(按位与后赋值)    <span
+                    style="color:#fe2c24;">|=</span>(按位或后赋值)    <span style="color:#fe2c24;">^=</span>(按位异或后赋值)
+
         </td>
         <td style="text-align:center;width:110px;">复合运算符</td>
         <td style="width:91px;">从右到左</td>
@@ -383,10 +388,8 @@ flowchart LR
         <td style="width:91px;">从左到右</td>
     </tr>
     </tbody>
+
 </table>
-
-
-
 
 ## 自增自减运算
 
@@ -428,12 +431,12 @@ flowchart LR
 
 ### 例子：
 
-| 表达式                                                       | 值               |
-| ------------------------------------------------------------ | ---------------- |
-| a=3*5,a\*4                                                   | a=15，60         |
-| a=3*5,a\*4,a+5                                               | a=15，20         |
-| x=(a=3,6*a)                                                  | x=18，18         |
-| x=a=3,6*a                                                    | x=3，18          |
+| 表达式                                                                              | 值                |
+| -------------------------------------------------------------------------------- | ---------------- |
+| a=3*5,a\*4                                                                       | a=15，60          |
+| a=3*5,a\*4,a+5                                                                   | a=15，20          |
+| x=(a=3,6*a)                                                                      | x=18，18          |
+| x=a=3,6*a                                                                        | x=3，18           |
 | a=1;b=2,c=3;<br />printf("%d,%d,%d",a,b,c);<br />printf("%d,%d,%d",(a,b,c),b,c); | 1,2,3<br />3,2,3 |
 
 ### 短路特性
@@ -449,7 +452,7 @@ flowchart LR
 
 例子：求a+|b|
 
-​	`printf("a+|b|=%d\n,b>0?a+b:a-b");`
+​    `printf("a+|b|=%d\n,b>0?a+b:a-b");`
 
 # 数据输入与输出
 
@@ -466,7 +469,7 @@ flowchart LR
 
 + 功能：把字符c输出到显示器上
 
-###  （2）格式输出函数
+### （2）格式输出函数
 
 + 格式：**<span style="color:red;font-weight:bolder;">`printf("格式控制串",输出表)`</span>**
 
@@ -481,19 +484,19 @@ flowchart LR
 + 普通字符或转义序列：原样输出
 
 + 格式字符
-
-  + | 修饰符 | 含义               | 例子                              | 输出值     |
-    | ------ | ------------------ | --------------------------------- | ---------- |
-    | d      | 十进制整数         | `int a=567;printf ("%d",a);`      | 567        |
-    | x,X    | 十六进制无符号整数 | ` int a=255;printf(“%x",a);`      | ff         |
-    | o      | 八进制无符号整数   | `int a=65;printf("%o",a);`        | 101        |
-    | u      | 不带符号十进制整数 | `int a=567;printf(“%u",a);`       | 567        |
-    | c      | 单一字符           | `char a=65;printf("%c",a);`       | A          |
-    | s      | 字符串             | `printf(“%s","ABC");`             | ABC        |
-    | f      | 小数形式浮点小数   | `float a=567.789;printf("%f",a);` | 567.789000 |
-
+  
+  + | 修饰符 | 含义        | 例子                                | 输出值        |
+    | --- | --------- | --------------------------------- | ---------- |
+    | d   | 十进制整数     | `int a=567;printf ("%d",a);`      | 567        |
+    | x,X | 十六进制无符号整数 | ` int a=255;printf(“%x",a);`      | ff         |
+    | o   | 八进制无符号整数  | `int a=65;printf("%o",a);`        | 101        |
+    | u   | 不带符号十进制整数 | `int a=567;printf(“%u",a);`       | 567        |
+    | c   | 单一字符      | `char a=65;printf("%c",a);`       | A          |
+    | s   | 字符串       | `printf(“%s","ABC");`             | ABC        |
+    | f   | 小数形式浮点小数  | `float a=567.789;printf("%f",a);` | 567.789000 |
+  
   + 说明
-
+    
     + 格式字符要用小写
     + 格式字符与输出项个数应相同,按先后顺序一一对应
     + 输出转换：格式字符与输出项类型不一致，自动按指定格式输出
@@ -506,8 +509,8 @@ printf("a=%d\n",a);//a=□234
 pringf("a=%d\n",a);//a=234
 /*
 说明：
-	1. 输出右对齐，左补空格
-	2. 指定小于实际，原样输出
+    1. 输出右对齐，左补空格
+    2. 指定小于实际，原样输出
 */
 
 float f=24.3567;
@@ -515,16 +518,16 @@ printf("f=%7.2f\n",f);//f=□□24.36
 printf("f=%10.5f\n",f);//f=□□24.35670
 /*
 说明：%m.nf
-	m 数据总长，n 小数位
-	实际>n则四舍五入	实际<n则补零  
+    m 数据总长，n 小数位
+    实际>n则四舍五入    实际<n则补零  
 */
-	
+
 int a=1,b=2;
 printf("%d\n",(a,b));//2
 printf("%d\n",a,b);//1
 /*
 说明：
-	输出格式少于输出项，多余的输出项将不输出。
+    输出格式少于输出项，多余的输出项将不输出。
 */
 ```
 
@@ -548,8 +551,8 @@ printf("%d\n",a,b);//1
 
 ## if语句
 
-| 单分支if语句                                                 | 双分支if语句                                                 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 单分支if语句                                                                    | 双分支if语句                                                                                        |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | 形式：<br /><span style="color:red;font-weight:bolder;">**if(条件) 语句；**</span> | 形式：<br /><span style="color:red;font-weight:bolder;">**if(条件) 语句1;**<br />**else 语句2；**</span> |
 
 ## switch语句
@@ -690,7 +693,7 @@ op3(left)@>comd({"stroke":"Red"})
 
 例如：`int a [10];`
 
-​	它表示定义了一个整型数组，数组名为a，此数组有10个元素。
+​    它表示定义了一个整型数组，数组名为a，此数组有10个元素。
 
 ### 一维数组的引用
 
@@ -784,8 +787,8 @@ c[5]='A';
 2. `char c[15] = {'t','','a','n','','0','0','','x','u'};`
 
 3. `char c[] = {'t','','a','n','','0','0','','x','u'};`
-4. `char c[5] = {'t','','a','n','','0','0','','x','u'};` $\textcolor{red}{\times}$不可以定义少，赋值多
 
+4. `char c[5] = {'t','','a','n','','0','0','','x','u'};` $\textcolor{red}{\times}$不可以定义少，赋值多
 + **<span style="color:red;font-weight:bolder;">只定义未赋值会是随机值。如：`char [5];`</span>**
 
 + <span style="color:red;font-weight:bolder;">**给部分元素赋值了，剩下的默认是'\0'，如：2**</span>
@@ -808,9 +811,9 @@ char c [10] ={"China"};//char c[10]，有5个\0
 利用scanf和pringtf函数
 
 + **<span style="color:red;font-weight:bolder;">如果字符串中包含多个\0，那么字符串输出在第一个\0处就截止</span>**
-
+  
   + 例如：
-
+    
     + ```c
       char c [5] = {'a', 'b','\0','c','d','\0'};
       printf("%s\n",c);
@@ -818,7 +821,7 @@ char c [10] ={"China"};//char c[10]，有5个\0
       ab
       ```
 
-###  字符串输入输出函数
+### 字符串输入输出函数
 
 + <span style="color:red;font-weight:bolder;">**gets**</span>
 
@@ -894,7 +897,7 @@ strlwr函数的作用是将字符串中的小写字母换成大写字母。
 ```c
 类型标识符 函数名()
 {
-	声明部分
+    声明部分
     语句部分
 }
 ```
@@ -904,7 +907,7 @@ strlwr函数的作用是将字符串中的小写字母换成大写字母。
 ```c
 类型标识符 函数名(形式参数列表)
 {
-	声明部分
+    声明部分
     语句部分
 }
 ```
@@ -1024,14 +1027,14 @@ int main(){
 ### （3）指针的赋值
 
 1. 通过取地址运算符：
-
+   
    ```c
    int a, *p;
    p=&a;
    ```
 
 2. 通过另一个指针
-
+   
    ```c
    int a, *p, *q;
    p=&a;
@@ -1039,7 +1042,6 @@ int main(){
    ```
 
 3. 空指针的定义
-
    `int *p = NULL;`
 
 ### （4）函数之间的地址传递
@@ -1107,7 +1109,7 @@ p=&a[0];
    + 其中a是数组名，p是指向数组元素的指针变量，其初值p=a。
      + <span style="color:red;font-weight:bolder;">**数组名**</span>代表<span style="color:red;font-weight:bolder;">**首地址**</span>，及第0个地址。<span style="color: aqua;font-weight:bolder;">*&a[0]*</span>
 
-###   （3）数组名做函数参数
+### （3）数组名做函数参数
 
 ```c
 int fun(int b[], int n){
@@ -1133,9 +1135,11 @@ main(){
  说明，a是二维数组名，即二维数组的首地址，第0行的地址。
 
 + `*(a+1)+2`：第一行第二列的地址
+
 + `*(*(a+2)+3)`：第二行第三列的内容
 
 + `a[1]+2`：第一行第二列的地址
+
 + `*(a[2]+3)`：第二行第三列的内容
 
 ### （2）引用二维数组元素
@@ -1178,15 +1182,12 @@ s=p[1]+p[3]+p[5];//2+4+6==12
 把字符串的首地址给到p，即字符串ABCD的A的地址
 
 1. `char s[]="ABCD",*p=s;`
-
    则*(p+4)的值为<span style="text-decoration: underline;text-decoration-color: aqua">  0 </span> 。
 
 2. 如下`char s[8]="distance"; char *p=s;`
-
    则*(p+2)的值为<span style="text-decoration: underline;text-decoration-color: aqua">  s  </span> 。
 
 3. 在C语句中`char s[8]="glister"; char *p=s; `
-
    则*(p+4)的值为<span style="text-decoration: underline;text-decoration-color: aqua">  t  </span> 。
 
 ## 指针数组和数组指针
@@ -1221,19 +1222,19 @@ q[0]、q[1]、q[2]均为int *
 
 ## 指针总结
 
-| 定义           | 含义                                              |
-| -------------- | ------------------------------------------------- |
-| `int i;`       | 定义整型变量i                                     |
-| `int *p;`      | p为指向整型数据的指针变量                         |
-| `int a[n];`    | 定义整型数组a，它有n个元素                        |
-| `int *p[n];`   | 定义指针数组p，它由n个指向整型数据的指针元素组成  |
-| `int (*p)[n];` | p为指向含n个元素的一维数组的指针变量              |
-| `int f();`     | f为带回整型函数值的函数                           |
-| `int *p();`    | p为带回一个指针的函数，该指针指向整型数据         |
-| `int (*p)();`  | p为指向函数的指针，该函数返回一个整型值           |
+| 定义             | 含义                        |
+| -------------- | ------------------------- |
+| `int i;`       | 定义整型变量i                   |
+| `int *p;`      | p为指向整型数据的指针变量             |
+| `int a[n];`    | 定义整型数组a，它有n个元素            |
+| `int *p[n];`   | 定义指针数组p，它由n个指向整型数据的指针元素组成 |
+| `int (*p)[n];` | p为指向含n个元素的一维数组的指针变量       |
+| `int f();`     | f为带回整型函数值的函数              |
+| `int *p();`    | p为带回一个指针的函数，该指针指向整型数据     |
+| `int (*p)();`  | p为指向函数的指针，该函数返回一个整型值      |
 | `int **p;`     | p是一个指针变量，它指向一个指向整型数据的指针变量 |
 
-# 	预处理命令
+# 预处理命令
 
 ## C提供的预处理功能主要有以下三种：
 
@@ -1276,9 +1277,7 @@ q[0]、q[1]、q[2]均为int *
 3. `#define f(x) x*x`
    `int a=6,b=2;`
    f(a)+f(b)=<span style="text-decoration: underline;text-decoration-color: aqua">     40     </span>; （a*a + b\*b => 36+4）
-
    f(a+b)=<span style="text-decoration: underline;text-decoration-color: aqua">     20     </span>; （a+b\*a+b => 6+2*6+2）
-
    f(a)/f(b)=<span style="text-decoration: underline;text-decoration-color: aqua">     36     </span>. （a*a/b\*b => 6\*6/2\*2）
 
 ## 文件包含
@@ -1301,7 +1300,7 @@ q[0]、q[1]、q[2]均为int *
 
 ```c
 #ifdef 标识符
-	程序段1
+    程序段1
 #else
     程序段2
 #endif
@@ -1311,7 +1310,7 @@ q[0]、q[1]、q[2]均为int *
 
 ```c
 #ifndef 标识符
-	程序段1
+    程序段1
 #else
     程序段2
 #endif
@@ -1321,7 +1320,7 @@ q[0]、q[1]、q[2]均为int *
 
 ```c
 #if 表达式
-	程序段1
+    程序段1
 #else
     程序段2
 #endif
@@ -1398,9 +1397,9 @@ struct data{
     int y;
 }c[3]={12,23,34,45,56,67};
 /*
-	c[0]=>x=12,y=23
-	c[1]=>x=34,y=45
-	c[2]=>x=56,y=67
+    c[0]=>x=12,y=23
+    c[1]=>x=34,y=45
+    c[2]=>x=56,y=67
 */
 ```
 
@@ -1432,7 +1431,7 @@ struct data{
 
 {
 
-​	成员列表
+​    成员列表
 
 }变量列表;
 
@@ -1475,7 +1474,7 @@ union data
 + 声明INTEGER为整型：typedef int INTEGER
 
 + 声明结构体类型
-
+  
   ```c
   typedef struct date
   {
@@ -1489,11 +1488,11 @@ union data
 
 位运算是指按<span style="color:red;font-weight:bolder;">**二进制位**</span>进行的运算
 
-| 运算符 | 含义     | 运算符 | 含义 |
-| ------ | -------- | ------ | ---- |
-| &      | 按位与   | ~      | 取反 |
-| \|     | 按位或   | <<     | 左移 |
-| ^      | 按位异或 | >>     | 右移 |
+| 运算符 | 含义   | 运算符 | 含义  |
+| --- | ---- | --- | --- |
+| &   | 按位与  | ~   | 取反  |
+| \|  | 按位或  | <<  | 左移  |
+| ^   | 按位异或 | >>  | 右移  |
 
 注：
 
@@ -1548,7 +1547,7 @@ union data
 
 <span style="color:red;font-weight:bolder;">**左移一位相当一乘以2，右移一位相当于除以2**</span>
 
-#  文件
+# 文件
 
 ## （1）文件的定义
 
@@ -1560,8 +1559,8 @@ union data
 
 ```mermaid
 graph LR
-	文件-->ASCII文件
-	文件-->二进制文件
+    文件-->ASCII文件
+    文件-->二进制文件
 
 ```
 
@@ -1569,7 +1568,7 @@ graph LR
 
 ```mermaid
 graph LR
-	程序数据区--输出-->输出文件缓冲区--输出-->file[("文件（磁盘）")]--输入-->输入文件缓冲区--输入-->程序数据区
+    程序数据区--输出-->输出文件缓冲区--输出-->file[("文件（磁盘）")]--输入-->输入文件缓冲区--输入-->程序数据区
 ```
 
 ## （4）文件类型的指针
@@ -1608,20 +1607,20 @@ typedef struct
 
 ### （2）文件使用方式
 
-| 文件使用方式 | 含义                                                         |
-| ------------ | ------------------------------------------------------------ |
-| "r"          | (只读)为<span style="color:red;font-weight:bolder;">**输入**</span>打开一个<span style="color:red;font-weight:bolder;">**文本文件**</span>   （存在且有数据才能用） |
-| "w"          | (只写)为<span style="color:red;font-weight:bolder;">**输出**</span>打开一个<span style="color:red;font-weight:bolder;">**文本文件 **</span> （没有就新建，有就删除之前的再新建）） |
-| "a"          | (追加)向<span style="color:red;font-weight:bolder;">**文本**</span>文件尾<span style="color:red;font-weight:bolder;">**增加**</span>数据 |
-| "rb"         | (只读)为<span style="color:red;font-weight:bolder;">**输入**</span>打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span> |
-| “wb"         | (只写)为<span style="color:red;font-weight:bolder;">**输出**</span>打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span> |
-| "ab"         | (追加)向<span style="color:red;font-weight:bolder;">**二进制**</span>文件尾增加数据 |
-| "r+"         | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**文本文件**</span> |
-| "w+"         | (读写)为读/写建立一个<span style="color:red;font-weight:bolder;">**新的文本文件**</span> |
-| "a+"         | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**文本文件**</span> |
-| "rb+"        | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span> |
-| "wb+"        | (读写)为读/写建立一个<span style="color:red;font-weight:bolder;">**新的二进制文件**</span> |
-| "ab+"        | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span> |
+| 文件使用方式 | 含义                                                                                                                                                 |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| "r"    | (只读)为<span style="color:red;font-weight:bolder;">**输入**</span>打开一个<span style="color:red;font-weight:bolder;">**文本文件**</span>   （存在且有数据才能用）        |
+| "w"    | (只写)为<span style="color:red;font-weight:bolder;">**输出**</span>打开一个<span style="color:red;font-weight:bolder;">**文本文件 **</span> （没有就新建，有就删除之前的再新建）） |
+| "a"    | (追加)向<span style="color:red;font-weight:bolder;">**文本**</span>文件尾<span style="color:red;font-weight:bolder;">**增加**</span>数据                       |
+| "rb"   | (只读)为<span style="color:red;font-weight:bolder;">**输入**</span>打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span>                     |
+| “wb"   | (只写)为<span style="color:red;font-weight:bolder;">**输出**</span>打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span>                     |
+| "ab"   | (追加)向<span style="color:red;font-weight:bolder;">**二进制**</span>文件尾增加数据                                                                             |
+| "r+"   | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**文本文件**</span>                                                                            |
+| "w+"   | (读写)为读/写建立一个<span style="color:red;font-weight:bolder;">**新的文本文件**</span>                                                                          |
+| "a+"   | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**文本文件**</span>                                                                            |
+| "rb+"  | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span>                                                                           |
+| "wb+"  | (读写)为读/写建立一个<span style="color:red;font-weight:bolder;">**新的二进制文件**</span>                                                                         |
+| "ab+"  | (读写)为读/写打开一个<span style="color:red;font-weight:bolder;">**二进制文件**</span>                                                                           |
 
 ### （3）文件的关闭（<span style="color:red;font-weight:bolder;">**fclose**</span>函数）
 
@@ -1633,12 +1632,12 @@ fp => 文件指针
 
 ### （1）字符输入输出函数
 
-| 函数名 | 调用形式        | 功能                                                         |
-| ------ | --------------- | ------------------------------------------------------------ |
-| fgetc  | fgetc(fp)       | 从fp指向的文件<span style="color:red;font-weight:bolder;">**读**</span>入一个字符 |
-| fputc  | fputc(ch,fp)    | 把字符ch<span style="color:red;font-weight:bolder;">**写**</span>到fp所指向的文件中 |
-| fgets  | fgets(str,n,fp) | 从fp指向的文件中<span style="color:red;font-weight:bolder;">**读**</span>入一个长度为n-1的字符串，存放到字符数组str中 |
-| fputs  | fputs(str,fp)   | 把str所指向的字符串<span style="color:red;font-weight:bolder;">**写**</span>到fp所指向的文件中 |
+| 函数名   | 调用形式            | 功能                                                                                         |
+| ----- | --------------- | ------------------------------------------------------------------------------------------ |
+| fgetc | fgetc(fp)       | 从fp指向的文件<span style="color:red;font-weight:bolder;">**读**</span>入一个字符                      |
+| fputc | fputc(ch,fp)    | 把字符ch<span style="color:red;font-weight:bolder;">**写**</span>到fp所指向的文件中                    |
+| fgets | fgets(str,n,fp) | 从fp指向的文件中<span style="color:red;font-weight:bolder;">**读**</span>入一个长度为n-1的字符串，存放到字符数组str中 |
+| fputs | fputs(str,fp)   | 把str所指向的字符串<span style="color:red;font-weight:bolder;">**写**</span>到fp所指向的文件中              |
 
 ### （2）用格式化的方式读写文件
 
@@ -1704,24 +1703,23 @@ fp => 文件指针
 
 ## 小结
 
-| 分类     | 函数名         | 功能                           |
-| -------- | -------------- | ------------------------------ |
-| 打开文件 | fopen()        | 打开文件                       |
-| 关闭文件 | fclose()       | 关闭文件                       |
-| 文件定位 | fseek()        | 改变文件位置指针的位置         |
-|          | rewind()       | 使文件位置指针重新至于文件开头 |
-|          | ftell()        | 返回文件位置指针的当前值       |
-| 文件状态 | feof()         | 若到文件末尾，函数值为真       |
-|          | ferror()       | 若对文件操作出错，函数值为真   |
-|          | clearerr()     | 使ferror()和feof()函数值置零   |
-| 文件读写 | fgetc(),getc() | 从指定文件取得一个字符         |
-|          | fputc(),putc() | 把字符输出到指定文件           |
-|          | fgets()        | 从指定文件读取字符串           |
-|          | fputs()        | 把字符串输出到指定文件         |
-|          | getw()         | 从指定文件读取一个字（int型）  |
-|          | putw()         | 把一个字输出到指定文件         |
-|          | fread()        | 从指定文件中读取数据项         |
-|          | fwrite()       | 把数据项写到指定文件中         |
-|          | fscanf()       | 从指定文件按格式输入数据       |
-|          | fprintf()      | 按指定格式将数据写到指定文件中 |
-
+| 分类   | 函数名            | 功能                    |
+| ---- | -------------- | --------------------- |
+| 打开文件 | fopen()        | 打开文件                  |
+| 关闭文件 | fclose()       | 关闭文件                  |
+| 文件定位 | fseek()        | 改变文件位置指针的位置           |
+|      | rewind()       | 使文件位置指针重新至于文件开头       |
+|      | ftell()        | 返回文件位置指针的当前值          |
+| 文件状态 | feof()         | 若到文件末尾，函数值为真          |
+|      | ferror()       | 若对文件操作出错，函数值为真        |
+|      | clearerr()     | 使ferror()和feof()函数值置零 |
+| 文件读写 | fgetc(),getc() | 从指定文件取得一个字符           |
+|      | fputc(),putc() | 把字符输出到指定文件            |
+|      | fgets()        | 从指定文件读取字符串            |
+|      | fputs()        | 把字符串输出到指定文件           |
+|      | getw()         | 从指定文件读取一个字（int型）      |
+|      | putw()         | 把一个字输出到指定文件           |
+|      | fread()        | 从指定文件中读取数据项           |
+|      | fwrite()       | 把数据项写到指定文件中           |
+|      | fscanf()       | 从指定文件按格式输入数据          |
+|      | fprintf()      | 按指定格式将数据写到指定文件中       |
